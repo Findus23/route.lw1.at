@@ -1,0 +1,47 @@
+osm: /media/daten/osm/austria-latest.osm.pbf
+tiles:
+  profile: tiles-profiles/full.lua
+  db_size: 274877906944
+  flush_threshold: 100000
+timetable:
+  first_day: TODAY
+  num_days: 365
+  tb: false
+  railviz: true
+  with_shapes: true
+  adjust_footpaths: true
+  merge_dupes_intra_src: false
+  merge_dupes_inter_src: false
+  link_stop_distance: 100
+  update_interval: 60
+  http_timeout: 30
+  incremental_rt_update: false
+  use_osm_stop_coordinates: false
+  extend_missing_footpaths: false
+  max_footpath_length: 15
+  max_matching_distance: 25.000000
+  preprocess_max_matching_distance: 0.000000
+  datasets:
+    atPTA-Eastern-Region-Flex-2025gtfs:
+      path: at_PTA-Eastern-Region-Flex-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atRailway-Current-Reference-Data-2025gtfs:
+      path: at_Railway-Current-Reference-Data-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+elevators: false
+street_routing: true
+osr_footpath: true
+geocoding: true
+reverse_geocoding: true
+
+gbfs:
+  feeds:
+    wienmobilrad:
+      url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_wr/gbfs.json
+  update_interval: 6000
+  http_timeout: 10
+  cache_size: 5000
