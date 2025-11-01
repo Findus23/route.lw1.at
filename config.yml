@@ -22,6 +22,21 @@ timetable:
   max_matching_distance: 25.000000
   preprocess_max_matching_distance: 0.000000
   datasets:
+    atLinz-AG-2025gtfs:
+      path: datasets/at_Linz-AG-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atLinz-AG-2026gtfs:
+      path: datasets/at_Linz-AG-2026.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Carinthia-Flex-2025gtfs:
+      path: datasets/at_PTA-Carinthia-Flex-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
     atPTA-Eastern-Region-Flex-2025gtfs:
       path: datasets/at_PTA-Eastern-Region-Flex-2025.gtfs.zip
       default_bikes_allowed: false
@@ -32,8 +47,63 @@ timetable:
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
+    atPTA-Salzburg-Flex-2025gtfs:
+      path: datasets/at_PTA-Salzburg-Flex-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Salzburg-Flex-2026gtfs:
+      path: datasets/at_PTA-Salzburg-Flex-2026.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Styria-Flex-2025gtfs:
+      path: datasets/at_PTA-Styria-Flex-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Styria-Flex-2026gtfs:
+      path: datasets/at_PTA-Styria-Flex-2026.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Tyrol-2025gtfs:
+      path: datasets/at_PTA-Tyrol-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Tyrol-2026gtfs:
+      path: datasets/at_PTA-Tyrol-2026.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Upper-Austria-Flex-2025gtfs:
+      path: datasets/at_PTA-Upper-Austria-Flex-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Upper-Austria-Flex-2026gtfs:
+      path: datasets/at_PTA-Upper-Austria-Flex-2026.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Vorarlberg-Flex-2025gtfs:
+      path: datasets/at_PTA-Vorarlberg-Flex-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Vorarlberg-Flex-2026gtfs:
+      path: datasets/at_PTA-Vorarlberg-Flex-2026.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
     atRailway-Current-Reference-Data-2025gtfs:
       path: datasets/at_Railway-Current-Reference-Data-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atRailway-Current-Reference-Data-2026gtfs:
+      path: datasets/at_Railway-Current-Reference-Data-2026.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
