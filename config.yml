@@ -1,4 +1,4 @@
-osm: /media/daten/osm/austria-latest.osm.pbf
+osm: datasets/austria-latest.osm.pbf
 tiles:
   profile: tiles-profiles/full.lua
   db_size: 274877906944
@@ -23,12 +23,17 @@ timetable:
   preprocess_max_matching_distance: 0.000000
   datasets:
     atPTA-Eastern-Region-Flex-2025gtfs:
-      path: at_PTA-Eastern-Region-Flex-2025.gtfs.zip
+      path: datasets/at_PTA-Eastern-Region-Flex-2025.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+    atPTA-Eastern-Region-Flex-2026gtfs:
+      path: datasets/at_PTA-Eastern-Region-Flex-2026.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
     atRailway-Current-Reference-Data-2025gtfs:
-      path: at_Railway-Current-Reference-Data-2025.gtfs.zip
+      path: datasets/at_Railway-Current-Reference-Data-2025.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
@@ -42,6 +47,6 @@ gbfs:
   feeds:
     wienmobilrad:
       url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_wr/gbfs.json
-  update_interval: 6000
+  update_interval: 21600
   http_timeout: 10
   cache_size: 5000
