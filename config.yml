@@ -1,3 +1,8 @@
+server:
+  host: localhost
+  port: 8943
+
+
 osm: datasets/austria-latest.osm.pbf
 tiles:
   profile: tiles-profiles/full.lua
