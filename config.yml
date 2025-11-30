@@ -47,6 +47,7 @@ timetable:
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
+      script: scripts/at.lua
     atPTA-Eastern-Region-Flex-2026gtfs:
       path: datasets/at_PTA-Eastern-Region-Flex-2026.gtfs.zip
       default_bikes_allowed: false
@@ -107,6 +108,7 @@ timetable:
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
+      script: scripts/at.lua
     atRailway-Current-Reference-Data-2026gtfs:
       path: datasets/at_Railway-Current-Reference-Data-2026.gtfs.zip
       default_bikes_allowed: false
