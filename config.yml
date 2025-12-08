@@ -46,13 +46,13 @@ timetable:
       extend_calendar: false
       script: scripts/colors.lua
     atPTA-Eastern-Region-Flex-2025gtfs:
-      path: datasets/at_PTA-Eastern-Region-Flex-2025.gtfs.zip
+      path: datasets/20251206-0423_gtfs_flex_vor_2025.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
     atPTA-Eastern-Region-Flex-2026gtfs:
-      path: datasets/at_PTA-Eastern-Region-Flex-2026.gtfs.zip
+      path: datasets/20251206-0441_gtfs_flex_vor_2026.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
@@ -125,6 +125,12 @@ timetable:
       script: scripts/colors.lua
     atRailway-Current-Reference-Data-2026gtfs:
       path: datasets/at_Railway-Current-Reference-Data-2026.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+      script: scripts/colors.lua
+    20251206-0219gtfsevu2026:
+      path: datasets/20251206-0219_gtfs_evu_2026.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
