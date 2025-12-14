@@ -87,6 +87,12 @@ timetable:
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
+    flixbus-gtfs-generic-eu:
+      path: datasets/flixbus_gtfs_generic_eu.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
+      script: scripts/eu-flixbus.lua
 
 elevators: false
 street_routing: true
