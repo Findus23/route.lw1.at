@@ -95,7 +95,9 @@ timetable:
       script: scripts/eu-flixbus.lua
 
 elevators: false
-street_routing: true
-osr_footpath: false
+osr_footpath: true
 geocoding: true
 reverse_geocoding: true
+
+street_routing:
+  elevation_data_dir: ./hgt
