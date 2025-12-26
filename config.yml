@@ -27,62 +27,56 @@ timetable:
   max_matching_distance: 25.000000
   preprocess_max_matching_distance: 0.000000
   datasets:
-    20251204-0104gtfsesg2026:
-      path: datasets/20251204-0104_gtfs_esg_2026.zip
+    00-eisenbahn:
+      path: datasets/gtfs/00_eisenbahn.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251211-0018gtfsflexooevv2026:
-      path: datasets/20251211-0018_gtfs_flex_ooevv_2026.zip
+    01-linz:
+      path: datasets/gtfs/01_linz.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251211-0018gtfsooevv2026:
-      path: datasets/20251211-0018_gtfs_ooevv_2026.zip
+    02-ooe:
+      path: datasets/gtfs/02_ooe.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251212-0226gtfsevu2026:
-      path: datasets/20251212-0226_gtfs_evu_2026.zip
+    03-salzburg:
+      path: datasets/gtfs/03_salzburg.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251212-0352gtfsflexsalzburgverkehr2026:
-      path: datasets/20251212-0352_gtfs_flex_salzburgverkehr_2026.zip
+    04-kaerten:
+      path: datasets/gtfs/04_kaerten.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251213-0015gtfsflexkaerntnerlinien2026:
-      path: datasets/20251213-0015_gtfs_flex_kaerntnerlinien_2026.zip
+    05-vor:
+      path: datasets/gtfs/05_vor.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251213-0216gtfsflexvor2026:
-      path: datasets/20251213-0216_gtfs_flex_vor_2026.zip
+    06-steiermark:
+      path: datasets/gtfs/06_steiermark.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251213-0241gtfsvvt2026:
-      path: datasets/20251213-0241_gtfs_vvt_2026.zip
+    07-tirol:
+      path: datasets/gtfs/07_tirol.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    20251213-0252gtfsflexvmobil2026:
-      path: datasets/20251213-0252_gtfs_flex_vmobil_2026.zip
-      default_bikes_allowed: false
-      default_cars_allowed: false
-      extend_calendar: false
-      script: scripts/colors.lua
-    20251214-0044gtfsflexverbundlinie2026:
-      path: datasets/20251214-0044_gtfs_flex_verbundlinie_2026.zip
+    08-vorarlberg:
+      path: datasets/gtfs/08_vorarlberg.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
