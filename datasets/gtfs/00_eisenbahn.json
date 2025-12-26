@@ -1,1 +1,33 @@
-../../.git/annex/objects/M0/89/SHA256E-s2309--bbacd6a1dc1ce81922e92faf396db19662f6b465f9fa8cf40093dc51c4887ef4.json/SHA256E-s2309--bbacd6a1dc1ce81922e92faf396db19662f6b465f9fa8cf40093dc51c4887ef4.json
+{
+  "license": {
+    "id": "1",
+    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
+    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "termsOfUseUrl": {
+      "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
+      "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
+    }
+  },
+  "name": {
+    "de": "Fahrplandaten Eisenbahn (GTFS) - aktuell",
+    "en": "Railway Timetable Data (GTFS) - Current Reference Data"
+  },
+  "description": {
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrpläne der ÖBB-Personenverkehr AG (inkl. ÖBB Intercitybus), der Raaberbahn/GYSEV, der Montafonerbahn, der WESTbahn sowie der Bahnen der Österreichischen Gesellschaft für Eisenbahngeschichte (ÖGEG). Die Dateninhalte bilden das jeweilige Fahrplanjahr vom Datum der Aktualisierung bis zum folgenden Fahrplanwechsel (jeweils am zweiten Samstag im Dezember um 24:00 Uhr) und jeweils 60 Tage in die Vergangenheit ab. In diesem Datenpaket nicht beinhaltete Bahnen sind im Datenpaket des jeweils zuständigen Verkehrsverbundes enthalten. Bei grenzüberschreitenden Verkehren sind aus rechtlichen Gründen mitunter nicht alle Zwischenhalte im Ausland enthalten.",
+    "en": "This dataset contains the constantly updated timetables of the ÖBB-Personenverkehr AG (incl. ÖBB Intercity bus), the Raaberbahn/GYSEV, the Montafonerbahn, the WESTbahn and the railways of the Austrian Society for Railway History (ÖGEG). The dataset includes data for the respective timetable period from the dataset’s updating date up to the following timetable change date (second Saturday of December at 11:59 pm) as well as 60 days into the past. Railways not included in this data package are included in the data package of the responsible public transport authority. In case of timetables for cross-border traffic, due to legal reasons not all stopovers abroad may be included."
+  },
+  "activeVersion": {
+    "id": "14247",
+    "active": true,
+    "year": "2026",
+    "dataSetVersion": {
+      "id": "22376",
+      "created": "2025-12-24T04:33:26.678Z",
+      "file": {
+        "originalName": "20251224-0214_gtfs_evu_2026.zip",
+        "size": "186919977"
+      },
+      "deleted": false
+    }
+  }
+}

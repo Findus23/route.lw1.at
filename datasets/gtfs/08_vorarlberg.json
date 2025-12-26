@@ -1,1 +1,33 @@
-../../.git/annex/objects/Q4/jk/SHA256E-s1575--fb54e2350133e959522a634327e7f256daa2b3a3bcaf2aa955ee16b0beaf2774.json/SHA256E-s1575--fb54e2350133e959522a634327e7f256daa2b3a3bcaf2aa955ee16b0beaf2774.json
+{
+  "license": {
+    "id": "1",
+    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
+    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "termsOfUseUrl": {
+      "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
+      "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
+    }
+  },
+  "name": {
+    "de": "Fahrplandaten Verkehrsverbund Vorarlberg Flex (GTFS)",
+    "en": "Timetable Data PTA Vorarlberg Flex (GTFS)"
+  },
+  "description": {
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Vorarlberg, ausgenommen die Fahrten der ÖBB und der Montafonerbahn. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.",
+    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Vorarlberg, except the ones of ÖBB and Montafonerbahn. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
+  },
+  "activeVersion": {
+    "id": "14220",
+    "active": true,
+    "year": "2026",
+    "dataSetVersion": {
+      "id": "22349",
+      "created": "2025-12-24T04:30:18.467Z",
+      "file": {
+        "originalName": "20251224-0513_gtfs_flex_vmobil_2026.zip",
+        "size": "16330994"
+      },
+      "deleted": false
+    }
+  }
+}

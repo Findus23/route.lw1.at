@@ -1,1 +1,33 @@
-../../.git/annex/objects/Qf/5p/SHA256E-s1363--0dc63c75059ba36b0762dab01f06721afa1d68a76f1baa8af259fd506d2f4b2d.json/SHA256E-s1363--0dc63c75059ba36b0762dab01f06721afa1d68a76f1baa8af259fd506d2f4b2d.json
+{
+  "license": {
+    "id": "1",
+    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
+    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "termsOfUseUrl": {
+      "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
+      "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
+    }
+  },
+  "name": {
+    "de": "Fahrplandaten Linz AG (GTFS)",
+    "en": "Timetable Data Linz AG (GTFS)"
+  },
+  "description": {
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des von Linz AG beauftragten und gepflegten ÖPNV Angebotes. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.",
+    "en": "This data set contains the constantly updated timetable data of the public transport services commissioned and maintained by Linz AG. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
+  },
+  "activeVersion": {
+    "id": "13579",
+    "active": true,
+    "year": "2026",
+    "dataSetVersion": {
+      "id": "21708",
+      "created": "2025-12-04T04:31:54.480Z",
+      "file": {
+        "originalName": "20251204-0104_gtfs_esg_2026.zip",
+        "size": "5763634"
+      },
+      "deleted": false
+    }
+  }
+}

@@ -1,1 +1,33 @@
-../../.git/annex/objects/7p/xF/SHA256E-s2265--8297823e8346fc03b75f9affecca124c5c225e4d32fe5b59d32f58e331d5f230.json/SHA256E-s2265--8297823e8346fc03b75f9affecca124c5c225e4d32fe5b59d32f58e331d5f230.json
+{
+  "license": {
+    "id": "1",
+    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
+    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "termsOfUseUrl": {
+      "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
+      "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
+    }
+  },
+  "name": {
+    "de": "Fahrplandaten Verkehrsverbund Ost-Region Flex (GTFS)",
+    "en": "Timetable Data PTA Eastern Region Flex (GTFS)"
+  },
+  "description": {
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Wien, Niederösterreich und Burgenland, ausgenommen die Fahrten der ÖBB, der WESTbahn, der Raaberbahn, der Niederösterreich Bahnen und des CityAirportTrain Vienna. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.\n\nRegelungen bzgl. Fahrrädern:\n\nWochentags von Montag bis Freitag ist die Fahrradmitnahme zwischen 09:00–15:00 Uhr, sowie ab 18:30 bis Betriebsschluss erlaubt.\nAm Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme ganztägig gestattet.",
+    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Vienna, Lower Austria and Burgenland, except the ones of ÖBB, WESTbahn, Raaberbahn, Niederösterreich Bahnen and CityAirportTrain Vienna. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles:\n\nDuring weekdays the taking along of bicycles is allowed between 9AM and 3PM as well as from 6:30PM until end of operation.\nOn weekends and public holidays the taking along of bicycles is permitted all day."
+  },
+  "activeVersion": {
+    "id": "14231",
+    "active": true,
+    "year": "2026",
+    "dataSetVersion": {
+      "id": "22360",
+      "created": "2025-12-24T04:32:20.613Z",
+      "file": {
+        "originalName": "20251224-0437_gtfs_flex_vor_2026.zip",
+        "size": "137330478"
+      },
+      "deleted": false
+    }
+  }
+}

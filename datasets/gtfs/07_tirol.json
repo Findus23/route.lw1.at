@@ -1,1 +1,33 @@
-../../.git/annex/objects/pK/Qm/SHA256E-s2171--af4ff149f8348325a89562c3318486b47e368c2bd720b74f6dc24c04c25f24cc.json/SHA256E-s2171--af4ff149f8348325a89562c3318486b47e368c2bd720b74f6dc24c04c25f24cc.json
+{
+  "license": {
+    "id": "1",
+    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
+    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "termsOfUseUrl": {
+      "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
+      "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
+    }
+  },
+  "name": {
+    "de": "Fahrplandaten Verkehrsverbund Tirol (GTFS)",
+    "en": "Timetable Data PTA Tyrol (GTFS)"
+  },
+  "description": {
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV Angebotes in Tirol, ausgenommen die Fahrten der ÖBB und der WESTbahn. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.\n\nRegelungen bzgl. Fahrrädern(IVB):\n\nWochentags ist die Fahrradmitnahme nur zwischen 09:00–15:00 Uhr sowie 18:30–06:00 Uhr erlaubt.\nAm Wochenende und an Feiertagen ist die Fahrrad­mitnahme, wenn Platz vorhanden, ganztägig gestattet. Der Radheckträger kann zeitlich unbegrenzt genutzt werden.",
+    "en": "This data set contains the constantly updated timetable data of the public transport services maintained by the public transport authority in Tyrol, except the ones of ÖBB and WESTbahn. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles(IVB):\n\nDuring weekdays the taking along of bicycles is only permitted outside of peak hours, meaning between 9AM and 3PM as well as between 6:30PM and 6AM.\nDuring weekends and public holidays the taking along of bicycles is permitted all day, provided there is sufficient space. The usage of the rear bicycle racks is not subject to time restrictions."
+  },
+  "activeVersion": {
+    "id": "14225",
+    "active": true,
+    "year": "2026",
+    "dataSetVersion": {
+      "id": "22354",
+      "created": "2025-12-24T04:30:45.150Z",
+      "file": {
+        "originalName": "20251224-0502_gtfs_vvt_2026.zip",
+        "size": "78199048"
+      },
+      "deleted": false
+    }
+  }
+}
