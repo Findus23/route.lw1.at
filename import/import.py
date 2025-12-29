@@ -1,6 +1,9 @@
 """
 based on documentation in
 https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/231145473/Public+API+Download+for+DBP
+
+SPDX-FileCopyrightText: 2025 Lukas Winkler
+SPDX-License-Identifier: AGPL-3.0-or-later
 """
 import json
 import subprocess

@@ -1,3 +1,8 @@
+-- based on https://github.com/public-transport/transitous/blob/main/scripts/de-DELFI.lua
+-- SPDX-FileCopyrightText: 2025 Felix Gündling, Lukas Winkler
+-- SPDX-License-Identifier: AGPL-3.0-or-later
+
+
 local color_data = require 'scripts.color-data'
 local colors_by_agency_and_name = color_data.colors_by_agency_and_name
 local colors_by_id = color_data.colors_by_id

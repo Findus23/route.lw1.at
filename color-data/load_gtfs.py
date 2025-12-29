@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Lukas Winkler
+# SPDX-FileContributor: Lukas Winkler
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 import csv
 import sqlite3
 import zipfile

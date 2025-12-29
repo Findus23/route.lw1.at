@@ -1,0 +1,7 @@
+version = 1
+SPDX-PackageDownloadLocation = "https://github.com/motis-project/motis"
+
+[[annotations]]
+path = "**/*"
+SPDX-FileCopyrightText = "2024 MOTIS Project"
+SPDX-License-Identifier = "MIT"

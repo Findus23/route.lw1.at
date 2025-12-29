@@ -1,6 +1,12 @@
+
 """
 Use own subset and naming for GTFS (Flex) datasets from
 https://data.mobilitaetsverbuende.at
+
+SPDX-FileCopyrightText: 2025 Lukas Winkler
+SPDX-FileContributor: Lukas Winkler
+
+SPDX-License-Identifier: AGPL-3.0-or-later
 """
 
 from dataclasses import dataclass

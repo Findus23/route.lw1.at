@@ -1,0 +1,7 @@
+version = 1
+
+[[annotations]]
+path = "osm_wiki_ptna/*.csv"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Openstreetmap Wiki"
+SPDX-License-Identifier = "CC-BY-SA-2.0"
