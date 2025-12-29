@@ -97,15 +97,13 @@ def fetch_datasets(access_token: str):
 
         filename = first_active_version["dataSetVersion"]["file"]["originalName"]
         download_file = gtfs_dir / f"{filename}"
-        if download_file.exists() and False:
+        if download_file.exists():
             print("already latest version")
             continue
-        if metafile.exists():
+        if metafile.exists(follow_symlinks=False):
             metafile.unlink()
         metafile.symlink_to(download_file.name)
         download_url = f"{base_url}/api/public/v1/data-sets/{api_id}/{mobility_dataset.year}/file"
-        print(download_url)
-        continue
         curl_download(
             access_token,
             download_url,
