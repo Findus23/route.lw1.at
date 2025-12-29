@@ -15,6 +15,7 @@ class MobilityDataset:
     api_name: str
     flex: bool
     api_data: dict = None
+    osm_wiki_page: str = None
 
 
 mobility_datasets = [
@@ -24,7 +25,7 @@ mobility_datasets = [
         year=2026,
         api_id=66,
         api_name="Fahrplandaten Eisenbahn (GTFS) - aktuell",
-        flex=False
+        flex=False,
     ),
     MobilityDataset(
         own_name="Linz AG",
@@ -40,7 +41,8 @@ mobility_datasets = [
         year=2026,
         api_id=77,
         api_name="Fahrplandaten Oberösterreichischer Verkehrsverbund Flex (GTFS)",
-        flex=True
+        flex=True,
+        osm_wiki_page="Austria/Nahverkehr Oberösterreich/Analyse/OÖVV-Linien"
     ),
     MobilityDataset(
         own_name="Salzburger Verkehrsverbund",
@@ -48,15 +50,17 @@ mobility_datasets = [
         year=2026,
         api_id=73,
         api_name="Fahrplandaten Salzburger Verkehrsverbund Flex (GTFS)",
-        flex=True
+        flex=True,
+        osm_wiki_page="Austria/Nahverkehr Salzburg/Analyse/SVV-Linien"
     ),
     MobilityDataset(
-        own_name="Kärtner Linien",
-        own_filename="04_kaerten",
+        own_name="Kärntner Linien",
+        own_filename="04_kaernten",
         year=2026,
         api_id=78,
         api_name="Fahrplandaten Verkehrsverbund Kärntner Linien Flex (GTFS)",
-        flex=True
+        flex=True,
+        osm_wiki_page="Austria/Nahverkehr Kärnten/Analyse/VKG-Linien"
     ),
     MobilityDataset(
         own_name="Verkehrsverbund Ost-Region",
@@ -64,7 +68,8 @@ mobility_datasets = [
         year=2026,
         api_id=80,
         api_name="Fahrplandaten Verkehrsverbund Ost-Region Flex (GTFS)",
-        flex=True
+        flex=True,
+        osm_wiki_page="Austria/Nahverkehr Ost-Region/Analyse/VOR-Linien"
     ),
     MobilityDataset(
         own_name="Verkehrsverbund Steiermark",
@@ -72,7 +77,8 @@ mobility_datasets = [
         year=2026,
         api_id=79,
         api_name="Fahrplandaten Verkehrsverbund Steiermark Flex (GTFS)",
-        flex=True
+        flex=True,
+        osm_wiki_page="Austria/Nahverkehr Steiermark/Analyse/VVSt-Linien"
     ),
     MobilityDataset(
         own_name="Verkehrsverbund Tirol",
@@ -80,7 +86,8 @@ mobility_datasets = [
         year=2026,
         api_id=57,
         api_name="Fahrplandaten Verkehrsverbund Tirol (GTFS)",
-        flex=False
+        flex=False,
+        osm_wiki_page="Austria/Nahverkehr Tirol/Analyse/VVT-Linien"
     ),
     MobilityDataset(
         own_name="Verkehrsverbund Vorarlberg",
@@ -88,6 +95,7 @@ mobility_datasets = [
         year=2026,
         api_id=75,
         api_name="Fahrplandaten Verkehrsverbund Vorarlberg Flex (GTFS)",
-        flex=True
+        flex=True,
+        osm_wiki_page="Austria/Nahverkehr Vorarlberg/Analyse/VVV-Linien"
     )
 ]
