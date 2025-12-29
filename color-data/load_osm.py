@@ -26,17 +26,22 @@ class RouteHandler(osmium.SimpleHandler):
             if r.tags.get("route") not in {"bus"}:
                 return
 
-        name = r.tags.get("name")
-        ref = r.tags.get("ref")
-        operator = r.tags.get("operator")
-        route = r.tags.get("route")
-        network = r.tags.get("network")
-        colour = r.tags.get("colour")
-        colour_text = r.tags.get("colour:text")
         tags_dict = {t.k: t.v for t in r.tags}
         tags_json = json.dumps(tags_dict, ensure_ascii=False)
 
-        self.buffer.append((r.id, t, name, ref, operator, route, network, colour, colour_text, tags_json))
+        self.buffer.append((
+            r.id,
+            t,
+            r.tags.get("name"),
+            r.tags.get("ref"),
+            r.tags.get("operator"),
+            r.tags.get("route"),
+            r.tags.get("network"),
+            r.tags.get("colour"),
+            r.tags.get("colour:text"),
+            r.tags.get("gtfs:feed"),
+            r.tags.get("gtfs:route_id"),
+            tags_json))
         self.count += 1
 
         if len(self.buffer) >= 1000:
@@ -46,7 +51,7 @@ class RouteHandler(osmium.SimpleHandler):
         if not self.buffer:
             return
         self.cur.executemany(
-            "INSERT INTO osm_routes (rel_id, type, name, ref, operator, route, network, colour, colour_text, tags_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO osm_routes (rel_id, type, name, ref, operator, route, network, colour, colour_text, gtfs_feed, gtfs_route_id, tags_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             self.buffer)
         self.conn.commit()
         self.buffer = []
@@ -59,12 +64,14 @@ def create_indices(conn: sqlite3.Connection):
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_operator ON osm_routes(operator);")
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_network ON osm_routes(network);")
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_route ON osm_routes(route);")
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_gtfs_feed ON osm_routes(gtfs_feed);")
+    cur.execute("CREATE UNIQUE INDEX IF NOT EXISTS osm_routes_gtfs_route_id ON osm_routes(gtfs_route_id);")
     conn.commit()
     conn.execute("PRAGMA optimize")
 
 
 def create_db():
-    conn = sqlite3.connect("osm.db")
+    conn = sqlite3.connect("color.db")
     conn.execute("PRAGMA journal_mode = WAL;")
     conn.execute("PRAGMA synchronous = NORMAL;")
     conn.execute("PRAGMA temp_store = MEMORY;")
@@ -91,6 +98,10 @@ def create_db():
                      colour
                      TEXT,
                      colour_text
+                     TEXT,
+                     gtfs_feed
+                     TEXT,
+                     gtfs_route_id
                      TEXT,
                      tags_json
                      JSONB

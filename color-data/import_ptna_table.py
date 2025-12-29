@@ -30,7 +30,7 @@ def get_csv(page_title: str, dataset: str):
 
 
 def create_tables():
-    conn = sqlite3.connect("osm.db")
+    conn = sqlite3.connect("color.db")
 
     conn.execute("""
                  CREATE TABLE IF NOT EXISTS ptna_table

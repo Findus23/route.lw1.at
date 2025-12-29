@@ -11,7 +11,7 @@ from data import mobility_datasets
 
 
 def create_tables():
-    conn = sqlite3.connect("osm.db")
+    conn = sqlite3.connect("color.db")
     conn.execute("""
                  CREATE TABLE IF NOT EXISTS gtfs
                  (
