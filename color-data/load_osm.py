@@ -1,0 +1,104 @@
+import json
+import sqlite3
+
+import osmium
+
+
+class RouteHandler(osmium.SimpleHandler):
+    def __init__(self, conn: sqlite3.Connection):
+        super().__init__()
+        self.buffer = []
+        self.conn = conn
+        self.cur = conn.cursor()
+        self.count = 0
+
+    def relation(self, r):
+        t = r.tags.get("type")
+        if t not in ("route", "route_master"):
+            return
+
+        if t == "route":
+            if r.tags.get("route") not in {"bus"}:
+                return
+
+        name = r.tags.get("name")
+        ref = r.tags.get("ref")
+        operator = r.tags.get("operator")
+        route = r.tags.get("route")
+        network = r.tags.get("network")
+        colour = r.tags.get("colour")
+        colour_text = r.tags.get("colour:text")
+        tags_dict = {t.k: t.v for t in r.tags}
+        tags_json = json.dumps(tags_dict, ensure_ascii=False)
+
+        self.buffer.append((r.id, t, name, ref, operator, route, network, colour, colour_text, tags_json))
+        self.count += 1
+
+        if len(self.buffer) >= 1000:
+            self.flush()
+
+    def flush(self):
+        if not self.buffer:
+            return
+        self.cur.executemany(
+            "INSERT INTO osm_routes (rel_id, type, name, ref, operator, route, network, colour, colour_text, tags_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            self.buffer)
+        self.conn.commit()
+        self.buffer = []
+
+
+def create_indices(conn: sqlite3.Connection):
+    cur = conn.cursor()
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_type ON osm_routes(type);")
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_ref ON osm_routes(ref);")
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_operator ON osm_routes(operator);")
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_network ON osm_routes(network);")
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_route ON osm_routes(route);")
+    conn.commit()
+    conn.execute("PRAGMA optimize")
+
+
+def create_db():
+    conn = sqlite3.connect("osm.db")
+    conn.execute("PRAGMA journal_mode = WAL;")
+    conn.execute("PRAGMA synchronous = NORMAL;")
+    conn.execute("PRAGMA temp_store = MEMORY;")
+    conn.execute("PRAGMA locking_mode = EXCLUSIVE;")
+    conn.execute("""
+                 CREATE TABLE IF NOT EXISTS osm_routes
+                 (
+                     rel_id
+                     INTEGER
+                     PRIMARY
+                     KEY,
+                     type
+                     TEXT,
+                     name
+                     TEXT,
+                     ref
+                     TEXT,
+                     operator
+                     TEXT,
+                     route
+                     TEXT,
+                     network
+                     TEXT,
+                     colour
+                     TEXT,
+                     colour_text
+                     TEXT,
+                     tags_json
+                     JSONB
+                 );
+                 """)
+    conn.execute("DELETE FROM osm_routes;")
+    conn.commit()
+
+    return conn
+
+
+if __name__ == '__main__':
+    conn = create_db()
+    route_handler = RouteHandler(conn)
+    route_handler.apply_file("../datasets/austria-latest.osm.pbf", locations=False)
+    route_handler.flush()

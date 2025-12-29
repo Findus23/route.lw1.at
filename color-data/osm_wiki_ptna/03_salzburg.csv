@@ -1,0 +1,211 @@
+
+#
+# Diese Daten sind Input für das Tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+
+# Überblick über die ÖPNV-Linien des "Salzburger Verkehrsverbund" (SVV)
+
+- Verweis auf diese Liste mit den [[Austria/Nahverkehr_Salzburg/Analyse/SVV-Linien|SVV Linien]] im OSM-Wiki.
+-
+- Verweis auf mehr [/de/config.php?network=AT-SVV Informationen] zu dieser Auswertung.
+-
+
+== Quellen 
+-
+#
+== Bahnen
+=== Regional-Express
+LEX11;train;;Salzburg;Ostermiething;Salzburg AG (Salzburger Lokalbahn);AT-SVV;at:svv:53:
+-
+# weitere Linien
+
+=== Regionalbahn
+R33;train;;Zell am See;Krimml;Salzburg AG (Pinzgauer Lokalbahn);AT-SVV;at:svv:230:
+-
+# weitere Linien
+
+=== S-Bahn
+S1;train;;Salzburg;Lamprechtshausen;Salzburg AG (Salzburger Lokalbahn);AT-SVV;at:svv:50:
+S11;train;;Salzburg;Ostermiething;Salzburg AG (Salzburger Lokalbahn);AT-SVV;at:svv:51:
+-
+# weitere Linien
+
+== Busse
+=== Obus
+1;trolleybus;;Kleßheim Kavalierhaus;Salzburgarena;Salzburg AG;AT-SVV;at:svv:100:
+2;trolleybus;;Walserfeld Schule;Obergnigl;Salzburg AG;AT-SVV;at:svv:200:
+3;trolleybus;;Salzburg Süd;Landstraße;Salzburg AG;AT-SVV;at:svv:300:
+4;trolleybus;;Mayrwies;Forellenwegsiedlung;Salzburg AG;AT-SVV;at:svv:400:
+5;trolleybus;;Grödig Untersbergbahn;Fanny-v.-Lehnert-Straße;Salzburg AG;AT-SVV;at:svv:500:
+6;trolleybus;;Parsch;Itzling West;Salzburg AG;AT-SVV;at:svv:600:
+7;trolleybus;;Salzburg Süd;Salzachsee;Salzburg AG;AT-SVV;at:svv:700:
+8;trolleybus;;Salzburg Süd;Salzburgarena;Salzburg AG;AT-SVV;at:svv:800:
+9;trolleybus;;Europark;Justizgebäude;Salzburg AG;AT-SVV;at:svv:900:
+10;trolleybus;;Lankessiedlung;Walserfeld Schule;Salzburg AG;AT-SVV;at:svv:1000:
+12;trolleybus;;Europark;Josefiau;Salzburg AG;AT-SVV;at:svv:1200:
+14;trolleybus;;Polizeidirektion;Forellenwegsiedlung;Salzburg AG;AT-SVV;at:svv:1400:
+
+=== Stadtverkehre
+==== Stadtverkehr Salzburg
+11;bus;;Josefiau;Salzburgarena;Albus;AT-SVV;at:svv:1100:
+17;bus;;Ferdinand-Hanusch-Platz;Johannes-Filzer-Straße;Albus;AT-SVV;at:svv:1700:
+21;bus;;Fürstenbrunn Buskehre;Bergheim S-Bahn;Albus;AT-SVV;at:svv:2100:
+22;bus;;Josefiau;Makartplatz;Albus;AT-SVV;at:svv:2200:
+23;bus;;Ferdinand-Hanusch-Platz;Obergnigl;Albus;AT-SVV;at:svv:2300:
+24;bus;;Ferdinand-Hanusch-Platz;Freilassing Sonnenfeld;Albus;AT-SVV;at:svv:2400:
+25;bus;;Hauptbahnhof;Grödig Untersbergbahn;Albus;AT-SVV;at:svv:2500:
+27;bus;;Sportzentrum Nonntal;Walserfeld Schule;Albus;AT-SVV;at:svv:2700:
+28;bus;;Europark;Ferdinand-Hanusch-Platz;Albus;AT-SVV;at:svv:2800:
+31;bus;;Viehhausen;Siezenheim;Österreichische Postbus AG;AT-SVV;at:svv:383100:
+31;bus;;Walserfeld Schule;Siezenheim Ortsmitte;Albus;AT-SVV;at:svv:383102:
+32;bus;;Walserfeld;Viehhausen;Österreichische Postbus AG;AT-SVV;at:svv:383200:
+34;bus;;Europark;Christian-Doppler-Klinik;Albus;AT-SVV;at:svv:3400:;
+35;bus;;Fürstenbrunn;Hallein;Albus;AT-SVV;at:svv:383500:;
+36;bus;;Europark;Wals Feuerwehr;Albus;AT-SVV;at:svv:383600:;
+37;bus;;Grödig;Walserfeld;Schwab Reisen;AT-SVV;at:svv:383700:
+
+==== Stadtverkehr Hallein
+41;bus;;Hallein;Bad Dürrnberg;Breuss;AT-SVV;at:svv:384100:
+42;bus;;Hallein;Bad Vigaun;Breuss;AT-SVV;at:svv:384200:
+43;bus;;Hallein Bahnhof (West);Neualm;Breuss;AT-SVV;at:svv:384300:
+44;bus;;Hallein;Rif;Breuss;AT-SVV;at:svv:384400:
+
+==== Stadtverkehr Bischofshofen/St. Johann im Pongau
+50;bus;;Bischofshofen;Sankt Johann im Pongau;Österreichische Postbus AG;AT-SVV;at:svv:385000:
+51;bus;Citybus Sankt Johann;Postamt;Reinbachsiedlung;Österreichische Postbus AG;AT-SVV;at:svv:385100:
+52;bus;Citybus Sankt Johann;Postamt;Plankenau;Österreichische Postbus AG;AT-SVV;at:svv:385200:
+53;bus;Citybus Sankt Johann;Postamt;Hub;Österreichische Postbus AG;AT-SVV;at:svv:385300:
+55;bus;Citybus Bischofshofen;Südtiroler Straße;Mitterberghütten;Hogger mobil;AT-SVV;at:svv:385500:
+
+==== Stadtverkehr Saalfelden
+60;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:386000:
+61;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:386100:
+62;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:386200:
+
+==== Stadtverkehr Zell am See
+70;bus;;Thumersbach;Bruckberg;Hogger mobil;AT-SVV;at:svv:387000:;
+71;bus;;Postplatz;Schmittenhöhebahn;Hogger mobil;AT-SVV;at:svv:387100:;
+73;bus;Bürgerbus Zell am See;;;Österreichische Postbus AG;AT-SVV;at:svv:343700:;
+
+=== Regionalbusse
+==== Linien 1xx
+110;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:311000:
+111;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:311100:
+112;bus;;;;SAD Nahverkehr AG;AT-SVV;at:svv:311200:
+119;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:311900:
+120;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:312000:
+120;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:312001:
+121;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:312100:
+125;bus;;;;Hogger mobil;AT-SVV;at:svv:312500:
+126;bus;;;;Hogger mobil;AT-SVV;at:svv:312600:
+129;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:312900:
+130;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:313000:
+131;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:313100:
+133;bus;;;;Fischwenger;AT-SVV;at:svv:313300:
+135;bus;;;;Fischwenger;AT-SVV;at:svv:313500:
+140;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:314000:
+141;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:314100:
+142;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:302000:
+143;bus;;;;Hogger mobil;AT-SVV;at:svv:314300:
+147;bus;;;;Fischwenger;AT-SVV;at:svv:314700:
+148;bus;;;;Fischwenger;AT-SVV;at:svv:314800:
+149;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:314900:
+150;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:315000:
+151;bus;;;;Albus;AT-SVV;at:svv:15100:
+152;bus;;;;SAD Nahverkehr AG;AT-SVV;at:svv:315200:
+153;bus;;;;SAD Nahverkehr AG;AT-SVV;at:svv:315300:
+154;bus;;;;Hogger mobil;AT-SVV;at:svv:315400:
+155;bus;;;;Fischwenger;AT-SVV;at:svv:315500:
+156;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:315600:
+157;bus;;;;Fischwenger;AT-SVV;at:svv:315700:
+160;bus;;;;Breuss;AT-SVV;at:svv:316000:
+165;bus;;;;Breuss;AT-SVV;at:svv:316500:
+170;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:317000:
+170;bus;;;;Albus;AT-SVV;at:svv:317002:
+175;bus;;;;Krautgartner-Bus;AT-SVV;at:svv:317500:
+180;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:318000:
+181;bus;;;;Albus;AT-SVV;at:svv:318100:
+
+==== Linien 2xx
+260;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:326000:
+270;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:327000:
+280;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:328000:
+
+==== Linien 4xx
+450;bus;;;;Breuss;AT-SVV;at:svv:345000:
+451;bus;;;;Breuss;AT-SVV;at:svv:345100:
+452;bus;;;;Breuss;AT-SVV;at:svv:345200:
+460;bus;;;;Breuss;AT-SVV;at:svv:346000:
+470;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:347000:
+471;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:347100:
+
+==== Linien 5xx
+502;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:350200:
+508;bus;;;;Neu Touristik;AT-SVV;at:svv:350800:
+509;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:350900:
+510;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:351000:
+517;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:351700:
+520;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:352000:
+521;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:352100:
+522;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:352200:
+523;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:352300:
+530;bus;;;;Hogger mobil;AT-SVV;at:svv:353000:
+532;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:353200:
+540;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:354000:
+541;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:354100:
+550;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:355000:
+552;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:355200:
+553;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:355300:
+554;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:355400:
+555;bus;;;;H. Lackner Gastein;AT-SVV;at:svv:355500:
+557;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:355700:
+558;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:355800:
+559;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:355900:
+562;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:356200:
+564;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:356400:
+566;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:356600:
+567;bus;;;;H. Lackner Gastein;AT-SVV;at:svv:356700:
+569;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:356900:
+580;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:358000:
+581;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:358100:
+582;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:358200:
+590;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:359000:
+593;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:359300:
+
+==== Linien 6xx
+609;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:360900:
+620;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:362000:
+621;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:362100:
+631;bus;;;;Hogger mobil;AT-SVV;at:svv:363100:
+640;bus;;;;Krautgartner-Bus;AT-SVV;at:svv:364000:
+650;bus;;;;Krautgartner-Bus;AT-SVV;at:svv:365000:
+660;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:366000:
+670;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:367000:
+672;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:367200:
+673;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:367300:
+680;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:368000:
+690;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:369000:
+
+==== Linien 7xx
+700;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:370000:
+710;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:371000:
+712;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:371200:
+720;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:372000:
+721;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:372100:
+730;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:373000:
+740;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:374000:
+750;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:375000:
+772;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:377200:
+
+==== Linien 8xx
+871;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:787100:
+874;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:787400:
+875;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:787500:
+
+==== Linien 9xx
+911;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:391100:
+912;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:391200:
+913;bus;;;;Österreichische Postbus AG;AT-SVV;at:svv:391300:
+914;bus;;;;Fischwenger;AT-SVV;at:svv:391400:
+915;bus;;;;Fischwenger;AT-SVV;at:svv:391500:
+

@@ -1,0 +1,498 @@
+
+#
+# Diese Daten sind Input für das Tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+
+= Überblick über die ÖPNV-Linien des "Verkehrsverbund Tirol"
+
+- Verweis auf die Datei mit den [[Austria/Nahverkehr_Tirol/Analyse/VVT-Linien|VVT-Linien]] im Wiki.
+- Verweis auf mehr [/de/config.php?network=AT-VVT Informationen] bei PTNA.
+
+
+== Züge
+
+FV;train;Sonderfahrplan für den Fernverkehr Tirol;Landeck-Zams;Kufstein/Hochfilzen
+ZB1;train;Zillertalbahn:Jenbach - Mayrhofen
+201;train;Giselabahn:Wörgl - Kitzbühel - Hochfilzen - Saalfelden
+223;train;Drautalbahn:Spittal-Millstättersee - Lienz - Sillian - San Candido/Innichen
+300;train;Brennerbahn:Kufstein - Wörgl - Innsbruck - Brennero/Brenner
+301;train;Jenbach - Innsbruck - Telfs-Pfaffenhofen/Scharnitz/Brennero
+400;train;Arlbergbahn:Innsbruck - Landeck-Zams - Bludenz
+410;train;Karwendelbahn;Innsbruck - Mittenwald - Ehrwald - Reutte - Pfronten-Steinach
+
+== S-Bahn
+
+S1;train;Drautalbahn(=ÖBB Kursbuch 223):Lienz – Spittal-Millstättersee (– Friesach – St. Veit an der Glan)
+S2;train;Drautalbahn, Pustertalbahn(=ÖBB Kursbuch223):Lienz – Sillian – San Candido/Innichen (– Fortezza/Franzensfeste)
+S3;train;Brennerbahn, Unterinntalbahn(=ÖBB Kursbuch 300, 301):(Hall in Tirol –) Innsbruck Hbf – Steinach in Tirol (– Brennero/Brenner)
+S4;train;Arlbergbahn, Unterinntalbahn(=ÖBB Kursbuch 300, 301, 400):Kufstein – Innsbruck Hbf – Telfs-Pfaffenhofen (–Landeck-Zams)
+S5;train;Arlbergbahn, Unterinntalbahn(=ÖBB Kursbuch 300, 301, 400):Jenbach – Hall in Tirol – Innsbruck Hbf – Ötztal (– Imst-Pitztal – Landeck-Zams)
+S6;train;Mittenwaldbahn(=ÖBB Kursbuch 410):Innsbruck Hbf – Seefeld (– Scharnitz – Garmisch-Partenkirchen – München Hbf)
+S7;train;Außerfernbahn(=ÖBB Kursbuch 410):Garmisch-Partenkirchen – Reutte in Tirol – Pfronten-Steinach
+S8;train;Salzburg-Tiroler-Bahn(=ÖBB Kursbuch 201):Wörgl Hbf – St. Johann in Tirol – Hochfilzen (– Saalfelden)
+REX1;train;Arlbergbahn(=ÖBB-Kursbuch 400):Innsbruck Hbf – Landeck-Zams
+REX2;train;Unterinntalbahn(=ÖBB Kursbuch 300):Innsbruck Hbf – Wörgl Hbf (– Kufstein)
+REX3;train;Salzburg-Tiroler-Bahn(=ÖBB Kursbuch 200, 201):Wörgl Hbf – Hochfilzen – Saalfelden (– Schwarzach-St. Veit – Salzburg Hbf)
+ZB1;train;Zillertalbahn(=ÖBB Kursbuch 310):Jenbach – Mayrhofen  
+
+
+== Busse
+
+=== Regionale Busse
+
+==== Linien 0-99
+
+1;bus;Weer - Kolsassberg - Terfens - Vomp - Weer
+1;bus;Schlick: Fulpmes: Medraz - Ortsmitte - Schlick 2000 (nur im Winter/only in winter)
+L1;bus;Innsbruck - Völs - Kematen i. T. - Axams - Axamer Lizum (nur im Winter/only in winter)
+2;bus;Fritzens - Wattens - Volders - Baumkirchen
+2;bus;Schlick: Neustift i. St. - Fulpmes - Schlick 2000 (nur im Winter/only in winter)
+L2;bus;Nockspitzbahn - Götzens - Birgitz - Axams - Axamer Lizum (nur im Winter/only in winter)
+3;bus;Schlick: Fulpmes: Donnerhof - Ortsmitte - Schlick 2000 (nur im Winter/only in winter)
+L3;bus;Innsbruck - Natters - Mutters - Muttereralm Bergbahnen (nur im Winter/only in winter)
+4;bus;Schlick: Schönberg - Schlick 2000 (nur im Winter/only in winter)
+5;bus;Schlick: Telfes - Bel Ami - Schlick 2000 (nur im Winter/only in winter)
+50;bus;Kufstein - Hechtsee (nur im Sommer/only in summer)
+
+==== 100er-Linien
+
+74/100;bus;Reutte - Pflach - Musau - Vils - Pinswang - Füssen
+101;bus;Schülerverkehr: Reutte - Pflach - Musau - Pinswang - Vils
+110;bus;Reutte - Weißenbach a. L. - Elbigenalp - Steeg
+111;bus;Häselgehr - Elbigenalp - Bach - Steeg
+120;bus;Reutte - Weißenbach a. L. - Tannheim - Oberjoch
+121;bus;Tannheim - Vilsalpsee (nur im Sommer/only in summer)
+122;bus;Dorfbus Grän: Haldensee - Dorfplatz - Liftanlagen - Bergblick (nur im Winter/only in winter)
+123;bus;Nesselwängle - Haldensee - Tannheim - Grän - Pfronten (nur im Sommer/only in summer)
+150;bus;Reutte - Bichlbach - Ehrwald - Nassereith
+151;bus;Reutte - Bichlbach - Berwang/Brand
+155;bus;Elmen - Pfafflar - Hahntennjoch - Imst (nur im Sommer/only in summer)
+160X;bus;Reutte - Nassereith - Telfs - Innsbruck
+
+==== 200er-Linien
+
+210;bus;Landeck - Prutz - Tösens - Pfunds - Martina (CH) - Nauders
+212;bus;Pfunds - Spiss
+220;bus;Landeck - Prutz - Ried i. O. - Ladis - Fiss - Serfaus
+221;bus;Ladis - Fiss - Serfaus
+230;bus;Ried i. O. - Prutz - Kauns - Feichten - Kaunertal
+240;bus;Landeck - Fließ
+260;bus;Landeck - See - Kappl - Ischgl - Galtür
+
+==== 300er-Linien
+
+320;bus;Imst - Ötztal Bahnhof - Oetz - Sölden - Obergurgl
+330;bus;Sölden - Zwieselstein - Vent
+335;bus;Obergurgl - Timmelsjoch - Moos i. P.
+350;bus;Innsbruck - Zirl - Telfs - Mieming - Nassereith
+355;bus;Innsbruck - Telfs - Mieming - Nassereith
+390;bus;!Keine Bedienung in Bayern mehr seit 19.10.25! Achenwald - Achenkirch - Maurach - Pertisau
+
+==== 400er-Linien
+
+401;bus;Innsbruck - Natters
+404;bus;Innsbruck - Götzens - Birgitz - Axams - Grinzens
+405;bus;Innsbruck - Natters - Mutters - Götzens - Völs/Axams - Grinzens
+408;bus;Axams - Kematen i. T. - Völs - Innsbruck
+411;bus;Axams Terminal Kögele - Axamer Lizum
+430;bus;Seefeld i. T. - Weidach - Oberleutasch - Buchen
+431;bus;Seefeld i. T. - Weidach - Unterleutasch - Mittenwald
+432;bus;Seefeld i. T. - Reith b. S. - Leithen
+432S;bus;Seefeld i. T. Birkenlift - Mittelschule
+433;bus;Seefeld i. T. - Leutasch Weidach - Leutasch Gaistal
+434;bus;Seefeld i. T. - Mösern - Telfs
+435;bus;Scharnitz - Seefeld i. T. - Reith b. S. - Innsbruck
+451;bus;Zirl - Hochzirl
+456;bus;Telfs - Zirl - Innsbruck - Hall in Tirol - Wattens - Schwaz
+461;bus;Innsbruck - Völs - Kematen i. T. - Oberperfuss
+462;bus;Innsbruck - Völs - Kematen i. T. - Oberperfuss
+463;bus;Innsbruck - Völs - Kematen i. T. - Ranggen - Oberperfuss
+464;bus;Innsbruck - Völs - Kematen i. T. - Ranggen - Oberperfuss
+469;bus;Mils - Hall in Tirol - Innsbruck - Völs
+
+==== 500er-Linien
+
+501;bus;Innsbruck - Rum - Thaur - Absam - Hall in Tirol
+502;bus;Innsbruck - Rum - Thaur - Absam - Eichat
+503;bus;Innsbruck - Rum - Thaur - Absam - Eichat - Hall in Tirol
+504;bus;Innsbruck - Rum - Hall in Tirol - Mils
+505;bus;Innsbruck - DEZ - Hall in Tirol
+590;bus;Innsbruck - Schönberg i. St. - Mieders - Fulpmes - Neustift i. St.
+
+==== 600er-Linien
+   
+633;bus;Strass i. Z. - Bruck a. Z. - Schlitters - Fügen
+
+==== 900er-Linien
+
+940;bus;Lienz - Debant - Dölsach - Nikolsdorf
+941;bus;Lienz - Peggetz - Nußdorf - Debant - Lavant / Nikolsdorf
+942;bus;Lienz - Debant - Dölsach - Iselsberg - Winklern i. M.
+950X;bus;Lienz - Huben - Matrei i. O. - Felbertauern - Mittersill - Kitzbühel
+951;bus;"Lienz - Huben - Matrei i. O. - Prägraten a. G. Hinterbichl (""Ströden"" nur im Sommer/only in summer)"
+952;bus;"Huben - Kals a. G. Taurer (""Lucknerhaus"" nur im Sommer/only in summer)"
+953;bus;"Huben - Hopfgarten - St. Veit - St. Jakob i. D. (""Staller Sattel"" nur im Sommer/only in summer))"
+954;bus;Lienz - Oberdrum - Oberlienz - Ainet - Schlaiten
+955;bus;Lienz/Huben - Matrei i.O. Korberplatz - Tauernhaus (nur im Sommer/only in summer)
+960X;bus;Lienz - Sillian - Innsbruck
+961;bus;Lienz - Leisach - Thal - Mittewald - Abfaltersbach - Sillian
+962;bus;Lienz - Leisach - Assling - Anras - Abfaltersbach
+965;bus;St. Lorenzen i. L. - Maria Luggau - Obertilliach - Kartitsch - Sillian
+966;bus;Innervillgraten - Außervillgraten - Sillian
+998;bus;St. Veit im Defereggen.: Innerstandsbrücke - Egg
+
+==== 4000er-Linien
+
+4000;bus;Kitzbühel - St. Johann i. T. - Schwendt - Kössen - Reit i. W.
+4004;bus;Kitzbühel - Kirchberg i. T. - Aschau
+4006;bus;Kitzbühel - Reith b. Kb. - Going a. W. K. - Ellmau
+4010;bus;Kitzbühel - Jochberg - Pass Thurn - Mittersill
+4012;bus;Kitzbühel - St. Johann i. T. - Waidring - Lofer
+4026;bus;Kufstein - Schwoich - Bad Häring - Kirchbichl - Wörgl
+4030;bus;Kufstein - Ebbs - Niederndorf - Walchsee - Kössen (Nightliner siehe 730N)
+4036;bus;Kufstein - Ebbs - Niederndorf - Erl/Niederndorferberg
+4046;bus;Kufstein - Thiersee - Hinterthiersee - Landl
+4051;bus;Kitzbühel - Westendorf - Hopfgarten i. Br. - Wörgl
+4055;bus;Kufstein - Schaftenau - Niederbreitenbach - Kirchbichl - Wörgl
+4057;bus;Kelchsau - Hopfgarten i. Br.
+4060;bus;Wörgl - Itter - Söll - Ellmau - St. Johann i. T.
+4064;bus;Wörgl - Wildschönau (Niederau - Oberau - Mühltal - Auffach)
+4068;bus;Kufstein - Schaftenau - Niederbreitenbach - Mariastein - Wörgl
+4070;bus;Brixlegg - Radfeld - Kramsach - Brandenberg - Aschau
+4074;bus;Radfeld/Jenbach - Brixlegg - Reith i. A. - Alpbach - Inneralpbach
+4080;bus;Jenbach - Wiesing - Maurach - Achenkirch
+4094;bus;Mayrhofen - Zell a. Z. - Hainzenberg - Gerlos - Königsleiten
+
+==== 4100er-Linien
+
+4100;bus;Mayrhofen - Brandberg
+4102;bus;Mayrhofen - Ginzling (im Sommer bis Schlegeis Stausee)
+4104;bus;Mayrhofen - Finkenberg - Tux/Lanersbach - Hintertux
+4111;bus;Schwaz - Stans - Jenbach - Wiesing - Münster - Brixlegg
+4113;bus;Brixlegg - Radfeld - Kramsach - Breitenbach a. I.
+4115;bus;Brixlegg - Hagau - Kramsach - Radfeld - Brixlegg
+4119;bus;Schwaz - Buch i. T. - Jenbach/Brixlegg
+4121;bus;Schwaz - Strass i. Z. - Jenbach - Brixlegg - Kundl - Wörgl - Kufstein
+4123;bus;Schwaz - Innsbruck - Telfs
+4125;bus;Innsbruck - Hall in Tirol - Volders - Wattens - Schwaz
+4130;bus;Innsbruck - DEZ - Ampass - Hall in Tirol
+4132;bus;Innsbruck - DEZ - Ampass - Aldrans - Sistrans - Lans - Igls - Patsch
+4134;bus;Innsbruck - Aldrans - Lans - Sistrans - Rinn/Judenstein - Tulfes - Hall in Tirol
+4140;bus;Innsbruck - Gärberbach - Unterberg - Schönberg i. St.
+4141;bus;Innsbruck - Igls - Patsch - Ellbögen - Pfons - Matrei a. Br. - Steinach a. Br.
+4142;bus;Innsbruck - Natters
+4143;bus;Steinach a. Br. - Gries a. Br. - Brennero/Brenner
+4144;bus;Steinach a. Br. - St. Jodok a. Br. - Schmirn/Vals
+4145;bus;Schönberg i. St. - Matrei a. Br. - Steinach a. Br. - Gries a. Br. - Obernberg
+4146;bus;Steinach a. Br. - Trins - Gschnitz
+4161;bus;Völs - Götzens - Mutters - Natters
+4162;bus;Innsbruck - Götzens - Birgitz - Axams/Kristen - Grinzens
+4165;bus;Innsbruck - Völs - Kematen i. T. - Ranggen - Oberperfuss
+4166;bus;Innsbruck - Völs - Kematen i. T. - Sellrain - Gries i. S. - St. Sigmund - Kühtai
+4168;bus;Zirl - Kematen i. T. - Axams
+4169;bus;Mils - Hall in Tirol - Rum - Innsbruck - Lohbach - Völs
+4175;bus;Stams - Mieming - Obsteig
+4176;bus;Innsbruck - Zirl/Hochzirl LKH - Telfs - Nassereith
+4196;bus;Imst - Ötztal Bf - Haiming - Silz - Mötz - Oetz - Ochsengarten - Kühtai
+4198;bus;Imst - Imst-Pitztal Bahnhof - Karrösten
+
+==== 4200er-Linien
+
+4204;bus;Imst - Arzl i. P. - Wenns - Jerzens - St. Leonhard i. P. - Mittelberg
+4206;bus;Nassereith - Tarrenz - Obtarrenz - Imst - Zams - Landeck
+4230;bus;Landeck - Fließ
+4232;bus;Landeck - Prutz - Kauns - Feichten - Kaunertal Wiißeseeferner/ Ochsenalmlift (nur im Winter/only in winter)
+4236;bus;Landeck - Prutz - Ried i. O. - Ladis - Fiss - Serfaus
+4242;bus;Landeck - Flirsch - Pettneu a. A. - St. Jakob a. A. - St. Anton a. A.
+4244;bus;Landeck - Grins
+4246;bus;Landeck - Stanz b. L.
+
+==== 4800er-Linien
+
+4825;bus;Skibus Waidring (nur im Winter/only in winter)
+
+==== 4900er-Linien
+
+4902;bus;Kufstein - Schwoich - Söll
+
+==== 5000er-Linien
+
+5051;bus;Skibus Sölden (nur im Winter/only in winter)
+
+==== 7800er-Linien
+
+7801;bus;Achenkirch - Steinberg am Rofan
+
+==== 8300er-Linien
+
+8301;bus;Fieberbrunn - St. Johann i. T. - Oberndorf i. T. - Kitzbühel
+8302;bus;Hochfilzen - Fieberbrunn - St. Jakob i. H. - St. Ulrich a. P. - Waidring
+8311;bus;Bruckhäusl - Kirchbichl - Wörgl - Kundl - Breitenbach a. I.
+8327;bus;Ramsau i. Z. - Hippach - Schwendau - Burgstall - Mayrhofen (nicht im Winter/not in winter)
+8328;bus;Mayrhofen - Bärenbad - Zillergrund Staumauer (nicht im Winter/not in winter)
+8329;bus;Jenbach: Bahnhof - Achenseestraße/Zoll -Tratzbergstraße - Bahnhof
+8330;bus;Innsbruck - Schwaz - Jenbach - Mayrhofen
+8332;bus;Jenbach - Wiesing - Eben a. A. - Maurach - Pertisau
+8333;bus;Uderns - Fügen - Pankrazberg - Hochfügen (nicht im Winter/not in winter)
+8336;bus;Jenbach - Kasbach - Maurach
+8340;bus;Mayrhofen/Ramsau i. Z. - Hippach - Schwendberg
+8352;bus;Innsbruck - Telfs - Mötz - Silz - Haiming - Ötztal Bahnhof - weiter bis Obergurgl
+8354;bus;Seefeld i. T. - Mösern - Buchen - Telfs
+8357;bus;Rumer-Linie: Neu-Rum - Rum
+8365;bus;Matrei a. Br. - Navis
+8380;bus;Innsbruck - Hall in Tirol - Wattens - Schwaz
+8381;bus;Schwaz - Pill - Weerberg
+8384;bus;Schwaz - Vomp - Terfens - Neu-Terfens - Weer
+
+==== 8400-Linien
+    
+8405;bus;Moos - Stuls - Timmelsjoch - Obergurgl (nur im Sommer/only in summer)
+
+
+=== Ortsverkehr Axams
+
+409T;bus;Dorfbus: Axams - Kristen
+
+
+=== Ortsverkehr Ehrwald und Umgebung
+
+1;bus;Ehrwald - Biberwier - Lermoos - Ehrwald
+2;bus;Ehrwald - Lermoos - Bichlbach - Heiterwang - Hängebrücke
+3;bus;Ehrwald: Tiroler Zugspitzbahn - Bahnhof - Kirchplatz - Almbahn
+4;bus;Ehrwald Dorfbus (nur im Winter/only in winter)
+5;bus;Berwang/Brand - Bichlbach - Lermoos - Ehrwald - Biberwier (nur im Winter/only in winter)
+6;bus;Berwang/Brand - Bichlbach Almkopf Bergbahn (nur im Winter/only in Winter)
+7;bus;Ehrwald - Lermoos - Biberwier - Ehrwald
+
+
+=== Ortsverkehr Kappl
+
+1;bus;Ortsverkehr Kappl
+
+
+=== Ortsverkehr Reutte
+
+1;bus;Reutte: Bahnhof - Lechaschau - Wängle und zurück
+2;bus;Reutte: Reutte Bahnhof - Ehenbichl und zurück
+3;bus;Reutte: Reutte Bahnhof - Breitenwang - Bad Kreckelmoos und zurück
+
+
+
+=== Ortsverkehr St. Anton a. A. und Umgebung
+
+1;bus;Shuttlebus AntOOn;;Regio Arlberg Buslinien
+5;bus;St. Anton - St. Jakob Untergand (über Bundesstraße) (nur Winter);;Regio Arlberg Buslinien
+
+
+
+=== Ortsverkehr Telfs
+
+1;bus;Telfs: Sonnensiedlung - Südtiroler Siedlung - Schul- und Sportzentrum;;;Regio Bus Telfs
+2;bus;Telfs - Pfaffenhofen - Oberhofen - Flaurling - Polling - Hatting - Inzing - Zirl;;;Regio Bus Telfs
+3;bus;Telfs: Schul- und Sportzentrum - TGKK - Egart - Wasserwaal - Sagl;;;Regio Bus Telfs
+
+
+=== Stadtverkehr Hall in Tirol
+
+1A;bus;Innweg - Kurhaus;;;Regio Bus Hall in Tirol
+1B;bus;Innweg - Bahnhof;;;Regio Bus Hall in Tirol
+2;bus;Bahnhof - Kurhaus - Heiligkreuz - Schwimmbad - Bahnhof;;;Regio Bus Hall in Tirol
+3;bus;Bahnhof - Eichat - Gnadenwald;;;Regio Bus Hall in Tirol
+6;bus;Bahnhof - Mils - Eichat - Hall i. T. Bahnhof;;;Regio Bus Hall in Tirol
+7;bus;Bahnhof - Eichat - Mils - Hall i. T. Bahnhof;;;Regio Bus Hall in Tirol
+
+
+=== Stadtverkehr Imst
+
+1;bus;Imst: Gunglgrün - Terminal Post - FMZ Einkaufszentrum - Imsterberg Bahnhof;;;Busreisen Auderer
+2;bus;Imst: Rastbühel - Oberstadt - Auf Arzill - Terminal Post - Am Rofen - FMZ Einkaufszentrum;;;Busreisen Auderer
+3;bus;Imst: Brennbichl - Terminal Post - Hochimst (nur im Sommer/only in summer);;;Busreisen Auderer
+4;bus;Imst: Oberstadt - Terminal Post - Imst-Pitztal Bahnhof;;;Busreisen Auderer
+5;bus;Imst: Terminal Post - FMZ Einkaufszentrum - Imsterberg;;;Busreisen Auderer
+6;bus;Imst: Imst Terminal Post - Auf Arzill - Am Rofen - Imst-Pitztal Bahnhof;;;Busreisen Auderer
+
+
+
+=== Stadtverkehr Innsbruck
+
+A;bus;Rum Sanatorium - Landesmuseum - Sadrach/Allerheiligenhöfe;;;Innsbrucker Verkehrsbetriebe
+B;bus;Hauptbahnhof - Kletterzentrum;;;Innsbrucker Verkehrsbetriebe
+C;bus;Luigenstraße - Terminal Marktplatz- Sieglanger;;;Innsbrucker Verkehrsbetriebe
+F;bus;Neu-Rum Kaplanstraße - Hauptbahnhof - Flughafen;;;Innsbrucker Verkehrsbetriebe
+H;bus;Terminal Marktplatz - Allerheiligenhöfe;;;Innsbrucker Verkehrsbetriebe
+HBB;funicular;Station Hungerburg - Station Congress;;;Innsbrucker Verkehrsbetriebe
+J;bus;Igls Patscherkofel - Marktplatz - Nordkette;;;Innsbrucker Verkehrsbetriebe
+K;bus;Kranebitten - Technik - Allerheiligen - Terminal Marktplatz;;;Innsbrucker Verkehrsbetriebe
+M;bus;Stadion - Hauptbahnhof - Mentlbergsiedlung;;;Innsbrucker Verkehrsbetriebe
+R;bus;DEZ/EKZ - Hauptbahnhof - Rehgasse;;;Innsbrucker Verkehrsbetriebe
+T;bus;Neu-Rum Kaplanstraße/Mühlauer Brücke - Völs EKZ Cyta;;;Innsbrucker Verkehrsbetriebe
+W;bus;Marktplatz - Alpenzoo;;;Innsbrucker Verkehrsbetriebe
+1;tram;Bergisel - Mühlauer Brücke;;;Innsbrucker Verkehrsbetriebe
+2;tram;J. Kerschbaumer-Straße - Peerhofsiedlung/Technik West;;;Innsbrucker Verkehrsbetriebe
+2A;bus;Neu Rum Kirche - Exlgasse;;;Innsbrucker Verkehrsbetriebe
+3;tram;Amras - Anichstraße/Rathausgalerien;;;Innsbrucker Verkehrsbetriebe
+5;tram;Rum Bahnhof - Hauptbahnhof - Technik West;;;Innsbrucker Verkehrsbetriebe
+5E;bus;Lohbachsiedlung Ost - Jugendherberge;;;Innsbrucker Verkehrsbetriebe
+6;tram;Igls Bahnhof - Bergisel;;;Innsbrucker Verkehrsbetriebe
+STB;tram;Stubaitalbahn:Innsbruck - Natters - Mutters - Telfes i. St. - Fulpmes;;;Innsbrucker Verkehrsbetriebe und Stubaitalbahn
+
+
+=== Stadtverkehr Kitzbühel
+
+4002;bus;Kitzbühel: Hahnenkamm - Vorderstadt - Badhaussiedlung - Bichlalm;;;Stadtwerke Kitzbühel
+4008;bus;Kitzbühel: Siedlung Frieden - Im Gries - Staudach;;;Stadtwerke Kitzbühel
+
+
+
+=== Stadtverkehr Kufstein
+
+1;bus;Kufstein: Endach - Zentrum - Kaisertal;;;Stadtwerke Kufstein
+2;bus;Kufstein: Kaisertal - Zentrum - Endach;;;Stadtwerke Kufstein
+3;bus;Kufstein: Feldgasse - Zentrum - Zell - Feldgasse;;;Stadtwerke Kufstein
+4;bus;Kufstein: Kaisertal - Zentrum - Endach - Zell - Feldgasse und zurück;;;Stadtwerke Kufstein
+
+
+
+=== Stadtverkehr Landeck
+
+1;bus;Landeck - Zams
+2;bus;Landeck: Öd - Zentrum
+3;bus;Landeck: Zentrum - Perjen
+4;bus;Landeck - Tobadill
+5;bus;Landeck - Pians - Strengen
+6;bus;Landeck: Zentrum - Bruggen
+12;bus;Landeck: Öd - Perjen
+
+
+
+=== Stadtverkehr Lienz und Umgebung
+
+1;bus;Gaimberg - Lienz Bahnhof - Tristach
+2;bus;Amlach - Lienz Bahnhof - Gaimberg
+3;bus;Lienz Falkensteinerweg - Lienz Bahnhof - Thurn
+
+
+
+=== Stadtverkehr Schwaz
+
+1;bus;Bahnhof - Terminal Wopfnerstraße - Silberbergwerk;;;Regio Schwaz Buslinien
+2;bus;Silberbergwerk - Terminal Wopfnerstraße - Wengerhof;;;Regio Schwaz Buslinien
+3;bus;Schwaz: Bahnhof - Terminal Wopfnerstr. - Pirchanger;;;Regio Schwaz Buslinien
+4;bus;Schwaz - Vomp - Vomperbach - Terfens;;;Regio Schwaz Buslinien
+5;bus;Schwaz - Gallzein;;;Regio Schwaz Buslinien
+6;bus;Schwaz - Zintberg;;;Regio Schwaz Buslinien
+7;bus;Schwaz - Arzberg;;;Regio Schwaz Buslinien
+8;bus;Schwaz - Pill - Pillberg;;;Regio Schwaz Buslinien
+9;bus;Schwaz: Bahnhof - Dorf - Schulzentrum Ost;;;Regio Schwaz Buslinien
+31;bus;Schwaz - Stans Gewerbegebiet - Schwaz;;;Regio Schwaz Buslinien
+41;bus;Schwaz - Vomp - Fiecht - Vomp - Schwaz;;;Regio Schwaz Buslinien
+
+
+
+=== Regiobus Ötztal
+
+44;bus;Skibus Längenfeld (nur im Winter/only in winter);;;Ötztaler Verkehrsgesellschaft
+50;bus;Skibus: Sölden -Obergurgl;;;Ötztaler Verkehrsgesellschaft
+60;bus;Skibus Obergurgl (nur im Winter/only in winter);;;Ötztaler Verkehrsgesellschaft
+63;bus;Ortsverkehr Obergurgl;;;Ötztaler Verkehrsgesellschaft
+4194;bus;Imst - Ötztal Bf - Sölden - Zwieselstein - Obergurgl - Timmelsjoch (Timmelsjoch nur im Sommer/only in summer);;;Ötztaler Verkehrsgesellschaft
+8400;bus;Sölden - Zwieselstein - Vent;;;Ötztaler Verkehrsgesellschaft
+
+
+
+=== Nightliner / Nachtbus Innsbruck und Umgebung
+
+N1;bus;Innsbruck: Grabenweg - Hauptbahnhof - Sieglanger
+N2;bus;Innsbruck: Olympisches Dorf - Hauptbahnhof - Technik
+N3;bus;Innsbruck: Jugendherberge - Hauptbahnhof - Rehgasse
+N7;bus;Innsbruck: Igls Alte Talstation - Nordkette
+N8;bus;Innsbruck: Hauptbahnhof - Kranebitten
+N10;bus;Innsbruck - Zirl - Pettnau - Telfs
+N11;bus;Innsbruck - Natters - Mutters - Götzens - Axams - Grinzens
+N12;bus;Innsbruck - Völs - Kematen i. T. - Ranggen - Oberperfuss
+N14;bus;Innsbruck - Ampass - Aldrans - Lans - Sistrans - Rinn - Tulfes
+502N;bus;Nightliner: Innsbruck - Rum - Thaur - Absam - Eichat
+590N;bus;Nightliner: Innsbruck - Schönberg i. St. - Mieders - Fulpmes - Neustift i. St.
+
+
+
+=== Nightliner / Nachtbus regional
+
+N16;bus;Schönberg i. St. - Matrei a. Br. - Steinach a. Br. - Gries a. Br.
+350N;bus;Innsbruck - Zirl - Telfs
+355N;bus;Telfs - Mieming - Nassereith
+404N;bus;Innsbruck - Natters - Götzens - Axams - Grinzens
+464N;bus;Innsbruck - Völs - Kematen i. T. - Ranggen - Oberperfuss
+540N;bus;Innsbruck - Aldrans - Sistrans - Rinn - Tulfes - Hall in Tirol
+560N;bus;Innsbruck - Ellbögen - Matrei a. Br. - Steinach a. Br. - Gries a. Br.
+730N;bus;Nightliner: Kufstein - Ebbs - Niederndorf - Walchsee - Kössen
+900N;bus;Nightliner: Lienz - Ainet - Huben - Matrei i. O.
+901N;bus;Nightliner: Sillian - Lienz - Nikolsdorf
+
+
+
+=== Anrufsammeltaxi (AST)
+
+110T;bus;Reutte - Weissenbach a.L. - Elbigenalp - Steeg
+120T;bus;Reutte - Weißenbach a.L. - Tannheim - Schattwald
+460T;bus;Regiotax: Grinzens - Sellrain - Oberperfuss
+523T;bus;Regiotax: Wattens - Volders
+525T;bus;Regiotax: Wattenberg
+569T;bus;Regiotax: Oberellbögen
+682T;bus;Regiotax: Gerlosberg
+730T;bus;Niederndorf - Niederndorferberg
+953T;bus;Huben - Hopfgarten - St. Veit - St. Jakob in Defereggen
+962T;bus;Thal - Assling - Anras - Abfaltersbach
+
+
+
+=== Linien nicht im Verbund
+
+== Saisonbusse nicht im Verbund
+
+ENG BUS;bus;Kolsass - Weer - Pill - Schwaz - Vomp - Stans - Jenbach - Hinterriß (Eng) (saisonal/seasonal);;;Tourismusverband Silberregion-Karwendel, Zillertalbahn
+Hechtsee;bus;Kufstein Bahnhof - Hechtsee (nur im Sommer bei Badewetter/only in summer in nice weather);;;Fa. Lederer
+NL;bus;Ehrwald - Lermoos - Biberwier - Ehrwald (Nachtbus/Nightliner - nur im Winter/only in winter)
+SSB;bus;Sightseeing-Bus Silberregion Karwendel (nur im Sommer/only in summer);;;Tourismusverband Silberregion-Karwendel, Zillertalbahn
+
+== CityBus Wörgl
+
+1;bus;Wörgl:Hauptbahnhof - Friedensiedlung - Bruckhäusl;;;Stadtgemeinde Wörgl
+2;bus;Wörgl:Hauptbahnhof - Bodensiedlung;;;Stadtgemeinde Wörgl
+3;bus;Wörgl:Hauptbahnhof - Wave;;;Stadtgemeinde Wörgl
+4;bus;Wörgl:Hauptbahnhof - Hagebau - Stadtamt - Möslalmweg - Hauptbahnhof;;;Stadtgemeinde Wörgl
+5;bus;Wörgl:Hauptbahnhof - M4 - Mittelschule - Hauptbahhof- Innsteg - Hauptbahnhof;;;Stadtgemeinde Wörgl
+
+== RVO-Linien (DE, BY)
+
+72;bus;RVO: Füssen - Lechbruck - Steingaden (dort 72 abrufen/access 72);;;RVO
+73;bus;RVO: Füssen - Schwangau - Garmisch-Partenkirchen (dort 73 abrufen/access 73);;;RVO
+78;bus;RVO: Füssen - Schwangau - Tegelbergbahn (dort 78 abrufen/access 78);;;RVO
+9502;bus;RVO: Oberaudorf - Chiemsee (dort 9502 abrufen/access 9502);;;RVO
+9569;bus;RVO: Bergsteigerbus Bad Tölz - Lenggries - Eng (nur im Sommer/only in summer);;;RVO
+9577/52;bus;"Rosenheim - Kufstein (dort Linie 52 abrufen/access ""Linie 52"")";;;RVO,Margreiter
+
+== Verbindungen nach Südtirol, IT (Netzwerk Südtirol mobil)
+
+100;train;Bahn:Brenner - Bozen - Verona;;;Südtirol mobil
+200;train;Bahn:Meran - Bozen;;;Südtirol mobil
+250;train;Bahn:Mals - Meran;;;Südtirol mobil
+400;train;Bahn:Lienz - Innichen - Franzensfeste;;;Südtirol mobil
+
+273;bus;Bus:Martina - Nauders - Reschen - Graun - Mals;;;Südtirol mobil
+447;bus;Bus:Winnebach - Vierschach - Innichen;;;Südtirol mobil
+
+== Buslinien aus dem Vorarlberg (Netzwerk VVV=Verkehrsverbund Vorarlberg)
+
+91/4272;bus;Langen am Arlberg - Zürs - Lech
+92/4248;bus;St. Anton a. A. - St. Christoph a. A. - Zürs - Lech
+
+== Sonstige Linien 
+
+4061;bus;KaiserJet: Söll - Scheffau - Ellmau - Going a. W. K.
+4127;bus;Kristallwelten Shuttle;;;ÖBB Postbus
+4243;bus;Nachtbus: St. Christoph (nur im Winter/only in winter)
+8402;bus;Sölden - Kleblealm - Windachalm (nur im Sommer/only in summer);;;Ötztaler Verkehrsgesellschaft mbH
+8404;bus;Sölden - Rettenbachgletscher - Tiefenbachgletscher (nur im Sommer/only in summer);;;Ötztaler Verkehrsgesellschaft mbH
+
+

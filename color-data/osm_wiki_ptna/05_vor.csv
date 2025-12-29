@@ -1,0 +1,1028 @@
+
+#
+# Diese Daten sind Input für das Tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+
+# Überblick über die ÖPNV-Linien des "Verkehrsverbund Ost-Region" (VOR)
+
+- Verweis auf diese Liste mit den [[Austria/Nahverkehr_Ost-Region/Analyse/VOR-Linien|VOR Linien]] im OSM-Wiki.
+-
+- Verweis auf mehr [/de/config.php?network=AT-VOR Informationen] zu dieser Auswertung.
+-
+
+== Bahnen
+=== Regional-Express
+CAT;train;;;;;AT-VOR;at:vor:1917:
+CJX5;train;;;;;AT-Eisenbahn;4-CJ5-X-j26-1
+CJX9;train;;;;;AT-Eisenbahn;4-CX9-W-j26-1
+REX1;train;;;;;AT-Eisenbahn;2-RX1-W-j26-1
+REX2;train;;;;;AT-Eisenbahn;2-RX2-W-j26-1
+REX3;train;;;;;AT-Eisenbahn;2-RX3-W-j26-1
+REX4;train;;;;;AT-Eisenbahn;2-RW4-j26-1
+REX41;train;;;;;AT-Eisenbahn;2-R41-W-j26-1
+REX50;train;;;;;AT-Eisenbahn;2-R50-W-j26-1
+REX51;train;;;;;AT-Eisenbahn;2-R51-A-j26-1
+REX6;train;;;;;AT-Eisenbahn;2-RX6-W-j26-1
+REX62;train;;;;;AT-Eisenbahn;2-R62-N-j26-1
+REX63;train;;;;;AT-Eisenbahn;2-R63-N-j26-1
+REX64;train;;;;;AT-Eisenbahn;2-R64-N-j26-1
+REX7;train;;;;;AT-Eisenbahn;2-RX7-W-j26-1
+REX8;train;;;;;AT-Eisenbahn;2-RX8-W-j26-1
+REX92;train;;;;;AT-Eisenbahn;2-R92-N-j26-1
+REX93;train;;;;;AT-Eisenbahn;2-R93-A-j26-1
+=== Regional Bahn
+BB|WLB;light_rail;;;;;AT-VOR;at:vor:1515:
+R40;train;;;;;AT-Eisenbahn;3-R40-W-j26-1
+R44;train;;;;;AT-Eisenbahn;3-R44-N-j26-1
+R52;train;;;;;AT-Eisenbahn;3-R52-A-j26-1
+R53;train;;;;;AT-Eisenbahn;3-R53-O-j26-1
+R54;train;;;;;AT-Eisenbahn;3-R54-N-j26-1
+R55;train;;;;;AT-Eisenbahn;3-R55-N-j26-1
+R56;train;;;;;AT-VOR;at:vor:1115:
+R57;train;;;;;AT-Eisenbahn;3-R57-O-j26-1
+R58;train;;;;;AT-Eisenbahn;3-R58-j26-1
+R59;light_rail;;;;;AT-VOR;at:vor:1132:
+R81;train;;;;;AT-Eisenbahn;3-R81-W-j26-1
+R91;train;;;;;AT-Eisenbahn;3-R91-A-j26-1
+R92;train;;;;;AT-Eisenbahn;3-R92-N-j26-1
+R93;train;;;;;AT-Eisenbahn;3-R93-A-j26-1
+R95;train;;;;;AT-Eisenbahn;3-R95-N-j26-1
+R96;train;;;;;AT-Eisenbahn;3-R96-N-j26-1
+R97;train;;;;;AT-Eisenbahn;3-R97-N-j26-1
+R98;train;;;;;AT-Eisenbahn;3-R98-N-j26-1
+SBB;train;;;;;AT-VOR;at:vor:1523:;2025-10-01
+REB|RLE;train;;;;;AT-VOR;at:vor:1941:
+=== S-Bahn
+S;train;;;;;AT-Eisenbahn;
+S1;train;;;;;AT-Eisenbahn;1-S1-W-j26-1
+S2;train;;;;;AT-Eisenbahn;1-S2-W-j26-1
+S3;train;;;;;AT-Eisenbahn;1-S3-W-j26-1
+S4;train;;;;;AT-Eisenbahn;1-S4-W-j26-1
+S40;train;;;;;AT-Eisenbahn;1-S40-W-j26-1
+S45;train;;;;;AT-Eisenbahn;1-S45-W-j26-1
+S50;train;;;;;AT-Eisenbahn;1-S50-W-j26-1
+S60;train;;;;;AT-Eisenbahn;1-S60-W-j26-1
+S7;train;;;;;AT-Eisenbahn;1-S7-W-j26-1
+S80;train;;;;;AT-Eisenbahn;1-S80-W-j26-1
+== Stadtverkehre
+=== Wien
+==== U-Bahn
+U1;subway;;;;Wiener Linien;AT-VOR;at:vor:3301:
+U2;subway;;;;Wiener Linien;AT-VOR;at:vor:3302:
+U3;subway;;;;Wiener Linien;AT-VOR;at:vor:3303:
+U4;subway;;;;Wiener Linien;AT-VOR;at:vor:3304:
+U6;subway;;;;Wiener Linien;AT-VOR;at:vor:3306:
+==== Straßenbahn
+1;tram;;;;Wiener Linien;AT-VOR;at:vor:3101:
+2;tram;;;;Wiener Linien;AT-VOR;at:vor:3102:
+5;tram;;;;Wiener Linien;AT-VOR;at:vor:3105:
+6;tram;;;;Wiener Linien;AT-VOR;at:vor:3106:
+9;tram;;;;Wiener Linien;AT-VOR;at:vor:3109:
+10;tram;;;;Wiener Linien;AT-VOR;at:vor:3110:
+11;tram;;;;Wiener Linien;AT-VOR;at:vor:3111:
+12;tram;;;;Wiener Linien;AT-VOR;at:vor:3112:
+18;tram;;;;Wiener Linien;AT-VOR;at:vor:3118:
+25;tram;;;;Wiener Linien;AT-VOR;at:vor:3125:
+26;tram;;;;Wiener Linien;AT-VOR;at:vor:3126:
+27;tram;;;;Wiener Linien;AT-VOR;at:vor:3127:
+30;tram;;;;Wiener Linien;AT-VOR;at:vor:3130:
+31;tram;;;;Wiener Linien;AT-VOR;at:vor:3131:
+37;tram;;;;Wiener Linien;AT-VOR;at:vor:3137:
+38;tram;;;;Wiener Linien;AT-VOR;at:vor:3138:
+40;tram;;;;Wiener Linien;AT-VOR;at:vor:3140:
+41;tram;;;;Wiener Linien;AT-VOR;at:vor:3141:
+42;tram;;;;Wiener Linien;AT-VOR;at:vor:3142:
+43;tram;;;;Wiener Linien;AT-VOR;at:vor:3143:
+44;tram;;;;Wiener Linien;AT-VOR;at:vor:3144:
+46;tram;;;;Wiener Linien;AT-VOR;at:vor:3146:
+49;tram;;;;Wiener Linien;AT-VOR;at:vor:3149:
+52;tram;;;;Wiener Linien;AT-VOR;at:vor:3152:
+60;tram;;;;Wiener Linien;AT-VOR;at:vor:3160:
+62;tram;;;;Wiener Linien;AT-VOR;at:vor:3162:
+71;tram;;;;Wiener Linien;AT-VOR;at:vor:3171:
+D;tram;;;;Wiener Linien;AT-VOR;at:vor:3136:
+O;tram;;;;Wiener Linien;AT-VOR;at:vor:3170:
+-
+#
+==== Buslinien
+1A;bus;;;;Wiener Linien;AT-VOR;at:vor:3401:
+2A;bus;;;;Wiener Linien;AT-VOR;at:vor:3402:
+3A;bus;;;;Wiener Linien;AT-VOR;at:vor:3403:
+4A;bus;;;;Wiener Linien;AT-VOR;at:vor:3404:
+5A;bus;;;;Wiener Linien;AT-VOR;at:vor:3405:
+5B;bus;;;;Gschwindl;AT-VOR;at:vor:3205:
+7A;bus;;;;Wiener Linien;AT-VOR;at:vor:3407:
+7B;bus;;;;Wiener Linien;AT-VOR;at:vor:3207:
+8A;bus;;;;Wiener Linien;AT-VOR;at:vor:3408:
+9A;bus;;;;Wiener Linien;AT-VOR;at:vor:3409:
+10A;bus;;;;Wiener Linien;AT-VOR;at:vor:3410:
+11A;bus;;;;Wiener Linien;AT-VOR;at:vor:3411:
+12A;bus;;;;Wiener Linien;AT-VOR;at:vor:3412:
+13A;bus;;;;Wiener Linien;AT-VOR;at:vor:3413:
+14A;bus;;;;Wiener Linien;AT-VOR;at:vor:3414:
+15A;bus;;;;Wiener Linien;AT-VOR;at:vor:3415:
+16A;bus;;;;Wiener Linien;AT-VOR;at:vor:3416:
+17A;bus;;;;Wiener Linien;AT-VOR;at:vor:3417:
+19A;bus;;;;Wiener Linien;AT-VOR;at:vor:3419:
+20A;bus;;;;Wiener Linien;AT-VOR;at:vor:3420:
+20B;bus;;;;Wiener Linien;AT-VOR;at:vor:3220:
+22A;bus;;;;Wiener Linien;AT-VOR;at:vor:3422:
+24A;bus;;;;Wiener Linien;AT-VOR;at:vor:3424:
+25A;bus;;;;Wiener Linien;AT-VOR;at:vor:3425:
+25B;bus;;;;Wiener Linien;AT-VOR;at:vor:3925:
+26A;bus;;;;Wiener Linien;AT-VOR;at:vor:3426:
+27A;bus;;;;Wiener Linien;AT-VOR;at:vor:3427:
+27B;bus;;;;Wiener Linien;AT-VOR;at:vor:3227:
+28A;bus;;;;Wiener Linien;AT-VOR;at:vor:3428:
+29A;bus;;;;Wiener Linien;AT-VOR;at:vor:3429:
+29B;bus;;;;Wiener Linien;AT-VOR;at:vor:3229:
+30A;bus;;;;Wiener Linien;AT-VOR;at:vor:3430:
+31A;bus;;;;Wiener Linien;AT-VOR;at:vor:3431:
+32A;bus;;;;Wiener Linien;AT-VOR;at:vor:3432:
+33A;bus;;;;Wiener Linien;AT-VOR;at:vor:3433:
+34A;bus;;;;Wiener Linien;AT-VOR;at:vor:3434:
+35A;bus;;;;Wiener Linien;AT-VOR;at:vor:3435:
+36A;bus;;;;Wiener Linien;AT-VOR;at:vor:3436:
+36B;bus;;;;Wiener Linien;AT-VOR;at:vor:3236:
+37A;bus;;;;Wiener Linien;AT-VOR;at:vor:3437:
+38A;bus;;;;Wiener Linien;AT-VOR;at:vor:3438:
+38B;bus;;;;Wiener Linien;AT-VOR;at:vor:3238:
+39A;bus;;;;Wiener Linien;AT-VOR;at:vor:3439:
+39B;bus;;;;Wiener Linien;AT-VOR;at:vor:3239:
+40A;bus;;;;Wiener Linien;AT-VOR;at:vor:3440:
+41A;bus;;;;Wiener Linien;AT-VOR;at:vor:3441:
+42A;bus;;;;Wiener Linien;AT-VOR;at:vor:3442:
+43A;bus;;;;Wiener Linien;AT-VOR;at:vor:3443:
+43B;bus;;;;Wiener Linien;AT-VOR;at:vor:3243:
+44A;bus;;;;Wiener Linien;AT-VOR;at:vor:3444:
+44B;bus;;;;Wiener Linien;AT-VOR;at:vor:3944:
+45A;bus;;;;Wiener Linien;AT-VOR;at:vor:3445:
+46A;bus;;;;Wiener Linien;AT-VOR;at:vor:3446:
+46B;bus;;;;Wiener Linien;AT-VOR;at:vor:3246:
+47A;bus;;;;Wiener Linien;AT-VOR;at:vor:3447:
+47B;bus;;;;Wiener Linien;AT-VOR;at:vor:3247:
+48A;bus;;;;Wiener Linien;AT-VOR;at:vor:3448:
+49A;bus;;;;Wiener Linien;AT-VOR;at:vor:3449:
+49B;bus;;;;Wiener Linien;AT-VOR;at:vor:3949:
+50A;bus;;;;Wiener Linien;AT-VOR;at:vor:3450:
+50B;bus;;;;Wiener Linien;AT-VOR;at:vor:3250:
+51A;bus;;;;Wiener Linien;AT-VOR;at:vor:3451:
+52A;bus;;;;Wiener Linien;AT-VOR;at:vor:3452:
+52B;bus;;;;Wiener Linien;AT-VOR;at:vor:3252:
+53A;bus;;;;Wiener Linien;AT-VOR;at:vor:3453:
+54A;bus;;;;Wiener Linien;AT-VOR;at:vor:3454:
+54B;bus;;;;Wiener Linien;AT-VOR;at:vor:3254:
+56A;bus;;;;Wiener Linien;AT-VOR;at:vor:3456:
+56B;bus;;;;Wiener Linien;AT-VOR;at:vor:3256:
+57A;bus;;;;Wiener Linien;AT-VOR;at:vor:3457:
+58A;bus;;;;Wiener Linien;AT-VOR;at:vor:3458:
+58B;bus;;;;Wiener Linien;AT-VOR;at:vor:3258:
+59A;bus;;;;Wiener Linien;AT-VOR;at:vor:3459:
+60A;bus;;;;Wiener Linien;AT-VOR;at:vor:3460:
+61A;bus;;;;Wiener Linien;AT-VOR;at:vor:3461:
+61B;bus;;;;Wiener Linien;AT-VOR;at:vor:3261:
+62A;bus;;;;Wiener Linien;AT-VOR;at:vor:3462:
+63A;bus;;;;Wiener Linien;AT-VOR;at:vor:3463:
+64A;bus;;;;Wiener Linien;AT-VOR;at:vor:3464:
+64B;bus;;;;Wiener Linien;AT-VOR;at:vor:3264:
+65A;bus;;;;Wiener Linien;AT-VOR;at:vor:3465:
+66A;bus;;;;Wiener Linien;AT-VOR;at:vor:3466:
+67A;bus;;;;Wiener Linien;AT-VOR;at:vor:3467:
+67B;bus;;;;Wiener Linien;AT-VOR;at:vor:3267:
+68A;bus;;;;Wiener Linien;AT-VOR;at:vor:3468:
+68B;bus;;;;Wiener Linien;AT-VOR;at:vor:3268:
+69A;bus;;;;Wiener Linien;AT-VOR;at:vor:3469:
+70A;bus;;;;Wiener Linien;AT-VOR;at:vor:3470:
+71A;bus;;;;Wiener Linien;AT-VOR;at:vor:3471:
+71B;bus;;;;Wiener Linien;AT-VOR;at:vor:3271:
+72A;bus;;;;Wiener Linien;AT-VOR;at:vor:3472:
+73A;bus;;;;Wiener Linien;AT-VOR;at:vor:3473:
+73B;bus;;;;Wiener Linien;AT-VOR;at:vor:3273:
+74A;bus;;;;Wiener Linien;AT-VOR;at:vor:3474:
+76A;bus;;;;Wiener Linien;AT-VOR;at:vor:3476:
+76B;bus;;;;Wiener Linien;AT-VOR;at:vor:3276:
+77A;bus;;;;Wiener Linien;AT-VOR;at:vor:3477:
+79A;bus;;;;Wiener Linien;AT-VOR;at:vor:3479:
+79B;bus;;;;Wiener Linien;AT-VOR;at:vor:3279:
+80A;bus;;;;Wiener Linien;AT-VOR;at:vor:3480:
+82A;bus;;;;Wiener Linien;AT-VOR;at:vor:3482:
+84A;bus;;;;Wiener Linien;AT-VOR;at:vor:3484:
+85A;bus;;;;Wiener Linien;AT-VOR;at:vor:3485:
+86A;bus;;;;Wiener Linien;AT-VOR;at:vor:3486:
+87A;bus;;;;Wiener Linien;AT-VOR;at:vor:3487:
+88A;bus;;;;Wiener Linien;AT-VOR;at:vor:3488:
+88B;bus;;;;Wiener Linien;AT-VOR;at:vor:3288:
+89A;bus;;;;Wiener Linien;AT-VOR;at:vor:3489:
+92A;bus;;;;Wiener Linien;AT-VOR;at:vor:3492:
+92B;bus;;;;Wiener Linien;AT-VOR;at:vor:3292:
+93A;bus;;;;Wiener Linien;AT-VOR;at:vor:3493:
+94A;bus;;;;Wiener Linien;AT-VOR;at:vor:3494:
+95A;bus;;;;Wiener Linien;AT-VOR;at:vor:3495:
+95B;bus;;;;Wiener Linien;AT-VOR;at:vor:3295:
+96A;bus;;;;Wiener Linien;AT-VOR;at:vor:3496:
+97A;bus;;;;Wiener Linien;AT-VOR;at:vor:3497:
+98A;bus;;;;Wiener Linien;AT-VOR;at:vor:3498:
+99A;bus;;;;Wiener Linien;AT-VOR;at:vor:3499:
+99B;bus;;;;Wiener Linien;AT-VOR;at:vor:3299:
+-
+#
+==== Nachtbuslinien
+N6;bus;;;;Wiener Linien;AT-VOR;at:vor:3506:
+N8;bus;;;;Wiener Linien;AT-VOR;at:vor:3508:
+N17;bus;;;;Wiener Linien;AT-VOR;at:vor:3917:
+N20;bus;;;;Wiener Linien;AT-VOR;at:vor:3521:
+N23;bus;;;;Wiener Linien;AT-VOR;at:vor:3523:
+N24;bus;;;;Wiener Lokalbahnen Verkehrsdienste;AT-VOR;"at:vor:3923:;at:vor:3924:"
+N25;bus;;;;Wiener Linien;AT-VOR;at:vor:3525:
+N29;bus;;;;Wiener Linien;AT-VOR;at:vor:3529:
+N30;bus;;;;Wiener Linien;AT-VOR;at:vor:3930:
+N31;bus;;;;Wiener Linien;AT-VOR;at:vor:3531:
+N35;bus;;;;Wiener Linien;AT-VOR;at:vor:3535:
+N36;bus;;;;Wiener Linien;AT-VOR;at:vor:3936:
+N38;bus;;;;Wiener Linien;AT-VOR;at:vor:3538:
+N41;bus;;;;Wiener Linien;AT-VOR;at:vor:3541:
+N43;bus;;;;Wiener Linien;AT-VOR;at:vor:3543:
+N46;bus;;;;Wiener Linien;AT-VOR;at:vor:3546:
+N49;bus;;;;Wiener Linien;AT-VOR;at:vor:3549:
+N54;bus;;;;Wiener Linien;AT-VOR;at:vor:3954:
+N60;bus;;;;Wiener Linien;AT-VOR;at:vor:3560:
+N61;bus;;;;Wiener Linien;AT-VOR;at:vor:3961:
+N62;bus;;;;Wiener Linien;AT-VOR;at:vor:3562:
+N64;bus;;;;Wiener Linien;AT-VOR;at:vor:3964:
+N65;bus;;;;Wiener Linien;AT-VOR;at:vor:3565:
+N66;bus;;;;Wiener Linien;AT-VOR;at:vor:3566:
+N67;bus;;;;Wiener Linien;AT-VOR;at:vor:3567:
+N68;bus;;;;Wiener Linien;AT-VOR;at:vor:3968:
+N71;bus;;;;Wiener Linien;AT-VOR;at:vor:3571:
+N75;bus;;;;Wiener Linien;AT-VOR;at:vor:3575:
+N81;bus;;;;Wiener Linien;AT-VOR;at:vor:3981:
+N84;bus;;;;Wiener Linien;AT-VOR;at:vor:3984:
+N90;bus;;;;Wiener Linien;AT-VOR;at:vor:3990:
+N91;bus;;;;Wiener Linien;AT-VOR;at:vor:3991:
+-
+#
+==== nicht Wiener Linien
+VAL1|VAB1;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1187:
+VAL2|VAB2;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1185:
+VAL3|VAB3;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1183:
+ZF;bus;;;;;AT-VOR;at:vor:7071:
+G3;bus;;;;;AT-VOR;at:vor:503:
+as;bus
+KPE;bus
+-
+#
+=== Amstetten
+1;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2061:
+2;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2062:
+3;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2063:
+4;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2064:
+5;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2065:
+6;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2066:
+7;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2067:
+-
+#
+=== Baden
+A;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2031:
+B;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2032:
+C;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2033:
+-
+#
+=== Eisenstadt
+1;bus;Stadtbus Eisenstadt Georg;;;Partsch Verkehrsbetriebe GmbH;AT-VOR;at:vor:7001:
+2;bus;Stadtbus Eisenstadt Vitus;;;Partsch Verkehrsbetriebe GmbH;AT-VOR;at:vor:7002:
+3;bus;Stadtbus Eisenstadt Martin;;;Partsch Verkehrsbetriebe GmbH;AT-VOR;at:vor:7003:
+4;bus;Stadtbus Eisenstadt Fanny;;;Partsch Verkehrsbetriebe GmbH;AT-VOR;at:vor:7004:
+-
+#
+=== Gmünd
+1;bus;;Gmünd;;Österreichische Postbus AG;AT-VOR;at:vor:2076:
+-
+#
+=== Hollabrunn
+1;bus;;Hollabrunn;;Österreichische Postbus AG;AT-VOR;at:vor:2081:
+2;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:2082:
+-
+#
+=== Horn
+1;bus;;Horn;;Österreichische Postbus AG;AT-VOR;at:vor:2077:
+-
+#
+=== Klosterneuburg
+1;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:2041:
+2;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:2042:
+3;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:2043:
+-
+#
+=== Korneuburg
+1;bus;;;;"Österreichische Postbus AG;Gschwindl";AT-VOR;at:vor:2084:
+2;bus;;;;"Österreichische Postbus AG;Gschwindl";AT-VOR;at:vor:2085:
+-
+#
+=== Krems
+1;bus;;Krems Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2171:
+2;bus;;Krems Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2172:
+3;bus;;Krems Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2173:
+4;bus;;Krems Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2174:
+5;bus;;Krems Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2175:
+6;bus;;Krems Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2176:
+7;bus;;Krems Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2177:
+-
+#
+=== Mattersburg
+1|MABU1;bus;;;;Stadtgemeinde Mattersburg;AT-VOR;at:vor:7091:
+2|MABU2;bus;;;;Stadtgemeinde Mattersburg;AT-VOR;at:vor:7092:
+-
+#
+=== Mödling
+1;bus;;Mödling Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2021:
+2;bus;;Mödling Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2022:
+3;bus;;Mödling Bahnhof;;Blaguss Reisen GmbH;AT-VOR;at:vor:2023:
+-
+#
+=== Perchtoldsdorf
+1;bus;;Perchtoldsdorf;;Blaguss Reisen GmbH;AT-VOR;at:vor:2026:
+2;bus;;Perchtoldsdorf;;Blaguss Reisen GmbH;AT-VOR;at:vor:2027:
+-
+#
+=== Stockerau
+1;bus;;Stockerau;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2087:
+-
+#
+=== St. Pölten
+1;bus;;St. Pölten;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2001:
+2;bus;;;;ZuklinBus GmbH;AT-VOR;at:vor:2002:
+3;bus;;;;ZuklinBus GmbH;AT-VOR;at:vor:2003:
+4;bus;;;;ZuklinBus GmbH;AT-VOR;at:vor:2004:
+5;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2005:
+6;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2006:
+7;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2007:
+8;bus;;;;ZuklinBus GmbH;AT-VOR;at:vor:2008:
+9;bus;;;;ZuklinBus GmbH;AT-VOR;at:vor:2009:
+10;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2010:
+11;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2011:
+12;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2012:
+13;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:2013:
+-
+#
+=== Waidhofen an der Ybbs
+1;bus;;Waidhofen an der Ybbs;;N-Bus GmbH;AT-VOR;at:vor:2161:
+2;bus;;Waidhofen an der Ybbs;;N-Bus GmbH;AT-VOR;at:vor:2162:
+3;bus;;Waidhofen an der Ybbs;;N-Bus GmbH;AT-VOR;at:vor:2163:
+-
+#
+=== Wiener Neustadt
+1A;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7021:
+1B;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7031:
+2A;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7022:
+2B;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7032:
+3;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7023:
+4;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7024:
+5A;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7025:
+5B;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7035:
+6;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7026:
+7;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7027:
+8;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7028:
+9;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7029:
+10;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7030:
+11;bus;;;;Wr. Neustädter Stadtwerke u. Kommunal Service GmbH;AT-VOR;at:vor:7040:
+-
+#
+
+=== Ybbs an der Donau
+1;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7011:
+2;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7012:
+3;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7013:
+4;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7014:
+5;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7015:
+6;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7016:
+7;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7017:
+-
+#
+
+=== Zwettl
+1;bus;;Zwettl;;Österreichische Postbus AG;AT-VOR;at:vor:2078:
+-
+#
+== Regionalbusse
+=== Linien 1xx
+100;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:100:
+101;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:101:
+102;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:102:
+103;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:103:
+104;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:104:
+105;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:105:
+106;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:106:
+107;bus;;;;Oberger GmbH;AT-VOR;at:vor:107:
+108;bus;;;;Oberger GmbH;AT-VOR;at:vor:108:
+109;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:109:
+120;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:120:
+140;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:140:
+142;bus;;;;ZuklinBus GmbH;AT-VOR;at:vor:142:
+145;bus;;;;N-Bus GmbH;AT-VOR;at:vor:145:
+150;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:150:
+151;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:151:
+164;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:164:
+169;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:169:
+170;bus;;;;N-Bus GmbH;AT-VOR;at:vor:170:
+171;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:171:
+175;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:175:
+176;bus;;;;N-Bus GmbH;AT-VOR;at:vor:176:
+180;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:180:
+=== Linien 2xx
+200;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:200:
+206;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:206:
+207;bus;;;;Oberger GmbH;AT-VOR;at:vor:207:
+208;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:208:
+209;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:209:
+210;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:210:
+212;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:212:
+214;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:214:
+215;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:215:
+216;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:216:
+217;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:217:
+218;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:218:
+219;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:219:
+221;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:221:
+222;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:222:
+226;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:226:
+227;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:227:
+235;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:235:
+246;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:246:
+247;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:247:
+248;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:248:
+250;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:250:
+251;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:251:
+252;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:252:
+253;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:253:
+254;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:254:
+255;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:255:
+256;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:256:
+257;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:257:
+258;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:258:
+259;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:259:
+260;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:260:
+261;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:261:
+262;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:262:
+263;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:263:
+264;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:264:
+265;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:265:
+266;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:266:
+268;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:268:
+269;bus;;;;Oberger GmbH;AT-VOR;at:vor:269:
+270;bus;;;;Oberger GmbH;AT-VOR;at:vor:270:
+272;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:272:
+273;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:273:
+274;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:274:
+275;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:275:
+276;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:276:
+277;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:277:
+279;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:279:
+280;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:280:
+281;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:281:
+282;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:282:
+284;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:284:
+285;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:285:
+286;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:286:
+290;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:290:
+291;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:291:
+292;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:292:
+295;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:295:
+296;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:296:
+297;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:297:
+298;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:298:
+299;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:299:
+=== Linien 3xx
+301;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:301:
+302;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:302:
+303;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:303:
+304;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:304:
+305;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:305:
+306;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:306:
+307;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:307:
+308;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:308:
+309;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:309:
+310;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:310:
+311;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:311:
+312;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:312:
+313;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:313:
+314;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:314:
+315;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:315:
+316;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:316:
+317;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:317:
+318;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:318:
+319;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:319:
+320;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:320:
+321;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:321:
+324;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:324:
+325;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:325:
+326;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:326:
+327;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:327:
+329;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:329:
+330;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:330:
+331;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:331:
+332;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:332:
+333;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:333:
+335;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:335:
+336;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:336:
+338;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:338:
+339;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:339:
+340;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:340:
+341;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:341:
+342;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:342:
+343;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:343:
+344;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:344:
+345;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:345:
+349;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:349:
+350;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:350:
+351;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:351:
+352;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:352:
+353;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:353:
+354;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:354:
+355;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:355:
+356;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:356:
+357;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:357:
+366;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:366:
+367;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:367:
+368;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:368:
+369;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:369:
+370;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:370:
+371;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:371:
+372;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:372:
+373;bus;;;;Retter Linien GmbH;AT-VOR;at:vor:373:
+380;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:380:
+381;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:381:
+382;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:382:
+383;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:383:
+384;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:384:
+385;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:385:
+386;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:386:
+387;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:387:
+388;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:388:
+389;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:389:
+390;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:390:
+394;bus;;;;SAD Nahverkehr AG - Oberger GmbH;AT-VOR;at:vor:394:
+=== Linien 4xx
+400;bus;;Klosterneuburg;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:400:
+401;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:401:
+402;bus;;Klosterneuburg;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:402:
+403;bus;;Klosterneuburg;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:403:
+404;bus;;Tulbing;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:404:
+405;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:405:
+406;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:406:
+407;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:407:
+408;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:408:
+409;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:409:
+410;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:410:
+411;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:411:
+413;bus;;;;"Dr. Richard;ZuklinBus";AT-VOR;at:vor:413:
+414;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:414:
+415;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:415:
+440;bus;;Tulln;;Dr. Richard;AT-VOR;at:vor:440:
+441;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:441:
+442;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:442:
+443;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:443:
+444;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:444:
+445;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:445:
+446;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:446:
+447;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:447:
+448;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:448:
+449;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:449:
+450;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:450:
+451;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:451:
+452;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:452:
+453;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:453:
+454;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:454:
+455;bus;;;;N-Bus GmbH;AT-VOR;at:vor:455:
+456;bus;;;;N-Bus GmbH;AT-VOR;at:vor:456:
+457;bus;;;;N-Bus GmbH;AT-VOR;at:vor:457:
+458;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:458:
+460;bus;;;;N-Bus GmbH;AT-VOR;at:vor:460:
+461;bus;;;;N-Bus GmbH;AT-VOR;at:vor:461:
+462;bus;;;;N-Bus GmbH;AT-VOR;at:vor:462:
+463;bus;;;;N-Bus GmbH;AT-VOR;at:vor:463:
+464;bus;;;;N-Bus GmbH;AT-VOR;at:vor:464:
+470;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:470:
+471;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:471:
+472;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:472:
+473;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:473:
+474;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:474:
+475;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:475:
+476;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:476:
+477;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:477:
+479;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:479:
+480;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:480:
+481;bus;;;;N-Bus GmbH;AT-VOR;at:vor:481:
+482;bus;;;;N-Bus GmbH;AT-VOR;at:vor:482:
+483;bus;;;;N-Bus GmbH;AT-VOR;at:vor:483:
+484;bus;;;;N-Bus GmbH;AT-VOR;at:vor:484:
+485;bus;;;;N-Bus GmbH;AT-VOR;at:vor:485:
+486;bus;;Krems;;Österreichische Postbus AG;AT-VOR;at:vor:486:
+487;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:487:
+488;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:488:
+489;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:489:
+490;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:490:
+491;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:491:
+=== Linien 5xx
+500;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:500:
+501;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:501:
+502;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:502:
+505;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:505:
+510;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:510:
+511;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:511:
+512;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:512:
+513;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:513:
+514;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:514:
+515;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:515:
+516;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:516:
+520;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:520:
+521;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:521:
+522;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:522:
+523;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:523:
+524;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:524:
+525;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:525:
+526;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:526:
+527;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:527:
+528;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:528:
+530;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:530:
+531;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:531:
+532;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:532:
+534;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:534:
+535;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:5351:
+535;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:535:
+536;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:536:
+537;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:537:
+540;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:540:
+541;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:541:
+542;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:542:
+545;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:545:
+546;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:546:
+550;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:550:
+551;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:551:
+552;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:552:
+553;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:553:
+554;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:554:
+560;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:560:
+561;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:561:
+562;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:562:
+563;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:563:
+564;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:564:
+565;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:565:
+566;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:566:
+567;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:567:
+568;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:568:
+569;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:569:
+570;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:570:
+571;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:571:
+572;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:572:
+573;bus;;;;Verkehrsbetriebe Gschwindl GmbH;AT-VOR;at:vor:573:
+580;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:580:
+581;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:581:
+582;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:582:
+583;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:583:
+584;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:584:
+585;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:585:
+586;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:586:
+587;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:587:
+588;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:588:
+589;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:589:
+590;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:590:
+591;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:591:
+592;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:592:
+593;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:593:
+594;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:594:
+=== Linien 6xx
+600;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:600:
+601;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:601:
+609;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:609:
+611;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:611:
+612;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:612:
+613;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:613:
+615;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:615:
+616;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:616:
+617;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:617:
+618;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:618:
+619;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:619:
+620;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:620:
+621;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:621:
+622;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:622:
+623;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:623:
+624;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:624:
+625;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:625:
+626;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:626:
+630;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:630:
+631;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:631:
+632;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:632:
+633;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:633:
+640;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:640:
+641;bus;;;;N-Bus GmbH;AT-VOR;at:vor:641:
+642;bus;;;;N-Bus GmbH;AT-VOR;at:vor:642:
+643;bus;;;;N-Bus GmbH;AT-VOR;at:vor:643:
+644;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:644:
+645;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:645:
+646;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:646:
+647;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:647:
+648;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:648:
+650;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:650:
+651;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:651:
+652;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:652:
+653;bus;;;;N-Bus GmbH;AT-VOR;at:vor:653:
+654;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:654:
+655;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:655:
+656;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:656:
+660;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:660:
+665;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:665:
+667;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:667:
+668;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:668:
+669;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:669:
+670;bus;;;;N-Bus GmbH;AT-VOR;at:vor:670:
+671;bus;;;;N-Bus GmbH;AT-VOR;at:vor:671:
+672;bus;;;;N-Bus GmbH;AT-VOR;at:vor:672:
+674;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:674:
+675;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:675:
+678;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:678:
+679;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:679:
+680;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:680:
+682;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:682:
+683;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:683:
+685;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:685:
+686;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:686:
+687;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:687:
+688;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:688:
+689;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:689:
+690;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:690:
+691;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:691:
+692;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:692:
+693;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:693:
+694;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:694:
+695;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:695:
+696;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:696:
+=== Linien 7xx
+700;bus;;;;N-Bus GmbH;AT-VOR;at:vor:700:
+701;bus;;;;N-Bus GmbH;AT-VOR;at:vor:701:
+702;bus;;;;N-Bus GmbH;AT-VOR;at:vor:702:
+703;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:703:
+704;bus;;;;N-Bus GmbH;AT-VOR;at:vor:704:
+705;bus;;;;N-Bus GmbH;AT-VOR;at:vor:705:
+707;bus;;;;N-Bus GmbH;AT-VOR;at:vor:707:
+708;bus;;;;N-Bus GmbH;AT-VOR;at:vor:708:
+710;bus;;;;N-Bus GmbH;AT-VOR;at:vor:710:
+711;bus;;;;N-Bus GmbH;AT-VOR;at:vor:711:
+712;bus;;;;N-Bus GmbH;AT-VOR;at:vor:712:
+713;bus;;;;N-Bus GmbH;AT-VOR;at:vor:713:
+714;bus;;;;N-Bus GmbH;AT-VOR;at:vor:714:
+715;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:715:
+717;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:717:
+718;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:718:
+719;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:719:
+720;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:720:
+721;bus;;;;;AT-VOR;at:vor:721:
+725;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:725:
+726;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:726:
+727;bus;;;;Pichelbauer Reisen GmbH & Co KG;AT-VOR;at:vor:727:
+728;bus;;;;Pichelbauer Reisen GmbH & Co KG;AT-VOR;at:vor:728:
+729;bus;;;;Pichelbauer Reisen GmbH & Co KG;AT-VOR;at:vor:729:
+730;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:730:
+731;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:731:
+732;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:732:
+733;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:733:
+734;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:734:
+735;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:735:
+736;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:736:
+737;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:737:
+738;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:738:
+739;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:739:
+740;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:740:
+741;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:741:
+742;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:742:
+743;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:743:
+744;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:744:
+745;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:745:
+746;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:746:
+747;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:747:
+749;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:749:
+750;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:750:
+751;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:751:
+752;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:752:
+753;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:753:
+754;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:754:
+755;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:755:
+756;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:756:
+757;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:757:
+758;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:758:
+759;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:759:
+760;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:760:
+761;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:761:
+762;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:762:
+763;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:763:
+765;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:765:
+766;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:766:
+767;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:767:
+768;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:768:
+769;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:769:
+770;bus;;;;Pichelbauer Reisen GmbH & Co KG;AT-VOR;at:vor:770:
+771;bus;;;;Pichelbauer Reisen GmbH & Co KG;AT-VOR;at:vor:771:
+772;bus;;;;Pichelbauer Reisen GmbH & Co KG;AT-VOR;at:vor:772:
+774;bus;;;;Pichelbauer Reisen GmbH & Co KG;AT-VOR;at:vor:774:
+775;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:775:
+776;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:776:
+777;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:777:
+778;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:778:
+779;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:779:
+780;bus;;;;N-Bus GmbH;AT-VOR;at:vor:780:
+781;bus;;;;N-Bus GmbH;AT-VOR;at:vor:781:
+782;bus;;;;N-Bus GmbH;AT-VOR;at:vor:782:
+783;bus;;;;N-Bus GmbH;AT-VOR;at:vor:783:
+784;bus;;;;N-Bus GmbH;AT-VOR;at:vor:784:
+785;bus;;;;N-Bus GmbH;AT-VOR;at:vor:785:
+788;bus;;;;N-Bus GmbH;AT-VOR;at:vor:788:
+789;bus;;;;N-Bus GmbH;AT-VOR;at:vor:789:
+790;bus;;;;N-Bus GmbH;AT-VOR;at:vor:790:
+791;bus;;;;N-Bus GmbH;AT-VOR;at:vor:791:
+792;bus;;;;N-Bus GmbH;AT-VOR;at:vor:792:
+793;bus;;;;N-Bus GmbH;AT-VOR;at:vor:793:
+794;bus;;;;N-Bus GmbH;AT-VOR;at:vor:794:
+795;bus;;;;N-Bus GmbH;AT-VOR;at:vor:795:
+797;bus;;;;N-Bus GmbH;AT-VOR;at:vor:797:
+799;bus;;;;N-Bus GmbH;AT-VOR;at:vor:799:
+=== Linien 8xx
+800;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:800:
+801;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:801:
+802;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:802:
+803;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:803:
+804;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:804:
+805;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:805:
+806;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:806:
+807;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:807:
+810;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:810:
+811;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:811:
+812;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:812:
+813;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:813:
+814;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:814:
+815;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:815:
+816;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:816:
+817;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:817:
+818;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:818:
+825;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:825:
+826;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:826:
+827;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:827:
+828;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:828:
+829;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:829:
+830;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:830:
+831;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:831:
+832;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:832:
+840;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:840:
+841;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:841:
+842;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:842:
+850;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:850:
+853;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:853:
+856;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:856:
+857;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:857:
+858;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:858:
+860;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:860:
+861;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:861:
+862;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:862:
+863;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:863:
+864;bus;;;;Dr. Richard NÖ GmbH & Co KG;AT-VOR;at:vor:864:
+870;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:870:
+871;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:871:
+872;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:872:
+873;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:873:
+875;bus;;;;Frank Reisen GmbH;AT-VOR;at:vor:875:
+876;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:876:
+877;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:877:
+878;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:878:
+880;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:880:
+881;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:881:
+882;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:882:
+883;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:883:
+884;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:884:
+885;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:885:
+886;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:886:
+887;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:887:
+888;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:888:
+889;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:889:
+890;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:890:
+891;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:891:
+892;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:892:
+893;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:893:
+894;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:894:
+895;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:895:
+896;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:896:
+898;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:898:
+=== Linien 9xx
+901;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:901:
+902;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:902:
+904;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:904:
+905;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:905:
+906;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:906:
+907;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:907:
+913;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7913:
+=== Linien xxxx
+1155;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1155:
+1158;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1158:
+1774;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1774:
+1776;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1776:
+1823;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1823:
+1824;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1824:
+1839;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1839:
+1848;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1848:
+1852;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1852:
+1854;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1854:
+1856;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1856:
+1858;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1858:
+1860;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1860:
+1862;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1862:
+1864;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1864:
+1866;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1866:
+1868;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1868:
+1872;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1872:
+1878;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1878:
+1880;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1880:
+6011;bus;;;;;AT-VVSt;at:stv:6011:
+7200;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7200:
+7900;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7901:
+7903;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7903:
+7904;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7904:
+7905;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7905:
+7906;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7906:
+7907;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7907:
+7908;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7908:
+7909;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7909:
+7910;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7910:
+7912;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7912:
+7914;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7914:
+7916;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7916:
+7917;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7917:
+7919;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7919:
+7920;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7920:
+7921;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7921:
+7922;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7922:
+7923;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7923:
+7924;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7924:
+7925;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9251:
+7925;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9252:
+7925;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9253:
+7925;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9254:
+7925;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9255:
+7926;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7926:
+7927;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9271:
+7927;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9272:
+7927;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9273:
+7927;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:9274:
+7929;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7929:
+7931;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7931:
+7932;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7932:
+7933;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7933:
+7934;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7934:
+7935;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7935:
+7936;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7936:
+7937;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7937:
+7938;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7938:
+7940;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7940:
+7941;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7941:
+7942;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7915:
+7990;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7990:
+7993;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7993:
+7995;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7995:
+7998;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7998:
+9118;bus
+=== Linien Burgenland
+B1;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7101:
+B2;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7102:
+B3;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7103:
+B4;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7104:
+B7;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7107:
+B9;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7109:
+B01;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:194:
+B02;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7122:
+B06;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7126:
+B07;bus
+B10;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7110:
+B11;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7111:
+B12;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7112:
+B14;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:192:
+B16;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:960:
+B18;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:920:
+B20;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:912:
+B23;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:191:
+B24;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:190:
+B25;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:193:
+B26;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:195:
+B27;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:990:
+B99;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:229:
+BAST;bus
+== Sonstige
+Twin City Liner;ferry
+Liliputbahn;train
+Donauparkbahn;train
+RUFbus;bus
+Bummelzug Türnitz;bus
+
+- Nur zur eindeutigen Zuordnung:
+400;bus;Nur zur eindeutigen Zuordnung;Steyr
+402;bus;Nur zur eindeutigen Zuordnung;Steyr
+403;bus;Nur zur eindeutigen Zuordnung;Steyr
+404;bus;Nur zur eindeutigen Zuordnung;Steyr;;Österreichische Postbus AG
+440;bus;Nur zur eindeutigen Zuordnung;Steyr;;Postbus
+486;bus;Nur zur eindeutigen Zuordnung;Fürstenfeld;;Österreichische Postbus AG
+

@@ -1,0 +1,457 @@
+
+#
+# Diese Daten sind Input für das Tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+
+
+= Überblick über die ÖPNV-Linien des Oberösterreichischen Verkehrsverbunds
+
+- Verweis auf diese Liste mit den [[Austria/Nahverkehr_Ober%C3%B6sterreich/Analyse/OÖVV-Linien|OÖVV Linien]] im OSM-Wiki.
+-
+- Verweis auf mehr [/de/config.php?network=AT-O%C3%96VV Informationen] zu dieser Auswertung.
+-
+
+=Eisenbahn
+S1;train;Linz <=> Garsten;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S1-O-j25-1;
+S2;train;Linz <=> Wels;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S2-O-j25-1;
+S3;train;Linz <=> Pregarten;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S3-O-j25-1;
+S4;train;Linz <=> Kirchdorf;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S4-O-j25-1;
+S5;train;Linz <=> Eferding;;;Stern & Hafferl VerkehrsgesmbH;AT-OOeVV;at:oov:49555:;
+-
+131;train;St. Valentin <=> Kleinreifling;;;;;;
+133;train;St. Valentin <=> Sarmingstein;;;;;;
+160;train;Lambach <=> Vorchdorf;;;;AT-OOeVV;at:oov:49160:;
+161;train;Gmunden => Vorchdorf;;;;AT-OOeVV;at:oov:49161:;
+180;train;Vöcklamarkt <=> Attersee;;;;AT-OOeVV;at:oov:49180:;
+R140;train;R140 Selzthal <=> Linz;;;;;;
+R141;train;R141 Linz <=> Summerau;;;;;;
+R142;train;R142 Linz <=> Aigen-Schlägl;;;;;;
+R143;train;Linzer Lokalbahn (LILO);;;;;;
+R151;train;Simbach <=> Neumarkt;;;;;;
+R153;train;Wels <=> Grünau;;;;;;
+R172;train;Vöcklabruck <=> Kammer-Schörfling;;;;;;
+R180;train;Attersee <=> Vöcklamarkt;;;;;;
+R58;train;Selzthal <=> Amstetten;;;;;;
+
+=Linz
+
+==Straßenbahn
+1;tram;"Linz JKU | Universität - Linz Auwiesen";;;Linz Linien GmbH;AT-Linz_AG;at:esg:1:;
+2;tram;"Linz JKU | Universität - Linz solarCity";;;Linz Linien GmbH;AT-Linz_AG;at:esg:2:;
+3;tram;"Landgutstraße - Trauner Kreuzung";;;Linz Linien GmbH;AT-Linz_AG;at:esg:3:;
+4;tram;"Landgutstraße - Trauner Kreuzung - Schloss Traun";;;Linz Linien GmbH;AT-Linz_AG;at:esg:4:;
+50;tram;"Linz Pöstlingberg - Linz Hauptplatz";;;Linz Linien GmbH;AT-Linz_AG;at:esg:50:;
+N82;tram;"Linz JKU | Universität - Linz solarCity";;;Linz Linien GmbH;AT-Linz_AG;at:esg:82:;
+N84;tram;"Linz Hauptbahnhof - Traun Schloss Traun";;;Linz Linien GmbH;AT-Linz_AG;at:esg:84:;
+
+==Bus
+11;bus;"Leonding Sporthalle Leonding - Linz Pichlinger See";;;Linz Linien GmbH;AT-Linz_AG;at:esg:11:;
+12;bus;"Linz Karlhof - Linz Auwiesen";;;Linz Linien GmbH;AT-Linz_AG;at:esg:12:;
+17;bus;"Linz Fernheizkraftwerk - Leonding Hitzing";;;Linz Linien GmbH;AT-Linz_AG;at:esg:17:;
+18;bus;"Linz Turmstraße - Linz Stahlwerk";;;Linz Linien GmbH;AT-Linz_AG;at:esg:18:;
+19;bus;"Linz Fernheizkraftwerk - Linz Pichlinger See";;;Linz Linien GmbH;AT-Linz_AG;at:esg:19:;
+25;bus;"Linz Karlhof - Linz Oed";;;Linz Linien GmbH;AT-Linz_AG;at:esg:25:;
+26;bus;"Linz St. Margarethen - Linz Stadion";;;Linz Linien GmbH;AT-Linz_AG;at:esg:26:;
+27;bus;"Linz Fernheizkraftwerk - Linz Chemiepark";;;Linz Linien GmbH;AT-Linz_AG;at:esg:27:;
+33;bus;"Linz Riesenhof - Steyregg Pleschinger See";;;Linz Linien GmbH;AT-Linz_AG;at:esg:33:;
+38;bus;"Linz Rudolfstraße - Linz Jäger im Tal";;;Linz Linien GmbH;AT-Linz_AG;at:esg:38:;
+41;trolleybus;"Linz Hessenplatz - Linz Baintwiese";;;Linz Linien GmbH;AT-Linz_AG;at:esg:41:;
+43;trolleybus;"Linz Hessenplatz - Traun Stadtfriedhof Linz";;;Linz Linien GmbH;AT-Linz_AG;at:esg:43:;
+45;trolleybus;"Linz Stieglbauernstraße - Linz Froschberg";;;Linz Linien GmbH;AT-Linz_AG;at:esg:45:;
+46;trolleybus;"Linz Hafen - Linz Froschberg";;;Linz Linien GmbH;AT-Linz_AG;at:esg:46:;
+70;bus;"Linz Schiffswerft - Traun Stadtfriedhof Linz";;;Linz Linien GmbH;AT-Linz_AG;at:esg:70:;
+71;bus;"Linz Industriezeile - Linz Baintwiese";;;Linz Linien GmbH;AT-Linz_AG;at:esg:71:;
+72;bus;"Linz Schiffswerft - Traun Stadtfriedhof Linz";;;Linz Linien GmbH;AT-Linz_AG;at:esg:72:;
+73;bus;"Linz Fernheizkraftwerk - Linz Baintwiese";;;Linz Linien GmbH;AT-Linz_AG;at:esg:73:;
+77;bus;"Linz Hauptbahnhof - Linz Universität";;;Linz Linien GmbH;AT-Linz_AG;at:esg:77:;
+101;bus;"Linz Urnenhain Urfahr - Linz Aichinger";;;Linz Linien GmbH;AT-Linz_AG;at:esg:101:;
+102;bus;"Linz Rudolfstraße - Linz Worathweg";;;Linz Linien GmbH;AT-Linz_AG;at:esg:102:;
+103;bus;"Linz Turmstraße - Linz Turmstraße";;;Linz Linien GmbH;AT-Linz_AG;at:esg:103:;
+104;bus;"Linz Waldesruh - Linz Sennweg";;;Linz Linien GmbH;AT-Linz_AG;at:esg:104:;
+105;bus;"Linz Südpark Linz - Linz Siriusweg";;;Linz Linien GmbH;AT-Linz_AG;at:esg:105:;
+106;bus;"Linz Florianer Straße - St.Florian Wambacherberg";;;Linz Linien GmbH;AT-Linz_AG;at:esg:106:;
+107;bus;"Linz Ziegeleistraße - Linz Hatschekstraße";;;Linz Linien GmbH;AT-Linz_AG;at:esg:107:;
+108;bus;"Simonystraße - Industriepark Lunzerstraße";;;Linz Linien GmbH;AT-Linz_AG;at:esg:108:;
+150;bus;"Pöstlingberg - Landgutstraße";;;Linz Linien GmbH;AT-Linz_AG;at:esg:150:;
+191;bus;"Linz Gaumberg - Traun St. Martin";;;Linz Linien GmbH;AT-Linz_AG;at:esg:191:;
+192;bus;"Leonding Stadtplatz Leonding - Linz Theatergasse";;;Linz Linien GmbH;AT-Linz_AG;at:esg:192:;
+194;bus;"Linz Stadion - Linz Neue Heimat";;;Linz Linien GmbH;AT-Linz_AG;at:esg:194:;
+N83;bus;"Linz Hafen- Linz Neue Heimat";;;Linz Linien GmbH;AT-Linz_AG;at:esg:83:;
+
+=Wels Stadtbusse
+A1;bus;"K.-J.-Platz - Salzburger Straße - Noitzmühle - Dragonerstraße - K.-J.-Platz Stadtverkehr Wels Noitzmühle - Dragonerstraße";;;Wels Linien GmbH;AT-OOeVV;at:oov:120011:;
+A2;bus;"K.-J.-Platz - Gartenstraße - Kreßstraße - Vogelweide - K.-J.-Platz Stadtverkehr Wels Gartenstraße - Vogelweide";;;Wels Linien GmbH;AT-OOeVV;at:oov:120021:;
+1;bus;"Wels Straubingersiedlung - Klinikum - Hbf - K.-J.-Platz - Schulstraße - Nötzmühle Stadtverkehr Wels Straubingersiedlung";;;Wels Linien GmbH;AT-OOeVV;at:oov:12001:;
+2;bus;"Flemingstraße - Vogelweiderplatz - K.-J.-Platz - Hbf- Industriestraße - Billingerstraße Stadtverkehr Wels Flemingstraße - Billingstraße";;;Wels Linien GmbH;AT-OOeVV;at:oov:12002:;
+3;bus;"Dickerldorf - Hbf - K.J.Platz - Camillo-Schulz-Straße - Kreßstraße Stadtverkehr Wels Dickeldorf - Kreßstraße";;;Wels Linien GmbH;AT-OOeVV;at:oov:12003:;
+4;bus;"Wels Noitzmühle - K.-J.-Platz - Hbf - Nicol-Dostal-Straße Stadtverkehr Wels Noitzmühle - N.-Dostal-Straße";;;Wels Linien GmbH;AT-OOeVV;at:oov:12004:;
+6;bus;"Wels Vogelweide Schule - Oberthan - Flemingstraße - Vogelweide Schule Stadtverkehr Wels Vogelweide/Pernau Schulen";;;Wels Linien GmbH;AT-OOeVV;at:oov:12006:;
+8;bus;"Wels Pernau Schule - Ghegastraße - Maxlhaid - Dickerldorf - Pernau Schule Stadtverkehr Wels Pernau Schule";;;Wels Linien GmbH;AT-OOeVV;at:oov:12008:;
+9;bus;"Wels Hbf - Straubingersiedlung - Mitterlaab - Unterhart - Hbf Stadtverkehr Wels Hbf - Mitterlaab - Unterhart";;;Wels Linien GmbH;AT-OOeVV;at:oov:12009:;
+11;bus;"Wels Mauth Schule - Straubingersiedlung - Anne-Frank-Straße - Vogelweiderplatz Stadtverkehr Wels Mauth Schule - Vogelweiderplatz";;;Wels Linien GmbH;AT-OOeVV;at:oov:12011:;
+13;bus;"Wels Stadlhof - Klinikum - Hbf - Flugplatz - ROLA-Terminal Stadtverkehr Wels Stadlhof - ROLA-Terminal";;;Wels Linien GmbH;AT-OOeVV;at:oov:12013:;
+14;bus;"Wels Hbf - Flugplatz - Oberhart - Stadlhof - Klinikum - Hbf Stadtverkehr Wels Hbf - Stadlhof";;;Wels Linien GmbH;AT-OOeVV;at:oov:12014:;
+15;bus;"Wels Hbf - K.-J.-Platz - Thalheim Stadtverkehr Wels Hbf - Thalheim";;;Wels Linien GmbH;AT-OOeVV;at:oov:12015:;
+16;bus;"Wels Hbf - K.-J.-Platz - Bauernstraße - Schwimmbad Wels Stadtverkehr Hbf - Schwimmbad";;;Wels Linien GmbH;AT-OOeVV;at:oov:12016:;
+21;bus;"Wels K.-J.-Platz - Friedhofwirt Sonderfahrplan 01. November Stadtverkehr Wels K.-J.-Platz - Friedhofwirt";;;Wels Linien GmbH;AT-OOeVV;at:oov:12021:;
+
+=Steyr Stadtbusse
+1;bus;"Bahnhof - Münichholz - Bahnhof Stadtverkehr Steyr Linie 1";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11001:;
+2/4;bus;"Bahnhof - Resthof - Tabor - Bahnhof Stadtverkehr Steyr Linie 2/4";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110024:;
+2a;bus;"Bahnhof - Resthof - Bahnhof Stadtverkehr Steyr Linie 2a";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110021:;
+2b;bus;"Bahnhof - Krankenhaus - Bahnhof Stadtverkehr Steyr Linie 2b";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110022:;
+3;bus;"Bahnhof - Ennsleite - Stadtplatz Stadtverkehr Steyr Linie 3";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110031:;
+3a;bus;"Bahnhof - Neuschönau - Ennsleite - Bahnhof Stadtverkehr Steyr Linie 3a";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110032:;
+3b;bus;"Bahnhof - Pachergasse - Ennsleite - Bahnhof Stadtverkehr Steyr Linie 3b";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110033:;
+4;bus;"Bahnhof - Steyrdorf - Tabor - Bahnhof Stadtverkehr Steyr Linie 4";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11004:;
+5;bus;"Bahnhof - Stadtgut Stadtverkehr Steyr Linie 5";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11005:;
+6;bus;"Bahnhof - Waldrandsiedlung - Bahnhof Stadtverkehr Steyr Linie 6";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11006:;
+7;bus;"Bahnhof - Schlüsselhof - Bahnhof Stadtverkehr Steyr Linie 7";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11007:;
+8;bus;"Bahnhof - Christkindlsiedlung - Sarning - Bahnhof Stadtverkehr Steyr Linie 8";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11008:;
+8a;bus;"Bahnhof - Christkindlsiedlung - Sarning - Bahnhof Stadtverkehr Steyr Linie 8";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110081:;
+8b;bus;"Bahnhof - Christkindlsiedlung - Sarning - Bahnhof Stadtverkehr Steyr Linie 8";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:110082:;
+9;bus;"Bahnhof - Stadtplatz - Bahnhof Stadtverkehr Steyr Linie 9";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11009:;
+10;bus;"Bahnhof - Stadtplatz - Tabor - Bahnhof (Einkaufslinie) Stadtverkehr Steyr Linie 10";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11010:;
+20;bus;"Bahnhof - Stadtplatz - Ennsleite - Münichholz - Gleink - Resthof - Tabor - Wehrgraben - Bahnhof Stadtverkehr Steyr Linie 20 Abendlinie";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11020:;
+21;bus;"Bahnhof - Wehrgraben - Tabor - Resthof - Gleink - Münichholz - Ennsleite - Stadtplatz - Bahnhof Stadtverkehr Steyr Linie 21 Abendlinie";;;Stadtbetriebe Steyr GmbH;AT-OOeVV;at:oov:11021:;
+
+
+
+=Regionalbuslinien
+==Bereich 2xx
+200;bus;"Linz - Ottensheim - Feldkirchen/D. - Aschach/D. Linz - Ottensheim - Feldkirchen/D. - Aschach/D.";;;Österreichische Postbus AG;AT-OOeVV;at:oov:45200:;
+201;bus;"Linz - Ottensheim - Goldwörth - Feldkirchen/D. - Aschach/D. - Eferding Linz - Ottensheim - Goldwörth - Feldkirchen - Aschach - Eferding";;;Österreichische Postbus AG;AT-OOeVV;at:oov:45201:;
+203;bus;"Feldkirchen/D. - Goldwörth - Freudenstein - Bad Mühllacken - Oberlandshaag Feldkirchen - Goldwörth - Bad Mühllacken - Oberlandshaag";;;Österreichische Postbus AG;AT-OOeVV;at:oov:45203:;
+204;bus;"Eferding - Hartkirchen - Feldkirchen/D. - Neufelden - Rohrbach-Berg Eferding - Hartkirchen - Feldkirchen/D. - Rohrbach-Berg";;;Österreichische Postbus AG;AT-OOeVV;at:oov:45204:;
+208;bus;"Linz voestalpine - Ottensheim - Aschach/D. - Hartkirchen Linz voestalpine - Ottensheim - Aschach/D. - Hartkirchen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:45208:;
+209;bus;"Linz voestalpine - Feldkirchen/D. - Hartkirchen - Haibach o. d. Donau Linz voestalpine - Feldkirchen/D. - Hartkirchen - Haibach o. d. Donau";;;Österreichische Postbus AG;AT-OOeVV;at:oov:45209:;
+211;bus;"Lembach i. Mkr. - Niederkappel - Hofkirchen i. Mkr. - Niederranna Lembach i. Mkr. - Niederkappel - Hofkirchen i. Mkr. - Niederranna";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:29211:;
+212;bus;"Lembach - Pfarrkirchen - Hofkirchen - Oberkappel - Neustift - Niederranna Lembach - Hofkirchen - Neustift - Niederranna";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;at:oov:292121:;
+212;bus;"Lembach - Pfarrkirchen - Hofkirchen - Oberkappel - Neustift - Niederranna Lembach - Hofkirchen - Neustift - Niederranna";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:292124:;
+214;bus;"Kirchberg ob der Donau - Altenfelden - Neufelden Kirchberg ob der Donau - Altenfelden - Neufelden";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29214:;
+215;bus;"Linz - Ottensheim - Kleinzell - Lembach i. Mkr. Linz - Ottensheim - Kleinzell - Lembach i. Mkr.";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;at:oov:29215:;
+216;bus;"Niederwaldkirchen - Kleinzell - Neufelden - (Rohrbach-Berg) Niederwaldkirchen - Kleinzell i.M. - Neufelden";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29216:;
+218;bus;"Linz voestalpine - Neufelden - Lembach i. Mkr. - Hofkirchen i. Mkr. Linz voestalpine - Hofkirchen i. Mkr.";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29218:;
+219;bus;"Linz voestalpine - Neufelden - Lembach i. Mkr. - Hofkirchen i. Mkr. Linz voestalpine - Neufelden - Lembach i. M. - Hofkirchen i. M.";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:29219:;
+220;bus;"Lembach i. Mkr. - Putzleinsdorf - Sarleinsbach - Rohrbach-Berg Lembach i. Mkr. - Putzleinsdorf - Sarleinsbach - Rohrbach-Berg";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:29220:;
+223;bus;"Obermühl/Donau - Lembach i. Mkr. Obermühl/Donau - Lembach i. Mkr.";;;Leitner Adelheid GmbH;AT-OOeVV;29-223-j23-1;
+228;bus;"Linz voestalpine - Haselbach - Sarleinsbach - Nebelberg Linz voestalpine - Sarleinsbach - Nebelberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29228:;
+229;bus;"Linz voestalpine - Sarleinsbach - Kollerschlag - Nebelberg Stift am Grenzbach Linz voestalpine - Nebelberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29229:;
+230;bus;"Linz - Ottensheim - Rottenegg - Kleinzell - Neufelden - Rohrbach Linz - Neufelden - KEIN DRUCK KO215, 230, 231 KO230, 231";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;at:oov:292301:;
+230;bus;"Linz - Ottensheim - Rottenegg - Kleinzell - Neufelden - Rohrbach Linz - Neufelden - KEIN DRUCK KO215, 230, 231 KO230, 231";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:292308:;
+231;bus;"Linz- St.Martin -Neufelden - Altenfelden - Rohrbach Linz - St.Martin - KEIN DRUCK KO200 KO230, 231";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;at:oov:292311:;
+231;bus;"Linz- St.Martin -Neufelden - Altenfelden - Rohrbach Linz - St.Martin - KEIN DRUCK KO200 KO230, 231";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:292318:;
+233;bus;"Rohrbach-Berg - Oepping - Peilstein - Kollerschlag - Oberkappel - Neustift Rohrbach-Berg - Oepping - Peilstein - Oberkappel - Neustift";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29233:;
+237;bus;"Neufelden/Rohrbach-Berg - Sarleinsbach - Kollerschlag - Mollmannsreith/Nebelberg Neufelden- Kollerschlag - Nebelberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29237:;
+238;bus;"Linz voestalpine - Rohrbach-Berg - Oepping - Peilstein - Julbach i. Mkr. Linz voestalpine - Peilstein - Julbach i. Mkr.";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29238:;
+239;bus;"Linz voestalpine - Rohrbach-Berg - Oepping - Peilstein - Julbach i. Mkr. Linz voestalpine - Peilstein Julbach i. Mkr.";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29239:;
+240;bus;"Linz - Rottenegg - Eschelberg/St. Gotthard - Niederwaldkirchen - St.Peter/Wbg. Linz - Eschelberg - St.Peter/Wbg.";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:29240:;
+241;bus;"Gerling - Herzogsdorf - Niederwaldkirchen Gerling - Herzogsdorf - Niederwaldkirchen";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29240:;
+245;bus;"St. Peter/Wbg. - Auberg - Arnreit - Rohrbach-Berg St. Peter/Wbg. - Auberg - Arnreit - Rohrbach-Berg";;;Österreichische Postbus AG;AT-OOeVV;at:oov:33245:;
+247;bus;"St. Veit i. Mkr. - Niederwaldkirchen St. Veit i. Mkr. - Niederwaldkirchen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:33247:;
+249;bus;"Linz voestalpine - Herzogsdorf - St. Johann/Wbg. - St. Peter/Wbg. Linz voestalpine - Herzogsdorf - St. Johann/Wbg. - St. Peter/Wbg.";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:29249:;
+250;bus;"Linz - Gramastetten - St.Veit - St.Johann/Wbg. - St.Peter/Wbg. Linz - Gramastetten - St.Veit - St.Peter/Wbg.";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:33250:;
+251;bus;"Linz - Gramastetten - St.Veit - St.Johann/Wbg. - St.Peter/Wbg. Linz - Gramastetten - St.Veit - St.Peter/Wbg.";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:33251:;
+252;bus;"Linz - Lichtenberg - Eidenberg - Zwettl/Rodl Linz - Lichtenberg Eidenberg (- Zwettl/Rodl)";;;Österreichische Postbus AG;AT-OOeVV;at:oov:33252:;
+253;bus;"Linz JKU - Lichtenberg - Gramastetten Linz JKU - Lichtenberg - Gramastetten";;;Österreichische Postbus AG;AT-OOeVV;at:oov:33253:;
+256;bus;"St. Veit i. Mkr. - St. Johann/Wbg. - St.Peter/Wbg. - Haslach/Mühl - Rohrbach-Berg St. Veit i. Mkr. - St. Peter/Wbg. - Haslach/Mühl - Rohrbach-Berg";;;Österreichische Postbus AG;AT-OOeVV;at:oov:33256:;
+259;bus;"Haslach/Mühl Marktplatz - Haslach/Mühl Bahnhof Haslach/Mühl Marktplatz - Haslach/Mühl Bahnhof";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:31259:;
+260;bus;"Linz - Kirchschlag - Hellmonsödt - Reichenau - Schenkenfelden - Reichenthal Linz - Kirchschlag - Reichenau - Reichenthal";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:31260:;
+265;bus;"Linz - Zwettl/Rodl - Oberneukirchen - Waxenberg - Helfenberg - Haslach/Mühl - Rohrbach-Berg - Aigen-Schlägl Linz - Oberneukirchen - Helfenberg - Rohrbach-Berg";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:31265:;
+267;bus;"Linz - Zwettl/Rodl - Oberneukirchen - Waxenberg - Traberg - Helfenberg Linz - Oberneukirchen - Traberg - (Helfenberg)";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:31267:;
+270;bus;"Linz - Zwettl/Rodl - Bad Leonfelden - Vorderweißenbach Linz - Zwettl/Rodl - Bad Leonfelden (- Vorderweißenbach)";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:31270:;
+277;bus;"Freistadt - Reichenthal - Bad Leonfelden - Vorderweißenbach - St. Stefan-Afiesl - Haslach/Mühl - Rohrbach-Berg Freistadt - Bad Leonfelden - Haslach/Mühl - Rohrbach-Berg";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:31277:;
+278;bus;"Haslach/Mühl - St. Oswald b. Haslach Haslach/Mühl - St. Oswald b. Haslach";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:31278:;
+279;bus;"Linz voestalpine - Zwettl/Rodl - Bad Leonfelden - Vorderweißenbach - Helfenberg - Haslach/Mühl Linz voestalpine - Bad Leonfelden - Haslach/Mühl";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:31279:;
+280;bus;"Rohrbach-Berg - Aigen-Schlägl - Ulrichsberg Rohrbach-Berg - Ulrichsberg";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;at:oov:29280:;
+281;bus;"Ulrichsberg - Klaffer a. H. - Schwarzenberg Ulrichsberg - Klaffer - Schwarzenberg a. B.";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29281:;
+282;bus;"Neufelden - Rohrbach-Berg - Aigen-Schlägl - Ulrichsberg Neufelden - Rohrbach-Berg Aigen-Schlägl - Ulrichsberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29282:;
+283;bus;"Rohrbach-Berg - Aigen-Schlägl - Ulrichsberg - Klaffer a. H. - Schöneben/Hochficht Rohrbach-Berg - Klaffer - Schöneben/Hochficht";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29283:;
+284;bus;"Ulrichsberg - Julbach i. Mkr. Ulrichsberg - Julbach i. Mkr.";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29284:;
+288;bus;"Linz voestalpine - Linz Hafen - Rohrbach-Berg - Aigen-Schlägl - Schwarzenberg Linz voestalpine - Aigen-Schlägl - Schwarzenberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29288:;
+289;bus;"Linz voestalpine - Rohrbach-Berg - Aigen-Schlägl - Ulrichsberg - Schwarzenberg Linz voestalpine - Aigen-Schlägl - Schwarzenberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29289:;
+
+==Bereich 3xx
+300;bus;"Linz - Hellmonsödt - Reichenau - Schenkenfelden - Reichenthal Linz - Hellmonsödt - Reichenau - Reichenthal";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:31300:;
+305;bus;"Linz - Altenberg - Haibach i Mkr. - Reichenau Linz - Altenberg - Haibach i. Mkr. - Reichenau";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:31305:;
+306;bus;"Linz - Altenberg - Oberbairing Linz - JKU - Elmberg - Altenberg Oberbairing";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:31306:;
+309;bus;"Linz - Linz Chemiepark - Hellmonsödt - Reichenau - Schenkenfelden - Reichenthal Linz - Chemiepark - Hellmonsödt - Reichenau - Reichenthal";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:31309:;
+310;bus;"Linz - Neumarkt i. Mkr. - Freistadt (Schnellverkehr) Linz - Neumarkt i. Mkr.- Freistadt";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22310:;
+311;bus;"Linz - JKU - Pregarten - Hagenberg - Götschka - Freistadt Linz - Pregarten - Hagenberg - Freistadt";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22311:;
+312;bus;"Linz - Gallneukirchen - Unterweitersdorf - Loibersdorf - Neumarkt i. Mkr. - Freistadt Linz - Gallneukirchen - Unterweitersdorf - Freistadt";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22312:;
+314;bus;"Linz - Gallneukirchen - Alberndorf - Pröselsdorf - Wintersdorf Linz - Gallneukirchen - Alberndorf - Pröselsdorf";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22314:;
+315;bus;"Linz - Treffling - Schweinbach - Engerwitzdorf - Gallneukirchen Linz - Treffling - Engerwitzdorf - Gallneukirchen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:22315:;
+316;bus;"Gallneukirchen - Unterweitersdorf - Wartberg o. d. Aist - Pregarten - Hagenberg Gallneukirchen - Pregarten - Hagenberg";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:22316:;
+317;bus;"Gallneukirchen - Reichenau - Bad Leonfelden Gallneukirchen - Reichenau - Bad Leonfelden";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22317:;
+319;bus;"Linz voestalpine - Freistadt - Windhaag (Schnellverkehr) Linz voestalpine - Freistadt - Windhaag (Schnellverkehr)";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22319:;
+320;bus;"Freistadt - Waldburg - Bad Leonfelden Freistadt - Waldburg - Bad Leonfelden";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:22320:;
+321;bus;"Bad Leonfelden - Schenkenfelden - Reichenthal - Waldburg - Freistadt Bad Leonfelden - Reichenthal - Waldburg - Freistadt";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:22321:;
+322;bus;"Freistadt - Waldburg - Hirschbach - Guttenbrunn - Waldburg - Freistadt Freistadt - Hirschbach - Guttenbrunn - Freistadt";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:22322:;
+326;bus;"Freistadt - Rainbach - Summerau - Leopoldschlag - Wullowitz Freistadt - Rainbach - Leopoldschlag - Wullowitz";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22326:;
+327;bus;"Freistadt - Grünbach - Lichtenau - Windhaag - Mairspindt Freistadt - Grünbach - Windhaag - Mairspindt";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22327:;
+329;bus;"Linz voestalpine - Freistadt - Sandl (-Liebenau)- Karlstift - Groß Gerungs Linz voestalpine - Freistadt- Sandl - Groß Gerungs";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:22329:;
+330;bus;"Freistadt - Sandl - Liebenau Freistadt - Sandl - Liebenau";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:22330:;
+332;bus;"Freistadt - Lasberg - St.Oswald bei Freistadt - Weitersfelden - Königswiesen Freistadt - St.Oswald - Weitersfelden-Königswiesen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22332:;
+333;bus;"Freistadt -St.Oswald - Amesreith -Weitersfe. -Unterweißenb. - Königswi. (KEIN DRUCK) Freistadt - St.Oswald - KEIN DRUCK in 332";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22333:;
+334;bus;"Freistadt - St. Oswald - Amesreith - Langfirling - St. Leonhard b. Fr. Freistadt - St. Oswald - St. Leonhard b. Freistadt";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:22334:;
+335;bus;"Freistadt - Lasberg - Kefermarkt - Gutau Freistadt - Kefermarkt - - Gutau";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:22335:;
+336;bus;"Linz voestalpine - Pregarten - Gutau - St. Leonhard b. Fr. - Weitersfelden (WS) Linz voestalpine - Pregarten - Gutau - Weitersfelden";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:22336:;
+338;bus;"Freistadt - Kefermarkt - Pregarten Freistadt - Kefermarkt- Pregarten";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22338:;
+339;bus;"Linz - Treffling - Gallneukirchen - Unterweitersdorf - Loibersdorf Linz - Gallneukirchen - Unterweitersdorf - Loibersdorf";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22339:;
+340;bus;"Linz - Pregarten - Tragwein - Bad Zell - Königswiesen Linz - Pregarten - Königswiesen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22340:;
+341;bus;"Linz - Pregarten - Tragwein - Bad Zell - Schönau - Unterweißenbach Linz - Bad Zell - Unterweißenbach";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22341:;
+342;bus;"Perg Schulzentrum - Bad Zell - Königswiesen (KEIN DRUCK) Perg Schulzentrum - KEIN DRUCK";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22342:;
+343;bus;"Linz/Hagenberg - Pregarten - Gutau - St. Leonhard bei Fr. Linz/Hagenberg - Pregarten - Gutau - St. Leonhard b. Fr.";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:22343:;
+345;bus;"Linz - Katsdorf - Gaisbach-Wartberg - Pregarten Linz - Katsdorf - Gaisbach-Wartberg - Pregarten";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183451:;
+346;bus;"Linz voestalpine - Hagenberg - Kefermarkt - Lasberg - St. Oswald - Weitersfelden Linz voestalpine - Hagenberg - St. Oswald - Weitersfelden";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22346:;
+347;bus;"Linz voestalpine - Pregarten - Gutau - St. Leonhard b. Fr. (Schnellverkehr TS) Linz voestalpine - Pregarten - Gutau - St. Leonhard b. Fr.";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22347:;
+348;bus;"Linz voestalpine - Pregarten - Bad Zell - Unterweißenbach/Königswiesen - Arbesbach Linz voestalpine - Bad Zell - Unterweißenbach/Arbesbach";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22348:;
+349;bus;"Linz voestalpine - Bad Zell - Schönau - Unterweißenbach Linz voestalpine - Bad Zell - Schönau - Unterweißenbach";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22349:;
+350;bus;"Pregarten - Gaisbach/Frensdorf - Ried/Riedmark - Mauthausen Bhf. Pregarten - Gaisbach/Frensdorf Ried/Riedmark - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;18-350-j23-1;
+351;bus;"Katsdorf - Ruhstetten - Ried/Riedmark Katsdorf - Ruhstetten - Ried/Riedmark";;;Österreichische Postbus AG;AT-OOeVV;18-351-j23-1;
+352;bus;"Perg - Schwertberg - Niederzirking - Ried/Riedmark - Lungitz Perg - Schwertberg - Ried/Riedmark - Lungitz";;;Österreichische Postbus AG;AT-OOeVV;18-352-j23-1;
+353;bus;"Gallneukirchen - Schweinbach - Katsdorf - Lungitz Gallneukirchen - Schweinbach - Katsdorf - Lungitz";;;Österreichische Postbus AG;AT-OOeVV;18-353-j23-1;
+354;bus;"Tragwein - Kriechbaum - Schwertberg (- Perg) Tragwein - Kriechbaum - Schwertberg (- Perg)";;;Österreichische Postbus AG;AT-OOeVV;18-354-j23-1;
+356;bus;"Pregarten - Schwertberg - Perg Pregarten - Schwertberg - Perg";;;Österreichische Postbus AG;AT-OOeVV;18-356-j23-1;
+357;bus;"Bad Zell - Allerheiligen i. Mkr. - Perg Bad Zell - Allerheiligen i. Mkr. - Perg";;;Österreichische Postbus AG;AT-OOeVV;18-357-j23-1;
+360;bus;"Linz - Steyregg - St. Georgen/Gusen - Mauthausen Linz - Steyregg - St. Georgen/G. - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;18-360-j23-1;
+361;bus;"Hbf (Busterminal) - Abzw Bahnhof";;;Österreichische Postbus AG;AT-OOeVV;18-361-j23-1;
+362;bus;"Mauthausen - Schwertberg - Perg Mauthausen - Schwertberg - Perg";;;Österreichische Postbus AG;AT-OOeVV;18-362-j23-1;
+363;bus;"Statzing - Luftenberg - Abwinden - Statzing Statzing - Luftenberg - Abwinden - Statzing";;;Österreichische Postbus AG;AT-OOeVV;18-363-j23-1;
+364;bus;"Ried/Riedmark - Blindendorf - St. Georgen/Gusen Ried/Riedmark - Blindendorf - St. Georgen/Gusen";;;Österreichische Postbus AG;AT-OOeVV;18-364-j23-1;
+365;bus;"Linz voestalpine - Mauthausen - Schwertberg - Arbing Linz voestalpine - Arbing";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-365-j23-1;
+366;bus;"Linz voestalpine - Steyregg - Mauthausen (Tagschicht) Linz voestalpine - Steyregg - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;18-366-j23-1;
+370;bus;"St.Georgen am Walde - Pabneukirchen - Perg/Linz voestalpine St. Georgen - Pabneukirchen - Perg/Linz voestalpine";;;Siegfried Baumgartner;AT-OOeVV;18-370-j23-1;
+373;bus;"Mauthausen - Naarn im Machlande - Perg - Münzbach - Bad Kreuzen Mauthausen - Naarn - Perg - Münzbach - Bad Kreuzen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-373-j23-1;
+374;bus;"Perg - Windhaag bei Perg - Rechberg Perg - Windhaag bei Perg - Rechberg";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-374-j23-1;
+375;bus;"Baumgartenberg - Mitterkirchen - Naarn im Machlande - Perg/Mauthausen Baumgartenberg - Mitterkirchen - Naarn - Perg/Mauthausen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-375-j23-1;
+376;bus;"Pasching bei Perg - Pergkirchen - Perg Pasching - Pergkirchen - Perg";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-376-j23-1;
+378;bus;"Linz voestalpine - Perg - Pabneukirchen - St. Georgen am Walde - Arbesbach Linz voestalpine - Perg - St.Georgen a.W. - Arbesbach";;;Österreichische Postbus AG;AT-OOeVV;18-378-j23-1;
+379;bus;"Pflegkreuz - voestalpine/Maschinenbau";;;Siegfried Baumgartner;AT-OOeVV;18-379-j23-1;
+380;bus;"Amstetten - Grein - St. Nikola an der Donau - Waldhausen im Strudengau Amstetten - Grein - St. Nikola - Waldhausen";;;Österreichische Postbus AG;AT-OOeVV;18-380-j23-1;
+381;bus;"Grein - Dimbach - St. Georgen am Walde Grein - Dimbach - St. Georgen am Walde";;;Siegfried Baumgartner;AT-OOeVV;18-381-j23-1;
+382;bus;"Grein - Bad Kreuzen Grein - Bad Kreuzen";;;Österreichische Postbus AG;AT-OOeVV;18-382-j23-1;
+383;bus;"Baumgartenberg - Arbing - Münzbach Baumgartenberg - Arbing - Münzbach";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-383-j23-1;
+384;bus;"Baumgartenberg - Saxen - Klam - Bad Kreuzen - Pabneukirchen - St. Thomas/Bla. Baumgartenberg - Bad Kreuzen - Pabneukirchen - St.Thomas/Bla.";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-384-j23-1;
+386;bus;"Waldhausen im Strudengau - Dorfstetten Waldhausen - Dorfstetten";;;Österreichische Postbus AG;AT-OOeVV;18-386-j23-1;
+388;bus;"Linz voestalpine - Mitterkirchen - Grein Linz voestalpine - Mitterkirchen - Grein";;;Österreichische Postbus AG;AT-OOeVV;18-388-j23-1;
+389;bus;"Linz voestalpine - Naarn im Machlande - Mitterkirchen - Grein - Waldhausen im Strudengau Linz voestalpine - Naarn - Mitterkirchen - Waldhausen";;;Österreichische Postbus AG;AT-OOeVV;18-389-j23-1;
+
+==Bereich 4xx
+400;bus;"Linz - Asten - Enns - Kronstorf - Steyr Linz - Asten - Enns - Kronstorf - Steyr";;;Österreichische Postbus AG;AT-OOeVV;45-400-j23-1;
+402;bus;"Enns - Hargelsberg - Dietach - Steyr Enns - Hargelsberg - Dietach - Steyr";;;Österreichische Postbus AG;AT-OOeVV;45-402-j23-1;
+403;bus;"St. Florian/Hofkirchen - Tillysburg - Volkersdorf - Enns St. Florian/Hofkirchen - Tillysburg - Volkersdorf - Enns";;;Österreichische Postbus AG;AT-OOeVV;45-403-j23-1;
+404;bus;"Enns Hauptplatz - Enns Bhf - Enns Logistikzentrum Ennshafen (Enns Hauptplatz -) Enns Bahnhof - Logistikzentrum Ennshafen";;;Österreichische Postbus AG;AT-OOeVV;45-404-j23-1;
+407;bus;"St. Florian - Asten - Raffelstetten St. Florian - Asten - Raffelstetten";;;Österreichische Postbus AG;AT-OOeVV;45-407-j23-1;
+408;bus;"Asten - Raffelstetten - Linz Pichling Asten - Raffelstetten - Linz Pichling";;;Österreichische Postbus AG;AT-OOeVV;45-408-j23-1;
+409;bus;"Mauthausen - Enns - Linz voestalpine - Linz Chemiepark - Kraftwerk Mauthausen - Enns - Linz voestalpine/Chemie/Kraftwerk";;;Österreichische Postbus AG;AT-OOeVV;18-409-j23-1;
+410;bus;"Linz - St. Florian - Niederneukirchen - Hofkirchen - Wolfern - Steyr Linz - St. Florian - Niederneuk. - Hofk. - Wolfern - Steyr";;;Österreichische Postbus AG;AT-OOeVV;45-410-j23-1;
+411;bus;"Linz - St. Florian - Niederneukirchen - Weichstetten - Sierning Linz - St. Florian - Niederneuk. - Weichstetten - Sierning";;;Österreichische Postbus AG;AT-OOeVV;45-411-j23-1;
+412;bus;"Linz - St. Florian HBLA - Niederneukirchen - Hofkirchen - Hargelsberg Linz - St. Florian - Niederneuk. - Hofkirchen - Hargelsberg";;;Österreichische Postbus AG;AT-OOeVV;45-412-j23-1;
+413;bus;"St. Florian - Hohenbrunn - Kurzenkirchen - St. Marien St. Florian - Hohenbrunn - Kurzenkirchen - St. Marien";;;Österreichische Postbus AG;AT-OOeVV;45-413-j23-1;
+414;bus;"St. Marien - Neuhofen/Krems St. Marien - Neuhofen/Krems";;;Österreichische Postbus AG;AT-OOeVV;45-414-j23-1;
+415;bus;"Niederneukirchen - Kurzenkirchen - St. Marien Niederneukirchen - Kurzenkirchen - St. Marien";;;Österreichische Postbus AG;AT-OOeVV;45-415-j23-1;
+417;bus;"St. Florian - Rohrbach b. St. Florian - Wambacherberg - Ölkam - Taunleiten St. Florian - Ölkam - Taunleiten";;;Österreichische Postbus AG;AT-OOeVV;45-417-j23-1;
+420;bus;"Sierning - Schiedlberg - Piberbach - Neuhofen/Krems Sierning - Schiedlberg - Piberbach - Neuhofen/Krems";;;Österreichische Postbus AG;AT-OOeVV;45-420-j23-1;
+425;bus;"Losensteinleiten - Weichstetten - Hofkirchen - Losensteinleiten Losensteinleiten - Weichstetten - Hofkirchen - Losensteinleiten";;;Österreichische Postbus AG;AT-OOeVV;45-425-j23-1;
+430;bus;"Kirchdorf/Krems - Micheldorf (- Steyrling) - Windischgarsten Kirchdorf an der Krems - Windischgarsten";;;Stern & Hafferl VerkehrsgesmbH;AT-OOeVV;20-430-j23-1;
+431;bus;"Hinterstoder Bhf-Hinterstoder Hinterstoder Bhf - Hinterstoder";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;20-431-j23-1;
+432;bus;"Hinterstoder -Polsterstüberl -Dietlgut -Bärenalm - Baumschlagerreith bis 30.04. und ab 27.10. Hinterstoder Freizeitpark - Baum= schlagerreith bis 30.04. u. ab 27.10.";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;20-432-W-j23-2;
+433;bus;"Steyr - Sierninghofen - Leonstein - Molln - Micheldorf - Kirchdorf/Kr. Steyr - Sierninghofen - Molln - Micheldorf - Kirchdorf/Kr.";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;14-433-j23-1;
+434;bus;"Hinterstoder - Vorderstoder - Roßleithen - Windischgarsten Hinterstoder - Windischgarsten";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;20-434-j23-1;
+435;bus;"Windischgarsten - Rosenau (- Hengstpass) Windischgarsten - Rosenau (- Hengstpass)";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;20-435-j23-1;
+436;bus;"Windischgarsten - Edlbach - Spital am Pyhrn - Pyhrnpass Windischgarsten - Spital/Pyhrn - Pyhrnpass";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;20-436-j23-1;
+440;bus;"Steyr - Losenstein - Großraming - Weyer Steyr - Losenstein - Großraming - Weyer";;;Österreichische Postbus AG;AT-OOeVV;33-440-j23-1;
+441;bus;"Steyr - Kleinraming - Maria Neustift - Großraming Steyr - Maria Neustift - Großraming";;;Österreichische Postbus AG;AT-OOeVV;33-441-j23-1;
+442;bus;"Losenstein - Laussa - (Pechgraben) Losenstein - Laussa";;;Österreichische Postbus AG;AT-OOeVV;33-442-j23-1;
+443;bus;"Steyr - Garsten - Dambach Steyr - Garsten - Dambach";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;14-443-j23-1;
+444;bus;"Steyr - Saaß - Aschach a.d.Steyr - Sierning Steyr - Saaß - Aschach/St. - Sierning";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;14-444-j23-1;
+450;bus;"Steyr - Sierning - Bad Hall - Rohr Steyr - Sierning - Bad Hall - Rohr";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;14-450-j23-1;
+452;bus;"Steinbach a.d.Steyr - Waldneukirchen - Bad Hall - Rohr Steinbach a.d.Steyr - Bad Hall - Rohr";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-452-j23-1;
+453;bus;"Bad Hall - (Kremsmünster) - Schlierbach - Kirchdorf/Kr. Bad Hall - Schlierbach - Kirchdorf/Krems";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-453-j23-1;
+454;bus;"Steyr - Sierning - Waldneukirchen - Adlwang Steyr - Sierning - Waldneukirchen - Adlwang";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-454-j23-1;
+455;bus;"Rohr - Kremsmünster - Sattledt - Steinhaus - Thalheim - Wels Rohr - Kremsmünster - Sattledt - Steinhaus - Thalheim - Wels";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;14-455-j23-1;
+456;bus;"Kirchdorf/Kr. - Steinbach am Ziehberg - Pettenbach Kirchdorf a.d. Krems - Steinbach a.Zbg. - Pettenbach";;;Stern & Hafferl VerkehrsgesmbH;AT-OOeVV;20-456-j23-1;
+457;bus;"Bad Hall - Neuhofen/Kr. - Traun - (Leonding Meixnerkreuzung) Bad Hall - Neuhofen/Kr. - Traun - (Leonding Meixnerkreuzung)";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-457-j23-1;
+468;bus;"Bad Hall - Feyregg - Adlwang - Nußbach - Schlierbach - Kirchdorf/Kr. Bad Hall - Adlwang - Schlierbach - Kirchdorf/Krems";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-468-j23-1;
+480;bus;"Kirchdorf/Kr. (- Schlierbach) - Pettenbach - Scharnstein Kirchdorf/Kr. (- Schlierbach) - Pettenbach - Scharnstein";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-480-j23-1;
+481;bus;"Kirchdorf/Kr. - Inzersdorf - Pettenbach - Lederau - Eggenberg - Vorchdorf Kirchdorf/Krems - Pettenbach - Eggenberg - Vorchdorf";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-481-j23-1;
+483;bus;"Sattledt - Ried/Tr. - Kirchdorf/Kr. Sattledt - Ried/Tr. - Kirchdorf an der Krems";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;14-483-j23-1;
+484;bus;"Kremsmünster - Ried i. Trk. - Voitsdorf Kremsmünster - Ried i. Trk. - Voitsdorf";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-484-j23-1;
+485;bus;"Wels - Thalheim b. Wels - Sipbachzell - Kremsmünster Wels - Thalheim b. Wels - Sipbachzell - Kremsmünster";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-485-j23-1;
+486;bus;"(Allhaming -) Eggendorf -Sipbachzell Allhaming- Eggendorf i.Tkr. - Sipbachzell";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-486-j23-1;
+487;bus;"Wels - Schleißheim - Weißkirchen - Allhaming - Neuhofen/Kr. Wels - Schleißheim - Weißkirchen - Allhaming - Neuhofen/Kr.";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-487-j23-1;
+488;bus;"Neuhofen/Kr. - Piberbach - Kematen/Kr. - Neuhofen/Kr. Neuhofen/Kr. - Piberbach - Kematen/Kr. - Neuhofen/Kr.";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-488-j23-1;
+494;bus;"Wels - Thalheim b. Wels Wels - Thalheim b. Wels";;;Überland Wels Stroissmüller GmbH;AT-OOeVV;14-494-j23-1;
+
+==Bereich 5xx
+501;bus;"Wels - Fischlham - Steinerkirchen - Eberstalzell - Spieldorf - Vorchdorf Wels - Steinerkirchen - Eberstalzell - Vorchdorf";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-501-j23-1;
+502;bus;"Eberstalzell - Spieldorf Eberstalzell - Spieldorf";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-502-j23-1;
+503;bus;"(Sattledt -) Steinerkirchen/Traun - Fischlham - Lambach (Sattledt -) Steinerkirchen/Traun - Fischlham - Lambach";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-503-j23-1;
+504;bus;"Wels - Gunskirchen - Edt b. Lambach - Lambach - Stadl Paura Wels - Gunskirchen - Lambach - Stadl-Paura";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-504-j23-1;
+505;bus;"Lambach - Roitham - Laakirchen - Gmunden - Altmünster Lambach - Roitham - Laakirchen - Gmunden - Altmünster";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-505-j23-1;
+506;bus;"Wels - Lambach - Schwanenstadt - Attnang-Puchheim Wels - Lambach - Schwanenstadt - Attnang-P.";;;Österreichische Postbus AG;AT-OOeVV;15-506-j23-1;
+507;bus;"Laakirchen - Gmunden - Altmünster - Ebensee - Bad Ischl Laakirchen - Gmunden - Altmünster - Ebensee - Bad Ischl";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-507-j23-1;
+508;bus;"Lambach - Stadl Paura - Bad Wimsbach/Neydharting - Roitham Lambach - Stadl-Paura - Bad Wimsbach - Roitham";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-508-j23-1;
+511;bus;"Gh Altmühle - EKZ - Busbhf. - Am Sonnenhang Gmunden Altmühl - SEP - Busbhf. - Sonnenpark";;;sabtours Busbetrieb GmbH;AT-OOeVV;31-511-j23-1;
+512;bus;"Krankenhaus - EKZ - Busbhf. - Rathauspl. - Cumberland Gmunden Krankenhaus - SEP - Busbhf. - Au - Cumberlandpark";;;sabtours Busbetrieb GmbH;AT-OOeVV;31-512-j23-1;
+513;bus;"Krankenhaus - Rathauspl. - Schörihub - Cumberland Gmunden Krankenhaus - Sportz. - Busbhf. - Schörihub - Cumberlandp.";;;sabtours Busbetrieb GmbH;AT-OOeVV;31-513-j23-1;
+517;bus;"Neukirchen - Reindlmühl - Pinsdorf - Gmunden Neukirchen - Reindlmühl - Pinsdorf - Gmunden";;;Österreichische Postbus AG;AT-OOeVV;15-517-j23-1;
+520;bus;"Gmunden - Ohlsdorf - Steyrermühl/Laakirchen - Rüstorf - Schwanenstadt Gmunden - Ohlsdorf - Rüstorf - Schwanenstadt";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-520-j23-1;
+522;bus;"Gmunden - Altmünster - Neukirchen - Großalm Gmunden - Altmünster - Neukirchen - Großalm";;;Österreichische Postbus AG;AT-OOeVV;15-522-j23-1;
+524;bus;"Lindach - Laakirchen - Gmunden Kirchenplatz Lindach - Laakirchen - Gmunden";;;sabtours Busbetrieb GmbH;AT-OOeVV;14-524-j23-1;
+526;bus;"Vöcklabruck - Attnang-Puchheim - Laakirchen - Oberweis Vöcklabruck - Attnang-P. - Desselbrunn - Laakirchen";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-526-j23-1;
+527;bus;"Vorchdorf Bf - Lindach - Laakirchen Vorchdorf Bf - Lindach - Laakirchen";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-527-j23-1;
+531;bus;"Vöcklabruck - Regau - Pinsdorf - Gmunden Vöcklabruck - Regau - Pinsdorf - Gmunden";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-531-j23-1;
+533;bus;"Gmunden - Scharnstein - Grünau im Almtal - Almsee Gmunden - Scharnstein - Grünau i. Almtal - Almsee";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-533-j23-1;
+534;bus;"Grünau im Almtal Bahnhof - Kasbergbahnen/Schindlbach Grünau im Almtal - Kasbergbahnen/Schindlbach";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-534-j23-1;
+542;bus;"Bad Ischl - Bad Goisern - Gosaumühle - Gosausee bis 10.04.2023 Bad Ischl - Bad Goisern - Gosau bis 10.04.2023";;;Österreichische Postbus AG;AT-OOeVV;31-542-W-j23-1;
+543;bus;"Obertraun - Hallstatt - Gosaumühle bis 10.04.2023 Obertraun - Hallstatt - Gosaumühle bis 10.04.2023";;;Österreichische Postbus AG;AT-OOeVV;31-543-W-j23-1;
+546;bus;"Bad Ischl - Rußbach - Weißenbach - Strobl - St.Wolfgang im Salzkammergut - Ried Bad Ischl - Rußbach - Weißenbach - Strobl - St.Wolfgang - Ried";;;Österreichische Postbus AG;AT-OOeVV;31-546-j23-1;
+548;bus;"Bad Ischl - Weißenbach - (- Steinbach) - Unterach/Attersee Bad Ischl - Weißenbach - (- Steinbach) - Unterach/Attersee";;;Österreichische Postbus AG;AT-OOeVV;31-548-j23-1;
+551;bus;"Stadtbus BAD ISCHL: Bahnhof - Kaltenbach Stadtbus BAD ISCHL Bahnhof - Kaltenbach";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;41-551-j23-1;
+552;bus;"Stadtbus BAD ISCHL: Bahnhof - Reiterndorf Stadtbus BAD ISCHL Bahnhof - Reiterndorf";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;41-552-j23-1;
+553;bus;"Stadtbus BAD ISCHL: Bahnhof - Rettenbach - Zentrum STADTBUS BAD ISCHL Bahnhof - Rettenbach - Zentrum";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;41-553-j23-1;
+554;bus;"Stadtbus BAD ISCHL: Bahnhof - Pfandl (-Ramsau) Stadtbus BAD ISCHL Bahnhof - Pfandl (-Ramsau)";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;41-554-j23-1;
+555;bus;"Ebensee - Lahnstein/Traun - Bad Ischl Ebensee - Lahnstein/Traun - Bad Ischl";;;Österreichische Postbus AG;AT-OOeVV;31-555-j23-1;
+561;bus;"Attnang-Puchheim - Vöcklabruck - Schörfling - Attersee - Unterach Attnang-Pucheim - Vöcklabruck - Schörfling - Attersee - Unterach";;;Österreichische Postbus AG;AT-OOeVV;15-561-j23-1;
+562;bus;"Schörfling - Weyregg/A. - Weißenbach/A. - Unterach/Attersee Schörfling - Weyregg/A. - Weißenbach/A. - Unterach/Attersee";;;Österreichische Postbus AG;AT-OOeVV;15-562-j23-1;
+563;bus;"Nachtschwärmer Schwanenstadt - Vöcklabruck - Kammer-Schörfling - St. Georgen/A. Nachtschwärmer Schwanenstadt - Vöcklabruck -St.Georgen/A.";;;Österreichische Postbus AG;AT-OOeVV;15-563-j23-1;
+565;bus;"St.Georgen im Attergau - Attersee/Kemating - Schörfling - Lenzing - Vöcklabruck St.Georgen/A. - Seewalchen - Lenzing - Vöcklabruck";;;Österreichische Postbus AG;AT-OOeVV;15-565-j23-1;
+572;bus;"Vöcklabruck - Dürnau Vöcklabruck - Dürnau";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-572-j23-1;
+576;bus;"Lenzing AG - Vöcklabruck - Regau - Attnang-Puchheim - Schwanenstadt Lenzing AG - Vöcklabruck - Attnang-P. - Schwanenstadt";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-576-j23-2;
+582;bus;"Schörfling - Aurach a. Hongar- Regau - Vöcklabruck Schörfling - Aurach - Regau -Vöcklabruck";;;Österreichische Postbus AG;AT-OOeVV;15-582-j23-1;
+584;bus;"Vöcklabruck - Timelkam - Gampern Vöcklabruck - Timelkam - Gampern";;;Österreichische Postbus AG;AT-OOeVV;15-584-j23-1;
+586;bus;"Straßwalchen - Vöcklamarkt - Timelkam - Vöcklabruck/Lenzing Straßwalchen - Frankenmarkt - Timelkam - Vöcklabruck";;;Österreichische Postbus AG;AT-OOeVV;15-586-j23-1;
+592;bus;"Mondsee - Loibichl - Oberwang - Straß/Attergau - St.Georgen im Attergau Mondsee - Oberwang - St.Georgen im Attergau";;;Österreichische Postbus AG;AT-OOeVV;15-592-j23-1;
+593;bus;"Mondsee - Innerschwand - Riedlbach - Oberwang Mondsee - Innerschwand - Riedlbach - Oberwang";;;Österreichische Postbus AG;AT-OOeVV;15-593-j23-1;
+594;bus;"Mondsee - Zell am Moos - Haslau - Frankenmarkt Mondsee - Zell am Moos - Haslau - Frankenmarkt";;;Österreichische Postbus AG;AT-OOeVV;15-594-j23-1;
+595;bus;"Mondsee - Zell am Moos - Oberhofen - Straßwalchen/Neumarkt am Wallersee Mondsee - Zell am Moos - Oberhofen - Neumarkt/W.";;;Österreichische Postbus AG;AT-OOeVV;15-595-j23-1;
+596;bus;"Mondsee - Innerschwand - Unterach/Attersee Mondsee - Innerschwand - - Unterach/Attersee";;;Österreichische Postbus AG;AT-OOeVV;15-596-j23-1;
+
+==Bereich 6xx
+600;bus;"Linz - Unionkreuzung - PlusCity - Hörsching - Marchtrenk - Wels Linz - PlusCity - Marchtrenk - Wels";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-600-j23-1;
+601;bus;"Linz Hauptbahnhof - airport linz/Airport/Aeropuerto - Traun Trauner Kreuzung Linz Hauptbahnhof - Flughafen - Traun Trauner Kreuzung";;;Österreichische Postbus AG;AT-OOeVV;21-601-j23-1;
+609;bus;"Linz voestalpine - Hörsching - Marchtrenk - Wels Linz voestalpine - Hörsching - Marchtrenk - Wels";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-609-j23-1;
+610;bus;"Traun - Haid Traun - Haid";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-610-j23-1;
+611;bus;"(Linz) - Ebelsberg - Freindorf - Ansfelden - Haid - Traun (Linz) - Ebelsberg - Freindorf - Ansfelden - Traun";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-611-j23-1;
+612;bus;"Linz Hbf - Unionkreuzung - St. Martin - Traun Linz - St. Martin - Traun";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-612-j23-1;
+614;bus;"St.Marien - Nöstlbach - Nettingsdorf St.Marien - Nöstlbach - Nettingsdorf";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-614-j23-1;
+615;bus;"Traun - Haid - Ansfelden - Freindorf Traun - Haid - Ansfelden - Freindorf";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-615-j23-1;
+616;bus;"Traun - Haid - IKEA/Haid Center - Pucking - Weißkirchen - Marchtrenk Traun - IKEA/Haid - Pucking - Marchtrenk";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-616-j23-1;
+617;bus;"Traun -St. Martin - PlusCity - Hörsching - Rutzing Traun - PlusCity - Hörsching - Rutzing";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-617-j23-1;
+618;bus;"Linz Volksgartenstraße -Leonding Meixnerkrg - Doppl - (St.Martin) - Traun - Rutzing Linz Volksgartenstraße - Doppl - Traun - Rutzing";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-618-j23-1;
+619;bus;"Rutzing Ort - Traun - Linz voestalpine Rutzing Ort - Traun - Linz voestalpine";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-619-j23-1;
+625;bus;"Pasching b.Linz Oberhaidstraße - Dörnbach-Hitzing - Thurnharting Pasching b.Linz Oberhaidstraße - Dörnbach-Hitzing - Thurnharting";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;33-625-j23-1;
+630;bus;"Traun Hauptplatz - Badezentrum - Oedt Traun Hauptplatz - Badezentrum - Oedt - Tannhubstraße";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;47-630-j23-1;
+631;bus;"Traun Hauptplatz - Bahnhof - St. Dionysen - Leharstraße Traun Hauptplatz - Bahnhof - St.Dionysen - Leharstraße";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;47-631-j23-1;
+632;bus;"Traun Hauptplatz - Steinhumergutsiedlung - Oedt Traun Hauptplatz - Haferstraße - Badezentrum - Oedt";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;47-632-j23-1;
+633;bus;"Traun Hauptplatz - Am Nordsaum - Sportzentrum - Langholzfelderstraße Traun Hauptplatz - Sportzentrum - B1 Nebenfahrbahn/Langholzstraße";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;47-633-j23-1;
+640;bus;"Wels - Gunskirchen - Offenhausen - Bachmanning - Pennewang - Edt b. Lambach - Lambach Wels - Gunskirchen - Offenhausen - Pennewang - Lambach";;;Österreichische Postbus AG;AT-OOeVV;45-640-j23-1;
+641;bus;"Wels - Gunskirchen - Pennewang - Bachmanning Wels - Gunskirchen - Pennewang - Bachmanning - Offenhausen";;;Österreichische Postbus AG;AT-OOeVV;45-641-j23-1;
+642;bus;"Lambach - Bachmanning - Gaspoltshofen - Altenhof a. H. - Haag a. H. - Ried/I. Lambach - Gaspoltshofen - Haag a. H. - Ried/I.";;;Österreichische Postbus AG;AT-OOeVV;45-642-j23-1;
+643;bus;"Lambach - Bachmanning - Aichkirchen - Neukirchen b. Lambach - Lambach Lambach - Bachmanning - Aichk. - Neukirchen - Lambach";;;Österreichische Postbus AG;AT-OOeVV;45-643-j23-1;
+645;bus;"Wels - Gunskirchen - Pichl b. Wels - Bad Schallerbach - Wallern (- Grieskirchen) Wels - Gunskirchen - Pichl b. Wels - Wallern (- Grieskirchen)";;;Österreichische Postbus AG;AT-OOeVV;45-645-j23-1;
+646;bus;"Wels - Krenglbach - Pichl b. Wels - Kematen/Innbach - Meggenhofen - Aistersheim (- Haag a. H. - Ried/I.) Wels - Krenglbach - Pichl b. Wels - Meggenhofen - Haag/H. - Ried/I.";;;Österreichische Postbus AG;AT-OOeVV;45-646-j23-1;
+647;bus;"Wels - Pichl b. Wels - Gallspach Wels - Pichl b. Wels - Gallspach";;;Österreichische Postbus AG;AT-OOeVV;45-647-j23-1;
+650;bus;"Wallern - Bad Schallerbach - Schlüßlberg - Grieskirchen Wallern - Bad Schallerbach - Schlüßlberg - Grieskirchen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;45-650-j23-1;
+651;bus;"Grieskirchen - Gallspach - Meggenhofen - Gaspoltshofen - Altenhof a. H. Griesk. - Gallspach - Meggenhofen - Gaspoltshofen - Altenhof a. H.";;;Österreichische Postbus AG;AT-OOeVV;45-651-j23-1;
+652;bus;"Grieskirchen - St. Georgen b. Grieskirchen Grieskirchen - St. Georgen b. Grieskirchen";;;Österreichische Postbus AG;AT-OOeVV;45-652-j23-1;
+653;bus;"Grieskirchen - Hofkirchen a. d. Trattnach - Aistersheim - Weibern - Geboltskirchen Griesk. - Hofkirchen - Aistersheim - Weibern - Geboltskirchen";;;Österreichische Postbus AG;AT-OOeVV;45-653-j23-1;
+654;bus;"Grieskirchen - Taufkirchen a. d. Trattnach - Hofkirchen a. d. Trattnach - Haag a. H. (- Ried/I.) Grieskirchen - Obertrattnach - Haag a. H. (- Ried/I.)";;;Österreichische Postbus AG;AT-OOeVV;45-654-j23-1;
+657;bus;"Ortsverkehr Bad Schallerbach Ortsverkehr Bad Schallerbach";;;Fa. Schörgenhuber Hubert e. U.;AT-OOeVV;45-657-j23-1;
+660;bus;"Wels - Bad Schallerbach - Wallern - Eferding - Pupping - Hartkirchen - Aschach/D. Wels - Wallern - Eferding - Pupping - Hartkirchen - Aschach";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;45-660-j23-1;
+661;bus;"Grieskirchen - Pollham - St. Marienkirchen/Polsenz - Eferding Grieskirchen - Pollham - St. Marienkirchen/Pols. - Eferding";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;45-661-j23-1;
+662;bus;"Wels - Bad Schallerbach - Wallern - St. Marienkirchen/Polsenz - Prambachkirchen - Waizenkirchen Wels - St. Marienkirchen/Polsenz - Prambachkirchen - Waizenkirchen";;;Österreichische Postbus AG;AT-OOeVV;45-662-j23-1;
+663;bus;"Eferding - Obergallsbach - St. Marienkirchen/Polsenz - Dachsberg - Prambachkirchen Eferding - St. Marienkirchen - Dachsberg- Prambachkirchen";;;Österreichische Postbus AG;AT-OOeVV;45-663-j23-1;
+664;bus;"Wels - Buchkirchen - Scharten - Fraham - Eferding Wels - Buchkirchen - Scharten - Fraham - Eferding";;;Österreichische Postbus AG;AT-OOeVV;45-664-j23-1;
+665;bus;"Eferding - Hinzenbach - Stroheim (- Waizenkirchen - Dachsberg Gymnasium) Eferding - Hinzenbach - Stroheim (- Waizenkirchen - Dachsberg)";;;Hehenberger GesmbH & Co KG;AT-OOeVV;45-665-j23-1;
+670;bus;"Linz - Wilhering - Eferding - Hartkirchen - Haibach o. d. Donau - St. Agatha (- Engelhartszell - Passau) Linz - Wilhering - Eferding - Hartkirchen - Haibach - Passau";;;Österreichische Postbus AG;AT-OOeVV;45-670-j23-1;
+671;bus;"Wilhering - Straßham - Alkoven - Hartheim (- Eferding - Aschach/D.) Wilhering - Straßham - Alkoven - Hartheim - Aschach/D.";;;sabtours Busbetrieb GmbH;AT-OOeVV;45-671-j23-1;
+675;bus;"Linz - Wilhering - Schönering - Reith Linz - Wilhering - Schönering - Reith";;;WILIA d. Mgd. Wilhering;AT-OOeVV;25-675-j23-1;
+676;bus;"Linz Obere Donaulände - Wilhering - Mühlbach b.Wilhering - Dörnbach-Hitzing Linz Obere Donaulände - Dörnbach-Hitzing";;;WILIA d. Mgd. Wilhering;AT-OOeVV;25-676-j23-1;
+677;bus;"Schönering - Hitzing - Wilhering - Schönering Schönering - Hitzing - Wilhering - Schönering";;;WILIA d. Mgd. Wilhering;AT-OOeVV;25-677-j23-1;
+680;bus;"Hörsching - Rutzing - Frindorf - Hörsching Hörsching - Rutzing - Frindorf - Hörsching";;;sabtours Busbetrieb GmbH;AT-OOeVV;33-680-j23-1;
+682;bus;"Hörsching - Oftering - Axberg - Kirchberg - Hörsching Hörsching - Oftering - Axberg - Kirchberg - Hörsching";;;sabtours Busbetrieb GmbH;AT-OOeVV;33-682-j23-1;
+683;bus;"Dörnbach-Hitzing - Kirchberg - Thening - Hörsching Bahnhst Hitzing - Kirchberg - Thening - Hörsching";;;sabtours Busbetrieb GmbH;AT-OOeVV;33-683-j23-1;
+688;bus;"Leonding - Straßham - Aschach/D. - Bad Mühllacken Leonding - Eferding - Hartkirchen - Aschach/D. - Bad Mühllacken";;;sabtours Busbetrieb GmbH;AT-OOeVV;45-688-j23-1;
+690;bus;"Grieskirchen - Waizenkirchen - Peuerbach - Neukirchen a. W. (- St. Aegidi) Grieskirchen - Peuerbach - Neukirchen (- St. Aegidi)";;;Österreichische Postbus AG;AT-OOeVV;45-690-j23-1;
+692;bus;"Grieskirchen - Tollet - Michaelnbach - Waizenkirchen - St. Agatha - Haibach o. d. Donau Grieskirchen - Waizenkirchen - St. Agatha - Haibach";;;Österreichische Postbus AG;AT-OOeVV;45-692-j23-1;
+693;bus;"Grieskirchen - Pollham - St. Thomas b. Waizenkirchen - Prambachkirchen - Dachsberg Griesk. - Pollham - St. Thomas - Prambachkirchen - Dachsberg";;;Österreichische Postbus AG;AT-OOeVV;45-693-j23-1;
+696;bus;"Linz voestalpine - Wilhering - Alkoven - Eferding - Haibach o. d. Donau - St. Agatha Linz voestalp. - Wilhering - Alkoven - Eferding - Haibach - St. Agatha";;;Österreichische Postbus AG;AT-OOeVV;45-696-j23-1;
+697;bus;"Linz voestalpine - Alkoven - Waizenkirchen - Neukirchen a. W. Linz voestalpine - Alkoven - Waizenkirchen - Neukirchen a. W.";;;sabtours Busbetrieb GmbH;AT-OOeVV;45-697-j23-1;
+698;bus;"Linz voestalpine - Wilhering - Alkoven - Eferding - Pupping - Aschach/D. - Hartkirchen Linz voestalp. - Wilhering - Eferding - Aschach/D. - Hartkirchen";;;Österreichische Postbus AG;AT-OOeVV;45-698-j23-1;
+699;bus;"Linz voestalpine - Wilhering - Eferding - Prambachkirchen - Waizenkirchen - Peuerbach Linz voestalpine - Eferding - Waizenkirchen - Peuerbach";;;Österreichische Postbus AG;AT-OOeVV;45-699-j23-1;
+
+==Bereich 7xx
+700;bus;"Vöcklabruck - Neukirchen/Vöckla - Redl/Zipf - Frankenburg Vöcklabruck - Timelkam - Neukirchen/V. - Frankenburg";;;Österreichische Postbus AG;AT-OOeVV;15-700-j23-1;
+706;bus;"Vöcklabruck - Untereinwald/Untereinwald - Ungenach - Ampflwang Vöcklabruck - Pilsbach - Ungenach - Ampflwang";;;Österreichische Postbus AG;AT-OOeVV;15-706-j23-1;
+708;bus;"Vöcklabruck - Timelkam - Puchkirchen am Trattberg - Ampflwang Vöcklabruck - Timelkam - Puchkirchen/T. - Ampflwang";;;Österreichische Postbus AG;AT-OOeVV;15-708-j23-1;
+712;bus;"Vöcklabruck - Thomasroith - Wolfsegg - Altenhof - Gaspoltshofen Vöcklabruck - Wolfsegg - Altenhof - Gaspoltshofen";;;Österreichische Postbus AG;AT-OOeVV;15-712-j23-5;
+713;bus;"Vöcklabruck - Wolfsegg - Altenhof Vöcklabruck - Wolfsegg - Altenhof";;;Österreichische Postbus AG;AT-OOeVV;15-713-j23-3;
+716;bus;"Schwanenstadt - Atzbach - Niederthalheim - Schwanenstadt Schwanenstadt - Atzbach - Niederthalheim - Schwanenstadt";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-716-j23-1;
+721;bus;"Vöcklabruck Krankenhaus - Attnang-Puchheim Bf. Vöcklabruck Krankenhaus - Bbf - Varena - Regau - Attnang-P. Bf";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-721-j23-1;
+722;bus;"Vöcklabruck Dürnau - Varena Dürnau - Busbahnhof - Bahnhof - Varena";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-722-j23-1;
+723;bus;"Vöcklabruck Varena - Krankenhaus Varena - Schöndorf - Dürnau Mitte - Busbahnhof - Krankenhaus";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-723-j23-1;
+724;bus;"Vöcklabruck Varena - Buchleiten Varena - Schöndorf - Busbahnhof - J.-Nestroy-Straße";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-724-j23-1;
+725;bus;"Vöcklabruck Poschenhof - Schulzentrum Vöcklabruck Poschenhof - Bahnhof - Schulzentrum";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-725-j23-1;
+726;bus;"Attnang-Puchheim Bf - Redlham Attnang-Puchheim Bahnhof - Niederstraß/Alt Attnang - Redlham";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-726-j23-1;
+727;bus;"Attnang-Puchheim Bf - Zeislau Attnang-Puchheim Bahnhof - Rathausplatz - Zeislau";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-727-j23-1;
+728;bus;"Attnang-Puchheim Bf - Oberfeld Attnang-Puchheim Bahnhof - Puchheim - Oberfeld - Bahnhof";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-728-j23-1;
+729;bus;"Attnang-Puchheim Bf - Wiener Straße OST Bahnhof (- Spitzberg) - Wiener Straße OST";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-729-j23-1;
+
+==Bereich 8xx
+810;bus;"Schärding - Münzkirchen - St. Roman - St. Aegidi - Engelhartszell Schärding - Münzkirchen - St. Roman - Engelhartszell";;;Österreichische Postbus AG;AT-OOeVV;28-810-j23-1;
+811;bus;"St.Roman - Stadl b.Engelhartszell St.Roman - Stadl b.Engelhartszell";;;Österreichische Postbus AG;AT-OOeVV;28-811-j23-1;
+812;bus;"Schärding - Münzkirchen - Esternberg - Vichtenstein - Pyrawang Schärding - Münzkirchen - Esternberg - Pyrawang";;;Österreichische Postbus AG;AT-OOeVV;28-812-j23-1;
+813;bus;"Ried i.Ikr. - Andorf - Sigharting - Kopfing - St.Aegidi/Münzkirchen Ried i.Ikr. - Andorf - Sigharting - Kopfing/Münzkirchen";;;Österreichische Postbus AG;AT-OOeVV;28-813-j23-1;
+817;bus;"Schärding - Wernstein am Inn - Schardenberg - Mayrhof - Schärding Schärding - Wernstein/Inn - Mayrhof - Schärding";;;Österreichische Postbus AG;AT-OOeVV;28-817-j23-1;
+818;bus;"Schärding - Schardenberg - Haibach b.Freinberg - Freinberg Schärding - Schardenberg - Haibach b.Freinberg - Freinberg";;;Österreichische Postbus AG;AT-OOeVV;28-818-j23-1;
+820;bus;"Schärding - St.Florian/Inn - Andorf - Raab - Peuerbach Schärding - St.Florian/Inn - Andorf - Raab - Peuerbach";;;Österreichische Postbus AG;AT-OOeVV;28-820-j23-1;
+822;bus;"Schärding - St.Florian/Inn - Taufkirchen/Pram - Diersbach - Kopfing i.Ikr. Schärding - St. Florian/Inn - Taufkirchen/Pram - Kopfing";;;Österreichische Postbus AG;AT-OOeVV;28-822-j23-1;
+824;bus;"Schärding - St.Florian/Inn - Rossbach - Taufkirchen/Pram - Enzenkirchen - Raab Schärding - St.Florian/Inn - Taufkirchen/Pram - Raab";;;Österreichische Postbus AG;AT-OOeVV;28-824-j23-1;
+826;bus;"Schärding - St.Florian/Inn - Suben - St.Marienkirchen - Eggerding Schärding - St.Florian/Inn - Suben- St.Marienkirchen - Eggerding";;;Österreichische Postbus AG;AT-OOeVV;28-826-j23-1;
+828;bus;"Bubing - Otterbach - Schärding - Gopperding - Rainbach i.Ikr. Bubing - Otterbach - Schärding - Gopperding - Rainbach i.Ikr.";;;Österreichische Postbus AG;AT-OOeVV;28-828-j23-1;
+831;bus;"CITYBUS-VERKEHR RIED im Innkreis/Riedberg CITYBUS-VERKEHR RIED 831 Riedberg, 832 Försterstraße";;;Österreichische Postbus AG;AT-OOeVV;46-831-j23-1;
+832;bus;"CITYBUS-VERKEHR RIED im Innkreis/Försterstraße - Stöcklgras";;;Österreichische Postbus AG;AT-OOeVV;46-832-j23-1;
+833;bus;"CITYBUS-VERKEHR RIED im Innkreis/Krankenhaus/Hohenzellerstraße CITYBUS-VERKEHR RIED 833 Hohenzollerstraße, 834 Bahnhof";;;Österreichische Postbus AG;AT-OOeVV;46-833-j23-1;
+834;bus;"CITYBUS-VERKEHR RIED im Innkreis/Bahnhof/Schatzdorferstraße";;;Österreichische Postbus AG;AT-OOeVV;46-834-j23-1;
+835;bus;"CITYBUS-VERKEHR RIED im Innkreis/Rabenberger Weg CITYBUS-VERKEHR RIED Rabenberger Weg";;;Österreichische Postbus AG;AT-OOeVV;46-835-j23-1;
+840;bus;"Ried im Innkreis - Aurolzmünster - Osternach - Antiesenhofen Ried im Innkreis - Osternach - Antiesenhofen";;;Österreichische Postbus AG;AT-OOeVV;27-840-j23-1;
+841;bus;"Ried i.I. - Aurolzmünster - Eitzing - Senftenbach - Obernberg/I - Mörschwang Ried im Innkreis - Aurolzmünster - Obernberg - Mörschwang";;;Österreichische Postbus AG;AT-OOeVV;27-841-j23-1;
+842;bus;"Ried i.I. - Aurolzmünster - Lambrechten - Andorf - Sigharting Ried im Innkr. - Lambrechten - Andorf - Sigharting";;;Österreichische Postbus AG;AT-OOeVV;27-842-j23-1;
+843;bus;"Taiskirchen i.I. - Lambrechten - Uztenaich Taiskirchen im Innkreis - Lambrechten - Utzenaich";;;Österreichische Postbus AG;AT-OOeVV;27-843-j23-1;
+844;bus;"Ried i.I. - Tumeltsham -Taiskirchen i.I. - Riedau - Zell a.d. Pram - Raab Ried im Innkreis - Riedau - Zell/Pram - Raab";;;Österreichische Postbus AG;AT-OOeVV;27-844-j23-1;
+845;bus;"Altheim - Kirchdorf - Reichersberg - Antiesenhofen Altheim - Kirchdorf - Reichersberg - Antiesenhofen";;;Österreichische Postbus AG;AT-OOeVV;27-845-j23-1;
+850;bus;"Ried i.I. - Neuhofen - Lohnsburg - Waldzell - Stelzen Ried im Innkreis - Lohnsburg - Waldzell - Stelzen - Arnberg";;;Österreichische Postbus AG;AT-OOeVV;27-850-j23-1;
+851;bus;"Ried i.I. - Neuhofen - Pattigham - Schildorn - Pramet - Frankenburg Ried im Innkreis - Pattigham - Schildorn - Frankenburg";;;Österreichische Postbus AG;AT-OOeVV;27-851-j23-1;
+852;bus;"Ried i.I. - Hohenzell - Eberschwang - Ampflwang am Hausruckwald Ried im Innkreis - Hohenzell - Eberschwang - Ampflwang";;;Österreichische Postbus AG;AT-OOeVV;27-852-j23-1;
+853;bus;"Ried i.I. - Hohenzell - Obereselbach - Haag am Hausruck - Geboltskirchen Ried im Innkreis - Hohenzell - Haag/Hausruck - Geboltskirchen";;;Österreichische Postbus AG;AT-OOeVV;27-853-j23-1;
+860;bus;"Braunau am Inn - Weng im Innkreis - Altheim - Polling - Aspach Braunau am Inn - Weng/Innkr. - Altheim - Polling - Aspach";;;Österreichische Postbus AG;AT-OOeVV;26-860-j23-1;
+861;bus;"Braunau - Burgkirchen - Mauerkirchen - (Roßbach- Höhnhart) - Mattighofen Braunau - Mauerkirchen - (Roßbach- Höhnhart) - Mattighofen";;;Österreichische Postbus AG;AT-OOeVV;26-861-j23-1;
+862;bus;"Ried i.I. - Mehrnbach - Aspach - Höhnhart - St.Johann am Walde Ried im Innkreis - Mehrnbach - Aspach - St.Johann am Walde";;;Österreichische Postbus AG;AT-OOeVV;27-862-j23-1;
+863;bus;"Ried/I. - Mehrnbach - Kirchheim - Polling - Altheim/I. Ried/I. - Mehrnbach - Polling - Altheim/I.";;;Österreichische Postbus AG;AT-OOeVV;27-863-j23-1;
+864;bus;"Ried/I. - Wippenham - Geinberg - Altheim/I. - Mühlheim Ried/I. - Mehrnbach - Wippenham - Geinberg - Altheim/I. - Mühlheim";;;Österreichische Postbus AG;AT-OOeVV;27-864-j23-1;
+866;bus;"Ried i.I. - Neuhofen i.I. - Mettmach Ried im Innkreis - Neuhofen i.I. - Mettmach";;;Österreichische Postbus AG;AT-OOeVV;27-866-j23-1;
+870;bus;"Friedburg - Lengau - Teichstätt - Achenlohe - Munderfing Friedburg - Lengau - Teichstätt Achenlohe - Munderfing";;;Österreichische Postbus AG;AT-OOeVV;26-870-j23-1;
+871;bus;"Neumarkt - Straßwalchen - Friedburg - Schneegattern - Hochek Straßwalchen - Friedburg - Schneegattern - Hocheck";;;Österreichische Postbus AG;AT-OOeVV;26-871-j23-1;
+872;bus;"Straßwalchen - Friedburg - Munderfing - Mattighofen Straßwalchen - Friedburg - Munderfing - Mattighofen";;;Österreichische Postbus AG;AT-OOeVV;26-872-j23-1;
+873;bus;"Straßwalchen - Lengau - Lochen - Munderfing Straßwalchen - Lengau - Lochen - Munderfing";;;Österreichische Postbus AG;AT-OOeVV;26-873-j23-1;
+874;bus;"Mattighofen - Auerbach - Kirchberg - Perwang Mattighofen - Auerbach - Kirchberg - Perwang";;;Österreichische Postbus AG;AT-OOeVV;26-874-j23-1;
+875;bus;"Mattsee - Palting - Mattighofen Mattsee - Palting - Mattighofen";;;Österreichische Postbus AG;AT-OOeVV;26-875-j23-2;
+876;bus;"Mattighofen - Maria Schmolln - St.Johann am Walde - Frauschereck Mattighofen - Maria Schmolln - St.Johann/W. - Frauschereck";;;Österreichische Postbus AG;AT-OOeVV;26-876-j23-1;
+878;bus;"Pischelsdorf am Engelbach - Feldkirchen - Eggelsberg - Geretsberg Pischelsdorf - Feldkirchen - Eggelsberg - Geretsberg";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;26-878-j23-1;
+880;bus;"Braunau am Inn - Neukirchen/Enknach - Lamprechtshausen - Oberndorf Braunau am Inn - Neukirchen - Lamprechtshausen -Oberndorf";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;26-880-j23-1;
+881;bus;"Neukirchen - Pischelsdorf - Mattighofen Neukirchen - Pischelsdorf - Mattighofen";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;26-881-j23-1;
+882;bus;"Braunau - Schwand - Gilgenberg - Ostermiething Braunau - Schwand - Gilgenberg - Ostermiething";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;26-882-j23-1;
+884;bus;"(Wildshut) - Ostermiething - St. Radegund - Duttendorf - (Braunau) Ostermiething - St. Radegund - Duttendorf - (Braunau)";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;26-884-j23-1;
+885;bus;"Braunau am Inn - Überackern - Hochburg - Tarsdorf - Ostermiething Braunau - Überackern - Hochburg - Ostermiething";;;Stern & Hafferl Kraftfahrlinien GmbH;AT-OOeVV;26-885-j23-1;
+891;bus;"CITYBUS BRAUNAU Stadtplatz - Bahnhof - Haselbach - Neustadt - Stadtplatz CITYBUS - Braunau Stadtplatz - Haselbach - Neustadt";;;Österreichische Postbus AG;AT-OOeVV;45-891-j23-1;
+892;bus;"CITYBUS BRAUNAU Stadtplatz - Neustadt - Haselbach - Bahnhof - Stadtplatz CITYBUS - Braunau Stadtplatz - Neustadt - Haselbach";;;Österreichische Postbus AG;AT-OOeVV;45-892-j23-1;
+893;bus;"CITYBUS BRAUNAU Stadtplatz - Ranshofen - Stadtplatz CITYBUS Braunau Stadtplatz - Ranshofen - Stadtplatz";;;Österreichische Postbus AG;AT-OOeVV;45-893-j23-1;
+894;bus;"CITYBUS BRAUNAU Stadtplatz - Laab - Stadtplatz CITYBUS - Braunau Stadtplatz - Laab - Stadtplatz";;;Österreichische Postbus AG;AT-OOeVV;45-894-j23-1;
+898;bus;"Braunau am Inn - Neustadt - Kühberg - Braunau/I. Braunau am Inn - Neustadt - Kühberg - Braunau/I.";;;Österreichische Postbus AG;AT-OOeVV;26-898-j23-1;
+
+=nicht im Verbund
+MAT;train;Museumsbahn Ampflwang – Timelkam;;;;;;
+SBB;train;Schafbergbahn;;;;;;

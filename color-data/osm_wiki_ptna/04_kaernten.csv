@@ -1,0 +1,212 @@
+
+#
+# Diese Daten sind Input für das Tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+
+
+= Überblick über die ÖPNV-Linien des Verkehrsverbund Kärnten (Kärntner Linien)
+
+- Verweis auf diese Liste mit den [[Austria/Nahverkehr Kärnten/Analyse/VKG-Linien]] im OSM-Wiki.
+-
+- Verweis auf mehr [/de/config.php?network=AT-VKG Informationen] zu dieser Auswertung.
+-
+
+== Quellen 
+-
+#
+# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+==Schiene ÖBB
+223;train;Spittal-Millstättersee - Lienz - San Candido
+S1;train;Pusarnitz - Villach - Klagenfurt - Wolfsberg;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S1-K-j26-1
+S2;train;Villach - Feldkirchen - St. Veit an der Glan;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S2-K-j26-1
+S3;train;Weizelsdorf - Klagenfurt Hbf;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S3-K-j26-1
+S4;train;Villach Hbf - Hermagor;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S4-K-j26-1
+S5;train;Villach Hbf - Rosenbach;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S5-K-j26-1
+S6;train;Spittal-Millstättersee - Lienz;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S6-K-j26-1
+S7;train;Friesach - St.Veit a.d.Glan - Klagenfurt;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S7-K-j26-1
+REX1;train;Klagenfurt Hbf - Wolfsberg;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;2-RX1-K-j26-1
+
+==S-Busse
+SB1;bus;1 Klagenfurt - Griffen;;;Österreichische Postbus AG;AT-VKG;at:ktn:700:
+SB2;bus;2 Ferlach - Rosental - Villach
+SB4;bus;4 Klagenfurt - Feldkirchen
+
+==Klagenfurt
+===Stadtbusse 
+A;bus;Annabichl – Liberogasse/FH Kärnten;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:46:;
+B;bus;Viktring – Welzenegg;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:47:;
+C;bus;Klagenfurt Hbf - 	Klagenfurt West/Strandbad;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:48:
+
+1;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:1:;
+2;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:2:;
+3;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:3:;
+4;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:4:;
+5;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:5:;
+6;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:6:;
+7;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:7:;
+8;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:8:;
+9;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:9:;
+
+10;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:60:;
+20;bus;Bus 1;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:61:;
+
+===Regionallinien
+52;bus;Klagenfurt Hbf - Ebenthal - Radsberg;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:952:;
+54;bus;Heiligengeistplatz - Kohldorf;;;Klagenfurt Mobil GmbH;AT-VKG;at:ktn:54:;
+
+
+==Stadtbusse Villach
+1;bus;Hauptbahnhof – Therme Warmbad – KTS/SKA;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:21:
+2;bus;Hauptbahnhof - Völkendorf Schloss - Hauptbahnhof;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:22:
+3;bus;10.-Oktober-Straße – Hauptbahnhof – Technologiepark – St. Ulrich;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:23:
+4;bus;Hauptbahnhof – Auen Haselnussweg;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:24:
+5A;bus;Hauptbahnhof - St. Martin - Tiroler Straße/VEZ;;;Dr. Richard;AT-VKG;at:ktn:31:
+5B;bus;Hauptbahnhof - St. Martin - Tiroler Straße/VEZ;;;Dr. Richard;AT-VKG;at:ktn:32:
+6;bus;Hauptbahnhof – Zentralfriedhof Südeingang – 10.-Oktober-Straße – Hauptbahnhof;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:26:
+7;bus;Neue Heimat – Hauptbahnhof – LKH – Siemensstraße/Infineon – KTS/SKA;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:27:
+8;bus;Technologiepark – Seebacher Allee – Hauptbahnhof – Tschinowitsch;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:28:
+9;bus;Hauptbahnhof – Steirerhof – Möltschach;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:29:
+10;bus;Hauptbahnhof – Atrio – KTS/SKA;Villach Hauptbahnhof;Warmbad;Kowatsch;;;Dr. Richard
+11;bus;Hauptbahnhof – Burgenlandstraße – Perau Volkshaus – 10.-Oktober-Straße – Hauptbahnhof;;;Dr. Richard
+12;bus;Hauptbahnhof – Völkendorf Schloss – Warmbad Bahnhof – Hauptbahnhof;;;Dr. Richard
+18;bus;Hauptbahnhof – Oberschütt;;;Dr. Richard;AT-VKG;at:ktn:30:
+50;bus;Sattendorf über Annenheim-Kanzel-Talstation;Villach 10.-Oktober-Straße;Villach Hauptbahnhof;Dr. Richard Kärnten GmbH & CO KG;AT-VKG;at:ktn:36:
+Citybus;bus;E-City-Bus der Stadt Villach
+
+
+==Bus Oberkärnten VKG
+5002;bus;Lienz - Winklern
+5021;bus;Möllbrücke - Oberdrauburg 
+5050;bus;Kötschach - St. Lorenzen
+5052;bus;Kötschach - Oberdrauburg 
+5053;bus;Kirchbach - Kötschach
+5055;bus;St. Stefan - Vorderberg
+5057;bus;Hermagor - Egg - Görtschach
+5058;bus;Hermagor - Kötschach;;;Mobilbüro Hermagor
+5059;bus;Hermagor - Möderndorf
+5066;bus;Hermagor - Weissbriach - Hermagor
+5067;bus;Hermagor - Radnig 
+5068;bus;Greifenburg - Weißensee 
+5108;bus;Spittal an der Drau - Obervellach - Winklern - Heiligenblut
+5110;bus;Spittal an der Drau - Molzbichl - Aichfeldsiedlung - St. Peter - Unteramlach 
+5112;bus;Spittal an der Drau - Baldramsdorf - Rosenheim 
+5114;bus;Mallnitz - Obervellach + Ankogel + Mölltaler Gletscher
+5118;bus;Möllbrücke - Pusarnitz - Göriach 
+5121;bus;Spittal an der Drau - Ferndorf - Feistritz an der Drau 
+5128;bus;Spittal an der Drau - Lieserhofen - Rojach 
+5130;bus;Gmünd - Malta - Pflüglhof
+5132;bus;Spittal an der Drau - Gmünd - Rennweg - Katschberg
+5138;bus;Spittal an der Drau - Seeboden - Treffling - Laubendorf - Obermillstatt - Millstatt - Spittal
+5140;bus;Spittal an der Drau - Seeboden - Millstatt - Radenthein - Bad Kleinkirchheim - St. Oswald - Ebene Reichenau
+5144;bus;Spittal an der Drau - Seeboden - Millstatt - Radenthein - Bad Kleinkirchheim - St. Oswald - Ebene Reichenau
+5142;bus;Radenthein - Kaning 
+5150;bus;Villach - Treffen - Afritz - Radenthein
+5160;bus;Feistritz an der Drau - Zlan - Stockenboi - Feistritz an der Drau 
+5166;bus;Feistritz an der Drau - Pöllan - Feistritz an der Drau 
+5168;bus;Feistritz an der Drau - Fresach - Sonnwiesen - Glanz 
+5171;bus;Spittal - Kamering - Feistritz an der Drau;;;ÖBB-Postbus 
+# die beiden Relationen sollten zusammengelegt werden - eine einzige Busnummer 5171;bus;Villach - Puch - Kellerberg - Feistritz an der Drau;;;ÖBB-Postbus
+5173;bus;Puch - Weißenstein - Feistritz an der Drau 
+5175;bus;Villach - St. Martin - Obere Fellach - St. Georgen - Pogöriach - Goritschach - St. Martin - Villach 
+5175;bus;Villach - Goritschach - Pogöriach 
+5177;bus;Villach - Bodensdorf - Feldkirchen
+5179;bus;Villach - Lind ob Velden - Velden am Wörthersee 
+5181;bus;Villach - Trabenig - Damtschach - Ebenfeld - Terlach - Wernberg - Villach
+5194;bus;Villach - Drobollach - Ledenitzen - Faak - Föderlach 
+# die beiden Relationen sollten zusammengelegt werden - eine einzige Busnummer 5194;bus;Rosenbach - St. Jakob - Ledenitzen - Faak - Drobollach - Villach 
+5196;bus;Villach - Großsattel - Rosegg - Lind - Velden am Wörthersee 
+8570;bus;Villach - Bad Bleiberg - Kreuth - Nötsch - Tratten im Gailtal 
+8571;bus;Villach - Bad Bleiberg - Kreuth - Nötsch - Tratten im Gailtal 
+8572;bus;Hermagor - St. Stefan - Nötsch - Thörl Maglern - Arnoldstein - Riegersdorf - Fürnitz - Villach 
+8573;bus;Villach Hbf(Bbf) - Lind Sportplatz - Unterwollanig - Oberwollanig - Villach Hbf(Bbf)
+
+8572A;bus;Ortsverkehr Arnoldstein 
+
+==Bus Unterkärnten VKG
+5202;bus;Feldkirchen - St. Nikolai - Kohlstatt 
+5204;bus;Feldkirchen - Unterberg - Ossiach 
+5208;bus;Feldkirchen - Wachsenberg - Sirnitz - Deutsch Griffen
+5210;bus;Villach - Ossiach 
+5200;bus;Villach - Ossiach 
+5212;bus;Feldkirchen - Steuerberg - Fuchsgraben - Zammelsberg 
+# die beiden Relationen sollten zusammengelegt werden - eine einzige Busnummer 5212;bus;Feldkirchen Bahnhof - Korngasse # Teilstrecke
+5221;bus;Feldkirchen - Liebenfels - St. Veit
+5223;bus;Feldkirchen - St. Urban - Klein St. Veit
+5227;bus;St. Veit - Pulst - Liebenfels - Liemberg 
+5230;bus;Klagenfurt - Moosburg - Feldkirchen # S-Bus 4 
+5232;bus;Feldkirchen - Klein St. Veit - Tigring - Moosburg - Krumpendorf - Klagenfurt
+5234;bus;Feldkirchen - Ebene Reichenau - Turracher Höhe
+5310;bus;Klagenfurt - Maria Wörth - Velden am Wörthersee 
+5312;bus;Lind ob Velden - Velden am Wörthersee - Fahrendorf - Köstenberg 
+5315;bus;Velden am Wörthersee - Schiefling - St. Egyden - Velden am Wörthersee
+5316;bus;Klagenfurt - Keutschach - Gh. Brückler / Höhe Abzw. Höhenwirt - Schiefling - Velden am Wörthersee
+5317;bus;Velden am Wörthersee - Lind Rosegg Bahnhof - Velden Busbahnhof 
+5318;bus;Klagenfurt - Köttmannsdorf - Oberdörfl 
+5319;bus;Velden am Wörthersee - Pörtschach - Klagenfurt 
+5321;bus;Pörtschach - St. Martin am Techelsberg - Kerschdorf 
+5323;bus;Moosburg - Stallhofen - Pörtschach (ab 12.9.)
+5325;bus;Weizelsdorf - St. Jakob - Lind
+5327;bus;Klagenfurt - Ehrensdorf - Ferlach 
+5331;bus;Klagenfurt - Gaisach - Maria Rain Bahnhof - Strantschitschach 
+5332;bus;Ferlach - Ressnig - Kappel a. d. Drau - Weizelsdorf - Ressnig - Ferlach 
+5334;bus;Weizelsdorf - Ferlach - Loibltal - Bodental 
+5336;bus;Weizelsdorf - Ferlach - Zell Pfarre - Terkl 
+5338;bus;Ferlach - St. Margareten im Rosental - Gallizien 
+5356;bus;Klagenfurt - Gallizien - Bad Eisenkappel
+5358;bus;Klagenfurt - Grafenstein - Tainach 
+5360;bus;Klagenfurt - Tainach - Klopeiner See 
+5364;bus;Klagenfurt - Völkermarkt - St. Peter am Wallersberg - Lavamünd 
+5366;bus;Kühnsdorf - Völkermarkt - St. Paul im Lavanttal - St. Andrä im Lavanttal- Wolfsberg 
+5368;bus;Klagenfurt - Wutschein - Völkermarkt - Pustritz 
+5370;bus;Wolfsberg - Klagenfurt 
+5371;bus;Klagenfurt - Pörtschach am Berg - Zollfeld - Maria Saal - St. Veit a. d. Glan
+5373;bus;St. Veit a. d. Glan - Längsee - Launsdorf 
+5377;bus;Treibach - Friesach - Micheldorf Hirt - Strassburg - Gurk - Weitensfeld - Deutsch Griffen 
+5380;bus;St. Veit a. d. Glan - Sörg - Hart
+5390;bus;Friesach - Grades - Metnitz - Oberhof
+5391;bus;St. Veit a. d. Glan - Althofen - Dürnstein 
+5392;bus;Friesach - Zeltschach
+5393;bus;Althofen Stadtverkehr 
+5394;bus;St. Veit a. d. Glan - Meiselding - Treibach Althofen
+5395;bus;Knappenberg - Hüttenberg - Klein St. Paul - Passering - Althofen 
+5396;bus;Klagenfurt - Brückl - Mösel - Lölling
+# 5396;bus;Klagenfurt - Ottmanach - Magdalensberg - St. Lorenzen - St. Michael/Gurk - Salchendorf 
+5400;bus;Launsdorf - Brückl - Völkermarkt - Kühnsdorf
+5402;bus;St. Michael/Gurk - St. Georgen - St. Margarethen - Völkermarkt 
+5404;bus;Völkermarkt - Höhenbergen - Tainach - Gallizien 
+5410;bus;Völkermarkt - Kühnsdorf - Völkermarkt Bahnhof - St. Kanzian am Klopeinersee - Turnersee - St. Veit im Jauntal - Rückersdorf
+5416;bus;Völkermarkt - Kühnsdorf - Altendorf - Bad Eisenkappel - Bad Vellach 
+#5416;bus;Mahle - Globasnitz - Eberndorf - Sittersdorf - Bad Eisenkappel 
+5420;bus;Völkermarkt - Kühnsdorf Bf. - Eberndorf Bf. - Mahle - St. Michael ob Bleiburg Bf. 
+#5420;bus;Völkermarkt - Eberndorf - Bleiburg - Lavamünd
+5426;bus;Völkermarkt - Edling - Bleiburg - St. Georgen ob Bleiburg 
+5428;bus;Völkermarkt - Haimburg - Griffen - Ruden - St. Peter am Wallersberg - Völkermarkt 
+#5428;bus;Völkermarkt - Dürrenmoos - Haimburg - Griffen - Ruden - Eisruden - Bleiburg - Mahle 
+5430;bus;Grafenbach - Diex - Moos - Haimburg - Völkermarkt 
+5450;bus;Wolfsberg - Auen - Wolfsberg 
+5452;bus;Wolfsberg - St. Margarethen - Weissenbach Thermalbad 
+5456;bus;Wolfsberg - St. Stefan - St. Marein - St. Michael im Lavanttal - Wolfsberg 
+5458;bus;Wolfsberg - St. Michael im Lavanttal - St. Marein - St. Stefan - Wolfsberg 
+5460;bus;Wolfsberg Stadtverkehr / Bf. - St. Marein - Kleinedling - Wolfsberg Bf. 
+5462;bus;Wolfsberg - St. Marein - Winkling - Wolfsberg 
+5466;bus;Wolfsberg Stadtverkehr / Bf. - St. Stefan - Wolfsberg Bf. 
+5466;bus;Wolfsberg - St. Georgen im Lavanttal - St. Paul im Lavanttal - Ettendorf - Lavamünd
+5466;bus;St. Andrä im Lavanttal - Eitweg - St. Andrä im Lavanttal
+5466;bus;Eitweg - Maria Rojach - St. Georgen im Lavanttal - Lavamünd - Untermoos - Mahle 
+5470;bus;Wolfsberg - St. Jakob im Lavanttal - Granitztal - St. Paul im Lavanttal
+5471;bus;Wolfsberg - St. Paul im Lavanttal - Lavamünd
+5472;bus;Wolfsberg - St. Johann im Lavanttal - Eitweg - St. Georgen - Maria Rojach - St. Paul im Lavanttal
+5480;bus;Wolfsberg - Klippitztörl - Schiefling - Preitenegg - Hebalpe - Reichenfels 
+5484;bus;Reichenfels - Wolfsberg Bf. - St. Andrä im Lavanttal Bf. 
+5911;bus;Klagenfurt - Klinikum - Völkermarkt - Griffen # S-Bus 1 
+5912;bus;Ferlach - Rosental - Villach # S-Bus 2 
+8579;bus;Moosburg - Pörtschach
+8590;bus;St. Veit a. d. Glan - Kraig - Wimitz - Pisweg 
+8591;bus;Klagenfurt - Liebenfels
+8592;bus;Wölfnitz - Großbuch - Pondorf - Wölfnitz
+
+==Sonstiges (nicht im Verbund)
+ICB;bus;Intercitybus Klagenfurt - Graz
+- Autoschleuse Tauernbahn
+ATB;train;Mallnitz - Böckstein
+

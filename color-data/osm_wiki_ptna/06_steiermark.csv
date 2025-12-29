@@ -1,0 +1,512 @@
+
+#
+# Diese Daten sind Input für das Tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+
+
+= Überblick über die ÖPNV-Linien des Verkehrsverbund Steiermark (Verbund Linie)
+
+- Verweis auf diese Liste mit den [[Austria/Nahverkehr_Steiermark/Analyse/VVSt-Linien|VVSt Linien]] im OSM-Wiki.
+-
+- Verweis auf mehr [/de/config.php?network=AT-VVSt Informationen] zu dieser Auswertung.
+-
+
+== Quellen 
+-
+#
+== S-Bahn
+S1;train;;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;at:obb:1|S1:M
+S11;train;;;;Steiermarkbahn und Bus GmbH;AT-VVSt;at:stv:7011:
+S3;train;;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;at:obb:1|S3:M
+S31;train;;;;Steiermarkbahn und Bus GmbH;AT-VVSt;at:stv:7031:
+S5;train;;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;at:obb:1|S5:M
+S51;train;;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S51-M-j25-1
+S6;train;;;;Graz-Köflacher Bahn und Busbetrieb GmbH;AT-VVSt;at:stv:7006:
+S61;train;;;;Graz-Köflacher Bahn und Busbetrieb GmbH;AT-VVSt;at:stv:7061:
+S7;train;;;;Graz-Köflacher Bahn und Busbetrieb GmbH;AT-VVSt;at:stv:7007:
+S8;train;;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;at:obb:1|S8:M
+S9;train;;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;at:obb:1|S9:M
+-
+#
+==Eisenbahn
+R250;train;R250 Bischofshofen – St. Michael;;ÖBB
+R530;train;R530;Fehring - Szentgotthárd;;ÖBB
+R532;train;Feldbach - Bad Gleichenberg;;StB;;AT-VVSt;at:stv:7532:
+R630;train;R630 Unzmarkt – Tamsweg;;StB;;AT-VVSt;at:stv:8063:
+R91;train;R91 Payerbach – Mürzzuschlag;;ÖBB;;AT-Eisenbahn;3-R91-A-j25-1
+R92;train;R92 Wr. Neustadt – Fehring;;ÖBB;;AT-Eisenbahn;3-R92-N-j25-1
+-
+#
+== Stadtverkehr Graz
+=== Straßenbahn
+1;tram;;Mariatrost;Eggenberg/UKH;Graz Linien;AT-VVSt;at:stv:1:
+3;tram;;Krenngasse;Andritz;Graz Linien;AT-VVSt;at:stv:3:
+4;tram;;Liebenau;Reininghaus;Graz Linien;AT-VVSt;at:stv:4:
+5;tram;;Puntigam;Andritz;Graz Linien;AT-VVSt;at:stv:5:
+6;tram;;Sankt Peter;Smart City/Peter-Tunner-Gasse/tim;Graz Linien;AT-VVSt;at:stv:6:
+7;tram;;LKH Med Uni/Klinikum Nord;Wetzelsdorf;Graz Linien;AT-VVSt;at:stv:7:
+23;tram;;Jakominiplatz;Krenngasse;Graz Linien;AT-VVSt;at:stv:23:
+-
+#
+=== Bus (Stadt- und Umlandverkehr Graz)
+30;bus;;;;Graz Linien;AT-VVSt;at:stv:30:
+31;bus;;;;Graz Linien;AT-VVSt;at:stv:31:
+31E;bus;;;;Graz Linien;AT-VVSt;at:stv:1031:
+32;bus;;;;Graz Linien;AT-VVSt;at:stv:32
+33;bus;;;;Graz Linien;AT-VVSt;at:stv:33:
+34;bus;;;;Graz Linien;AT-VVSt;at:stv:34:
+34E;bus;;;;Graz Linien;AT-VVSt;at:stv:1034:
+39;bus;;;;Graz Linien;AT-VVSt;at:stv:39:
+40;bus;;;;Graz Linien;AT-VVSt;at:stv:40:
+41;bus;;;;Graz Linien;AT-VVSt;at:stv:41:
+41E;bus;;;;Graz Linien;AT-VVSt;at:stv:1041:
+45;bus;;;;Handl;AT-VVSt;at:stv:45:
+48;bus;;;;Graz Linien;AT-VVSt;at:stv:48:
+52;bus;;;;Graz Linien;AT-VVSt;at:stv:52:
+52E;bus;;;;Graz Linien;AT-VVSt;at:stv:1052:
+52Z;bus;;;;Graz Linien;AT-VVSt;at:stv:2052:
+53;bus;;;;Graz Linien;AT-VVSt;at:stv:53:
+58;bus;;;;Graz Linien;AT-VVSt;at:stv:58:
+60;bus;;;;Graz Linien;AT-VVSt;at:stv:60:
+61;bus;;;;Watzke;AT-VVSt;at:stv:61:
+62;bus;;;;Graz Linien;AT-VVSt;at:stv:62:
+63;bus;;;;Graz Linien;AT-VVSt;at:stv:63:
+64;bus;;;;Graz Linien;AT-VVSt;at:stv:64:
+64E;bus;;;;Graz Linien;AT-VVSt;at:stv:1064:
+65;bus;;;;Graz Linien;AT-VVSt;at:stv:65:
+65A;bus;;;;Graz Linien;AT-VVSt;at:stv:2065:
+65E;bus;;;;Graz Linien;AT-VVSt;at:stv:1065:
+66;bus;;;;Graz Linien;AT-VVSt;at:stv:66:
+67;bus;;;;Graz Linien;AT-VVSt;at:stv:67:
+67E;bus;;;;Graz Linien;AT-VVSt;at:stv:1067:
+68;bus;;;;Graz Linien;AT-VVSt;at:stv:68:
+69;bus;;;;Graz Linien;AT-VVSt;at:stv:69:
+72;bus;;;;Graz Linien;AT-VVSt;at:stv:72:
+74;bus;;;;Graz Linien;AT-VVSt;at:stv:74:
+75;bus;;;;Graz Linien;AT-VVSt;at:stv:75:
+78;bus;;;;Graz Linien;AT-VVSt;at:stv:78:
+80;bus;;;;Graz Linien;AT-VVSt;at:stv:80:
+81;bus;;;;Graz Linien;AT-VVSt;at:stv:81:
+82;bus;;;;Graz Linien;AT-VVSt;at:stv:82:
+-
+#
+=== Nacht-Bus (Graz)
+N1;bus;;;;Graz Linien;AT-VVSt;at:stv:1001:
+N2;bus;;;;Graz Linien;AT-VVSt;at:stv:1002:
+N3;bus;;;;Graz Linien;AT-VVSt;at:stv:1003:
+N4;bus;;;;Graz Linien;AT-VVSt;at:stv:1004:
+N5;bus;;;;Graz Linien;AT-VVSt;at:stv:1005:
+N6;bus;;;;Graz Linien;AT-VVSt;at:stv:1006:
+N7;bus;;;;Graz Linien;AT-VVSt;at:stv:1007:
+N8;bus;;;;Graz Linien;AT-VVSt;at:stv:1008:
+N9;bus;;;;Graz Linien;AT-VVSt;at:stv:1009:
+-
+#
+===Schloßbergbahn
+SBB;funicular;;;;Graz Linien;AT-VVSt;at:stv:90:
+-
+#
+== Regionalbusse Steiermark
+=== Bereich 1xx
+100;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:100:
+110;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:110:
+111;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:111:
+120;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:120:
+121;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:121:
+125;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:125:
+130;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:130:
+140;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:140:
+167;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:167:
+170;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:170:
+171;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:171:
+173;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:173:
+175;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:175:
+180;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:180:
+181;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:181:
+182;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:182:
+183;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:183:
+184;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:184:
+185;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:185:
+187;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:187:
+189;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1189:
+189;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:189:
+197;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:197:
+198;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:198:
+
+=== Bereich 2xx
+X20;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9020:
+200;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:200:
+201;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:201:
+202;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:202:
+203;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:203:
+204;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:204:
+205;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:205:
+206;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:206:
+207;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:207:
+208;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:208:
+209;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:209:
+215;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:215:
+216;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:216:
+230;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:230:
+234;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:234:
+237;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:237:
+240;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:240:
+241;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:241:
+250;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:250:
+260;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:260:
+=== Bereich 3xx
+X30;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9030:
+X31;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9031:
+300;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1300:
+300;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:300:
+301;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:301:
+302;bus;Teilstrecke: Pinggau - Friedberg - (Schwaighof -) Ehrenschachen - Dechantskirchen - Kroisbach - Kroisegg;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:1302:
+302;bus;Teilstrecke: Pinggau - Schäffernsteg - (Karnegg -) - Bärnegg - Sinnersdorf - - Schäffernsteg - Elsenau - Schäffern - Knollen - Guggendorf - Zöbern;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:2302:
+302;bus; Friedberg - Pinggau - Schäffern - Knolln - Guggendorf - Zöbern (NÖ);;;Gruber GmbH & Co KG;AT-VVSt;at:stv:302:
+302;bus;Teilstrecke: (Friedberg -) Pinggau - Schaueregg - Wiesenhöf - Spital bei Tauchen - Pinggau (- Friedberg);;;Gruber GmbH & Co KG;AT-VVSt;at:stv:3302:
+303;bus;Kronegg - Köppel / Festenburg - Bruck/Lafnitz - Sankt Lorenzen/Wechsel - Wilfing - Sankt Lorenzen/Wechsel;;;Denise Putz;AT-VVSt;at:stv:1303:
+303;bus;Teilstrecke: Dechantskirchen - Hohenau - Dechantskirchen;;;Franz Binder;AT-VVSt;at:stv:2303:
+303;bus;Sankt Lorenzen am Wechsel - Auerbach - Höttling - Burgfeld - Schlag - Thalberg - Dechantskirchen;;;Franz Binder;AT-VVSt;at:stv:303:
+304;bus;2024-12-15 - 2025-12-13: 304;;;RegioBus Steiermark;AT-VVSt;at:stv:304:
+306;bus;Vorau - Puchegg - Erdwegen (-Steinfeld - Kleinlugnitz) - Grafendorf;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:306:
+306;bus;Teilstrecke: Vorau - Vornholz - Lembach - Schachen - Puchegg;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:5306:
+306;bus;Teilstrecke: Grafendorf bei Hartberg - Kleinerdwegen;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:6306:
+306;bus;Teilstrecke: Grafendorf - Stambach - Pongratzen - Zeilerviertel - Pongratzen - Stambach - Grafendorf;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:9306:
+307;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:307:
+308;bus;;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:308:
+309;bus;;;;Hannes Fuchs;AT-VVSt;at:stv:309:
+310;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:310:
+311;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:311:
+312;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:312:
+314;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:314:
+316;bus;;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:316:
+317;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:317:
+323;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:323:
+324;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:324:
+326;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:326:
+327;bus;;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:327:
+331;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:331:
+332;bus;;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:332:
+334;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:334:
+336;bus;;;;Karl Johann Wilfling;AT-VVSt;at:stv:336:
+337;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:337:
+338;bus;Teilstrecke: Freienberg - Stubenberg;;;Karl Johann Wilfling;AT-VVSt;at:stv:1338:
+338;bus;Teilstrecke: Lebing - Haring - Oberharing - Floing - Lebing;;;Karl Johann Wilfling;AT-VVSt;at:stv:2338:
+338;bus;Buchberg - Schielleiten - Stubenberg - Schielleiten - Buchberg;;;Karl Johann Wilfling;AT-VVSt;at:stv:338:
+338;bus;Teilstrecke: Lebing - Unterfeistritz - Lebing;;;Karl Johann Wilfling;AT-VVSt;at:stv:4338:
+342;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:342:
+343;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:343:
+344;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:344:
+346;bus;;;;Retter GmbH;AT-VVSt;at:stv:346:
+347;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:347:
+350;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1350:
+350;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:2350:
+350;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:3350:
+350;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:350:
+351;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:351:
+352;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:352:
+363;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:363:
+364;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:364:
+372;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:372:
+373;bus;;;;Hannes Fuchs;AT-VVSt;at:stv:373:
+376;bus;;;;Hannes Fuchs;AT-VVSt;at:stv:376:
+388;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:388:
+=== Bereich 4xx
+X40;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9040:
+X41;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9041:
+400;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:400:
+404;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:404:
+405;bus;;;;Wolf Reisen GmbH;AT-VVSt;at:stv:405:
+406;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:406:
+407;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:407:
+409;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:409:
+412;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:412:
+413;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:413:
+414;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:414:
+415;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:415:
+416;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:416:
+417;bus;;;;Martoni Transport GmbH;AT-VVSt;at:stv:417:
+418;bus;;;;Wolf Reisen GmbH;AT-VVSt;at:stv:418:
+419;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:419:
+420;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:420:
+421;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:421:
+422;bus;;;;Schwarz Reise GmbH;AT-VVSt;at:stv:422:
+425;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:425:
+430;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:430:
+440;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:440:
+441;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:441:
+442;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:442:
+445;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1445:
+445;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:2445:
+445;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:3445:
+446;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:446:
+451;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:451:
+452;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:452:
+461;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:461:
+463;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:463:
+466;bus;;;;Prehm GmbH;AT-VVSt;at:stv:466:
+470;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1470:
+470;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:470:
+473;bus;;;;Retter GmbH;AT-VVSt;at:stv:473:
+474;bus;;;;Retter GmbH;AT-VVSt;at:stv:474:
+475;bus;;;;Retter GmbH;AT-VVSt;at:stv:475:
+477;bus;Teilstrecke: Sinabelkirchen - Untergroßau - Fünfing - Obergroßau - Sinabelkirchen;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:1477:
+477;bus;Teilstrecke: Sinabelkirchen - Frösau - Obergroßau - Sinabelkirchen;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:2477:
+477;bus;Teilstrecke: Sinabelkirchen - Stallbach - Nagl - Gnies - Sinabelkirchen;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:3477:
+477;bus;Sinabelkirchen - Forstberg - Unterrettenbach - Sinabelkirchen;;;Gruber GmbH & Co KG;AT-VVSt;at:stv:477:
+482;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:482:
+483;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:483:
+484;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:484:
+485;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:485:
+486;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:486:
+=== Bereich 5xx 
+X50;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9050:
+500;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:500:
+501;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:501:
+503;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:503:
+510;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:510:
+511;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:511:
+512;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:512:
+514;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:514:
+515;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:515:
+517;bus;;;;Österreichische Postbus AG;AT-VVSt;at:stv:9517:
+521;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:521:
+541;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:541:
+551;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:551:
+555;bus;;;;Steiermarkbahn und Bus GmbH;AT-VVSt;at:stv:555:
+560;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:560:
+561;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:561:
+565;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:565:
+566;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:566:
+577;bus;(Neustift bei Straden -) Tieschen - Klöch - Bad Radkersburg (- Sicheldorf - Bad Radkersburg);;;Karl Hütter GmbH;AT-VVSt;at:stv:1577:
+577;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:577:
+=== Bereich 6xx
+600;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:600:
+602;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:602:
+604;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:604:
+607;bus;;;;Schliefsteiner GmbH & Co KG;AT-VVSt;at:stv:607:
+608;bus;;;;Schliefsteiner GmbH & Co KG;AT-VVSt;at:stv:608:
+609;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:609:
+610;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:610:
+613;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:613:
+614;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:614:
+615;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:615:
+619;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:619:
+620;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:620:
+630;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:630:
+635;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:635:
+640;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:640:
+644;bus;Teilstrecke: Gleinstätten - Rettenberg - Reith - Sankt Andrä - Pistorf;;;Koller Bus GmbH;AT-VVSt;at:stv:1644:
+644;bus;Gleinstätten - Mitterriegel (- Höch) - Gleinstätten;;;Koller Bus GmbH;AT-VVSt;at:stv:644:
+645;bus;;;;Koller Bus GmbH;AT-VVSt;at:stv:645:
+646;bus;;;;Koller Bus GmbH;AT-VVSt;at:stv:646:
+647;bus;Teilstrecke: Heimschuh - Pernitsch - Muggenau - Heimschuh;;;Schliefsteiner GmbH & Co KG;AT-VVSt;at:stv:1647:
+647;bus; Höch - Pernitsch / Unterneurath - Kitzeck - Fresing - Großklein - Kitzeck;;;Schliefsteiner GmbH & Co KG;AT-VVSt;at:stv:647:
+648;bus;;;;Koller Bus GmbH;AT-VVSt;at:stv:648:
+650;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:650:
+655;bus;;;;Friedrich Pronegg;AT-VVSt;at:stv:655:
+660;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:660:
+665;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:665:
+671;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:671:
+681;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1681:
+681;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:681:
+690;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:690:
+691;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:691:
+=== Bereich 7xx
+701;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1701:
+701;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:701:
+702;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:702:
+703;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:703:
+704;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:704:
+708;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:708:
+709;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:709:
+710;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:710:
+711;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:711:
+712;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:712:
+714;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1714:
+714;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:714:
+716;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:716:
+717;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:717:
+718;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:718:
+719;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:719:
+720;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:720:
+721;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:721:
+722;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:722:
+725;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:725:
+726;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:726:
+728;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:728:
+730;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:730:
+731;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:731:
+740;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:740:
+741;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:741:
+742;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:742:
+743;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:743:
+744;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:744:
+745;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:745:
+746;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:746:
+747;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:747:
+748;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:748:
+749;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:749:
+750;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:750:
+752;bus;;;;Klug GmbH;AT-VVSt;at:stv:752:
+755;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:755:
+756;bus;;;;Koller Bus GmbH;AT-VVSt;at:stv:756:
+760;bus;Teilstrecke: Zeierlinger Gleinz - Freidorf - Frauental;;;Koller Bus GmbH;AT-VVSt;at:stv:4760:
+760;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:760:
+761;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:761:
+763;bus;Teilstrecke: Frauental - Oberbergla - Frauental;;;Koller Bus GmbH;AT-VVSt;at:stv:1763:
+763;bus;Krottendorf/Laßnitz - Zeierling - Frauental-Bad Gams;;;Koller Bus GmbH;AT-VVSt;at:stv:763:
+769;bus;;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:2769:
+770;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:770:
+780;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:780:
+781;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:781:
+783;bus;Wies (- Altenmarkt) - Wernersdorf - Wielfresen;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:2783:
+783;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:783:
+784;bus;Teilstrecke: Wernersdorf - Wolfsgruben - Vordersdorf - Wies;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:1784:
+784;bus;Etzendorf - Vordersdorf - Etzendorf - Wies;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:784:
+785;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:785:
+787;bus;;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:787:
+789;bus;;;;Günter Karl Kastner;AT-VVSt;at:stv:789:
+790;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:790:
+795;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:795:
+=== Bereich 8xx
+X81;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9081:
+810;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:810:
+820;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:820:
+821;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:821:
+822;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:822:
+823;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:823:
+825;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:825:
+830;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:830:
+832;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:832:
+840;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:840:
+841;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:841:
+842;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:842:
+843;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:843:
+844;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:844:
+845;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:845:
+846;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:846:
+847;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:847:
+860;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:860:
+862;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:862:
+863;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:863:
+864;bus;;;;Burghard Pichler;AT-VVSt;at:stv:864:
+867;bus;;;;NSM Taxi GmbH;AT-VVSt;at:stv:867:
+868;bus;;;;NSM Taxi GmbH;AT-VVSt;at:stv:868:
+870;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:870:
+871;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:871:
+872;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:872:
+873;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:873:
+880;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:880:
+885;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:885:
+886;bus;;;;Naturpark-Bus Lercher GmbH;AT-VVSt;at:stv:886:
+887;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:887:
+888;bus;;;;Naturpark-Bus Lercher GmbH;AT-VVSt;at:stv:888:
+890;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:890:
+891;bus;;;;Capellari GmbH;AT-VVSt;at:stv:1891:
+891;bus;;;;Capellari GmbH;AT-VVSt;at:stv:891:
+892;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:892:
+893;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:893:
+894;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:894:
+895;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:895:
+898;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:898:
+=== Bereich 9xx
+900;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:900:
+900D;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:9006:
+900S;bus;;;;Ramsauer Verkehrsbetriebe GmbH;AT-VVSt;at:stv:9004:
+900S;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:9005:
+901;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:901:
+902;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:902:
+910;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:910:
+911;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:911:
+912;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:912:
+915;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:915:
+920;bus;;;;Anrufbusse;AT-VVSt;at:stv:2920:
+920;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:920:
+922;bus;;;;Anrufbusse;AT-VVSt;at:stv:922:
+923;bus;;;;Anrufbusse;AT-VVSt;at:stv:923:
+925;bus;;;;Anrufbusse;AT-VVSt;at:stv:1925:
+930;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:930:
+931;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:931:
+940;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:940:
+941;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:941:
+942;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:942:
+945;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:1945:
+945;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:945:
+946;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:946:
+947;bus;;;;Taxi Seebacher;AT-VVSt;at:stv:947:
+948;bus;;;;Marion Gamsjäger;AT-VVSt;at:stv:948:
+949;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:949:
+950;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:950:
+952;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:952:
+955;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:955:
+956;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:956:
+957;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:957:
+960;bus;;;;Ramsauer Verkehrsbetriebe GmbH;AT-VVSt;at:stv:960:
+962;bus;;;;Ramsauer Verkehrsbetriebe GmbH;AT-VVSt;at:stv:962:
+964;bus;;;;Ramsauer Verkehrsbetriebe GmbH;AT-VVSt;at:stv:964:
+965;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:965:
+971;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:971:
+972;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:972:
+973;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:973:
+974;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:974:
+975;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:975:
+976;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:976:
+A;bus;;;;Planai-Hochwurzen;AT-VVSt;at:stv:6001:
+B;bus;;;;Planai-Hochwurzen;AT-VVSt;at:stv:6002:
+-
+#
+== Stadtverkehr Bruck/Kapfenberg
+1;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4001:
+11;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4011:
+12;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4012:
+20;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4020:
+21;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4021:
+22;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4022:
+23;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4023:
+24;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4024:
+25;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4025:
+41;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4041:
+42;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4042:
+43;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4043:
+51;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4051:
+52;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4052:
+53;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4053:
+60;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4060:
+90;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4090:
+91;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4091:
+92;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4092:
+93;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4093:
+95;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:4095:
+-
+#
+== Stadtverkehr Leoben/Trofaiach  
+1;bus;;;;Stadtwerke Leoben;AT-VVSt;at:stv:5001:
+2;bus;;;;Stadtwerke Leoben;AT-VVSt;at:stv:5002:
+3;bus;;;;Stadtwerke Leoben;AT-VVSt;at:stv:5003:
+4;bus;;;;Stadtwerke Leoben;AT-VVSt;at:stv:5004:
+7;bus;;;;Stadtwerke Leoben;AT-VVSt;at:stv:5007:
+20;bus;;Leoben;Trofaiach Nord/Gladen;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:5020:
+21;bus;;Leoben;Gimplach;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:5021:
+25;bus;;Leoben;Gimplach;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:5025:
+29;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:5029:
+30;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:5030:
+31;bus;;;;Mürztaler Verkehrsgesellschaft mbH;AT-VVSt;at:stv:5031:
+-
+#
+== Stadtverkehr Aichfeld  
+1;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:3001:
+2;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:3002:
+3;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:3003:
+48;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:3048:
+58;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:3058:
+-
+#
+==Sonstige (nicht im Verbund)
+===Fernbusse
+ICB;bus;Intercitybus;Graz;Klagenfurt;ÖBB;AT-Eisenbahn;32-592-0-j25-1
+-
+#
+===Touristische Linien
+FZ;train;Stainzer Flascherlzug;Preding-Wieselsdorf;Stainz
+
