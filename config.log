@@ -1,0 +1,1 @@
+1767019488s annex.largefiles largerthan=100kb and not (include=*.js or include=*.json)
