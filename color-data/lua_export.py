@@ -21,8 +21,9 @@ def write_lua_table(by_gtfs_id: dict[str, ...], target: Path):
             safe_id = _escape_lua_string(raw_id)
             bg = info["color"][1:]
             text = info["text_color"][1:]
+            comment = info["comment"]
 
-            f.write(f'    ["{safe_id}"] = {{ color = 0x{bg}, text_color = 0x{text} }},\n')
+            f.write(f'    -- {comment}\n    ["{safe_id}"] = {{ color = 0x{bg}, text_color = 0x{text} }},\n')
         f.write('}\n')
 
         f.write("return colors_by_id")
