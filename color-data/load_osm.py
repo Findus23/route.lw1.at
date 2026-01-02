@@ -37,6 +37,8 @@ class RouteHandler(osmium.SimpleHandler):
             r.tags.get("operator"),
             r.tags.get("route"),
             r.tags.get("network"),
+            r.tags.get("from"),
+            r.tags.get("to"),
             r.tags.get("colour"),
             r.tags.get("colour:text"),
             r.tags.get("gtfs:feed"),
@@ -50,8 +52,10 @@ class RouteHandler(osmium.SimpleHandler):
     def flush(self):
         if not self.buffer:
             return
-        self.cur.executemany(
-            "INSERT INTO osm_routes (rel_id, type, name, ref, operator, route, network, colour, colour_text, gtfs_feed, gtfs_route_id, tags_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        self.cur.executemany("""
+                             INSERT INTO osm_routes (rel_id, type, name, ref, operator, route, network, `from`, `to`,
+                                                     colour, colour_text, gtfs_feed, gtfs_route_id, tags_json)
+                             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             self.buffer)
         self.conn.commit()
         self.buffer = []
@@ -63,6 +67,8 @@ def create_indices(conn: sqlite3.Connection):
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_ref ON osm_routes(ref);")
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_operator ON osm_routes(operator);")
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_network ON osm_routes(network);")
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_from ON osm_routes(`from`);")
+    cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_to ON osm_routes(`to`);")
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_route ON osm_routes(route);")
     cur.execute("CREATE INDEX IF NOT EXISTS osm_routes_gtfs_feed ON osm_routes(gtfs_feed);")
     cur.execute("CREATE UNIQUE INDEX IF NOT EXISTS osm_routes_gtfs_route_id ON osm_routes(gtfs_route_id);")
@@ -76,36 +82,23 @@ def create_db():
     conn.execute("PRAGMA synchronous = NORMAL;")
     conn.execute("PRAGMA temp_store = MEMORY;")
     conn.execute("PRAGMA locking_mode = EXCLUSIVE;")
-    conn.execute("""
-                 CREATE TABLE IF NOT EXISTS osm_routes
-                 (
-                     rel_id
-                     INTEGER
-                     PRIMARY
-                     KEY,
-                     type
-                     TEXT,
-                     name
-                     TEXT,
-                     ref
-                     TEXT,
-                     operator
-                     TEXT,
-                     route
-                     TEXT,
-                     network
-                     TEXT,
-                     colour
-                     TEXT,
-                     colour_text
-                     TEXT,
-                     gtfs_feed
-                     TEXT,
-                     gtfs_route_id
-                     TEXT,
-                     tags_json
-                     JSONB
-                 );
+    conn.execute("""CREATE TABLE IF NOT EXISTS osm_routes
+                    (
+                        rel_id        INTEGER PRIMARY KEY,
+                        type          TEXT,
+                        name          TEXT,
+                        ref           TEXT,
+                        operator      TEXT,
+                        route         TEXT,
+                        network       TEXT,
+                        `from`        TEXT,
+                        `to`          TEXT,
+                        colour        TEXT,
+                        colour_text   TEXT,
+                        gtfs_feed     TEXT,
+                        gtfs_route_id TEXT,
+                        tags_json     JSONB
+                    );
                  """)
     conn.execute("DELETE FROM osm_routes;")
     conn.commit()
