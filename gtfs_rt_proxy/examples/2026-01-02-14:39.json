@@ -1,0 +1,1795 @@
+{
+  "data": {
+    "trafficInfos": [
+      {
+        "refTrafficInfoCategoryId": 1,
+        "name": "ftazS_113",
+        "title": "Schwedenplatz",
+        "description": "U4 Mittelbahnsteig - Zwischengeschoss Zugang Aufzug U1",
+        "attributes": {
+          "ausBis": "23.01.2026 00:45",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U4",
+            "U1"
+          ],
+          "station": "Schwedenplatz",
+          "ausVon": "22.01.2026 20:45",
+          "location": "U4 Mittelbahnsteig - Zwischengeschoss Zugang Aufzug U1",
+          "towards": "U4 beide Richtungen, U1 beide Richtungen",
+          "relatedStops": [
+            4410,
+            4427,
+            4113,
+            4116
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-01-22T20:45:00.000+0100",
+          "end": "2026-01-23T00:45:00.000+0100"
+        },
+        "relatedLines": [
+          "U4",
+          "U1"
+        ],
+        "relatedStops": [
+          4410,
+          4427,
+          4113,
+          4116
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 1,
+        "name": "ftazS_167",
+        "title": "Schlachthausgasse",
+        "description": "U3 Mittelbahnsteig - Ausgang Schlachthausgasse - Ausgang Hainburger Weg",
+        "attributes": {
+          "ausBis": "21.01.2026 05:15",
+          "reason": "Voraussichtlich bis 12.01.2026 außer Betrieb! Auf Ersatzteile wird gewartet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Schlachthausgasse",
+          "ausVon": "21.01.2026 01:15",
+          "location": "U3 Mittelbahnsteig - Ausgang Schlachthausgasse - Ausgang Hainburger Weg",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4901,
+            4916
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-01-21T01:15:00.000+0100",
+          "end": "2026-01-21T05:15:00.000+0100"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4901,
+          4916
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 1,
+        "name": "ftazS_478",
+        "title": "Perfektastraße",
+        "description": "U6 Bahnsteig Richtung Floridsdorf - Ausgang Perfektastraße",
+        "attributes": {
+          "reason": "AUFZUGSERNEUERUNG Voraussichtlich bis 02.02.2026 außer Betrieb!",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Perfektastraße",
+          "location": "U6 Bahnsteig Richtung Floridsdorf - Ausgang Perfektastraße",
+          "towards": "U6 Floridsdorf",
+          "relatedStops": [
+            4636
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U6"
+        ],
+        "relatedStops": [
+          4636
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 1,
+        "name": "ftazS_566",
+        "title": "Pilgramgasse",
+        "description": "Fahrtrichtung U4 Heiligenstadt. - Ausgang Ramperstorffergasse",
+        "attributes": {
+          "reason": "Aufzugsanlage ist wegen Bauarbeiten bis 2030 außer Betrieb!",
+          "relatedLines": [
+            "U4"
+          ],
+          "station": "Pilgramgasse",
+          "location": "Fahrtrichtung U4 Heiligenstadt. - Ausgang Ramperstorffergasse",
+          "towards": "U4 Heiligenstadt",
+          "relatedStops": [
+            4417
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U4"
+        ],
+        "relatedStops": [
+          4417
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 1,
+        "name": "ftazS_627",
+        "title": "Rathaus",
+        "description": "U2 Bahnsteig Richtung Seestadt - Ausgang Rathaus",
+        "attributes": {
+          "reason": "Aufzugsanlage ist wegen Bauarbeiten bis 2030 außer Betrieb!",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Rathaus",
+          "location": "U2 Bahnsteig Richtung Seestadt - Ausgang Rathaus",
+          "towards": "U2 Seestadt",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 1,
+        "name": "ftazS_1016545",
+        "title": "Ober St.Veit",
+        "description": "U4 Bahnsteig Richtung Hütteldorf - Ausgang Preindlsteig",
+        "attributes": {
+          "ausBis": "13.01.2026 05:15",
+          "reason": "Voraussichtlich bis 12.01.2026 außer Betrieb! Auf Ersatzteile wird gewartet.",
+          "relatedLines": [
+            "U4"
+          ],
+          "station": "Ober St.Veit",
+          "ausVon": "13.01.2026 01:15",
+          "location": "U4 Bahnsteig Richtung Hütteldorf - Ausgang Preindlsteig",
+          "towards": "U4 Hütteldorf",
+          "relatedStops": [
+            4434
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-01-13T01:15:00.000+0100",
+          "end": "2026-01-13T05:15:00.000+0100"
+        },
+        "relatedLines": [
+          "U4"
+        ],
+        "relatedStops": [
+          4434
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 1,
+        "name": "ftazS_1303909",
+        "title": "Karlsplatz",
+        "description": "Opernpassage - Ausgang Kärtner Straße",
+        "attributes": {
+          "reason": "Störung bekannt.\nAnlage befindet sich in einer öffentlichen Passage und wird durch die MA34 betreut.",
+          "relatedLines": [
+            "U1",
+            "U2",
+            "U4"
+          ],
+          "station": "Karlsplatz",
+          "location": "Opernpassage - Ausgang Kärtner Straße",
+          "towards": "U1 beide Richtungen, U2 beide Richtungen, U4 beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1",
+          "U2",
+          "U4"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20251110-0004",
+        "priority": "1",
+        "owner": "WL",
+        "title": "80A: Bauarbeiten",
+        "description": "Die Linie 80A wird in Richtung Neu Marx zwischen Friedensgasse und Stadionbrücke über die Wittelsbachstraße, Erdberger Lände und Schlachthausgasse umgeleitet. Die Haltestellen Friedensgasse, Lukschgasse, Rustenschacherallee, Klaschkaweg und Stadionbrücke können dadurch nicht eingehalten werden. Die Störung dauert voraussichtlich bis Ende Mai 2026. Grund dafür sind Bauarbeiten im Bereich Stadionallee. ",
+        "time": {
+          "start": "2025-11-10T05:00:00.000+0100",
+          "end": "2026-05-31T23:55:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "80A": "ptBusCity"
+          }
+        },
+        "relatedLines": [
+          "80A"
+        ],
+        "relatedStops": [
+          2101,
+          2102,
+          2103,
+          2104,
+          2111,
+          2112,
+          2113,
+          2114,
+          2115,
+          2116,
+          2117,
+          2504,
+          2505,
+          2672,
+          3827,
+          3828,
+          3829,
+          3830,
+          3831,
+          3832,
+          3833,
+          3834,
+          3886,
+          7459
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20260102-0023-F01",
+        "priority": "1",
+        "owner": "WL",
+        "title": "1: Rettungseinsatz",
+        "description": "Nach einer Fahrtbehinderung kommt es auf der Linie 1 zu unterschiedlichen Intervallen.",
+        "time": {
+          "start": "2026-01-02T13:40:00.000+0100",
+          "end": "2026-01-02T23:55:00.000+0100",
+          "resume": "2026-01-02T14:05:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "1": "ptTram"
+          }
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          1712,
+          1713,
+          51,
+          1711,
+          132,
+          426,
+          170,
+          169,
+          1877,
+          22,
+          1883,
+          1751,
+          173,
+          44,
+          401,
+          42,
+          4730,
+          43,
+          1022,
+          1753,
+          15,
+          48,
+          19,
+          172,
+          21,
+          17,
+          171,
+          831,
+          165,
+          1000,
+          4843,
+          174,
+          45,
+          1876,
+          1754,
+          168,
+          1880,
+          50,
+          167,
+          14,
+          1882,
+          13,
+          851,
+          1709,
+          16,
+          1714,
+          1884,
+          166,
+          41,
+          46,
+          1756,
+          1881,
+          164,
+          1875,
+          49,
+          47,
+          20,
+          18,
+          1715,
+          23,
+          1752
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20260102-0023-F02",
+        "priority": "1",
+        "owner": "WL",
+        "title": "71: Rettungseinsatz",
+        "description": "Nach einer Fahrtbehinderung kommt es auf der Linie 71 zu unterschiedlichen Intervallen.",
+        "time": {
+          "start": "2026-01-02T13:40:00.000+0100",
+          "end": "2026-01-02T23:55:00.000+0100",
+          "resume": "2026-01-02T14:05:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "71": "ptTram"
+          }
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          2680,
+          2640,
+          51,
+          2314,
+          2009,
+          2299,
+          2013,
+          2297,
+          2038,
+          2016,
+          2298,
+          2018,
+          2034,
+          44,
+          2311,
+          2040,
+          2014,
+          2043,
+          2025,
+          2300,
+          15,
+          79,
+          48,
+          81,
+          19,
+          2313,
+          17,
+          2020,
+          2032,
+          2455,
+          2454,
+          2012,
+          2024,
+          2641,
+          2679,
+          105,
+          2030,
+          45,
+          2028,
+          2047,
+          2015,
+          2312,
+          50,
+          2026,
+          14,
+          4733,
+          13,
+          16,
+          2041,
+          2023,
+          4735,
+          2019,
+          2045,
+          2036,
+          46,
+          2027,
+          2011,
+          5637,
+          2044,
+          2039,
+          2046,
+          2033,
+          2031,
+          49,
+          2035,
+          47,
+          18,
+          2021,
+          4732
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20260102-0023-F03",
+        "priority": "1",
+        "owner": "WL",
+        "title": "D: Rettungseinsatz",
+        "description": "Nach einer Fahrtbehinderung kommt es auf der Linie D zu unterschiedlichen Intervallen.",
+        "time": {
+          "start": "2026-01-02T13:40:00.000+0100",
+          "end": "2026-01-02T23:55:00.000+0100",
+          "resume": "2026-01-02T14:05:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "D": "ptTram"
+          }
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          116,
+          71,
+          51,
+          3709,
+          3437,
+          92,
+          101,
+          7524,
+          114,
+          115,
+          97,
+          112,
+          108,
+          135,
+          127,
+          124,
+          3438,
+          98,
+          103,
+          121,
+          117,
+          88,
+          113,
+          125,
+          119,
+          120,
+          15,
+          48,
+          95,
+          57,
+          81,
+          19,
+          17,
+          91,
+          96,
+          3431,
+          90,
+          105,
+          45,
+          107,
+          93,
+          50,
+          102,
+          14,
+          497,
+          109,
+          13,
+          118,
+          111,
+          16,
+          123,
+          128,
+          126,
+          99,
+          46,
+          100,
+          136,
+          3439,
+          94,
+          122,
+          49,
+          47,
+          106,
+          18,
+          130,
+          58
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20260102-0026",
+        "priority": "1",
+        "owner": "WL",
+        "title": "5A: Rettungseinsatz",
+        "description": "Die Linie 5A fährt derzeit nur zwischen Griegstraße und Karmeliterplatz. Weichen Sie auf die Linien U1, 5 und 5B aus. Die Störung dauert voraussichtlich bis 15:00 Uhr. Grund dafür ist ein Rettungseinsatz im Bereich Schrottgießergasse. ",
+        "time": {
+          "start": "2026-01-02T14:25:00.000+0100",
+          "end": "2026-01-02T23:55:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "5A": "ptBusCity"
+          }
+        },
+        "relatedLines": [
+          "5A"
+        ],
+        "relatedStops": [
+          625,
+          667,
+          623,
+          617,
+          2957,
+          2577,
+          2402,
+          2393,
+          2390,
+          626,
+          2382,
+          2956,
+          2392,
+          2401,
+          2388,
+          2385,
+          590,
+          2391,
+          2394,
+          627,
+          2951,
+          2389,
+          349,
+          592,
+          3003,
+          2958,
+          2386,
+          622,
+          2400,
+          388,
+          2398,
+          624,
+          3374,
+          2383,
+          2395,
+          609,
+          608,
+          2397,
+          2955,
+          591,
+          2952,
+          2399,
+          2396,
+          2949,
+          2387
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20250512-0001",
+        "priority": "1",
+        "owner": "WL",
+        "title": "U6: Bauarbeiten",
+        "description": "Wegen Bauarbeiten kann die Station Tscherttegasse U in Fahrtrichtung Floridsdorf S U nicht eingehalten werden. Um die Station Tscherttegasse U zu erreichen, fahren Sie eine Station weiter bis Bahnhof Meidling S U und steigen dort in einen Zug in die Gegenrichtung um. Die Bauarbeiten dauern bis Ende Jänner 2026. ",
+        "time": {
+          "start": "2025-05-12T00:55:00.000+0100",
+          "end": "2026-01-31T23:55:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "U6": "ptMetro"
+          }
+        },
+        "relatedLines": [
+          "U6"
+        ],
+        "relatedStops": [
+          4646,
+          4642,
+          4644,
+          4627,
+          4632,
+          4605,
+          4630,
+          4639,
+          4640,
+          4608,
+          4611,
+          4650,
+          4615,
+          4624,
+          4636,
+          4614,
+          4637,
+          4612,
+          4621,
+          4603,
+          4607,
+          4643,
+          4625,
+          4606,
+          4629,
+          4616,
+          4620,
+          4622,
+          4619,
+          4651,
+          4641,
+          4649,
+          4635,
+          4604,
+          4610,
+          4647,
+          4626,
+          4618,
+          4609,
+          4633,
+          4638,
+          4648,
+          4613,
+          4631,
+          4623,
+          4617
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20260102-0025-F01",
+        "priority": "1",
+        "owner": "WL",
+        "title": "18: Verkehrsunfall",
+        "description": "Nach einer Fahrtbehinderung kommt es auf der Linie 18 zu unterschiedlichen Intervallen.",
+        "time": {
+          "start": "2026-01-02T14:05:00.000+0100",
+          "end": "2026-01-02T23:55:00.000+0100",
+          "resume": "2026-01-02T14:24:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "18": "ptTram"
+          }
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          485,
+          3602,
+          481,
+          304,
+          396,
+          483,
+          462,
+          849,
+          399,
+          836,
+          482,
+          845,
+          847,
+          1562,
+          843,
+          508,
+          832,
+          398,
+          834,
+          831,
+          397,
+          427,
+          303,
+          844,
+          3568,
+          2619,
+          400,
+          833,
+          848,
+          464,
+          430,
+          284,
+          851,
+          339,
+          428,
+          2620,
+          293,
+          429,
+          835,
+          1549,
+          846
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "bms_I20260102-0024-F01",
+        "priority": "1",
+        "owner": "WL",
+        "title": "31: Verkehrsunfall",
+        "description": "Nach einer Fahrtbehinderung kommt es auf der Linie 31 zu unterschiedlichen Intervallen.",
+        "time": {
+          "start": "2026-01-02T13:55:00.000+0100",
+          "end": "2026-01-02T23:55:00.000+0100",
+          "resume": "2026-01-02T14:38:00.000+0100"
+        },
+        "attributes": {
+          "relatedLineTypes": {
+            "31": "ptTram"
+          }
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          351,
+          4717,
+          2192,
+          350,
+          2190,
+          322,
+          2196,
+          2170,
+          2193,
+          2160,
+          2171,
+          2212,
+          2191,
+          2161,
+          2197,
+          2172,
+          2164,
+          2158,
+          2218,
+          2194,
+          2206,
+          2208,
+          4703,
+          2226,
+          2162,
+          2210,
+          321,
+          2205,
+          2227,
+          2222,
+          387,
+          2168,
+          2216,
+          2221,
+          2169,
+          2200,
+          2201,
+          2213,
+          2167,
+          2217,
+          2166,
+          2195,
+          2163,
+          2211,
+          2189,
+          2165,
+          2199,
+          2207,
+          2198,
+          2159,
+          2219,
+          2209,
+          2220
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2399_405",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Busse halten Untere Augartenstraße 42",
+        "description": "Busse halten Untere Augartenstraße 42",
+        "time": {
+          "start": "2026-01-02T00:00:24.000+0100",
+          "end": "2026-01-02T23:59:59.000+0100"
+        },
+        "relatedLines": [
+          "5A"
+        ],
+        "relatedStops": [
+          2399
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_1844_462",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Bauarbeiten Busse halten Breitenfurter Straße 236-238",
+        "description": "Bauarbeiten Busse halten Breitenfurter Straße 236-238",
+        "time": {
+          "start": "2026-01-02T04:45:21.000+0100",
+          "end": "2026-01-03T00:35:00.000+0100"
+        },
+        "relatedLines": [
+          "62A"
+        ],
+        "relatedStops": [
+          1844
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_1711_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:43:13.000+0100",
+          "end": "2026-01-02T14:42:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          1711
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_1712_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:43:13.000+0100",
+          "end": "2026-01-02T14:42:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          1712
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_1709_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:43:13.000+0100",
+          "end": "2026-01-02T14:42:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          1709
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_48_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "description": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "time": {
+          "start": "2026-01-02T13:43:18.000+0100",
+          "end": "2026-01-02T14:45:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          48
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_51_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "description": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "time": {
+          "start": "2026-01-02T13:43:18.000+0100",
+          "end": "2026-01-02T14:45:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          51
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_49_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "description": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "time": {
+          "start": "2026-01-02T13:43:18.000+0100",
+          "end": "2026-01-02T14:45:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          49
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_50_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "description": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "time": {
+          "start": "2026-01-02T13:43:18.000+0100",
+          "end": "2026-01-02T14:45:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          50
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_47_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "description": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "time": {
+          "start": "2026-01-02T13:43:18.000+0100",
+          "end": "2026-01-02T14:45:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          47
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_46_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "description": "Rettungseinsatz Betrieb ab Resselgasse (Karlsplatz)",
+        "time": {
+          "start": "2026-01-02T13:43:18.000+0100",
+          "end": "2026-01-02T14:45:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          46
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_45_101",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Einstieg Wipplingerstraße",
+        "description": "Rettungseinsatz Einstieg Wipplingerstraße",
+        "time": {
+          "start": "2026-01-02T13:45:15.000+0100",
+          "end": "2026-01-02T14:46:00.000+0100"
+        },
+        "relatedLines": [
+          "1"
+        ],
+        "relatedStops": [
+          45
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_14_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          14
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_13_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          13
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_15_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          15
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_16_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          16
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_17_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          17
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_18_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          18
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_19_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          19
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_81_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung wegen Rettungseinsatz",
+        "description": "Fahrtbehinderung wegen Rettungseinsatz",
+        "time": {
+          "start": "2026-01-02T13:48:38.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          81
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_46_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          46
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_47_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          47
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_48_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          48
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_49_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          49
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_50_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          50
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_51_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          51
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_44_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          44
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_45_171",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:49:07.000+0100",
+          "end": "2026-01-02T14:48:00.000+0100"
+        },
+        "relatedLines": [
+          "71"
+        ],
+        "relatedStops": [
+          45
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_45_136",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Einstieg Wipplingerstraße",
+        "description": "Rettungseinsatz Einstieg Wipplingerstraße",
+        "time": {
+          "start": "2026-01-02T13:50:05.000+0100",
+          "end": "2026-01-02T14:50:00.000+0100"
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          45
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_47_136",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:51:33.000+0100",
+          "end": "2026-01-02T14:50:00.000+0100"
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          47
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_48_136",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:51:33.000+0100",
+          "end": "2026-01-02T14:50:00.000+0100"
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          48
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_49_136",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:51:33.000+0100",
+          "end": "2026-01-02T14:50:00.000+0100"
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          49
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_50_136",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:51:33.000+0100",
+          "end": "2026-01-02T14:50:00.000+0100"
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          50
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_51_136",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:51:33.000+0100",
+          "end": "2026-01-02T14:50:00.000+0100"
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          51
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_46_136",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "description": "Rettungseinsatz Betrieb ab Schwarzenbergplatz",
+        "time": {
+          "start": "2026-01-02T13:51:33.000+0100",
+          "end": "2026-01-02T14:50:00.000+0100"
+        },
+        "relatedLines": [
+          "D"
+        ],
+        "relatedStops": [
+          46
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2163_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:00:44.000+0100",
+          "end": "2026-01-02T14:59:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2163
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2165_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:00:44.000+0100",
+          "end": "2026-01-02T14:59:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2165
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2160_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Verkehrsunfall Betrieb ab Wallensteinstraße",
+        "description": "Verkehrsunfall Betrieb ab Wallensteinstraße",
+        "time": {
+          "start": "2026-01-02T14:00:44.000+0100",
+          "end": "2026-01-02T15:02:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2160
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2161_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Verkehrsunfall Betrieb ab Wallensteinstraße",
+        "description": "Verkehrsunfall Betrieb ab Wallensteinstraße",
+        "time": {
+          "start": "2026-01-02T14:00:44.000+0100",
+          "end": "2026-01-02T15:02:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2161
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2162_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Verkehrsunfall Betrieb ab Wallensteinstraße",
+        "description": "Verkehrsunfall Betrieb ab Wallensteinstraße",
+        "time": {
+          "start": "2026-01-02T14:00:44.000+0100",
+          "end": "2026-01-02T15:02:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2162
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2164_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Verkehrsunfall Einstieg bei Linie 5 Richtung Westbahnhof",
+        "description": "Verkehrsunfall Einstieg bei Linie 5 Richtung Westbahnhof",
+        "time": {
+          "start": "2026-01-02T14:00:44.000+0100",
+          "end": "2026-01-02T15:03:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2164
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2198_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:02:41.000+0100",
+          "end": "2026-01-02T15:02:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2198
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2196_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:02:41.000+0100",
+          "end": "2026-01-02T15:02:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2196
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2197_131",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:02:41.000+0100",
+          "end": "2026-01-02T15:02:00.000+0100"
+        },
+        "relatedLines": [
+          "31"
+        ],
+        "relatedStops": [
+          2197
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2620_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:09:41.000+0100",
+          "end": "2026-01-02T15:09:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          2620
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_844_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:09:50.000+0100",
+          "end": "2026-01-02T15:09:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          844
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_284_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:09:54.000+0100",
+          "end": "2026-01-02T15:09:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          284
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_846_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:12:44.000+0100",
+          "end": "2026-01-02T15:12:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          846
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_845_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:12:44.000+0100",
+          "end": "2026-01-02T15:12:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          845
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_847_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:17:34.000+0100",
+          "end": "2026-01-02T15:12:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          847
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_339_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:17:40.000+0100",
+          "end": "2026-01-02T15:12:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          339
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_848_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:22:53.000+0100",
+          "end": "2026-01-02T15:19:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          848
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_849_118",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:22:53.000+0100",
+          "end": "2026-01-02T15:19:00.000+0100"
+        },
+        "relatedLines": [
+          "18"
+        ],
+        "relatedStops": [
+          849
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 3,
+        "name": "ivu_2391_405",
+        "priority": "1",
+        "owner": "WL",
+        "title": "Fahrtbehinderung Verkehrsunfall",
+        "description": "Fahrtbehinderung Verkehrsunfall",
+        "time": {
+          "start": "2026-01-02T14:27:41.000+0100",
+          "end": "2026-01-02T15:27:00.000+0100"
+        },
+        "relatedLines": [
+          "5A"
+        ],
+        "relatedStops": [
+          2391
+        ]
+      }
+    ],
+    "trafficInfoCategories": [
+      {
+        "id": 1,
+        "refTrafficInfoCategoryGroupId": 1,
+        "name": "aufzugsinfo",
+        "trafficInfoNameList": "ftazS_113, ftazS_167, ftazS_478, ftazS_566, ftazS_627, ftazS_1016545, ftazS_1303909",
+        "title": "Aufzugsstörungen"
+      },
+      {
+        "id": 2,
+        "refTrafficInfoCategoryGroupId": 1,
+        "name": "stoerunglang",
+        "trafficInfoNameList": "bms_I20251110-0004, bms_I20260102-0023-F01, bms_I20260102-0023-F02, bms_I20260102-0023-F03, bms_I20260102-0026, bms_I20250512-0001, bms_I20260102-0025-F01, bms_I20260102-0024-F01",
+        "title": "Störung Lang"
+      },
+      {
+        "id": 3,
+        "refTrafficInfoCategoryGroupId": 1,
+        "name": "stoerungkurz",
+        "trafficInfoNameList": "ivu_2399_405, ivu_1844_462, ivu_1711_101, ivu_1712_101, ivu_1709_101, ivu_48_101, ivu_51_101, ivu_49_101, ivu_50_101, ivu_47_101, ivu_46_101, ivu_45_101, ivu_14_171, ivu_13_171, ivu_15_171, ivu_16_171, ivu_17_171, ivu_18_171, ivu_19_171, ivu_81_171, ivu_46_171, ivu_47_171, ivu_48_171, ivu_49_171, ivu_50_171, ivu_51_171, ivu_44_171, ivu_45_171, ivu_45_136, ivu_47_136, ivu_48_136, ivu_49_136, ivu_50_136, ivu_51_136, ivu_46_136, ivu_2163_131, ivu_2165_131, ivu_2160_131, ivu_2161_131, ivu_2162_131, ivu_2164_131, ivu_2198_131, ivu_2196_131, ivu_2197_131, ivu_2620_118, ivu_844_118, ivu_284_118, ivu_846_118, ivu_845_118, ivu_847_118, ivu_339_118, ivu_848_118, ivu_849_118, ivu_2391_405",
+        "title": "Störung Kurz"
+      }
+    ],
+    "trafficInfoCategoryGroups": [
+      {
+        "id": 1,
+        "name": "pt"
+      }
+    ]
+  },
+  "message": {
+    "value": "OK",
+    "messageCode": 1,
+    "serverTime": "2026-01-02T14:39:28.000+0100"
+  }
+}

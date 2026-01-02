@@ -1,0 +1,60 @@
+{
+  "data": {
+    "trafficInfos": [
+      {
+        "refTrafficInfoCategoryId": 2,
+        "name": "ftazS_113",
+        "title": "(fake) TEST",
+        "description": "U4 Mittelbahnsteig - Zwischengeschoss Zugang Aufzug U1",
+        "time": {
+          "start": "2026-01-01T20:45:00.000+0100",
+          "end": "2026-01-23T00:45:00.000+0100"
+        },
+        "relatedLines": [
+          "U4",
+          "U1"
+        ],
+        "relatedStops": [
+          4410,
+          4427,
+          4113,
+          4116
+        ]
+      }
+    ],
+    "trafficInfoCategories": [
+      {
+        "id": 1,
+        "refTrafficInfoCategoryGroupId": 1,
+        "name": "aufzugsinfo",
+        "trafficInfoNameList": "ftazS_113, ftazS_167, ftazS_478, ftazS_566, ftazS_627, ftazS_1016545, ftazS_1303909",
+        "title": "Aufzugsstörungen"
+      },
+      {
+        "id": 2,
+        "refTrafficInfoCategoryGroupId": 1,
+        "name": "stoerunglang",
+        "trafficInfoNameList": "bms_I20251110-0004, bms_I20260102-0023-F01, bms_I20260102-0023-F02, bms_I20260102-0023-F03, bms_I20260102-0026, bms_I20250512-0001, bms_I20260102-0025-F01, bms_I20260102-0024-F01",
+        "title": "Störung Lang"
+      },
+      {
+        "id": 3,
+        "refTrafficInfoCategoryGroupId": 1,
+        "name": "stoerungkurz",
+        "trafficInfoNameList": "ivu_2399_405, ivu_1844_462, ivu_1711_101, ivu_1712_101, ivu_1709_101, ivu_48_101, ivu_51_101, ivu_49_101, ivu_50_101, ivu_47_101, ivu_46_101, ivu_45_101, ivu_14_171, ivu_13_171, ivu_15_171, ivu_16_171, ivu_17_171, ivu_18_171, ivu_19_171, ivu_81_171, ivu_46_171, ivu_47_171, ivu_48_171, ivu_49_171, ivu_50_171, ivu_51_171, ivu_44_171, ivu_45_171, ivu_45_136, ivu_47_136, ivu_48_136, ivu_49_136, ivu_50_136, ivu_51_136, ivu_46_136, ivu_2163_131, ivu_2165_131, ivu_2160_131, ivu_2161_131, ivu_2162_131, ivu_2164_131, ivu_2198_131, ivu_2196_131, ivu_2197_131, ivu_2620_118, ivu_844_118, ivu_284_118, ivu_846_118, ivu_845_118, ivu_847_118, ivu_339_118, ivu_848_118, ivu_849_118, ivu_2391_405",
+        "title": "Störung Kurz"
+      }
+    ],
+    "trafficInfoCategoryGroups": [
+      {
+        "id": 1,
+        "name": "pt"
+      }
+    ]
+  },
+  "message": {
+    "value": "OK",
+    "messageCode": 1,
+    "serverTime": "2026-01-02T14:39:28.000+0100"
+  }
+}

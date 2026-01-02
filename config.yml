@@ -55,8 +55,8 @@ timetable:
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
-    04-kaerten:
-      path: datasets/gtfs/04_kaerten.zip
+    04-kaernten:
+      path: datasets/gtfs/04_kaernten.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: false
@@ -67,6 +67,8 @@ timetable:
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
+      rt:
+        - url: http://127.0.0.1:5000/vienna-gtfs-rt.pb
     06-steiermark:
       path: datasets/gtfs/06_steiermark.zip
       default_bikes_allowed: false
