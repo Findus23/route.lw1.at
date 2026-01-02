@@ -22,6 +22,7 @@ app = Flask(__name__)
 
 @app.route("/vienna-gtfs-rt.pb")
 def vienna_gtfs_rt():
+    # TODO: Add ETag header
     feed = feed_pb()
     body = feed.SerializeToString()
     return Response(body, headers={"Content-Type": "application/x-protobuf"})

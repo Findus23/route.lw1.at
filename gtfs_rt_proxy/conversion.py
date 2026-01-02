@@ -11,7 +11,9 @@ import dateparser
 from proto import gtfs_realtime_pb2
 
 with open("line_to_gtfs_id_mapping.json") as f:
-    line_to_gtfs_id_mapping = json.load(f)
+    mapping_data = json.load(f)
+    line_to_gtfs_id_mapping = mapping_data["mapping"]
+    mapping_feed_version = str(mapping_data["meta"]["version"])
 
 
 def disruptions_from_api(api_response: dict):
@@ -29,7 +31,6 @@ def disruptions_from_api(api_response: dict):
             # TODO: support elevator disruptions properly
             continue
         traffic_infos[info["name"]] = info
-        print(info)
     return server_time, traffic_infos
 
 
@@ -37,6 +38,7 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
     feed = gtfs_realtime_pb2.FeedMessage()
     feed.header.gtfs_realtime_version = "2.0"
     feed.header.timestamp = int(server_time.timestamp())
+    feed.header.feed_version = mapping_feed_version
 
     for disr_id, disr in traffic_infos.items():
         d = feed.entity.add()
@@ -52,7 +54,6 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
             line_gtfs_id = line_to_gtfs_id_mapping[line]
             ie = alert.informed_entity.add()
             ie.route_id = line_gtfs_id
-            print(line_gtfs_id)
 
         # TODO: map relatedStops to GTFS stops
 
@@ -71,6 +72,8 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
             alert.cause = alert.MAINTENANCE
         elif "Rettungseinsatz" in all_text:
             alert.cause = alert.MEDICAL_EMERGENCY
+        elif "Feuerwehreinsatz" in all_text:
+            alert.cause = alert.ACCIDENT
         elif "Polizeieinsatz" in all_text:
             alert.cause = alert.POLICE_ACTIVITY
         elif "Bauarbeiten" in all_text:
@@ -107,7 +110,14 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
 
 if __name__ == '__main__':
     from api import vienna_disruptions_api
+    from google.protobuf.json_format import MessageToJson
 
     api_response = vienna_disruptions_api.current_disruptions()
     server_time, traffic_infos = disruptions_from_api(api_response)
-    disruptions_to_proto(server_time, traffic_infos)
+    feed = disruptions_to_proto(server_time, traffic_infos)
+    body = MessageToJson(
+        feed,
+        preserving_proto_field_name=True,
+        use_integers_for_enums=True
+    )
+    print(body)
