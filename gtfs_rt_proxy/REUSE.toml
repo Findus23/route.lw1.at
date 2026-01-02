@@ -1,0 +1,28 @@
+version = 1
+
+[[annotations]]
+path = "examples/*.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Wiener Linien"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+version = 1
+
+[[annotations]]
+path = "proto/gtfs-realtime*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2015 The GTFS Specifications Authors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "proto/gtfs_realtime*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2015 The GTFS Specifications Authors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "proto/Makefile"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "none"
+SPDX-License-Identifier = "CC0-1.0"
+
