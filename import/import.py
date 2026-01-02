@@ -11,6 +11,7 @@ import time
 from pathlib import Path
 
 import requests
+
 from data import mobility_datasets
 from secret import mobility_password, mobility_user_name
 
@@ -69,6 +70,7 @@ def get_datasets(access_token: str, filter_tag: str = None):
 def fetch_datasets(access_token: str):
     datasets = get_datasets(access_token, filter_tag="GTFS")
     for mobility_dataset in mobility_datasets:
+        print(mobility_dataset.own_name)
         api_id = mobility_dataset.api_id
         ds = datasets[api_id]
         assert ds["nameDe"] == mobility_dataset.api_name
@@ -76,8 +78,15 @@ def fetch_datasets(access_token: str):
         mobility_dataset.api_data = ds
 
         metafile = gtfs_dir / f"{mobility_dataset.own_filename}.zip"
-
-        first_active_version = ds["activeVersions"][0]
+        first_active_version = None
+        for av in ds["activeVersions"]:
+            print(av)
+            if int(av["year"]) == mobility_dataset.year:
+                first_active_version = av
+                break
+        if first_active_version is None:
+            print(f"no Version for {mobility_dataset.year} available")
+            continue
         assert int(first_active_version["year"]) == mobility_dataset.year
 
         with metafile.with_suffix(".json").open("w") as f:
@@ -100,6 +109,7 @@ def fetch_datasets(access_token: str):
 
         filename = first_active_version["dataSetVersion"]["file"]["originalName"]
         download_file = gtfs_dir / f"{filename}"
+        print(download_file)
         if metafile.exists(follow_symlinks=False):
             metafile.unlink()
         metafile.symlink_to(download_file.name)
