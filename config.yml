@@ -68,7 +68,7 @@ timetable:
       extend_calendar: false
       script: scripts/colors.lua
       rt:
-        - url: http://127.0.0.1:5000/vienna-gtfs-rt.pb
+        - url: https://unofficial-gtfsrt-proxy.route.lw1.at/vienna-gtfs-rt.pb
     06-steiermark:
       path: datasets/gtfs/06_steiermark.zip
       default_bikes_allowed: false
