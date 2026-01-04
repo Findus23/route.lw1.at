@@ -1,0 +1,161 @@
+{
+  "comment": "",
+  "data": {
+    "at:esg:84:": {
+      "ref": "N84",
+      "own_name": "N84 Linz",
+      "own_tags": {
+        "colour": "#C31553",
+        "colour:text": "#FFFFFF"
+      },
+      "sources": [
+        {
+          "url": "https://www.linzag.at/media/dokumente/linien_1/infomaterial_1/linien-linienfahrplan-nacht.pdf",
+          "description": "official timetable",
+          "date": "2026-01-04"
+        }
+      ],
+      "ptna_recommendations": {
+        "url": "https://ptna.openstreetmap.de/gtfs/AT/single-trip.php?feed:AT-Linz_AG&release_date:&trip_id:230.TA.1-84-E-d25-1.4.H",
+        "route_master": {
+          "type": "route_master",
+          "route_master": "tram",
+          "ref": "N84",
+          "name": "Tram N84",
+          "network": "Verkehrsverbund Ost-Region",
+          "network:guid": "AT-VOR",
+          "network:short": "VOR",
+          "operator": "Linz Linien GmbH",
+          "website": "http://www.linzag.at",
+          "gtfs:feed": "AT-Linz_AG",
+          "gtfs:route_id": "at:esg:84:"
+        },
+        "route": {
+          "type": "route",
+          "route": "tram",
+          "ref": "N84",
+          "name": "Tram N84: Linz/Donau Hauptbahnhof => Traun OÖ Schloss Traun",
+          "network": "Verkehrsverbund Ost-Region",
+          "network:guid": "AT-VOR",
+          "network:short": "VOR",
+          "operator": "Linz Linien GmbH",
+          "website": "http://www.linzag.at",
+          "gtfs:feed": "AT-Linz_AG",
+          "gtfs:route_id": "at:esg:84:",
+          "gtfs:trip_id:sample": "230.TA.1-84-E-d25-1.4.H",
+          "gtfs:trip_id:like": "%1-84-E-d25-1.4.H",
+          "gtfs:shape_id": "1-84-E-d25-1.4.H",
+          "ref_trips": "230.TA.1-84-E-d25-1.4.H",
+          "from": "Linz/Donau Hauptbahnhof",
+          "to": "Traun OÖ Schloss Traun",
+          "public_transport:version": "2"
+        }
+      }
+    },
+    "at:oov:110081:": {
+      "ref": "8a",
+      "own_name": "8a Stadtbus Steyr",
+      "own_tags": {
+        "colour": "#00B1B2",
+        "colour:text": "#FFFFFF"
+      },
+      "sources": [
+        {
+          "url": "https://ftp2.stadtbetriebe.at/verkehr/SBS_Fahrplanheft_2025_Ansicht.pdf",
+          "description": "official timetable",
+          "date": "2026-01-04"
+        }
+      ],
+      "ptna_recommendations": {
+        "url": "https://ptna.openstreetmap.de/gtfs/AT/single-trip.php?feed=AT-OOeVV&release_date=&trip_id=3.Mo-Fr.11-8-a-j26-1.1.H",
+        "route_master": {
+          "type": "route_master",
+          "route_master": "bus",
+          "ref": "8a",
+          "name": "Bus 8a",
+          "network": "Oberösterreichischer Verkehrsverbund",
+          "network:guid": "AT-OÖVV",
+          "network:short": "OÖVV",
+          "operator": "Stadtbetriebe Steyr GmbH",
+          "website": "https://www.stadtbetriebe.at/",
+          "gtfs:feed": "AT-OOeVV",
+          "gtfs:route_id": "at:oov:110081:"
+        },
+        "route": {
+          "type": "route",
+          "route": "bus",
+          "ref": "8a",
+          "name": "Bus 8a: Steyr Bahnhof (Busbahnhof/Stadtbus) 8/8a => Steyr Bahnhof (Busbahnhof/Stadtbus) 8/8a",
+          "network": "Oberösterreichischer Verkehrsverbund",
+          "network:guid": "AT-OÖVV",
+          "network:short": "OÖVV",
+          "operator": "Stadtbetriebe Steyr GmbH",
+          "website": "https://www.stadtbetriebe.at/",
+          "gtfs:feed": "AT-OOeVV",
+          "gtfs:route_id": "at:oov:110081:",
+          "gtfs:trip_id:sample": "3.Mo-Fr.11-8-a-j26-1.1.H",
+          "gtfs:trip_id:like": "%11-8-a-j26-1.1.H",
+          "gtfs:shape_id": "11-8-a-j26-1.1.H",
+          "ref_trips": "3.Mo-Fr.11-8-a-j26-1.1.H",
+          "from": "Steyr Bahnhof (Busbahnhof/Stadtbus) 8/8a",
+          "to": "Steyr Bahnhof (Busbahnhof/Stadtbus) 8/8a",
+          "roundtrip": "yes",
+          "public_transport:version": "2"
+        }
+      }
+    },
+    "at:oov:110082:": {
+      "ref": "8b",
+      "own_name": "8b Stadtbus Steyr",
+      "own_tags": {
+        "colour": "#B89629",
+        "colour:text": "#FFFFFF"
+      },
+      "sources": [
+        {
+          "url": "https://ftp2.stadtbetriebe.at/verkehr/SBS_Fahrplanheft_2025_Ansicht.pdf",
+          "description": "official timetable",
+          "date": "2026-01-04"
+        }
+      ],
+      "ptna_recommendations": {
+        "url": "https://ptna.openstreetmap.de/gtfs/AT/single-trip.php?feed=AT-OOeVV&release_date=&trip_id=22.Mo-Fr.11-8-b-j26-1.1.H",
+        "route_master": {
+          "type": "route_master",
+          "route_master": "bus",
+          "ref": "8b",
+          "name": "Bus 8b",
+          "network": "Oberösterreichischer Verkehrsverbund",
+          "network:guid": "AT-OÖVV",
+          "network:short": "OÖVV",
+          "operator": "Stadtbetriebe Steyr GmbH",
+          "colour:text": "#000000",
+          "website": "https://www.stadtbetriebe.at/",
+          "gtfs:feed": "AT-OOeVV",
+          "gtfs:route_id": "at:oov:110082:"
+        },
+        "route": {
+          "type": "route",
+          "route": "bus",
+          "ref": "8b",
+          "name": "Bus 8b: Steyr Bahnhof (Busbahnhof/Stadtbus) 8b/10 => Steyr Bahnhof (Busbahnhof/Stadtbus) 8b/10",
+          "network": "Oberösterreichischer Verkehrsverbund",
+          "network:guid": "AT-OÖVV",
+          "network:short": "OÖVV",
+          "operator": "Stadtbetriebe Steyr GmbH",
+          "colour:text": "#000000",
+          "website": "https://www.stadtbetriebe.at/",
+          "gtfs:feed": "AT-OOeVV",
+          "gtfs:route_id": "at:oov:110082:",
+          "gtfs:trip_id:sample": "22.Mo-Fr.11-8-b-j26-1.1.H",
+          "gtfs:trip_id:like": "%11-8-b-j26-1.1.H",
+          "gtfs:shape_id": "11-8-b-j26-1.1.H",
+          "ref_trips": "22.Mo-Fr.11-8-b-j26-1.1.H",
+          "from": "Steyr Bahnhof (Busbahnhof/Stadtbus) 8b/10",
+          "to": "Steyr Bahnhof (Busbahnhof/Stadtbus) 8b/10",
+          "roundtrip": "yes",
+          "public_transport:version": "2"
+        }      }
+    }
+  }
+}
