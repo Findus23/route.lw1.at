@@ -155,7 +155,104 @@
           "to": "Steyr Bahnhof (Busbahnhof/Stadtbus) 8b/10",
           "roundtrip": "yes",
           "public_transport:version": "2"
-        }      }
+        }
+      }
+    },
+    "1-S1-W-j26-1": {
+      "ref": "S1",
+      "own_name": "S1 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S2-W-j26-1": {
+      "ref": "S2",
+      "own_name": "S2 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S3-W-j26-1": {
+      "ref": "S3",
+      "own_name": "S3 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S4-W-j26-1": {
+      "ref": "S4",
+      "own_name": "S4 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S7-W-j26-1": {
+      "ref": "S7",
+      "own_name": "S7 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S40-W-j26-1": {
+      "ref": "S40",
+      "own_name": "S40 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S50-W-j26-1": {
+      "ref": "S50",
+      "own_name": "S50 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S63-W-j26-1": {
+      "ref": "S63",
+      "own_name": "S63 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "1-S80-W-j26-1": {
+      "ref": "S80",
+      "own_name": "S80 Wien",
+      "own_tags": {
+        "colour": "#079DDD",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "9-WB1-W-j26-1": {
+      "ref": "WB1-W",
+      "own_name": "Westbahn WB1-W",
+      "own_tags": {
+        "colour": "#C4D636",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "9-WB2-S-j26-1": {
+      "ref": "WB2-S",
+      "own_name": "Westbahn WB2-S",
+      "own_tags": {
+        "colour": "#C4D636",
+        "colour:text": "#FFFFFF"
+      }
+    },
+    "9-WBD-E-j26-1": {
+      "ref": "WBD-E",
+      "own_name": "Westbahn WBD-E",
+      "own_tags": {
+        "colour": "#C4D636",
+        "colour:text": "#FFFFFF"
+      }
     }
   }
 }

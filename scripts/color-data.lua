@@ -5,42 +5,50 @@
 local colors_by_id = {
     -- j S1 Schnellbahn S1
     ["1-S1-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
-    -- j S1 Schnellbahn S1
-    ["1-S1-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- m S1 S1 Wien
+    ["1-S1-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S2 Schnellbahn S2
     ["1-S2-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
-    -- j S2 Schnellbahn S2
-    ["1-S2-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- m S2 S2 Wien
+    ["1-S2-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S3 Schnellbahn S3
     ["1-S3-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
-    -- j S3 Schnellbahn S3
-    ["1-S3-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- m S3 S3 Wien
+    ["1-S3-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S4 Schnellbahn S4
     ["1-S4-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
-    -- j S4 S4
-    ["1-S4-W-j26-1"] = { color = 0xEC008C, text_color = 0xFFFFFF },
-    -- j S40 Schnellbahn S40
-    ["1-S40-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- m S4 S4 Wien
+    ["1-S4-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
+    -- m S40 S40 Wien
+    ["1-S40-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S45 Schnellbahn S45
     ["1-S45-W-j26-1"] = { color = 0xBDD542, text_color = 0xFFFFFF },
     -- j S5 S-Bahn S5: Rosenbach <=> Villach Hbf
     ["1-S5-K-j26-1"] = { color = 0xF3C737, text_color = 0xFFFFFF },
-    -- j S50 Schnellbahn S50
-    ["1-S50-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- m S50 S50 Wien
+    ["1-S50-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S6 S6 Innsbruck ↔ Scharnitz ↔ Garmisch
     ["1-S6-K-j26-1"] = { color = 0xD4B4C4, text_color = 0xFFFFFF },
     -- j S60 Schnellbahn S60
     ["1-S60-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- m S63 S63 Wien
+    ["1-S63-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S7 Schnellbahn S7
     ["1-S7-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
-    -- j S7 Schnellbahn S7
-    ["1-S7-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
-    -- j S80 Schnellbahn S80
-    ["1-S80-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- m S7 S7 Wien
+    ["1-S7-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
+    -- m S80 S80 Wien
+    ["1-S80-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j REX1 REX1: Lindau <=> Bludenz
     ["2-RX1-K-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
     -- j REX1 REX1: Lindau <=> Bludenz
     ["2-RX1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
+    -- m WB1-W Westbahn WB1-W
+    ["9-WB1-W-j26-1"] = { color = 0xC4D636, text_color = 0xFFFFFF },
+    -- m WB2-S Westbahn WB2-S
+    ["9-WB2-S-j26-1"] = { color = 0xC4D636, text_color = 0xFFFFFF },
+    -- m WBD-E Westbahn WBD-E
+    ["9-WBD-E-j26-1"] = { color = 0xC4D636, text_color = 0xFFFFFF },
     -- j 101 Bus 101: Urnenhain Urfahr => Aichinger
     ["at:esg:101:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
     -- j 102 Bus 102: Rudolfstraße => Worathweg
