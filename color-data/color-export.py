@@ -199,6 +199,8 @@ for c in colors:
 print(len(dedup_data), len(with_color), len(colors), len({c.gtfs_route_id for c in colors}))
 assert len(dedup_data) == len(with_color)
 
+colors = list(dedup_data.values())
+
 output_file = Path(__file__).parent.parent / "scripts" / "color-data.lua"
 
 colors.sort(key=lambda c: c.gtfs_route_id)

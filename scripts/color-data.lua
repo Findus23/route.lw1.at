@@ -3,18 +3,224 @@
 -- SPDX-License-Identifier: ODbL-1.0
 
 local colors_by_id = {
-    -- p 12 Bus 12: Karlhof <=> Auwiesen
+    -- j S1 Schnellbahn S1
+    ["1-S1-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S1 Schnellbahn S1
+    ["1-S1-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S2 Schnellbahn S2
+    ["1-S2-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S2 Schnellbahn S2
+    ["1-S2-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S3 Schnellbahn S3
+    ["1-S3-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S3 Schnellbahn S3
+    ["1-S3-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S4 Schnellbahn S4
+    ["1-S4-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S4 S4
+    ["1-S4-W-j26-1"] = { color = 0xEC008C, text_color = 0xFFFFFF },
+    -- j S40 Schnellbahn S40
+    ["1-S40-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S45 Schnellbahn S45
+    ["1-S45-W-j26-1"] = { color = 0xBDD542, text_color = 0xFFFFFF },
+    -- j S5 S-Bahn S5: Rosenbach <=> Villach Hbf
+    ["1-S5-K-j26-1"] = { color = 0xF3C737, text_color = 0xFFFFFF },
+    -- j S50 Schnellbahn S50
+    ["1-S50-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S6 S6 Innsbruck ↔ Scharnitz ↔ Garmisch
+    ["1-S6-K-j26-1"] = { color = 0xD4B4C4, text_color = 0xFFFFFF },
+    -- j S60 Schnellbahn S60
+    ["1-S60-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S7 Schnellbahn S7
+    ["1-S7-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S7 Schnellbahn S7
+    ["1-S7-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S80 Schnellbahn S80
+    ["1-S80-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j REX1 REX1: Lindau <=> Bludenz
+    ["2-RX1-K-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
+    -- j REX1 REX1: Lindau <=> Bludenz
+    ["2-RX1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
+    -- j 101 Bus 101: Urnenhain Urfahr => Aichinger
+    ["at:esg:101:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
+    -- j 102 Bus 102: Rudolfstraße => Worathweg
+    ["at:esg:102:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
+    -- j 103 Bus 103: Turmstraße => Lißfeld => Turmstraße
+    ["at:esg:103:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
+    -- j 104 Bus 104: Waldesruh <=> Sennweg
+    ["at:esg:104:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
+    -- j 105 Bus 105: Südpark Linz => Siriusweg
+    ["at:esg:105:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
+    -- j 106 Bus 106: Florianer Straße => Wambacherberg
+    ["at:esg:106:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
+    -- j 107 Bus 107: Ziegeleistraße => Hatschekstraße
+    ["at:esg:107:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
+    -- j 108 Bus 108: Simonystraße => Industriepark Lunzer Straße
+    ["at:esg:108:"] = { color = 0xDBAF3B, text_color = 0xFFFFFF },
+    -- j 11 Bus 11: Sporthalle Leonding <=> Pichlinger See
+    ["at:esg:11:"] = { color = 0xFF7D24, text_color = 0xFFFFFF },
+    -- p 12 Bus 12: Karlhof => Auwiesen
     ["at:esg:12:"] = { color = 0x2D9B54, text_color = 0xFFFFFF },
-    -- p 194 Bus 194: Stadion <=> Neue Heimat
+    -- j 150 Bus 150: Landgutstraße <=> Pöstlingberg
+    ["at:esg:150:"] = { color = 0xDBAF3B, text_color = 0xFFFFFF },
+    -- j 17 Bus 17: Fernheizkraftwerk => Hitzing
+    ["at:esg:17:"] = { color = 0xFF7D24, text_color = 0xFFFFFF },
+    -- j 18 Bus 18: Turmstraße => Stahlwerk
+    ["at:esg:18:"] = { color = 0x0072BC, text_color = 0xFFFFFF },
+    -- j 191 Bus 191: Gaumberg => St. Martin
+    ["at:esg:191:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
+    -- j 192 Bus 192: Stadtplatz Leonding <=> Theatergasse
+    ["at:esg:192:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
+    -- p 194 Bus 194: Stadion => Neue Heimat
     ["at:esg:194:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
-    -- p B Bus B: Klagenfurt Baumbachplatz => Klagenfurt Welzenegg
+    -- j 19 Bus 19: Fernheizkraftwerk => Pichlinger See
+    ["at:esg:19:"] = { color = 0xFC87BF, text_color = 0xFFFFFF },
+    -- j 1 Linie 1: Universität – Auwiesen
+    ["at:esg:1:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    -- j 25 Bus 25: Karlhof <=> Oed
+    ["at:esg:25:"] = { color = 0xCF9B2A, text_color = 0xFFFFFF },
+    -- j 26 Bus 26: St. Margarethen => Stadion
+    ["at:esg:26:"] = { color = 0x0072BC, text_color = 0x0000FF },
+    -- j 27 Bus 27: Fernheizkraftwerk => Chemiepark
+    ["at:esg:27:"] = { color = 0x9FCA66, text_color = 0xFFFFFF },
+    -- j 2 Linie 2: Universität – solarCity
+    ["at:esg:2:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    -- j 33 Bus 33: Riesenhof => Pleschinger See
+    ["at:esg:33:"] = { color = 0xCD98A5, text_color = 0xFFFFFF },
+    -- j 38 Bus 38: Rudolfstraße => Jäger im Tal
+    ["at:esg:38:"] = { color = 0xDE7A36, text_color = 0xFFFFFF },
+    -- j 3 Linie 3: Landgutstraße – Trauner Kreuzung
+    ["at:esg:3:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    -- j 41 Bus 41: Hessenplatz <=> Baintwiese
+    ["at:esg:41:"] = { color = 0xE52C1A, text_color = 0xFFFFFF },
+    -- j 43 Bus 43: Hessenplatz <=> Stadtfriedhof
+    ["at:esg:43:"] = { color = 0x52D3F7, text_color = 0xFFFFFF },
+    -- j 45 Bus 45: Stieglbauernstraße ­<=> Hauptbahnhof/Froschberg
+    ["at:esg:45:"] = { color = 0xE52C1A, text_color = 0xFFFFFF },
+    -- j 46 Bus 46: Hafen <=>­ Froschberg
+    ["at:esg:46:"] = { color = 0x52D3F7, text_color = 0xFFFFFF },
+    -- j 4 Linie 4: Landgutstraße – Schloss Traun
+    ["at:esg:4:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    -- j 50 Linie 50: Pöstlingberg – Hauptplatz
+    ["at:esg:50:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    -- j 70 Bus 70: Schiffswerft <=> Stadtfriedhof
+    ["at:esg:70:"] = { color = 0x964C29, text_color = 0xFFFFFF },
+    -- j 71 Bus 71: Industriezeile => Baintwiese
+    ["at:esg:71:"] = { color = 0x964C29, text_color = 0xFFFFFF },
+    -- j 72 Bus 72: Schiffswerft => Stadtfriedhof
+    ["at:esg:72:"] = { color = 0x964C29, text_color = 0xFFFFFF },
+    -- j 73 Bus 73: Baintwiese => Fernheizkraftwerk
+    ["at:esg:73:"] = { color = 0x964C29, text_color = 0xFFFFFF },
+    -- j 77 Bus 77: Hauptbahnhof => Universität
+    ["at:esg:77:"] = { color = 0x964C29, text_color = 0xFFFFFF },
+    -- j N82 Linie N82: Universität – solarCity
+    ["at:esg:82:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    -- m N84 N84 Linz
+    ["at:esg:84:"] = { color = 0xC31553, text_color = 0xFFFFFF },
+    -- j 1 Bus 1: Harbach => Kreuzbergl
+    ["at:ktn:1:"] = { color = 0xA8A8A7, text_color = 0xFFFFFF },
+    -- j 1 Bus 1: Landskron <=> KTS/SKA
+    ["at:ktn:21:"] = { color = 0xC70A00, text_color = 0xFFFFFF },
+    -- j 2 Bus 2: Hörtendorf => Klagenfurt West
+    ["at:ktn:2:"] = { color = 0xCD853F, text_color = 0xFFFFFF },
+    -- j 3 Bus 3: Steingasse => Felsenschmiedgasse
+    ["at:ktn:3:"] = { color = 0x81412B, text_color = 0xFFFFFF },
+    -- j A Bus A: Annabichl => Liberogasse
+    ["at:ktn:46:"] = { color = 0x267850, text_color = 0xFFFFFF },
+    -- j B Bus B: Klagenfurt Welzenegg => Klagenfurt Viktring Schule
+    ["at:ktn:47:"] = { color = 0x75C7C9, text_color = 0xFFFFFF },
+    -- j C Bus C: Hauptbahnhof => Klagenfurt West
+    ["at:ktn:48:"] = { color = 0xE6301A, text_color = 0xFFFFFF },
+    -- j 4 Bus 4: Walddorf => Strandbad
+    ["at:ktn:4:"] = { color = 0x96B522, text_color = 0xFFFFFF },
+    -- j 5 Bus 5: IKEA => Pädagogische Hochschule
+    ["at:ktn:5:"] = { color = 0x8B559D, text_color = 0xFFFFFF },
+    -- j 10 Bus 10: Klagenfurt Heiligengeistplatz => Strandbad
+    ["at:ktn:60:"] = { color = 0x23678A, text_color = 0xFFFFFF },
+    -- j 20 Bus 20
+    ["at:ktn:61:"] = { color = 0x3391AC, text_color = 0xFFFFFF },
+    -- p B Bus B: Klagenfurt Welzenegg => Klagenfurt Viktring Schule
     ["at:ktn:65:"] = { color = 0x75C7C9, text_color = 0xFFFFFF },
+    -- j 6 Bus 6: Harbach Diakonie => Universität
+    ["at:ktn:6:"] = { color = 0x044486, text_color = 0xFFFFFF },
+    -- j 7 Bus 7: Hörtendorf => Heiligengeistplatz
+    ["at:ktn:7:"] = { color = 0xBB6464, text_color = 0xFFFFFF },
+    -- j 8 Bus 8: Klagenfurt West => Heiligengeistplatz
+    ["at:ktn:8:"] = { color = 0xCFB01A, text_color = 0xFFFFFF },
+    -- j S1 Schnellbahn S1
+    ["at:obb:1|S1:M"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S3 Schnellbahn S3
+    ["at:obb:1|S3:M"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S8 S8
+    ["at:obb:1|S8:M"] = { color = 0x5CC1D1, text_color = 0xFFFFFF },
+    -- j 2a Stadtbus Steyr 2a: Bahnhof <=> Resthof
+    ["at:oov:110021:"] = { color = 0x3333FF, text_color = 0xFFFFFF },
+    -- j 2b Stadtbus Steyr 2b: Bahnhof <=> Sierninger Straße
+    ["at:oov:110022:"] = { color = 0xFF6633, text_color = 0xFFFFFF },
+    -- j 4 Stadtbus Steyr 4: Tabor
+    ["at:oov:110024:"] = { color = 0x3399FF, text_color = 0xFFFFFF },
+    -- j 3b Stadtbus Steyr 3b: Bahnhof <=> Ennsleite
+    ["at:oov:110033:"] = { color = 0xFF0099, text_color = 0xFFFFFF },
+    -- j 4 Stadtbus Steyr 4: Tabor
+    ["at:oov:11004:"] = { color = 0x3399FF, text_color = 0xFFFFFF },
+    -- j 7 Stadtbus Steyr 7: Bahnhof => Schlüsselhofsiedlung => Bahnhof
+    ["at:oov:11007:"] = { color = 0x669900, text_color = 0xFFFFFF },
+    -- m 8a 8a Stadtbus Steyr
+    ["at:oov:110081:"] = { color = 0x00B1B2, text_color = 0xFFFFFF },
+    -- m 8b 8b Stadtbus Steyr
+    ["at:oov:110082:"] = { color = 0xB89629, text_color = 0xFFFFFF },
+    -- j A1 Stadtbus Wels A1: Kaiser-Josef-Platz - Straubingersiedlung - Kaiser-Josef-Platz
+    ["at:oov:120011:"] = { color = 0xE94F35, text_color = 0xFFFFFF },
+    -- j 1 Stadtbus Wels 1: Straubingersiedlung => Kaiser-Josef-Platz => Noitzmühle
+    ["at:oov:12001:"] = { color = 0xE30613, text_color = 0xFFFFFF },
+    -- j A2 Stadtbus Wels A2: Kaiser-Josef-Platz - Kreßstraße - Kaiser-Josef-Platz
+    ["at:oov:120021:"] = { color = 0x0096DC, text_color = 0xFFFFFF },
+    -- j 2 Stadtbus Wels 2: Flemingstraße => Kaiser-Josef-Platz => Ghegastraße
+    ["at:oov:12002:"] = { color = 0x0062A7, text_color = 0xFFFFFF },
+    -- j 3 Stadtbus Wels 3: Kreßstraße => Kaiser-Josef-Platz => Dickerldorf
+    ["at:oov:12003:"] = { color = 0x52982F, text_color = 0xFFFFFF },
+    -- j 4 Stadtbus Wels 4: Noitzmühlstraße => Kaiser-Josef-Platz => Nico-Dostal-Straße
+    ["at:oov:12004:"] = { color = 0xF2B708, text_color = 0xFFFFFF },
+    -- j 6 Stadtbus Wels 6: Vogelweide Schule => Niederthan => Oberthan => Vogelweide Schule
+    ["at:oov:12006:"] = { color = 0x5DB5C2, text_color = 0xFFFFFF },
+    -- j 8 Stadtbus Wels 8: Pernau Schule - Maxlhaid - Pernau Schule
+    ["at:oov:12008:"] = { color = 0xEAB500, text_color = 0xFFFFFF },
+    -- j 9 Stadtbus Wels 9: Hauptbahnhof => Oberlaab => Oberhart => Hauptbahnhof
+    ["at:oov:12009:"] = { color = 0xCA508E, text_color = 0xFFFFFF },
+    -- j 11 Stadtbus Wels 11: Mauth Schule - Vogelweiderplatz
+    ["at:oov:12011:"] = { color = 0xCE80AF, text_color = 0xFFFFFF },
+    -- j 13 Stadtbus Wels 13: Hauptbahnhof - ROLA-Terminal - Hauptbahnhof
+    ["at:oov:12013:"] = { color = 0xAFCA0B, text_color = 0xFFFFFF },
+    -- j 14 Stadtbus Wels 14: Hauptbahnhof - Unterhart
+    ["at:oov:12014:"] = { color = 0xACCF79, text_color = 0xFFFFFF },
+    -- j 15 Stadtbus Wels 15: Hauptbahnhof - Thalheim Rosenweg
+    ["at:oov:12015:"] = { color = 0x009CB4, text_color = 0xFFFFFF },
+    -- j 16 Stadtbus Wels 16: Schwimmbad - Hauptbahnhof
+    ["at:oov:12016:"] = { color = 0x25B9D7, text_color = 0xFFFFFF },
+    -- j 21 Stadtbus Wels 21: Kaiser-Josef-Platz - Friedhofwirt
+    ["at:oov:12021:"] = { color = 0x56AEB0, text_color = 0xFFFFFF },
     -- p 409 Bus 409: Linz voestalpine/Kraftwerk => Ennsdorf
-    ["at:oov:184091:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
-    -- p 267 Bus 267
-    ["at:oov:31267:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:oov:184091:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 310 Bus 310: Imst Terminal Post C => Mittelberg Wendestelle
+    ["at:oov:22310:"] = { color = 0x72B84C, text_color = 0xFFFFFF },
+    -- j 311 Bus 311: Imst Terminal Post C => Piller Fuchsmoos
+    ["at:oov:22311:"] = { color = 0x72B84C, text_color = 0xFFFFFF },
+    -- j 317 Bus 317: Imsterberg Spadegg => Imst Terminal Post D
+    ["at:oov:22317:"] = { color = 0x442110, text_color = 0xFFFFFF },
+    -- j 333 Bus 333: Königswiesen Kirche => Freistadt Busterminal (Stifterplatz)
+    ["at:oov:22333:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 343 Bus 343: Pregarten Bahnhof => St.Leonhard bei Freistadt Volksschule
+    ["at:oov:22343:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- p 267 Bus 267: Linz Hauptbahnhof => Zwett/Rodl => Helfenberg
+    ["at:oov:31267:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 441 Bus 441: Steyr - Maria Neustift - Großraming
-    ["at:oov:33441:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:oov:33441:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 160 Bus 160: Dornbirn => Gaißau
+    ["at:oov:49160:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 161 Bus 161: Lustenau => Dornbirn
+    ["at:oov:49161:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 180 Bus 180: Götzis => Hohenems => Dornbirn
+    ["at:oov:49180:"] = { color = 0x8D198F, text_color = 0xFFFFFF },
     -- p N1 Bus N1
     ["at:stv:1001:"] = { color = 0xA3CF44, text_color = 0xFFFFFF },
     -- p N2 Bus N2
@@ -31,100 +237,122 @@ local colors_by_id = {
     ["at:stv:1007:"] = { color = 0xFF2E31, text_color = 0xFFFFFF },
     -- p N8 Bus N8
     ["at:stv:1008:"] = { color = 0xA566B3, text_color = 0xFFFFFF },
+    -- j N9 Bus N9
+    ["at:stv:1009:"] = { color = 0x0AB7A8, text_color = 0xFFFFFF },
     -- p 100 Bus 100
-    ["at:stv:100:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:100:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 110 Bus 110
-    ["at:stv:110:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:110:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 189 Bus 189: Mariazell Bahnhof => Terz Ort
+    ["at:stv:1189:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 120 Bus 120
-    ["at:stv:120:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:120:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 121 Bus 121
-    ["at:stv:121:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:121:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 125 Bus 125
-    ["at:stv:125:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:125:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 130 Bus 130
-    ["at:stv:130:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:130:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 140 Bus 140
-    ["at:stv:140:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:140:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 167 Bus 167
-    ["at:stv:167:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:167:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 701 Bus 701: Köflach Bahnhof => Voitsberg Hauptplatz (via Köflach BRG)
+    ["at:stv:1701:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 170 Bus 170
-    ["at:stv:170:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:170:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 714 Bus 714: Premstätten-Tobelbad Bahnhof => Stallhofen Busbahnhof (via Unterpremstätten Johannessiedlung)
+    ["at:stv:1714:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 171 Bus 171
-    ["at:stv:171:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:171:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 173 Bus 173
-    ["at:stv:173:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:173:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 175 Bus 175
-    ["at:stv:175:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:175:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 180 Bus 180
-    ["at:stv:180:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:180:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 181 Bus 181
-    ["at:stv:181:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:181:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 183 Bus 183
-    ["at:stv:183:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:183:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 184 Bus 184
-    ["at:stv:184:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:184:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 185 Bus 185
-    ["at:stv:185:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:185:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 186 Bus 186
-    ["at:stv:186:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:186:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 187 Bus 187
-    ["at:stv:187:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:187:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 189 Bus 189
-    ["at:stv:189:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:189:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 197 Bus 197
-    ["at:stv:197:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:197:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 198 Bus 198
-    ["at:stv:198:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:198:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 1 Tram 1
     ["at:stv:1:"] = { color = 0x00B8EA, text_color = 0xFFFFFF },
     -- p 200 Bus 200
-    ["at:stv:200:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:200:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 201 Bus 201
-    ["at:stv:201:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:201:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 202 Bus 202
-    ["at:stv:202:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:202:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 203 Bus 203
-    ["at:stv:203:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:203:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 204 Bus 204
-    ["at:stv:204:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:204:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 205 Bus 205
-    ["at:stv:205:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:205:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 206 Bus 206
-    ["at:stv:206:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:206:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 207 Bus 207
-    ["at:stv:207:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:207:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 208 Bus 208
-    ["at:stv:208:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:208:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 215 Bus 215: Sankt Ruprecht an der Raab Bahnhof => Weiz Bundesschulzentrum
+    ["at:stv:215:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 216 Bus 216
-    ["at:stv:216:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
-    -- p 230 Bus 230: Feistritzwald Nord => Birkfeld Busbahnhof
-    ["at:stv:230:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:216:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 303 Bus 303: Dechantskirchen Volksschule => Dechantskirchen Volksschule (über Hohenau Schraml Kreuzung)
+    ["at:stv:2303:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- p 230 Bus 230: Birkfeld Busbahnhof => Feistritzwald Nord
+    ["at:stv:230:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 234 Bus 234
-    ["at:stv:234:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:234:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 237 Bus 237
-    ["at:stv:237:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:237:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 23 Tram 23
     ["at:stv:23:"] = { color = 0x9462B1, text_color = 0xFFFFFF },
     -- p 240 Bus 240
-    ["at:stv:240:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:240:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 241 Bus 241
-    ["at:stv:241:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:241:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 250 Bus 250: Graz Rosarium => Plenzengreith Angerkreuz (via Schöckl)
+    ["at:stv:250:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 260 Bus 260
-    ["at:stv:260:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:260:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 303 Bus 303: Dechantskirchen Volksschule => Dechantskirchen Volksschule (über Hohenau Schraml Kreuzung)
+    ["at:stv:303:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 311 Bus 311
-    ["at:stv:311:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:311:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 314 Bus 314
-    ["at:stv:314:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:314:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 317 Bus 317
-    ["at:stv:317:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:317:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 326 Bus 326
-    ["at:stv:326:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:326:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 343 Bus 343
-    ["at:stv:343:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:343:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 347 Bus 347
-    ["at:stv:347:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:347:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 3 Tram 3
     ["at:stv:3:"] = { color = 0x68BA45, text_color = 0xFFFFFF },
+    -- j 20 Bus 20: Trofaiach Nord/Gladen => Leoben
+    ["at:stv:4020:"] = { color = 0x8BC63E, text_color = 0xFFFFFF },
+    -- j 21 Bus 21: Gimplach => Leoben
+    ["at:stv:4021:"] = { color = 0x8BC63E, text_color = 0xFFFFFF },
+    -- j 25 Bus 25: Leoben => Trofaiach Nord/Gladen => Gimplach
+    ["at:stv:4025:"] = { color = 0x8BC63E, text_color = 0xFFFFFF },
     -- p 4 Tram 4
     ["at:stv:4:"] = { color = 0xDEAA2E, text_color = 0xFFFFFF },
     -- p 1 Bus 1: Leoben <=> Donawitz
@@ -136,7 +364,7 @@ local colors_by_id = {
     -- p 4 Bus 4: Leoben <=> Hinterberg <=> Göss
     ["at:stv:5004:"] = { color = 0x0084CA, text_color = 0xFFFFFF },
     -- p 500 Bus 500
-    ["at:stv:500:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:500:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 20 Bus 20: Leoben => Trofaiach Nord
     ["at:stv:5020:"] = { color = 0x8BC63E, text_color = 0xFFFFFF },
     -- p 21 Bus 21: Leoben => Gimplach
@@ -148,187 +376,205 @@ local colors_by_id = {
     -- p 31 Bus 31: Leoben => Niklasdorf => Proleb => Leoben
     ["at:stv:5031:"] = { color = 0xAA5FA6, text_color = 0xFFFFFF },
     -- p 503 Bus 503
-    ["at:stv:503:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:503:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 514 Bus 514
-    ["at:stv:514:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:514:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 541 Bus 541
-    ["at:stv:541:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:541:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 560 Bus 560
-    ["at:stv:560:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:560:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 5 Tram 5
     ["at:stv:5:"] = { color = 0x025191, text_color = 0xFFFFFF },
     -- p 6 Tram 6
     ["at:stv:6:"] = { color = 0x19633A, text_color = 0xFFFFFF },
+    -- j S11 S11
+    ["at:stv:7011:"] = { color = 0x00983A, text_color = 0xFFFFFF },
     -- p 701 Bus 701
-    ["at:stv:701:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:701:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 702 Bus 702
-    ["at:stv:702:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:702:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j S31 S31
+    ["at:stv:7031:"] = { color = 0xE6007E, text_color = 0xFFFFFF },
     -- p 703 Bus 703
-    ["at:stv:703:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:703:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 704 Bus 704
-    ["at:stv:704:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:704:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p S61 S61
     ["at:stv:7061:"] = { color = 0xF39200, text_color = 0xFFFFFF },
     -- p 708 Bus 708
-    ["at:stv:708:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:708:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 709 Bus 709
-    ["at:stv:709:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:709:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 710 Bus 710
-    ["at:stv:710:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:710:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 711 Bus 711
-    ["at:stv:711:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:711:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 712 Bus 712: Hitzendorf Schulen => Graz Hauptbahnhof
+    ["at:stv:712:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 714 Bus 714
-    ["at:stv:714:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:714:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 716 Bus 716
-    ["at:stv:716:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:716:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 717 Bus 717
-    ["at:stv:717:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:717:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 718 Bus 718
-    ["at:stv:718:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:718:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 719 Bus 719
-    ["at:stv:719:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:719:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 720 Bus 720
-    ["at:stv:720:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:720:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 721 Bus 721
-    ["at:stv:721:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:721:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 722 Bus 722
-    ["at:stv:722:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:722:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 725 Bus 725
-    ["at:stv:725:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:725:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 726 Bus 726
-    ["at:stv:726:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:726:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 728 Bus 728
-    ["at:stv:728:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:728:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 730 Bus 730
-    ["at:stv:730:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:730:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 731 Bus 731
-    ["at:stv:731:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:731:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 740 Bus 740
-    ["at:stv:740:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:740:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 741 Bus 741
-    ["at:stv:741:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:741:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 742 Bus 742
-    ["at:stv:742:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:742:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 743 Bus 743
-    ["at:stv:743:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:743:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 744 Bus 744
-    ["at:stv:744:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:744:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 745 Bus 745
-    ["at:stv:745:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:745:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 746 Bus 746
-    ["at:stv:746:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:746:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 747 Bus 747
-    ["at:stv:747:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:747:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 748 Bus 748
-    ["at:stv:748:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:748:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 749 Bus 749
-    ["at:stv:749:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:749:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 755 Bus 755
-    ["at:stv:755:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:755:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 7 Tram 7
     ["at:stv:7:"] = { color = 0xE42714, text_color = 0xFFFFFF },
     -- p R630 R630 Unzmarkt – Tamsweg
     ["at:stv:8063:"] = { color = 0xAB5533, text_color = 0xFFFFFF },
     -- p 841 Bus 841
-    ["at:stv:841:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:841:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 842 Bus 842
-    ["at:stv:842:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:842:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 843 Bus 843
-    ["at:stv:843:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:843:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 844 Bus 844
-    ["at:stv:844:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:844:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 845 Bus 845
-    ["at:stv:845:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:845:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 846 Bus 846
-    ["at:stv:846:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
-    -- p X20 Bus X20
-    ["at:stv:9020:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    ["at:stv:846:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- p X20 Bus X20: Graz Rosarium => Weiz Zentrum
+    ["at:stv:9020:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j SBB Schloßbergbahn
+    ["at:stv:90:"] = { color = 0x4B4C4D, text_color = 0xFFFFFF },
     -- j 17 Bus 17: Ferdinand-Hanusch-Platz => Johannes-Filzer-Straße
-    ["at:svv:1700:"] = { color = 0x6b4307, text_color = 0xFFFFFF },
+    ["at:svv:1700:"] = { color = 0x6B4307, text_color = 0xFFFFFF },
     -- j 21 Bus 21: Fürstenbrunn => Bergheim
-    ["at:svv:2100:"] = { color = 0x3f8621, text_color = 0xFFFFFF },
+    ["at:svv:2100:"] = { color = 0x3F8621, text_color = 0xFFFFFF },
     -- j 22 Bus 22: Josefiau => Schule Schallmoos
-    ["at:svv:2200:"] = { color = 0xee87b2, text_color = 0xFFFFFF },
-    -- j 23 Bus 23: Ferdinand-Hanusch-Platz => Fadingerstraße
-    ["at:svv:2300:"] = { color = 0xe75012, text_color = 0xFFFFFF },
+    ["at:svv:2200:"] = { color = 0xEE87B2, text_color = 0xFFFFFF },
+    -- j 23 Bus 23: Ferdinand-Hanusch-Platz => Obergnigl
+    ["at:svv:2300:"] = { color = 0xE75012, text_color = 0xFFFFFF },
     -- j 24 Bus 24: Ferdinand-Hanusch-Platz => Freilassing
-    ["at:svv:2400:"] = { color = 0x00a7b4, text_color = 0xFFFFFF },
+    ["at:svv:2400:"] = { color = 0x00A7B4, text_color = 0xFFFFFF },
     -- j 25 Bus 25: Hauptbahnhof => Grödig Untersbergbahn
-    ["at:svv:2500:"] = { color = 0x6f64a5, text_color = 0xFFFFFF },
-    -- j 27 Bus 27: Sportzentrum Nonntal => Viehhausen
-    ["at:svv:2700:"] = { color = 0x00678b, text_color = 0xFFFFFF },
-    -- j 28 Bus 28: Europark => Ferdinand-Hanusch-Platz
-    ["at:svv:2800:"] = { color = 0x3d6214, text_color = 0xFFFFFF },
-    -- j 34 Bus 34: Europark => Forellenwegsiedlung
-    ["at:svv:3400:"] = { color = 0x68a0a9, text_color = 0xFFFFFF },
-    -- j 35 Bus 35: Fürstenbrunn => Hallein
+    ["at:svv:2500:"] = { color = 0x6F64A5, text_color = 0xFFFFFF },
+    -- j 27 Bus 27: Sportzentrum Nonntal => Walserfeld Schule
+    ["at:svv:2700:"] = { color = 0x00678B, text_color = 0xFFFFFF },
+    -- j 28 Bus 28: Europark => Grödig Hangenden Stein
+    ["at:svv:2800:"] = { color = 0x3D6214, text_color = 0xFFFFFF },
+    -- j 170 Bus 170: Salzburg => Hallein
+    ["at:svv:317000:"] = { color = 0x990066, text_color = 0xFFFFFF },
+    -- j 34 Bus 34: Europark => Christian-Doppler-Klinik
+    ["at:svv:3400:"] = { color = 0x68A0A9, text_color = 0xFFFFFF },
+    -- j 35 Bus 35: Fürstenbrunn => Rif
     ["at:svv:383500:"] = { color = 0x990066, text_color = 0xFFFFFF },
     -- j 36 Bus 36: Europark => Wals
-    ["at:svv:383600:"] = { color = 0xe5314c, text_color = 0xFFFFFF },
-    -- p VAB3 VAB3
+    ["at:svv:383600:"] = { color = 0xE5314C, text_color = 0xFFFFFF },
+    -- p VAB3 Bus VAB3: Flughafen Wien => Donauzentrum
     ["at:vor:1183:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
-    -- p VAB2 VAB2
+    -- p VAB2 Bus VAB2: Flughafen Wien => Schwedenplatz/Morzinplatz
     ["at:vor:1185:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
-    -- p VAB1 VAB1
+    -- p VAB1 Bus VAB1: Flughafen Wien => Westbahnhof
     ["at:vor:1187:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
     -- p WLB WLB Wien Oper – Baden Josefsplatz
     ["at:vor:1515:"] = { color = 0x005395, text_color = 0xFFFFFF },
+    -- j SBB Schloßbergbahn
+    ["at:vor:1523:"] = { color = 0x4B4C4D, text_color = 0xFFFFFF },
+    -- j 175 Bus 175: Rif => Salzburg
+    ["at:vor:175:"] = { color = 0x990066, text_color = 0xFFFFFF },
     -- p CAT CityAirportTrain
     ["at:vor:1917:"] = { color = 0x7BBC36, text_color = 0xFFFFFF },
     -- p RLE Reblaus-Express
     ["at:vor:1941:"] = { color = 0x86C2EB, text_color = 0x00592E },
-    -- p 1 LUP 1
+    -- p 1 LUP 1: Hart bei St. Pölten Ghegastraße => Viehofen Living City
     ["at:vor:2001:"] = { color = 0xD1050D, text_color = 0xFFFFFF },
-    -- p 2 LUP 2
+    -- p 2 LUP 2: Harland Amtshaus => St. Pölten Hauptbahnhof Süd
     ["at:vor:2002:"] = { color = 0xDD6A9B, text_color = 0xFFFFFF },
-    -- p 3 LUP 3: Ratzersdorf Ginstergasse => St. Pölten Hauptbahnhof Süd
+    -- p 3 LUP 3: St. Pölten Stifterstraße => Ratzersdorf Ginstergasse
     ["at:vor:2003:"] = { color = 0xFFDE11, text_color = 0xFFFFFF },
-    -- p 4 LUP 4: St. Pölten Friedhof => St. Pölten Hauptbahnhof Süd
+    -- p 4 LUP 4: St. Pölten Hauptbahnhof => Unterradlberg Gewerbepark
     ["at:vor:2004:"] = { color = 0x003570, text_color = 0xFFFFFF },
-    -- p 5 LUP 5
+    -- p 5 LUP 5: Spratzern Missongasse => St. Pölten Traisenpark/Schärf-Straße
     ["at:vor:2005:"] = { color = 0xA4ACB1, text_color = 0xFFFFFF },
-    -- p 6 LUP 6: St. Pölten Hauptbahnhof Süd => St. Pölten Traisenpark/Schärf-Straße
+    -- p 6 LUP 6: St. Pölten Traisenpark/Schärf-Straße => St. Pölten Hauptbahnhof Süd
     ["at:vor:2006:"] = { color = 0xF39200, text_color = 0xFFFFFF },
-    -- p 7 LUP 7: St. Pölten Hauptbahnhof Süd => Pottenbrunn Bahnhof
+    -- p 7 LUP 7: Ratzersdorf Gewerbepark => St. Pölten VAZ/Rödlgasse
     ["at:vor:2007:"] = { color = 0x4EAF46, text_color = 0xFFFFFF },
-    -- p 8 LUP 8: Unterradlberg Gewerbepark => St. Pölten Hauptbahnhof Süd
+    -- p 8 LUP 8: Unterradlberg Gewerbepark => Harland Amtshaus
     ["at:vor:2008:"] = { color = 0x0077BA, text_color = 0xFFFFFF },
-    -- p 9 LUP 9: St. Pölten Rudolf-Tornar-Straße => St. Pölten Hauptbahnhof Süd
+    -- p 9 LUP 9: St. Pölten Rudolf-Tornar-Straße => Hafing Ort
     ["at:vor:2009:"] = { color = 0x793182, text_color = 0xFFFFFF },
-    -- p 10 LUP 10
+    -- p 10 LUP 10: St. Georgen am Steinfelde Schulen => Ochsenburg Fabrik => Harland Amtshaus
     ["at:vor:2010:"] = { color = 0xAD8F6C, text_color = 0xFFFFFF },
-    -- p 11 LUP 11
+    -- p 11 LUP 11: St. Georgen am Steinfelde Schulen => Spratzern Wolfenberger Straße
     ["at:vor:2011:"] = { color = 0x00987A, text_color = 0xFFFFFF },
-    -- p 12 LUP 12
+    -- p 12 LUP 12: St. Pölten Einkaufszentrum Süd => Viehofen Johannesplatz
     ["at:vor:2012:"] = { color = 0x914522, text_color = 0xFFFFFF },
-    -- p 13 LUP 13
+    -- p 13 LUP 13: St. Pölten Hugo-Wolf-Straße => St. Pölten Hauptbahnhof Süd
     ["at:vor:2013:"] = { color = 0x83C5C2, text_color = 0xFFFFFF },
-    -- j 1 Stadtbus Mödling Linie 1: Bahnhof => Babenbergergasse => Prießnitztal
+    -- p 1 Stadtbus Mödling Linie 1: Bahnhof => Babenbergergasse => Prießnitztal
     ["at:vor:2021:"] = { color = 0xA24893, text_color = 0xFFFFFF },
-    -- j 2 Stadtbus Mödling Linie 2: Mödling Bahnhof => Wiener Neudorf Bahnstraße
+    -- p 2 Stadtbus Mödling Linie 2: Mödling Bahnhof => Wiener Neudorf Bahnstraße
     ["at:vor:2022:"] = { color = 0xC9D436, text_color = 0xFFFFFF },
-    -- j 3 Stadtbus Mödling Linie 3: Mödling Bahnhof => Mödling WIFI
+    -- p 3 Stadtbus Mödling Linie 3: Mödling Bahnhof => Mödling WIFI
     ["at:vor:2023:"] = { color = 0xF8C736, text_color = 0xFFFFFF },
-    -- p 1 Stadtbus Amstetten 1: Bahnhof => Josef-Umdasch-Platz => Bahnhof
+    -- p 1 Stadtbus Amstetten 1
     ["at:vor:2061:"] = { color = 0x008000, text_color = 0xFFFFFF },
-    -- p 2 Stadtbus Amstetten 2
+    -- p 2 Stadtbus Amstetten 2: Bahnhof => Landesklinikum => Bahnhof
     ["at:vor:2062:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
-    -- p 3 Stadtbus Amstetten 3: Sparkassenstraße => Parksiedlung => Bahnhof
+    -- p 3 Stadtbus Amstetten 3: Bahnhof => Parksiedlung => Bahnhof
     ["at:vor:2063:"] = { color = 0xFFA500, text_color = 0xFFFFFF },
-    -- j 1 Stadtbus Krems Linie 1: Krems Bahnhof => Stein-Mautern Bahnhof
+    -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
+    ["at:vor:2082:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- p 1 Stadtbus Krems Linie 1: Krems Bahnhof => Stein-Mautern Bahnhof
     ["at:vor:2171:"] = { color = 0x264F9E, text_color = 0xFFFFFF },
-    -- j 2 Stadtbus Krems Linie 2: Krems Bahnhof => Krems Bründlgraben/EKZ
+    -- p 2 Stadtbus Krems Linie 2: Krems Bahnhof => Krems Bründlgraben/EKZ
     ["at:vor:2172:"] = { color = 0xF3912D, text_color = 0xFFFFFF },
-    -- j 3 Stadtbus Krems Linie 3: Krems Bahnhof => Krems voestalpine
+    -- p 3 Stadtbus Krems Linie 3: Krems voestalpine => Krems Bahnhof
     ["at:vor:2173:"] = { color = 0x059738, text_color = 0xFFFFFF },
-    -- j 4 Stadtbus Krems Linie 4: Krems Bahnhof => Rehberg Friedhof
+    -- p 4 Stadtbus Krems Linie 4: Krems Bahnhof => Rehberg Friedhof
     ["at:vor:2174:"] = { color = 0xFFDC3B, text_color = 0xFFFFFF },
-    -- j 5 Stadtbus Krems Linie 5: Krems Bahnhof => Gneixendorf Schloss
+    -- p 5 Stadtbus Krems Linie 5: Gneixendorf Schloss => Krems Bahnhof
     ["at:vor:2175:"] = { color = 0xAB9354, text_color = 0xFFFFFF },
-    -- j 6 Stadtbus Krems Linie 6: Krems Bahnhof => Krems Kraxenweg
+    -- p 6 Stadtbus Krems Linie 6: Krems Kraxenweg => Krems Bahnhof
     ["at:vor:2176:"] = { color = 0xBD1620, text_color = 0xFFFFFF },
-    -- j 7 Stadtbus Krems Linie 7: Krems Bahnhof => Krems Gewerbeparkstraße/Kino
+    -- p 7 Stadtbus Krems Linie 7: Krems Gewerbeparkstraße/Kino => Krems Bahnhof
     ["at:vor:2177:"] = { color = 0x82348B, text_color = 0xFFFFFF },
+    -- j 250 Bus 250: Landeck Zentrum Terminal 1 E => Imst Terminal Post A
+    ["at:vor:250:"] = { color = 0x05683A, text_color = 0xFFFFFF },
     -- r 1 Prater, Hauptallee - Stefan-Fadinger-Platz
     ["at:vor:3101:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 2 Dornbach - Friedrich-Engels-Platz
@@ -707,45 +953,205 @@ local colors_by_id = {
     ["at:vor:3990:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N91 Siegesplatz - Donaustadtbrücke
     ["at:vor:3991:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- p G3 G3 Gratis Shuttle
+    -- j 409 Bus 409: Linz voestalpine/Kraftwerk => Ennsdorf
+    ["at:vor:409:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 450 Bus 450: Hallein => Gaißau
+    ["at:vor:450:"] = { color = 0x990066, text_color = 0xFFFFFF },
+    -- j 452 Bus 452: Adnet => Wiestal => Gaißau
+    ["at:vor:452:"] = { color = 0x990066, text_color = 0xFFFFFF },
+    -- p G3 G3 Gratis Shuttle: Floridsdorf => G3
     ["at:vor:503:"] = { color = 0x4B270D, text_color = 0xFFFFFF },
-    -- p 1 Stadtbus Eisenstadt 1 Georg
+    -- j 530 Bus 530: Igls Patscherkofel => Innsbruck DEZ/EKZ
+    ["at:vor:530:"] = { color = 0xFCD600, text_color = 0xFFFFFF },
+    -- p 1 Stadtbus Eisenstadt 1 Georg: Eisenstadt Bahnhof => St. Georgen am Leithagebirge => Eisenstadt Bahnhof
     ["at:vor:7001:"] = { color = 0xF9A21C, text_color = 0xFFFFFF },
-    -- p 2 Stadtbus Eisenstadt 2 Vitus
+    -- p 2 Stadtbus Eisenstadt 2 Vitus: Eisenstadt Bahnhof => Kleinhöflein => Eisenstadt Bahnhof
     ["at:vor:7002:"] = { color = 0x4CB848, text_color = 0xFFFFFF },
-    -- p 3 Stadtbus Eisenstadt 3 Martin
+    -- p 3 Stadtbus Eisenstadt 3 Martin: Eisenstadt Bahnhof => Eisenstadt Buchgrabenweg => Eisenstadt Bahnhof
     ["at:vor:7003:"] = { color = 0x00AAB9, text_color = 0xFFFFFF },
-    -- p 4 Stadtbus Eisenstadt 4 Fanny
+    -- p 4 Stadtbus Eisenstadt 4 Fanny: Eisenstadt Bahnhof => St. Georgen am Leithagebirge => Kleinhöflein => Eisenstadt Bahnhof
     ["at:vor:7004:"] = { color = 0x652D91, text_color = 0xFFFFFF },
-    -- p ZF Bus ZF
+    -- j 1A Stadtbus Wiener Neustadt 1A: Zillingdorf => Hans-Barwitzius-Volksschule
+    ["at:vor:7021:"] = { color = 0xED1C24, text_color = 0xFFFFFF },
+    -- j 2A Stadtbus Wiener Neustadt 2A: Wöllersdorf => Feuerwerksanstalt
+    ["at:vor:7022:"] = { color = 0xF3C716, text_color = 0xFFFFFF },
+    -- j 3 Stadtbus Wiener Neustadt 3: Matzendorfer Gasse => Kleegasse
+    ["at:vor:7023:"] = { color = 0x00AEEF, text_color = 0xFFFFFF },
+    -- j 4 Stadtbus Wiener Neustadt 4: Stadionstraße/Friedhof => Hauptbahnhof/Busbahnhof
+    ["at:vor:7024:"] = { color = 0x39B54A, text_color = 0xFFFFFF },
+    -- j 5A Stadtbus Wiener Neustadt 5A: Wiesen-Sigleß Bahnhof => Leithakoloniestraße
+    ["at:vor:7025:"] = { color = 0x8B5D3B, text_color = 0xFFFFFF },
+    -- j 6 Stadtbus Wiener Neustadt 6: Dr.-Eckener-Gasse/HTL => WNF-Siedlung
+    ["at:vor:7026:"] = { color = 0x3C5CAA, text_color = 0xFFFFFF },
+    -- j 7 Stadtbus Wiener Neustadt 7: Johannes-Gutenberg-Straße => Krankenhaus
+    ["at:vor:7027:"] = { color = 0x91278F, text_color = 0xFFFFFF },
+    -- j 8 Stadtbus Wiener Neustadt 8: Europaschule => Hauptbahnhof
+    ["at:vor:7028:"] = { color = 0xDB579B, text_color = 0xFFFFFF },
+    -- j 9 Stadtbus Wiener Neustadt 9: Winzendorf Schulen => Hauptbahnhof
+    ["at:vor:7029:"] = { color = 0x605D53, text_color = 0xFFFFFF },
+    -- j 10 Stadtbus Wiener Neustadt 10: Leithakoloniestraße => Lanzenkirchen Schulgasse
+    ["at:vor:7030:"] = { color = 0xA3860F, text_color = 0xFFFFFF },
+    -- j 1B Stadtbus Wiener Neustadt 1B: Zillingdorf => Hauptbahnhof
+    ["at:vor:7031:"] = { color = 0xED1C24, text_color = 0xFFFFFF },
+    -- j 2B Stadtbus Wiener Neustadt 2B: Brunn => Weikersdorf
+    ["at:vor:7032:"] = { color = 0xF3C716, text_color = 0xFFFFFF },
+    -- j 5B Stadtbus Wiener Neustadt 5B: Zehnergasse/Gymnasium => Fischapark => Francesco-Solimena-Weg => Kleegasse
+    ["at:vor:7035:"] = { color = 0x8B5D3B, text_color = 0xFFFFFF },
+    -- j 11 Stadtbus Wiener Neustadt 11: Waldschule => Militärakademie
+    ["at:vor:7040:"] = { color = 0xF98506, text_color = 0xFFFFFF },
+    -- p ZF Bus ZF: Rundkurs Zentralfriedhof
     ["at:vor:7071:"] = { color = 0x265A98, text_color = 0xFFFFFF },
-    -- p 7998 Bus 7998
-    ["at:vor:7998:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    -- j 1 Mattersburger Autobus 1: Mattersburg Brunnenplatz => Tillbrunngasse => Berufsschule => Mattersburg Brunnenplatz
+    ["at:vor:7091:"] = { color = 0xEB6617, text_color = 0xFFFFFF },
+    -- j 2 Mattersburger Autobus 2: Mattersburg Brunnenplatz => Berufsschule => Walbersdorf => Mattersburg Brunnenplatz
+    ["at:vor:7092:"] = { color = 0x5B4B8C, text_color = 0xFFFFFF },
+    -- p 7998 Bus 7998: Oberpullendorf Gymnasium => Stoob-Süd B50
+    ["at:vor:7998:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 101 Bus 101: Bregenz Bahnhof => Am Tannenbach => Bregenz Bahnhof
     ["at:vvv:101:"] = { color = 0xED1639, text_color = 0xFFFFFF },
-    -- p 102 Bus 102: Bregenz Bahnhof <=> Achsiedlung
+    -- p 102 Bus 102: Bregenz Achsiedlung => Bregenz Bahnhof
     ["at:vvv:102:"] = { color = 0x00A650, text_color = 0xFFFFFF },
-    -- p 103 Bus 103: Bregenz Bahnhof <=> Achsiedlung
+    -- p 103 Bus 103: Bregenz Bahnhof => Achsiedlung
     ["at:vvv:103:"] = { color = 0xCBA917, text_color = 0xFFFFFF },
-    -- p 104 Bus 104: Bregenz Bahnhof <=> Achsiedlung
+    -- p 104 Bus 104: Bregenz Bahnhof => Achsiedlung
     ["at:vvv:104:"] = { color = 0x7264B8, text_color = 0xFFFFFF },
     -- p 105 Bus 105: Bregenz Bahnhof <=> Bahnhof
     ["at:vvv:105:"] = { color = 0xF573C0, text_color = 0xFFFFFF },
-    -- p 211 Bus 211
-    ["at:vvv:211:"] = { color = 0xFFFFFF, text_color = 0xFFFFFF },
+    -- j 118 Bus 118: Bregenz => Fluh
+    ["at:vvv:118:"] = { color = 0x0B904B, text_color = 0xFFFFFF },
+    -- j 119 Bus 119: Bregenz Bahnhof => Oberstadt => Bahnhof
+    ["at:vvv:119:"] = { color = 0x8D198F, text_color = 0xFFFFFF },
+    -- j 120 Bus 120: Bregenz => Hörbranz
+    ["at:vvv:120:"] = { color = 0x01AE59, text_color = 0xFFFFFF },
+    -- j 121 Bus 121: Lochau => Niederstaufen
+    ["at:vvv:121:"] = { color = 0x231F20, text_color = 0xFFFFFF },
+    -- j 125 Bus 125: Hörbranz => Bregenz
+    ["at:vvv:125:"] = { color = 0x00AFE7, text_color = 0xFFFFFF },
+    -- j 126 Bus 126: Lochau => Niederstaufen
+    ["at:vvv:126:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 127 Bus 127: Lochau => Lindau
+    ["at:vvv:127:"] = { color = 0x91409C, text_color = 0xFFFFFF },
+    -- j 128 Bus 128: Lochau => Pfänder
+    ["at:vvv:128:"] = { color = 0x0B3B6A, text_color = 0xFFFFFF },
+    -- j 130 Bus 130: Bregenz => Dornbirn
+    ["at:vvv:130:"] = { color = 0x0B904B, text_color = 0xFFFFFF },
+    -- j 131 Bus 131: Bregenz => Dornbirn
+    ["at:vvv:131:"] = { color = 0x33BAAB, text_color = 0xFFFFFF },
+    -- j 135 Bus 135: Dornbirn => A14 => Lauterach => Hard => Bregenz
+    ["at:vvv:135:"] = { color = 0xF6D32D, text_color = 0xFFFFFF },
+    -- j 140 Bus 140: Bregenz => Gaißau
+    ["at:vvv:140:"] = { color = 0xC82128, text_color = 0xFFFFFF },
+    -- j 141 Bus 141: Bregenz => Lustenau
+    ["at:vvv:141:"] = { color = 0xF68712, text_color = 0xFFFFFF },
+    -- j 145 Bus 145: Bregenz => Lustenau
+    ["at:vvv:145:"] = { color = 0x231F20, text_color = 0xFFFFFF },
+    -- j 148 Bus 148: Hard => Wolfurt
+    ["at:vvv:148:"] = { color = 0x00ADEF, text_color = 0xFFFFFF },
+    -- j 149 Bus 149: Hard Schäfferhofstraße => Brückenwaage
+    ["at:vvv:149:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 150 Bus 150: Bregenz => Dornbirn
+    ["at:vvv:150:"] = { color = 0xFBC707, text_color = 0xFFFFFF },
+    -- j 151 Bus 151: Bregenz => Dornbirn
+    ["at:vvv:151:"] = { color = 0xF68712, text_color = 0xFFFFFF },
+    -- j 158 Bus 158: Wolfurt => Alberschwende
+    ["at:vvv:158:"] = { color = 0xB777C2, text_color = 0xFFFFFF },
+    -- j 159 Bus 159: Schwarzach => Alberschwende
+    ["at:vvv:159:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 160 Bus 160: Dornbirn => Gaißau
+    ["at:vvv:160:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 161 Bus 161: Lustenau => Dornbirn
+    ["at:vvv:161:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 163 Bus 163: Dornbirn => Höchst
+    ["at:vvv:163:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 164 Bus 164: Wolfurt Cubus => Lustenau Industriegebiet Nord
+    ["at:vvv:164:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 166 Bus 166: Lustenau Bahnhof => Volksschule Kirchdorf
+    ["at:vvv:166:"] = { color = 0xF033A3, text_color = 0xFFFFFF },
+    -- j 170 Bus 170: Hohenems Bahnhof => Otten Areal
+    ["at:vvv:170:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 171 Bus 171: Hohenems Otten Areal => Bahnhof
+    ["at:vvv:171:"] = { color = 0x293D9B, text_color = 0xFFFFFF },
+    -- j 175 Bus 175: Hohenems <=> Emsreute
+    ["at:vvv:175:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 177 Bus 177: Dornbirn => Ebnit
+    ["at:vvv:177:"] = { color = 0x91309C, text_color = 0xFFFFFF },
+    -- j 180 Bus 180: Götzis => Hohenems => Dornbirn
+    ["at:vvv:180:"] = { color = 0x8D198F, text_color = 0xFFFFFF },
+    -- j 181 Bus 181: Dornbirn => Koblach
+    ["at:vvv:181:"] = { color = 0x965709, text_color = 0xFFFFFF },
+    -- j 184 Bus 184: Lustenau => Hohenems
+    ["at:vvv:184:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 185 Bus 185: Götzis => Lustenau Wiesenrain => Lustenau
+    ["at:vvv:185:"] = { color = 0x33BAAB, text_color = 0xFFFFFF },
+    -- j 186 Bus 186: Hohenems => Götzis
+    ["at:vvv:186:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 201 Bus 201: Dornbirn Bahnhof => Dornbirn Messequartier
+    ["at:vvv:201:"] = { color = 0x00ADEF, text_color = 0xFFFFFF },
+    -- j 202 Bus 202: Dornbirn Pfarrheim Wallenmahd => Bahnhof
+    ["at:vvv:202:"] = { color = 0x66C993, text_color = 0xFFFFFF },
+    -- j 203 Bus 203: Dornbirn Bahnhof => Pfarrheim Wallenmahd
+    ["at:vvv:203:"] = { color = 0xC8A817, text_color = 0xFFFFFF },
+    -- j 204 Bus 204: Dornbirn Bahnhof => Am Stiglbach
+    ["at:vvv:204:"] = { color = 0xEC1638, text_color = 0xFFFFFF },
+    -- j 206 Bus 206: Dornbirn Am Eisweiher => Dornbirn Bahnhof
+    ["at:vvv:206:"] = { color = 0xAB630A, text_color = 0xFFFFFF },
+    -- j 207 Bus 207: Dornbirn Waldbad Enz => Dornbirn Bahnhof
+    ["at:vvv:207:"] = { color = 0x7163B7, text_color = 0xFFFFFF },
+    -- j 208 Bus 208: Dornbirn Bahnhof => Am Stiglbach
+    ["at:vvv:208:"] = { color = 0x00A650, text_color = 0xFFFFFF },
+    -- j 209 Bus 209: Dornbirn Kehlegg => Bahnhof
+    ["at:vvv:209:"] = { color = 0x00A650, text_color = 0xFFFFFF },
+    -- j 210 Bus 210: Dornbirn Bahnhof => Messequartier
+    ["at:vvv:210:"] = { color = 0xB71234, text_color = 0xFFFFFF },
+    -- p 211 Bus 211: Dornbirn Bahnhof => Dornbirn Messepark
+    ["at:vvv:211:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 212 Bus 212: Dornbirn Bahnhof => Kastenlangen
+    ["at:vvv:212:"] = { color = 0x66C993, text_color = 0xFFFFFF },
+    -- j 301 Bus 301: Götzis Appenzeller Straße => Berg/Oberer Parkplatz
+    ["at:vvv:301:"] = { color = 0x00A650, text_color = 0xFFFFFF },
+    -- j 302 Bus 302: Götzis Bahnhof → Altach Bahnhof
+    ["at:vvv:302:"] = { color = 0x7AB3E1, text_color = 0xFFFFFF },
     -- j 303 Bus 303: Götzis Bahnhof <=> Zentrum
-    ["at:vvv:303:"] = { color = 0x7ab3e1, text_color = 0xFFFFFF },
+    ["at:vvv:303:"] = { color = 0x7AB3E1, text_color = 0xFFFFFF },
+    -- j 304 Bus 304: Götzis Bahnhof => Mäder Firma Huber
+    ["at:vvv:304:"] = { color = 0xD9D847, text_color = 0xFFFFFF },
+    -- j 305 Bus 305: Götzis Bahnhof => Mäder Firma Huber
+    ["at:vvv:305:"] = { color = 0x7AB3E1, text_color = 0xFFFFFF },
     -- p 307 Bus 307: Altach Bahnhof <=> Götzis Bahnhof
     ["at:vvv:307:"] = { color = 0xF4731C, text_color = 0xFFFFFF },
+    -- j 401 Bus 401: Feldkirch Ringlinie
+    ["at:vvv:401:"] = { color = 0x0492D2, text_color = 0xFFFFFF },
+    -- j 402 Bus 402: Feldkirch Ringlinie
+    ["at:vvv:402:"] = { color = 0xEE293D, text_color = 0xFFFFFF },
+    -- j 403 Bus 403: Tosters Hub => Feldkirch Montforthaus
+    ["at:vvv:403:"] = { color = 0xFECB00, text_color = 0xFFFFFF },
+    -- j 404 Bus 404: Feldkirch => Bangs
+    ["at:vvv:404:"] = { color = 0x0DAEA3, text_color = 0xFFFFFF },
+    -- j 405 Bus 405: Feldkirch => Gisingen
+    ["at:vvv:405:"] = { color = 0x7E6CBD, text_color = 0xFFFFFF },
+    -- j 406 Bus 406: Gisingen => Feldkirch
+    ["at:vvv:406:"] = { color = 0xDAB006, text_color = 0xFFFFFF },
+    -- j 407 Bus 407/408: Feldkirch Bahnhof <=> Feldkirch Bahnhof
+    ["at:vvv:407:"] = { color = 0xF4731C, text_color = 0xFFFFFF },
+    -- j 408 Bus 408: Feldkirch Bahnhof => Feldkirch Bahnhof
+    ["at:vvv:408:"] = { color = 0xF4731C, text_color = 0xFFFFFF },
+    -- j 414 Bus 414: Feldkirch => Bangs
+    ["at:vvv:414:"] = { color = 0x1E59AE, text_color = 0xFFFFFF },
     -- p 425 Bus 425: Feldkirch ↔ Koblach
     ["at:vvv:425:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- p 427 Bus 427: Feldkirch <=> Brederis
     ["at:vvv:427:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
-    -- p 428 Bus 428: Feldkirch Katzenturm <=> Rankweil Bahnhof
+    -- j 428 Bus 428: Feldkirch Katzenturm => Rankweil Bahnhof
+    ["at:vvv:428:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
+    -- p 430 Bus 430
     ["at:vvv:430:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
+    -- j 431 Bus 431: Götzis BORG => Rankweil Bahnhof
+    ["at:vvv:431:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- p 440 Bus 440
     ["at:vvv:440:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
-    -- p 445 Bus 445: Götzis <=> Tisis
+    -- j 441 Bus 441: Götzis Bahnhof W => Rankweil Bahnhof
+    ["at:vvv:441:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
+    -- p 445 Bus 445: Götzis Bahnhof W => Tisis Landeskrankenhaus
     ["at:vvv:445:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- p 450 Bus 450: Rankweil ↔ Meiningen
     ["at:vvv:450:"] = { color = 0xF2EA73, text_color = 0xFFFFFF },
@@ -757,6 +1163,8 @@ local colors_by_id = {
     ["at:vvv:460:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- p 461 Bus 461: Klaus <=> Götzis
     ["at:vvv:461:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 462 Bus 462: Klaus => Götzis
+    ["at:vvv:462:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- p 470 Bus 470
     ["at:vvv:470:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- p 480 Bus 480
@@ -775,8 +1183,30 @@ local colors_by_id = {
     ["at:vvv:495:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- p 496 Bus 496: Übersaxen <=> Rankweil
     ["at:vvv:496:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
+    -- j 501 Bus 501: Bludenz Bahnhof <=> Seilbahn Muttersberg
+    ["at:vvv:501:"] = { color = 0x048354, text_color = 0xFFFFFF },
+    -- j 502 Bus 502: Bludenz Bahnhof <=> Brunnenfeld
+    ["at:vvv:502:"] = { color = 0x048354, text_color = 0xFFFFFF },
+    -- j 503 Bus 503: Bludenz Bahnhof <=> Rungelin
+    ["at:vvv:503:"] = { color = 0x048354, text_color = 0xFFFFFF },
+    -- j 504 Bus 504: Erlebnisbad VAL BLU → Bludenz Schesa
+    ["at:vvv:504:"] = { color = 0x048354, text_color = 0xFFFFFF },
+    -- j N1 Bus N1
+    ["at:vvv:7028:"] = { color = 0xA3CF44, text_color = 0xFFFFFF },
+    -- j N4 Bus N4: Jakominiplatz => Dörfla
+    ["at:vvv:7029:"] = { color = 0xAC4E26, text_color = 0xFFFFFF },
+    -- j N2 Bus N2
+    ["at:vvv:7030:"] = { color = 0xFFB530, text_color = 0xFFFFFF },
+    -- j 820 Bus 820: Egg => Bregenz
+    ["at:vvv:820:"] = { color = 0xED1C24, text_color = 0xFFFFFF },
+    -- j 830 Bus 830: Bezau => Bregenz
+    ["at:vvv:830:"] = { color = 0xAD680A, text_color = 0xFFFFFF },
+    -- j 840 Bus 840: Schoppernau => Bregenz
+    ["at:vvv:840:"] = { color = 0xC82128, text_color = 0xFFFFFF },
     -- p 8N1 Bus 8N1
     ["at:vvv:921:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
+    -- j 8N2 Bus 8N2: Bregenz Bahnhof => Egg Zentrum
+    ["at:vvv:922:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- p N6 Bus N6
     ["at:vvv:930:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
 }
