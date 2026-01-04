@@ -17,8 +17,8 @@ function process_route(route)
     end
     if colors_by_id[route_id] then
         print("found")
-        print(route_name)
         local color = colors_by_id[route_id]
+        print(route_name, color.color, color.text_color)
         route:set_color(color.color)
         route:set_text_color(color.text_color)
     end

@@ -60,6 +60,7 @@ def import_csv(csv_text, dataset: str, conn: sqlite3.Connection):
             continue
         reader = csv.reader([line], delimiter=';')
         row = next(reader)
+        row = [value if value != "" else None for value in row]
         row.insert(0, dataset)
         row = row + [None] * (10 - len(row))
         ref = row[1]
