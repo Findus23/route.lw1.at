@@ -16,7 +16,7 @@ from data import mobility_datasets
 
 def get_csv(page_title: str, dataset: str):
     csv_file = Path(__file__).parent / "osm_wiki_ptna" / f"{dataset}.csv"
-    if csv_file.exists() and True:
+    if csv_file.exists() and False:
         return csv_file.read_text()
     quoted = urllib.parse.quote(page_title)
     r = requests.get(f"https://wiki.openstreetmap.org/w/index.php?title={quoted}&action=raw")

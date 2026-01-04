@@ -52,6 +52,7 @@ R97;train;;;;;AT-Eisenbahn;3-R97-N-j26-1
 R98;train;;;;;AT-Eisenbahn;3-R98-N-j26-1
 SBB;train;;;;;AT-VOR;at:vor:1523:;2025-10-01
 REB|RLE;train;;;;;AT-VOR;at:vor:1941:
+WHB;train;;;;;AT-VOR;at:vor:1811:
 === S-Bahn
 S;train;;;;;AT-Eisenbahn;
 S1;train;;;;;AT-Eisenbahn;1-S1-W-j26-1

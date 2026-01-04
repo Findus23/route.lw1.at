@@ -21,7 +21,8 @@ def create_tables():
                      agency_id        TEXT,
                      route_short_name TEXT,
                      route_long_name  TEXT,
-                     route_type       INTEGER
+                     route_type       INTEGER,
+                     was_matched      BOOLEAN DEFAULT false
                  );
                  """)
     conn.execute("""

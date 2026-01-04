@@ -28,6 +28,17 @@ R33;train;;Zell am See;Krimml;Salzburg AG (Pinzgauer Lokalbahn);AT-SVV;at:svv:23
 S1;train;;Salzburg;Lamprechtshausen;Salzburg AG (Salzburger Lokalbahn);AT-SVV;at:svv:50:
 S11;train;;Salzburg;Ostermiething;Salzburg AG (Salzburger Lokalbahn);AT-SVV;at:svv:51:
 -
+
+=== S-Bahn der ÖBB
+S2;train;"2025-12-14 - 2026-12-12";Straßwalchen;Freilassing;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S2-S-j26-1;
+S3;train;"2025-12-14 - 2026-12-12";Saalfelden;Reichenhall;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S3-S-j26-1;
+
+=== ÖBB Züge
+R3;train;"2025-12-14 - 2026-12-12";Saalfelden;Salzburg Hbf;ÖBB-Personenverkehr AG;AT-Eisenbahn;3-R3-S-j26-1;
+R9;train;"2025-12-14 - 2026-12-12; might be former 250";;;ÖBB-Personenverkehr AG;AT-Eisenbahn;3-R9-S-j26-1;
+R21;train;"2025-12-14 - 2026-12-12";Salzburg Hbf;Friedburg;ÖBB-Personenverkehr AG;AT-Eisenbahn;3-R21-j26-1;
+REX3;train;"2025-12-14 - 2026-12-12";Salzburg Hbf;Schwarzach-St. Veit;ÖBB-Personenverkehr;AT-Eisenbahn;2-RX3-S-j26-1;
+
 # weitere Linien
 
 == Busse

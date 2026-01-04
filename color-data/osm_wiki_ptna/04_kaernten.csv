@@ -27,9 +27,10 @@ S7;train;Friesach - St.Veit a.d.Glan - Klagenfurt;;;ÖBB-Personenverkehr AG;AT-E
 REX1;train;Klagenfurt Hbf - Wolfsberg;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;2-RX1-K-j26-1
 
 ==S-Busse
-SB1;bus;1 Klagenfurt - Griffen;;;Österreichische Postbus AG;AT-VKG;at:ktn:700:
-SB2;bus;2 Ferlach - Rosental - Villach
-SB4;bus;4 Klagenfurt - Feldkirchen
+X1|SB1;bus;1 Klagenfurt - Griffen;;;Österreichische Postbus AG;AT-VKG;at:ktn:700:
+X2|SB2;bus;2 Ferlach - Rosental - Villach;;;Österreichische Postbus AG;AT-VKG;at:ktn:400:;2025-12-16
+X3|SB3;bus;3;;;Österreichische Postbus AG;AT-VKG;at:ktn:540:;2025-12-16
+X4|SB4;bus;4 Klagenfurt - Feldkirchen;;;Mobilbüro & Verkehrsmanagement GmbH;AT-VKG;at:ktn:240:;2025-12-16
 
 ==Klagenfurt
 ===Stadtbusse 
@@ -57,20 +58,25 @@ C;bus;Klagenfurt Hbf - 	Klagenfurt West/Strandbad;;;Klagenfurt Mobil GmbH;AT-VKG
 
 ==Stadtbusse Villach
 1;bus;Hauptbahnhof – Therme Warmbad – KTS/SKA;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:21:
+1A;bus;"2025-12-14 - 2026-03-01: Villach Hauptbahnhof-Villach Hauptbahnhof";;;Dr. Richard Kärnten GmbH & CO KG;AT-VKG;at:ktn:20:;2025-12-16
 2;bus;Hauptbahnhof - Völkendorf Schloss - Hauptbahnhof;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:22:
 3;bus;10.-Oktober-Straße – Hauptbahnhof – Technologiepark – St. Ulrich;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:23:
 4;bus;Hauptbahnhof – Auen Haselnussweg;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:24:
 5A;bus;Hauptbahnhof - St. Martin - Tiroler Straße/VEZ;;;Dr. Richard;AT-VKG;at:ktn:31:
 5B;bus;Hauptbahnhof - St. Martin - Tiroler Straße/VEZ;;;Dr. Richard;AT-VKG;at:ktn:32:
+5C;bus;"2025-12-14 - 2026-03-01: Villach Hauptbahnhof-Villach Tiroler Straße/VEZ";;;Dr. Richard Kärnten GmbH & CO KG;AT-VKG;at:ktn:33:;2025-12-16
 6;bus;Hauptbahnhof – Zentralfriedhof Südeingang – 10.-Oktober-Straße – Hauptbahnhof;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:26:
 7;bus;Neue Heimat – Hauptbahnhof – LKH – Siemensstraße/Infineon – KTS/SKA;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:27:
 8;bus;Technologiepark – Seebacher Allee – Hauptbahnhof – Tschinowitsch;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:28:
 9;bus;Hauptbahnhof – Steirerhof – Möltschach;;;Dr. Richard Kärnten GmbH & Co KG;AT-VKG;at:ktn:29:
-10;bus;Hauptbahnhof – Atrio – KTS/SKA;Villach Hauptbahnhof;Warmbad;Kowatsch;;;Dr. Richard
+10;bus;"Hauptbahnhof – Atrio – KTS/SKA;Villach Hauptbahnhof;Warmbad;Kowatsch";;;Dr. Richard
 11;bus;Hauptbahnhof – Burgenlandstraße – Perau Volkshaus – 10.-Oktober-Straße – Hauptbahnhof;;;Dr. Richard
 12;bus;Hauptbahnhof – Völkendorf Schloss – Warmbad Bahnhof – Hauptbahnhof;;;Dr. Richard
-18;bus;Hauptbahnhof – Oberschütt;;;Dr. Richard;AT-VKG;at:ktn:30:
-50;bus;Sattendorf über Annenheim-Kanzel-Talstation;Villach 10.-Oktober-Straße;Villach Hauptbahnhof;Dr. Richard Kärnten GmbH & CO KG;AT-VKG;at:ktn:36:
+30|18;bus;Hauptbahnhof – Oberschütt;;;Dr. Richard;AT-VKG;at:ktn:30:
+36|50;bus;Sattendorf über Annenheim-Kanzel-Talstation;Villach 10.-Oktober-Straße;Villach Hauptbahnhof;Dr. Richard Kärnten GmbH & CO KG;AT-VKG;at:ktn:36:
+M1;bus;"mikro-BUS:SI 2025-12-14 - 2026-03-01: Villach Hauptbahnhof-Villach Vassach Essachweg";;;Dr. Richard - Villach;AT-VKG;at:ktn:37:;2025-12-16
+M2;bus;"mikro-BUS:SI 2025-12-14 - 2026-03-01: Villach Hauptbahnhof-Villach Siemensstraße/Infineon";;;Dr. Richard - Villach;AT-VKG;at:ktn:38:;2025-12-16
+M4;bus;"mikro-BUS:SI 2025-12-14 - 2026-03-01: Villach Hauptbahnhof-Heiligengeist bei Villach Ort";;;Dr. Richard - Villach;AT-VKG;at:ktn:39:;2025-12-16
 Citybus;bus;E-City-Bus der Stadt Villach
 
 
@@ -206,6 +212,7 @@ Citybus;bus;E-City-Bus der Stadt Villach
 8592;bus;Wölfnitz - Großbuch - Pondorf - Wölfnitz
 
 ==Sonstiges (nicht im Verbund)
+913 Naturparkbus;bus;"2025-12-14 - 2026-12-12: 913 Naturparkbus";;;Mobilbüro & Verkehrsmanagement GmbH;AT-VKG;at:ktn:913:;2025-12-16
 ICB;bus;Intercitybus Klagenfurt - Graz
 - Autoschleuse Tauernbahn
 ATB;train;Mallnitz - Böckstein

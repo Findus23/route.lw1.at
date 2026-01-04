@@ -157,6 +157,15 @@ def get_colors_from_rules(conn: sqlite3.Connection, missing_color_ids):
     return colors
 
 
+def set_matched(conn: sqlite3.Connection, with_color: set):
+    bind = f"{','.join(['?'] * len(with_color))}"
+    cursor = conn.cursor()
+    cursor.execute(f"""
+    UPDATE gtfs_routes SET was_matched = CASE WHEN route_id IN ({bind}) THEN 1 ELSE 0 END
+    """, list(with_color))
+    conn.commit()
+
+
 conn = sqlite3.connect('color.db')
 
 all_gtfs_ids = get_ids_in_gtfs(conn)
@@ -200,6 +209,8 @@ print(len(dedup_data), len(with_color), len(colors), len({c.gtfs_route_id for c 
 assert len(dedup_data) == len(with_color)
 
 colors = list(dedup_data.values())
+
+set_matched(conn, with_color)
 
 output_file = Path(__file__).parent.parent / "scripts" / "color-data.lua"
 
