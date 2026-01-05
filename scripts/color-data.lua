@@ -43,6 +43,8 @@ local colors_by_id = {
     ["2-RX1-K-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
     -- j REX1 REX1: Lindau <=> Bludenz
     ["2-RX1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
+    -- j REX3 REX3: Salzburg <=> Schwarzach-St. Veit
+    ["2-RX3-W-j26-1"] = { color = 0x7EBB45, text_color = 0xFFFFFF },
     -- m WB1-W Westbahn WB1-W
     ["9-WB1-W-j26-1"] = { color = 0xC4D636, text_color = 0xFFFFFF },
     -- m WB2-S Westbahn WB2-S
@@ -84,7 +86,7 @@ local colors_by_id = {
     -- j 19 Bus 19: Fernheizkraftwerk => Pichlinger See
     ["at:esg:19:"] = { color = 0xFC87BF, text_color = 0xFFFFFF },
     -- j 1 Linie 1: Universität – Auwiesen
-    ["at:esg:1:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    ["at:esg:1:"] = { color = 0xED3F80, text_color = 0xFFFFFF },
     -- j 25 Bus 25: Karlhof <=> Oed
     ["at:esg:25:"] = { color = 0xCF9B2A, text_color = 0xFFFFFF },
     -- j 26 Bus 26: St. Margarethen => Stadion
@@ -92,13 +94,13 @@ local colors_by_id = {
     -- j 27 Bus 27: Fernheizkraftwerk => Chemiepark
     ["at:esg:27:"] = { color = 0x9FCA66, text_color = 0xFFFFFF },
     -- j 2 Linie 2: Universität – solarCity
-    ["at:esg:2:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    ["at:esg:2:"] = { color = 0xC57EB5, text_color = 0xFFFFFF },
     -- j 33 Bus 33: Riesenhof => Pleschinger See
     ["at:esg:33:"] = { color = 0xCD98A5, text_color = 0xFFFFFF },
     -- j 38 Bus 38: Rudolfstraße => Jäger im Tal
     ["at:esg:38:"] = { color = 0xDE7A36, text_color = 0xFFFFFF },
     -- j 3 Linie 3: Landgutstraße – Trauner Kreuzung
-    ["at:esg:3:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    ["at:esg:3:"] = { color = 0xA1248F, text_color = 0xFFFFFF },
     -- j 41 Bus 41: Hessenplatz <=> Baintwiese
     ["at:esg:41:"] = { color = 0xE52C1A, text_color = 0xFFFFFF },
     -- j 43 Bus 43: Hessenplatz <=> Stadtfriedhof
@@ -108,9 +110,9 @@ local colors_by_id = {
     -- j 46 Bus 46: Hafen <=>­ Froschberg
     ["at:esg:46:"] = { color = 0x52D3F7, text_color = 0xFFFFFF },
     -- j 4 Linie 4: Landgutstraße – Schloss Traun
-    ["at:esg:4:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    ["at:esg:4:"] = { color = 0xC31553, text_color = 0xFFFFFF },
     -- j 50 Linie 50: Pöstlingberg – Hauptplatz
-    ["at:esg:50:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    ["at:esg:50:"] = { color = 0x008F4D, text_color = 0xFFFFFF },
     -- j 70 Bus 70: Schiffswerft <=> Stadtfriedhof
     ["at:esg:70:"] = { color = 0x964C29, text_color = 0xFFFFFF },
     -- j 71 Bus 71: Industriezeile => Baintwiese
@@ -122,13 +124,35 @@ local colors_by_id = {
     -- j 77 Bus 77: Hauptbahnhof => Universität
     ["at:esg:77:"] = { color = 0x964C29, text_color = 0xFFFFFF },
     -- j N82 Linie N82: Universität – solarCity
-    ["at:esg:82:"] = { color = 0xE41F25, text_color = 0xFFFFFF },
+    ["at:esg:82:"] = { color = 0xC57EB5, text_color = 0xFFFFFF },
+    -- j N83 Bus N83: Hafenportal => Neue Heimat
+    ["at:esg:83:"] = { color = 0x0595DA, text_color = 0xFFFFFF },
     -- m N84 N84 Linz
     ["at:esg:84:"] = { color = 0xC31553, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Harbach => Kreuzbergl
     ["at:ktn:1:"] = { color = 0xA8A8A7, text_color = 0xFFFFFF },
+    -- p 2 Bus 2: Villach Hauptbahnhof <=> Völkendorf (Rundkurs)
+    ["at:ktn:202:"] = { color = 0xF24023, text_color = 0xFFFFFF },
+    -- p 3 Bus 3: Villach 10.-Oktober-Straße <=> Sankt Ulrich (Rundkurs)
+    ["at:ktn:203:"] = { color = 0x1BA626, text_color = 0xFFFFFF },
+    -- p 4 Bus 4: Villach Hauptbahnhof <=> Auen (Rundkurs)
+    ["at:ktn:204:"] = { color = 0x61C4E6, text_color = 0xFFFFFF },
+    -- p 7 Bus 7: KTS => Neue Heimat
+    ["at:ktn:207:"] = { color = 0x7F06F9, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Landskron <=> KTS/SKA
     ["at:ktn:21:"] = { color = 0xC70A00, text_color = 0xFFFFFF },
+    -- j 2 Bus 2: Villach Hauptbahnhof <=> Völkendorf (Rundkurs)
+    ["at:ktn:22:"] = { color = 0xF24023, text_color = 0xFFFFFF },
+    -- j 3 Bus 3: Villach 10.-Oktober-Straße <=> Sankt Ulrich (Rundkurs)
+    ["at:ktn:23:"] = { color = 0x1BA626, text_color = 0xFFFFFF },
+    -- j 4 Bus 4: Villach Hauptbahnhof <=> Auen (Rundkurs)
+    ["at:ktn:24:"] = { color = 0x61C4E6, text_color = 0xFFFFFF },
+    -- j 7 Bus 7: KTS => Neue Heimat
+    ["at:ktn:27:"] = { color = 0x7F06F9, text_color = 0xFFFFFF },
+    -- j 8 Bus 8: St. Magdalen Technologiepark => Tschinowitsch => Hauptbahnhof
+    ["at:ktn:28:"] = { color = 0xCC148C, text_color = 0xFFFFFF },
+    -- j 9 Bus 9: Villach Hauptbahnhof <=> Bergsiedlung
+    ["at:ktn:29:"] = { color = 0x0582CE, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Hörtendorf => Klagenfurt West
     ["at:ktn:2:"] = { color = 0xCD853F, text_color = 0xFFFFFF },
     -- j 3 Bus 3: Steingasse => Felsenschmiedgasse
@@ -161,22 +185,42 @@ local colors_by_id = {
     ["at:obb:1|S3:M"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- j S8 S8
     ["at:obb:1|S8:M"] = { color = 0x5CC1D1, text_color = 0xFFFFFF },
-    -- j 2a Stadtbus Steyr 2a: Bahnhof <=> Resthof
-    ["at:oov:110021:"] = { color = 0x3333FF, text_color = 0xFFFFFF },
-    -- j 2b Stadtbus Steyr 2b: Bahnhof <=> Sierninger Straße
-    ["at:oov:110022:"] = { color = 0xFF6633, text_color = 0xFFFFFF },
-    -- j 4 Stadtbus Steyr 4: Tabor
-    ["at:oov:110024:"] = { color = 0x3399FF, text_color = 0xFFFFFF },
-    -- j 3b Stadtbus Steyr 3b: Bahnhof <=> Ennsleite
-    ["at:oov:110033:"] = { color = 0xFF0099, text_color = 0xFFFFFF },
-    -- j 4 Stadtbus Steyr 4: Tabor
-    ["at:oov:11004:"] = { color = 0x3399FF, text_color = 0xFFFFFF },
-    -- j 7 Stadtbus Steyr 7: Bahnhof => Schlüsselhofsiedlung => Bahnhof
-    ["at:oov:11007:"] = { color = 0x669900, text_color = 0xFFFFFF },
+    -- p 1 Stadtbus Steyr 1: Münichholz
+    ["at:oov:11001:"] = { color = 0xFFD439, text_color = 0x575656 },
+    -- p 2a Stadtbus Steyr 2a: Bahnhof <=> Resthof
+    ["at:oov:110021:"] = { color = 0x82358B, text_color = 0xFFFFFF },
+    -- p 2b Stadtbus Steyr 2b: Bahnhof <=> Sierninger Straße
+    ["at:oov:110022:"] = { color = 0xF9C18A, text_color = 0xFFFFFF },
+    -- p 2/4 Stadtbus Steyr 2/4: Bahnhof => Resthof => Tabor => Bahnhof
+    ["at:oov:110024:"] = { color = 0xED7127, text_color = 0xFFFFFF },
+    -- p 3 Stadtbus Steyr 3: Ennsleite - Stadtplatz
+    ["at:oov:110031:"] = { color = 0x028639, text_color = 0xFFFFFF },
+    -- p 3a Stadtbus Steyr 3a: Bahnhof <=> Neuschönau
+    ["at:oov:110032:"] = { color = 0x7B7B7A, text_color = 0xFFFFFF },
+    -- p 3b Stadtbus Steyr 3b: Bahnhof <=> Ennsleite
+    ["at:oov:110033:"] = { color = 0xEF87B5, text_color = 0xFFFFFF },
+    -- p 4 Stadtbus Steyr 4: Tabor
+    ["at:oov:11004:"] = { color = 0x82CFF5, text_color = 0xFFFFFF },
+    -- p 5 Stadtbus Steyr 5: Bahnhof => Stadtgut Steyr => Gleink => Bahnhof
+    ["at:oov:11005:"] = { color = 0xA7671F, text_color = 0xFFFFFF },
+    -- p 6 Stadtbus Steyr 6: Bahnhof <=> Waldrandsiedlung
+    ["at:oov:11006:"] = { color = 0x9B90C5, text_color = 0xFFFFFF },
+    -- p 7 Stadtbus Steyr 7: Bahnhof => Schlüsselhofsiedlung => Bahnhof
+    ["at:oov:11007:"] = { color = 0xBBCE34, text_color = 0xFFFFFF },
     -- m 8a 8a Stadtbus Steyr
     ["at:oov:110081:"] = { color = 0x00B1B2, text_color = 0xFFFFFF },
     -- m 8b 8b Stadtbus Steyr
     ["at:oov:110082:"] = { color = 0xB89629, text_color = 0xFFFFFF },
+    -- p 8 Stadtbus Steyr 8: Christkindlsiedlung - Sarning
+    ["at:oov:11008:"] = { color = 0xBD1C1D, text_color = 0xFFFFFF },
+    -- p 9 Stadtbus Steyr 9: Bahnhof => Staffelmayrsiedlung => Bahnhof
+    ["at:oov:11009:"] = { color = 0x4A4948, text_color = 0xFFFFFF },
+    -- p 10 Stadtbus Steyr 10: Bahnhof => Stadtplatz => Tabor => Bahnhof
+    ["at:oov:11010:"] = { color = 0x0490D6, text_color = 0xFFFFFF },
+    -- p 20 Stadtbus Steyr 20: Abendlinie
+    ["at:oov:11020:"] = { color = 0x024F9E, text_color = 0xFFFFFF },
+    -- p 21 Stadtbus Steyr 21: Abendlinie
+    ["at:oov:11021:"] = { color = 0xE5187D, text_color = 0xFFFFFF },
     -- j A1 Stadtbus Wels A1: Kaiser-Josef-Platz - Straubingersiedlung - Kaiser-Josef-Platz
     ["at:oov:120011:"] = { color = 0xE94F35, text_color = 0xFFFFFF },
     -- j 1 Stadtbus Wels 1: Straubingersiedlung => Kaiser-Josef-Platz => Noitzmühle
@@ -559,6 +603,12 @@ local colors_by_id = {
     ["at:vor:2022:"] = { color = 0xC9D436, text_color = 0xFFFFFF },
     -- p 3 Stadtbus Mödling Linie 3: Mödling Bahnhof => Mödling WIFI
     ["at:vor:2023:"] = { color = 0xF8C736, text_color = 0xFFFFFF },
+    -- j 1 Stadtbus Klosterneuburg 1
+    ["at:vor:2041:"] = { color = 0x039038, text_color = 0xFFFFFF },
+    -- j 2 Stadtbus Klosterneuburg 2: Kierling Bahnhof => Wolfsgraben
+    ["at:vor:2042:"] = { color = 0xE31A1E, text_color = 0xFFFFFF },
+    -- j 3 Stadtbus Klosterneuburg 3: Strandbad => Rathausplatz
+    ["at:vor:2043:"] = { color = 0x0A72B5, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Amstetten 1
     ["at:vor:2061:"] = { color = 0x008000, text_color = 0xFFFFFF },
     -- p 2 Stadtbus Amstetten 2: Bahnhof => Landesklinikum => Bahnhof
