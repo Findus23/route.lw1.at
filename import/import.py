@@ -78,16 +78,32 @@ def fetch_datasets(access_token: str):
         mobility_dataset.api_data = ds
 
         metafile = gtfs_dir / f"{mobility_dataset.own_filename}.zip"
-        first_active_version = None
-        for av in ds["activeVersions"]:
-            print(av)
-            if int(av["year"]) == mobility_dataset.year:
-                first_active_version = av
-                break
-        if first_active_version is None:
-            print(f"no Version for {mobility_dataset.year} available")
-            continue
-        assert int(first_active_version["year"]) == mobility_dataset.year
+        workaround = True
+        if workaround:
+            ds_id = ds["id"]
+            # normal API is missing some files of current year, while this API has all of them
+            r = s.get(f"{base_url}/api/public/v1/data-sets/{ds_id}/versions/active", headers={
+                "Authorization": f"Bearer {access_token}",
+                "Accept": "application/json"
+            })
+            with open("tmp.json", "w") as f:
+                f.write(r.text)
+            for data in r.json():
+                if int(data["year"]) == mobility_dataset.year:
+                    first_active_version = data
+                    del first_active_version["dataSet"]
+                    break
+        else:
+            first_active_version = None
+            for av in ds["activeVersions"]:
+                print(av)
+                if int(av["year"]) == mobility_dataset.year:
+                    first_active_version = av
+                    break
+            if first_active_version is None:
+                print(f"no Version for {mobility_dataset.year} available")
+                continue
+            assert int(first_active_version["year"]) == mobility_dataset.year
 
         with metafile.with_suffix(".json").open("w") as f:
             def langdict(data: dict, key: str):
@@ -123,7 +139,6 @@ def fetch_datasets(access_token: str):
             download_file
         )
         time.sleep(1)
-        return
 
 
 if __name__ == '__main__':
