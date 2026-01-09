@@ -256,25 +256,25 @@ L3;bus;Innsbruck - Natters - Mutters - Muttereralm Bergbahnen (nur im Winter/onl
 
 === Ortsverkehr Ehrwald und Umgebung
 
-1;bus;Ehrwald - Biberwier - Lermoos - Ehrwald
-2;bus;Ehrwald - Lermoos - Bichlbach - Heiterwang - Hängebrücke
-3;bus;Ehrwald: Tiroler Zugspitzbahn - Bahnhof - Kirchplatz - Almbahn
-4;bus;Ehrwald Dorfbus (nur im Winter/only in winter)
-5;bus;Berwang/Brand - Bichlbach - Lermoos - Ehrwald - Biberwier (nur im Winter/only in winter)
-6;bus;Berwang/Brand - Bichlbach Almkopf Bergbahn (nur im Winter/only in Winter)
-7;bus;Ehrwald - Lermoos - Biberwier - Ehrwald
+1;bus;Ehrwald - Biberwier - Lermoos - Ehrwald;;;Tiroler Zugspitzbahn;AT-VVT;at:vvt:198001:
+2;bus;Ehrwald - Lermoos - Bichlbach - Heiterwang - Hängebrücke;;;Tiroler Zugspitzbahn;AT-VVT;at:vvt:198002:
+3;bus;Ehrwald: Tiroler Zugspitzbahn - Bahnhof - Kirchplatz - Almbahn;;;Tiroler Zugspitzbahn;AT-VVT;at:vvt:198003:
+4;bus;Ehrwald Dorfbus (nur im Winter/only in winter);;;Tiroler Zugspitzbahn;AT-VVT;at:vvt:198004:
+5;bus;Berwang/Brand - Bichlbach - Lermoos - Ehrwald - Biberwier (nur im Winter/only in winter);;;Tiroler Zugspitzbahn;AT-VVT;at:vvt:198005:
+6;bus;Berwang/Brand - Bichlbach Almkopf Bergbahn (nur im Winter/only in Winter);;;Tiroler Zugspitzbahn;AT-VVT;at:vvt:198006:
+7;bus;Ehrwald - Lermoos - Biberwier - Ehrwald;;;Tiroler Zugspitzbahn;AT-VVT;at:vvt:198007:
 
 
 === Ortsverkehr Kappl
 
-1;bus;Ortsverkehr Kappl
+1;bus;Ortsverkehr Kappl;;;Paznauntaler Verkehrsunternehmen
 
 
 === Ortsverkehr Reutte
 
-1;bus;Reutte: Bahnhof - Lechaschau - Wängle und zurück
-2;bus;Reutte: Reutte Bahnhof - Ehenbichl und zurück
-3;bus;Reutte: Reutte Bahnhof - Breitenwang - Bad Kreckelmoos und zurück
+1;bus;Reutte: Bahnhof - Lechaschau - Wängle und zurück;;;Österreichische Postbus AG;AT-VVT;at:vvt:199001:
+2;bus;Reutte: Reutte Bahnhof - Ehenbichl und zurück;;;Österreichische Postbus AG;AT-VVT;at:vvt:199002:
+3;bus;Reutte: Reutte Bahnhof - Breitenwang - Bad Kreckelmoos und zurück;;;Österreichische Postbus AG;AT-VVT;at:vvt:199003:
 
 
 
@@ -287,9 +287,9 @@ L3;bus;Innsbruck - Natters - Mutters - Muttereralm Bergbahnen (nur im Winter/onl
 
 === Ortsverkehr Telfs
 
-1;bus;Telfs: Sonnensiedlung - Südtiroler Siedlung - Schul- und Sportzentrum;;;Regio Bus Telfs
-2;bus;Telfs - Pfaffenhofen - Oberhofen - Flaurling - Polling - Hatting - Inzing - Zirl;;;Regio Bus Telfs
-3;bus;Telfs: Schul- und Sportzentrum - TGKK - Egart - Wasserwaal - Sagl;;;Regio Bus Telfs
+1;bus;Telfs: Sonnensiedlung - Südtiroler Siedlung - Schul- und Sportzentrum;;;Ledermair Linienverkehr & Reisemanagement GmbH;AT-VVT;at:vvt:499001:
+2;bus;Telfs - Pfaffenhofen - Oberhofen - Flaurling - Polling - Hatting - Inzing - Zirl;;;Ledermair Linienverkehr & Reisemanagement GmbH;AT-VVT;at:vvt:499002:
+3;bus;Telfs: Schul- und Sportzentrum - TGKK - Egart - Wasserwaal - Sagl;;;Ledermair Linienverkehr & Reisemanagement GmbH;AT-VVT;at:vvt:499003:
 
 
 === Stadtverkehr Hall in Tirol
@@ -339,8 +339,8 @@ STB;tram;Stubaitalbahn:Innsbruck - Natters - Mutters - Telfes i. St. - Fulpmes;;
 
 === Stadtverkehr Kitzbühel
 
-4002;bus;Kitzbühel: Hahnenkamm - Vorderstadt - Badhaussiedlung - Bichlalm;;;Stadtwerke Kitzbühel
-4008;bus;Kitzbühel: Siedlung Frieden - Im Gries - Staudach;;;Stadtwerke Kitzbühel
+1;bus;Kitzbühel: Hahnenkamm - Vorderstadt - Badhaussiedlung - Bichlalm;;;Österreichische Postbus AG;AT-VVT;at:vvt:899100:
+2;bus;Kitzbühel: Siedlung Frieden - Im Gries - Staudach;;;Österreichische Postbus AG;AT-VVT;at:vvt:400899:
 
 
 

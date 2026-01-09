@@ -1065,6 +1065,16 @@ local colors_by_id = {
     ["at:vor:7092:"] = { color = 0x5B4B8C, text_color = 0xFFFFFF },
     -- p 7998 Bus 7998: Oberpullendorf Gymnasium => Stoob-Süd B50
     ["at:vor:7998:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 1 Bus 1: Landeck Zentrum => Zams Lochputz
+    ["at:vvt:199001:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
+    ["at:vvt:199002:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- j 3 Bus 3: Landeck Stampfle => Landeck Perjen
+    ["at:vvt:199003:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
+    ["at:vvt:400899:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- j 1 Bus 1: Landeck Zentrum => Zams Lochputz
+    ["at:vvt:899100:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
     -- p 101 Bus 101: Bregenz Bahnhof => Am Tannenbach => Bregenz Bahnhof
     ["at:vvv:101:"] = { color = 0xED1639, text_color = 0xFFFFFF },
     -- p 102 Bus 102: Bregenz Achsiedlung => Bregenz Bahnhof
