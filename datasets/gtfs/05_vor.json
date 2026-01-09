@@ -17,15 +17,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Vienna, Lower Austria and Burgenland, except the ones of ÖBB, WESTbahn, Raaberbahn, Niederösterreich Bahnen and CityAirportTrain Vienna. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles:\n\nDuring weekdays the taking along of bicycles is allowed between 9AM and 3PM as well as from 6:30PM until end of operation.\nOn weekends and public holidays the taking along of bicycles is permitted all day."
   },
   "activeVersion": {
-    "id": "14389",
+    "id": "14582",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "22518",
-      "created": "2026-01-01T04:30:55.397Z",
+      "id": "22711",
+      "created": "2026-01-09T04:31:02.818Z",
       "file": {
-        "originalName": "20260101-0148_gtfs_flex_vor_2026.zip",
-        "size": "138228785"
+        "originalName": "20260109-0211_gtfs_flex_vor_2026.zip",
+        "size": "148337085"
       },
       "deleted": false
     }

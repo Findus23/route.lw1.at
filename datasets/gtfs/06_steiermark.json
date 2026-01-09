@@ -17,15 +17,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Styria, except the ones from ÖBB. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "14523",
+    "id": "14590",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "22652",
-      "created": "2026-01-07T04:30:39.174Z",
+      "id": "22719",
+      "created": "2026-01-09T04:31:40.861Z",
       "file": {
-        "originalName": "20260107-0039_gtfs_flex_verbundlinie_2026.zip",
-        "size": "76889201"
+        "originalName": "20260109-0101_gtfs_flex_verbundlinie_2026.zip",
+        "size": "79814164"
       },
       "deleted": false
     }
