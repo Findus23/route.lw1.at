@@ -124,35 +124,46 @@ def get_colors_from_rules(conn: sqlite3.Connection, missing_color_ids):
     cursor = conn.cursor()
     bind = f"{','.join(['?'] * len(missing_color_ids))}"
     cursor.execute(f"""
-                   SELECT route_id,route_short_name,route_long_name,route_type
+                   SELECT route_id,route_short_name,route_long_name,route_type,agency_id
                    FROM gtfs_routes
-                   WHERE route_id in ({bind}) and dataset_name='05_vor' and agency_id='04'
+                   WHERE route_id in ({bind}) and dataset_name='05_vor'
                    """, list(missing_color_ids))
     colors = []
-    for route_id, route_short_name, route_long_name, route_type in cursor.fetchall():
-        if route_type == 0:
-            # Tram
-            color = "#D3312C"
+    for route_id, route_short_name, route_long_name, route_type, agency_id in cursor.fetchall():
+        color = None
+        text_color = None
+        if agency_id == "04":
+            # Wiener Linien
+            if route_type == 0:
+                # Tram
+                color = "#D3312C"
+                text_color = "#FFFFFF"
+            elif route_short_name[0] == "N":
+                # Night Buses
+                color = "#012A60"
+                text_color = "#FFFF41"
+            elif route_short_name in {"25B", "44B", "49B"}:
+                color = "#012A60"
+                text_color = "#FFFF41"
+            else:
+                # everything else should be a normal bus
+                color = "#012A60"
+                text_color = "#FFFFFF"
+        elif route_type == 3:
+            # default VOR bus green
+            color = "#8BC640"
             text_color = "#FFFFFF"
-        elif route_short_name[0] == "N":
-            # Night Buses
-            color = "#012A60"
-            text_color = "#FFFF41"
-        elif route_short_name in {"25B", "44B", "49B"}:
-            color = "#012A60"
-            text_color = "#FFFF41"
-        else:
-            # everything else should be a normal bus
-            color = "#012A60"
-            text_color = "#FFFFFF"
-        colors.append(ColorData(
-            name=route_long_name,
-            osm_ref=route_short_name,
-            colour=color,
-            colour_text=text_color,
-            gtfs_route_id=route_id,
-            data_source="from_rules"
-        ))
+            print(route_id, route_short_name, route_long_name)
+
+        if color and text_color:
+            colors.append(ColorData(
+                name=route_long_name,
+                osm_ref=route_short_name,
+                colour=color,
+                colour_text=text_color,
+                gtfs_route_id=route_id,
+                data_source="from_rules"
+            ))
 
     return colors
 
