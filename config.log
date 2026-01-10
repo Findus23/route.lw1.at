@@ -1,1 +1,1 @@
-1767019488s annex.largefiles largerthan=100kb and not (include=*.js or include=*.json)
+1768004759s annex.largefiles largerthan=100kb and not (include=*.js or include=*.json or include=*.lua)
