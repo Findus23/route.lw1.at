@@ -555,22 +555,118 @@ local colors_by_id = {
     ["at:svv:383500:"] = { color = 0x990066, text_color = 0xFFFFFF },
     -- j 36 Bus 36: Europark => Wals
     ["at:svv:383600:"] = { color = 0xE5314C, text_color = 0xFFFFFF },
+    -- r 101 Gmünd - St. Pölten
+    ["at:vor:101:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 102 Waidhofen/Thaya - St. Pölten
+    ["at:vor:102:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 103 Hollabrunn - St. Pölten
+    ["at:vor:103:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 104 Mistelbach/Zaya - St. Pölten
+    ["at:vor:104:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 105 Gänserndorf - St. Pölten
+    ["at:vor:105:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 106 Klosterneuburg - St. Pölten
+    ["at:vor:106:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 107 Mauerbach - St. Pölten
+    ["at:vor:107:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 108 Baden - St. Pölten
+    ["at:vor:108:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 109 Mödling - Hinterbrühl - Alland
+    ["at:vor:109:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1155 Wiener Neustadt - Piringsdorf
+    ["at:vor:1155:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1158 Eisenstadt - Nikitsch
+    ["at:vor:1158:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p VAB3 Bus VAB3: Flughafen Wien => Donauzentrum
     ["at:vor:1183:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
     -- p VAB2 Bus VAB2: Flughafen Wien => Schwedenplatz/Morzinplatz
     ["at:vor:1185:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
     -- p VAB1 Bus VAB1: Flughafen Wien => Westbahnhof
     ["at:vor:1187:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
+    -- r 120 Wien Hauptbahnhof - Eisenstadt - Mörbisch
+    ["at:vor:120:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 140 Stockerau Bahnhof - Tulln - Tullnerfeld Bahnhof
+    ["at:vor:140:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 142 ISTA SHUTTLEBUS Wien Heiligenstadt - Maria Gugging ISTA
+    ["at:vor:142:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 145 Wien Hütteldorf - Altlengbach - Hainfeld
+    ["at:vor:145:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 150 Wien Floridsdorf - Poysdorf - Bernhardsthal
+    ["at:vor:150:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p WLB WLB Wien Oper – Baden Josefsplatz
     ["at:vor:1515:"] = { color = 0x005395, text_color = 0xFFFFFF },
+    -- r 151 Wien Floridsdorf - Poysdorf - Wildendürnbach
+    ["at:vor:151:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j SBB Schloßbergbahn
     ["at:vor:1523:"] = { color = 0x4B4C4D, text_color = 0xFFFFFF },
+    -- r 164 Waidhofen/Ybbs - Lunz am See
+    ["at:vor:164:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 169 Wien - Mariazell
+    ["at:vor:169:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 170 Krems/Donau - Zwettl - Gmünd
+    ["at:vor:170:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 171 Stadtverkehr Schwechat
+    ["at:vor:171:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 175 Bus 175: Rif => Salzburg
     ["at:vor:175:"] = { color = 0x990066, text_color = 0xFFFFFF },
+    -- r 176 Zwettl - Wien Floridsdorf
+    ["at:vor:176:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1774 Oberpullendorf - Kirchschlag i.d. Buckligen Welt
+    ["at:vor:1774:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1775 Oberwart - Bernstein - Lockenhaus - Oberpullendorf
+    ["at:vor:1775:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1776 Oberpullendorf - Kirchschlag i.d. Buckligen Welt
+    ["at:vor:1776:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 180 Horn - Göpfritz/Wild - Waidhofen/Thaya
+    ["at:vor:180:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1823 Wulkaprodersdorf - Eisenstadt
+    ["at:vor:1823:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1824 Eisenstadt - Oberpullendorf - Lockenhaus
+    ["at:vor:1824:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1839 Eisenstadt - Langental
+    ["at:vor:1839:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1848 Deutschkreutz - Bernstein
+    ["at:vor:1848:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1852 Oberpullendorf - Großwarasdorf - Nebersdorf - Lutzmannsburg
+    ["at:vor:1852:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1854 Oberpullendorf - Großwarasdorf - Nikitsch - Deutschkreutz
+    ["at:vor:1854:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1856 Oberpullendorf - Weppersdorf
+    ["at:vor:1856:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1858 Oberpullendorf - Deutschkreutz
+    ["at:vor:1858:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1860 Fürstenfeld - Heiligenkreuz i.L. / Henndorf i.Bgld. - Jennersdorf
+    ["at:vor:1860:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1862 Güssing - Großmürbisch - Heiligenbrunn - Luising
+    ["at:vor:1862:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1864 Güssing - Kukmirn - Deutsch Kaltenbrunn - Fürstenfeld
+    ["at:vor:1864:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1866 Fürstenfeld - Heiligenkreuz im Lafnitztal - Güssing
+    ["at:vor:1866:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1868 Güssing - Heiligenkreuz im Lafnitztal - Jennersdorf
+    ["at:vor:1868:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1872 Jennersdorf - Rosendorf/Lafnitz - Heiligenkreuz i.Lafnitztal
+    ["at:vor:1872:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1878 Jennersdorf - Minihof Liebau - Neuhaus/Klausenbach - Kalch
+    ["at:vor:1878:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1880 Jennersdorf - St.Martin/Raab - Oberdrosen - Jennersdorf
+    ["at:vor:1880:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B24 Klostermarienberg - Wien Hauptbahnhof
+    ["at:vor:190:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p CAT CityAirportTrain
     ["at:vor:1917:"] = { color = 0x7BBC36, text_color = 0xFFFFFF },
+    -- r B23 Lockenhaus - Wien Hauptbahnhof
+    ["at:vor:191:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B14 Oberwart - Oberpullendorf - Mattersburg - Eisenstadt
+    ["at:vor:192:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B25 Wien - Mattersburg - Draßburg
+    ["at:vor:193:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p RLE Reblaus-Express
     ["at:vor:1941:"] = { color = 0x86C2EB, text_color = 0x00592E },
+    -- r B01 Güssing - Stegersbach/Großpetersdorf - Oberwart - Wien
+    ["at:vor:194:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B26 Steinberg/Rabnitz - Wiener Neustadt
+    ["at:vor:195:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 1 LUP 1: Hart bei St. Pölten Ghegastraße => Viehofen Living City
     ["at:vor:2001:"] = { color = 0xD1050D, text_color = 0xFFFFFF },
     -- p 2 LUP 2: Harland Amtshaus => St. Pölten Hauptbahnhof Süd
@@ -589,6 +685,8 @@ local colors_by_id = {
     ["at:vor:2008:"] = { color = 0x0077BA, text_color = 0xFFFFFF },
     -- p 9 LUP 9: St. Pölten Rudolf-Tornar-Straße => Hafing Ort
     ["at:vor:2009:"] = { color = 0x793182, text_color = 0xFFFFFF },
+    -- r 200 Wien Hauptbahnhof - Laxenburg - Eisenstadt
+    ["at:vor:200:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 10 LUP 10: St. Georgen am Steinfelde Schulen => Ochsenburg Fabrik => Harland Amtshaus
     ["at:vor:2010:"] = { color = 0xAD8F6C, text_color = 0xFFFFFF },
     -- p 11 LUP 11: St. Georgen am Steinfelde Schulen => Spratzern Wolfenberger Straße
@@ -603,6 +701,18 @@ local colors_by_id = {
     ["at:vor:2022:"] = { color = 0xC9D436, text_color = 0xFFFFFF },
     -- p 3 Stadtbus Mödling Linie 3: Mödling Bahnhof => Mödling WIFI
     ["at:vor:2023:"] = { color = 0xF8C736, text_color = 0xFFFFFF },
+    -- r 1 Ortsbus Perchtoldsdorf Marktplatz - Sportzentrum - Marktplatz - Bahnhof - Wien Rodaun - Marktplatz
+    ["at:vor:2026:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 2 Ortsbus Perchtoldsdorf Marktplatz - Wien Rodaun - Bahnhof - Haydngasse - Marktplatz
+    ["at:vor:2027:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r A Baden Bahnhof - Baden Weilburgplatz
+    ["at:vor:2031:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B Baden Bahnhof - Baden Schlossgasse
+    ["at:vor:2032:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r C Baden Bahnhof - Baden Goethegasse
+    ["at:vor:2033:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r D Baden Bahnhof - Baden Bezirkshauptmannschaft
+    ["at:vor:2034:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 1 Stadtbus Klosterneuburg 1
     ["at:vor:2041:"] = { color = 0x039038, text_color = 0xFFFFFF },
     -- j 2 Stadtbus Klosterneuburg 2: Kierling Bahnhof => Wolfsgraben
@@ -615,8 +725,52 @@ local colors_by_id = {
     ["at:vor:2062:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- p 3 Stadtbus Amstetten 3: Bahnhof => Parksiedlung => Bahnhof
     ["at:vor:2063:"] = { color = 0xFFA500, text_color = 0xFFFFFF },
+    -- r 4 Stadtbus Amstetten Bahnhof - Leharstraße - Krautberg - Bahnhof
+    ["at:vor:2064:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 5 Stadtbus Amstetten Bahnhof - Greimpersdorf - Bahnhof
+    ["at:vor:2065:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 6 Stadtbus Amstetten Bahnhof - Hans-Kudlich-Straße - Bahnhof
+    ["at:vor:2066:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7 Stadtbus Amstetten Bahnhof - Greinsfurth - Waldheim - Bahnhof
+    ["at:vor:2067:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 206 Biedermannsdorf - Maria Enzersdorf - Perchtoldsdorf
+    ["at:vor:206:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Stadtverkehr Gmünd Conrathstraße - Ignaz-Pilz-Gasse - Schulgasse
+    ["at:vor:2076:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Stadtverkehr Horn Mittelschule - Mödringer Straße - Josef-Strommer-Straße
+    ["at:vor:2077:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 207 Wien Liesing - Vösendorf SCS - Brunn/Gebirge - Mödling
+    ["at:vor:207:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Hollabrunn Bahnhof - Raschala
+    ["at:vor:2081:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
     ["at:vor:2082:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- r 1 Korneuburg Bahnhof - Industriestraße - HAK - Bahnhof
+    ["at:vor:2084:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 2 Korneuburg Bahnhof - Landesgericht - HAK - Bahnhof
+    ["at:vor:2085:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Stockerau Gymnasium - Nikolaus-Heid-Straße - Bahnhof
+    ["at:vor:2087:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 208 Sittendorf - Kaltenleutgeben - Wien Rodaun
+    ["at:vor:208:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 209 Wien Hauptbahnhof - IZ NÖ-Süd
+    ["at:vor:209:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 210 Wien Hauptbahnhof - Laxenburg - Trumau - Eisenstadt
+    ["at:vor:210:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 212 Schülerverkehr Brunn am Gebirge
+    ["at:vor:212:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 214 Schülerverkehr Wiener Neudorf - Mödling
+    ["at:vor:214:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 215 Mödling - Laxenburg - Maria Lanzendorf
+    ["at:vor:215:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Stadtverkehr Waidhofen/Ybbs
+    ["at:vor:2161:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 2 Stadtverkehr Waidhofen/Ybbs
+    ["at:vor:2162:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 3 Stadtverkehr Waidhofen/Ybbs
+    ["at:vor:2163:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 216 Mödling - Laxenburg - Himberg / Münchendorf / Guntramsdorf
+    ["at:vor:216:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Krems Linie 1: Krems Bahnhof => Stein-Mautern Bahnhof
     ["at:vor:2171:"] = { color = 0x264F9E, text_color = 0xFFFFFF },
     -- p 2 Stadtbus Krems Linie 2: Krems Bahnhof => Krems Bründlgraben/EKZ
@@ -631,8 +785,130 @@ local colors_by_id = {
     ["at:vor:2176:"] = { color = 0xBD1620, text_color = 0xFFFFFF },
     -- p 7 Stadtbus Krems Linie 7: Krems Gewerbeparkstraße/Kino => Krems Bahnhof
     ["at:vor:2177:"] = { color = 0x82348B, text_color = 0xFFFFFF },
+    -- r 217 Simmering - Schwechat - Maria Lanzendorf - Himberg / Mödling
+    ["at:vor:217:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 218 Simmering - Schwechat - Zwölfaxing - Himberg
+    ["at:vor:218:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 219 Mödling - Wiener Neudorf - IZ NÖ-Süd
+    ["at:vor:219:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 221 Flughafen Wien - Gramatneusiedl - Guntramsdorf
+    ["at:vor:221:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 222 Flughafen Wien - Gramatneusiedl - Ebreichsdorf
+    ["at:vor:222:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 226 Wien Oberlaa - Himberg - Moosbrunn - Ebreichsdorf
+    ["at:vor:226:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 227 Wien Oberlaa - Himberg - Ebergassing - Ebreichsdorf
+    ["at:vor:227:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B99 IZ-NÖ Süd - Vösendorf SCS Ostring
+    ["at:vor:229:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 235 Ebreichsdorf - Leithaprodersdorf - Eisenstadt
+    ["at:vor:235:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 246 Himberg - Moosbrunn - Unterwaltersdorf
+    ["at:vor:246:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 247 Ebreichsdorf - Mannersdorf - Götzendorf/Leitha
+    ["at:vor:247:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 248 Schwadorf - Götzendorf - Gramatneusiedl
+    ["at:vor:248:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 250 Bus 250: Landeck Zentrum Terminal 1 E => Imst Terminal Post A
     ["at:vor:250:"] = { color = 0x05683A, text_color = 0xFFFFFF },
+    -- r 251 Sittendorf - Sulz - Breitenfurt
+    ["at:vor:251:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 252 Sittendorf - Grub - Breitenfurt
+    ["at:vor:252:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 253 Wien Liesing - Laab - Wolfsgraben - Tullnerbach-Pressbaum
+    ["at:vor:253:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 254 Breitenfurt Grüner Baum - Breitenfurt Hirschentanz
+    ["at:vor:254:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 255 Wien Liesing - Kaltenleutgeben - Sulz - Sittendorf
+    ["at:vor:255:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 256 Wien Liesing - Perchtoldsdorf - Gießhübl
+    ["at:vor:256:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 257 Wien Liesing - Perchtoldsdorf
+    ["at:vor:257:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 258 Wien Liesing - Maria Enzersdorf
+    ["at:vor:258:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 259 Wien Liesing - Perchtoldsdorf - Mödling
+    ["at:vor:259:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 260 Wien Siebenhirten - Brunn am Gebirge - Hinterbrühl
+    ["at:vor:260:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 261 Mödling - Maria Enzersdorf - Gießhübl
+    ["at:vor:261:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 262 Mödling - Maria Enzersdorf - Gießhübl
+    ["at:vor:262:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 263 Mödling - Guntramsdorf - Gumpoldskirchen
+    ["at:vor:263:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 264 Mödling - Hinterbrühl - Sittendorf
+    ["at:vor:264:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 265 Mödling - Hinterbrühl - Gaaden - Heiligenkreuz - Alland
+    ["at:vor:265:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 266 Schwechat - Wien Oberlaa - Wien Siebenhirten
+    ["at:vor:266:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 269 Wien Siebenhirten - Campus 21 - Mödling (- Maria Enzersdorf Südstadt)
+    ["at:vor:269:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 270 Wien Siebenhirten - Maria Enzersdorf Südstadt - Mödling
+    ["at:vor:270:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 271 Shuttleverkehr Himberg - Gramatneusiedl
+    ["at:vor:271:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 272 Simmering - Schwadorf - Bruck/Leitha
+    ["at:vor:272:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 273 Flughafen Wien -  Bruck/Leitha - Neusiedl/See
+    ["at:vor:273:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 274 Bruck/Leitha - Regelsbrunn - Hainburg/Donau
+    ["at:vor:274:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 275 Bruck/Leitha - Potzneusiedl - Hainburg/Donau
+    ["at:vor:275:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 276 Bruckneudorf - Bruck/Leitha (Ortsverkehr)
+    ["at:vor:276:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 277 Eisenstadt - Mannersdorf - Bruck/Leitha
+    ["at:vor:277:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 279 Kaiserebersdorf - Schwechat - Mannswörth
+    ["at:vor:279:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 280 Neusiedl/See - Purbach - Eisenstadt
+    ["at:vor:280:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 281 Eisenstadt - Siegendorf - Klingenbach
+    ["at:vor:281:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 282 Eisenstadt - St. Georgen/Leithagebirge
+    ["at:vor:282:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 284 Eisenstadt Domplatz - Gymnasium Wolfgarten
+    ["at:vor:284:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 285 Eisenstadt - St. Margarethen - Rust - Mörbisch
+    ["at:vor:285:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 286 Eisenstadt - Oslip - Oggau - Rust - Mörbisch/See
+    ["at:vor:286:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 290 Neusiedl/See - Podersdorf - Apetlon
+    ["at:vor:290:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 291 St. Andrä/Zicksee Bahnhof - Andau
+    ["at:vor:291:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 292 Neusiedl/See - Halbturn - Andau
+    ["at:vor:292:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 295 Frauenkirchen - Pamhagen
+    ["at:vor:295:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 296 Zurndorf - Frauenkirchen - Neusiedl/See
+    ["at:vor:296:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 297 Hainburg/Donau - Wolfsthal - Kittsee
+    ["at:vor:297:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 298 Neusiedl/See - Gattendorf - Nickelsdorf
+    ["at:vor:298:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 299 Neusiedl/See - Gattendorf - Kittsee
+    ["at:vor:299:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 301 Bad Vöslau - Baden - Neu Guntramsdorf - IZ NÖ-Süd
+    ["at:vor:301:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 302 Baden - Trumau - Oberwaltersdorf
+    ["at:vor:302:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 303 Wien Oper/Karlsplatz - Baden - Bad Vöslau
+    ["at:vor:303:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 304 Baden / Oeynhausen - Möllersdorf - Traiskirchen
+    ["at:vor:304:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 305 Bad Vöslau - Leobersdorf - Kottingbrunn
+    ["at:vor:305:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 306 Baden - Alland - Eichgraben
+    ["at:vor:306:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 307 Siegenfeld - Heiligenkreuz - Maria Raisenmarkt - Alland
+    ["at:vor:307:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 308 Baden - Gaaden - Alland - Altenmarkt/Triesting
+    ["at:vor:308:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 309 Wien Hauptbahnhof - IZ NÖ-Süd
+    ["at:vor:309:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1 Prater, Hauptallee - Stefan-Fadinger-Platz
     ["at:vor:3101:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 2 Dornbach - Friedrich-Engels-Platz
@@ -643,6 +919,8 @@ local colors_by_id = {
     ["at:vor:3106:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 9 Gersthof, Wallrißstraße - Westbahnhof
     ["at:vor:3109:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 310 Baden - Oberwaltersdorf - Leobersdorf - Gainfarn
+    ["at:vor:310:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 10 Dornbach - Unter St. Veit, Hummelgasse
     ["at:vor:3110:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 11 Otto-Probst-Platz - Kaiserebersdorf, Zinnergasse
@@ -651,12 +929,16 @@ local colors_by_id = {
     ["at:vor:3112:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 18 Burggasse-Stadthalle - St. Marx
     ["at:vor:3118:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 311 Bad Vöslau - Teesdorf - Blumau
+    ["at:vor:311:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 25 Aspern, Oberdorfstraße - Floridsdorf
     ["at:vor:3125:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 26 Hausfeldstraße - Strebersdorf
     ["at:vor:3126:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 27 Aspern Nord - Strebersdorf,Edmund-Hawranek-Platz
     ["at:vor:3127:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 312 Gainfarn - Leobersdorf - Hernstein
+    ["at:vor:312:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 30 Floridsdorf - Stammersdorf
     ["at:vor:3130:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 31 Schottenring - Stammersdorf
@@ -667,6 +949,8 @@ local colors_by_id = {
     ["at:vor:3137:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 38 Schottentor - Grinzing
     ["at:vor:3138:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 313 Bad Vöslau - Leobersdorf - Pottenstein
+    ["at:vor:313:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 40 Schottentor - Gersthof, Herbeckstraße
     ["at:vor:3140:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 41 Schottentor - Pötzleinsdorf
@@ -681,20 +965,36 @@ local colors_by_id = {
     ["at:vor:3146:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 49 Ring/Volkstheater - Hütteldorf, Bujattigasse
     ["at:vor:3149:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 314 Bad Vöslau - Berndorf - Aigen - Markt Piesting
+    ["at:vor:314:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 52 Westbahnhof - Baumgarten
     ["at:vor:3152:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 315 Baden - Bad Vöslau - Berndorf - Weissenbach/Triesting
+    ["at:vor:315:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 60 Westbahnhof - Rodaun
     ["at:vor:3160:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 62 Oper/Karlsplatz - Lainz, Wolkersbergenstraße
     ["at:vor:3162:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 316 Weissenbach/Triesting - Hainfeld
+    ["at:vor:316:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r O Raxstraße, Rudolfshügelgasse - Bruno-Marek-Allee
     ["at:vor:3170:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
     -- r 71 Schottenring - Kaiserebersdorf
     ["at:vor:3171:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- r 317 Altenmarkt/Triesting - Neuwald
+    ["at:vor:317:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 318 Weissenbach/Treisting - Neuhaus - Altenmarkt/Triesting - Kaumberg/Triesting
+    ["at:vor:318:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 319 Weissenbach/Triesting - Furth/Triesting
+    ["at:vor:319:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 5B Heiligenstadt - Praterstern
     ["at:vor:3205:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 7B Wienerberg City - Meidling
     ["at:vor:3207:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 320 Baden - Ebreichsdorf - Unterwaltersdorf
+    ["at:vor:320:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 321 Unterwaltersdorf - Ebreichsdorf - Landegg
+    ["at:vor:321:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 20B Alte Donau - Neue Donau
     ["at:vor:3220:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 27B Kagran - Satzingerweg
@@ -713,6 +1013,8 @@ local colors_by_id = {
     ["at:vor:3246:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 47B Hütteldorf - Hüttelberg
     ["at:vor:3247:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 324 Ebenfurth - Hornstein
+    ["at:vor:324:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 50B Hütteldorf - Auhof
     ["at:vor:3250:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 52B Hütteldorf - Siedlung Kordon ( -Feuerwache Am Steinhof)
@@ -723,6 +1025,8 @@ local colors_by_id = {
     ["at:vor:3256:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 58B Hietzing - Atzgersdorf
     ["at:vor:3258:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 325 Wr. Neustadt - Felixdorf - Hölles - Enzesfeld
+    ["at:vor:325:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 61B Liesing - Vösendorf-Siebenhirten
     ["at:vor:3261:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 64B Hetzendorf - Alterlaa
@@ -731,6 +1035,8 @@ local colors_by_id = {
     ["at:vor:3267:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 68B Reumannplatz - Oberlaa
     ["at:vor:3268:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 326 Wr. Neustadt - Teesdorf - Oberwaltersdorf
+    ["at:vor:326:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 71B Zentralfriedhof 3. Tor - Kaiserebersdorf
     ["at:vor:3271:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 73B Zentralfriedhof 3.Tor - Kaiserebersdorf
@@ -739,6 +1045,8 @@ local colors_by_id = {
     ["at:vor:3276:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 79B Donaumarina, Chrastekgasse - Kaiserebersdorf, Münnichplatz
     ["at:vor:3279:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 327 Felixdorf - Hornstein
+    ["at:vor:327:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 88B Seestadt - Eßling, Wegmayersiedlung
     ["at:vor:3288:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 92B Kaisermühlen V.I.C. - Ölhafen
@@ -747,6 +1055,8 @@ local colors_by_id = {
     ["at:vor:3295:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 99B Aspern Nord - Eßling Schule
     ["at:vor:3299:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 329 Guntramsdorf / Brunn/Gebirge - Unterwaltersdorf
+    ["at:vor:329:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p U1 U1 Oberlaa <=> Leopoldau
     ["at:vor:3301:"] = { color = 0xE20613, text_color = 0xFFFFFF },
     -- p U2 U2 Seestadt <=> Karlsplatz
@@ -757,6 +1067,22 @@ local colors_by_id = {
     ["at:vor:3304:"] = { color = 0x029540, text_color = 0xFFFFFF },
     -- p U6 U6 Siebenhirten <=> Floridsdorf
     ["at:vor:3306:"] = { color = 0x9C6830, text_color = 0xFFFFFF },
+    -- r 330 Pernitz - (Feichtenbach) - Puchberg am Schneeberg
+    ["at:vor:330:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 331 Piesting - Waldegg
+    ["at:vor:331:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 332 Pernitz - (Myrafälle) - Thal/Muggendorf
+    ["at:vor:332:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 333 Pernitz - Neusiedl/Pernitz - (Gutenstein)
+    ["at:vor:333:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 335 Pernitz - Berndorf
+    ["at:vor:335:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 336 Winzendorf - Gaaden - Piesting
+    ["at:vor:336:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 338 Piesting - Wöllersdorf - Steinabrückl - Felixdorf
+    ["at:vor:338:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 339 Rohr/Gebirge - Schwarzau/Gebirge - Pernitz
+    ["at:vor:339:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1A Stephansplatz - Schottentor
     ["at:vor:3401:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 2A Schwedenplatz - Schwarzenbergplatz
@@ -773,6 +1099,8 @@ local colors_by_id = {
     ["at:vor:3408:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 9A Meidling Hauptstraße - Bhf. Meidling
     ["at:vor:3409:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 340 Pernitz - Gutenstein - Rohr/Gebirge
+    ["at:vor:340:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 10A Heiligenstadt - Niederhofstraße
     ["at:vor:3410:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 11A Stadion - Heiligenstadt
@@ -791,6 +1119,8 @@ local colors_by_id = {
     ["at:vor:3417:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 19A Alaudagasse - Alaudagasse
     ["at:vor:3419:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 341 Payerbach - Hirschwang - Schwarzau/Gebirge
+    ["at:vor:341:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 20A Kaisermühlen-VIC - Neue Donau
     ["at:vor:3420:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 22A Kagran - Aspernstraße
@@ -807,6 +1137,8 @@ local colors_by_id = {
     ["at:vor:3428:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 29A Floridsdorf - Großfeldsiedlung
     ["at:vor:3429:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 342 Payerbach - Prein/Rax - Preiner Gscheid
+    ["at:vor:342:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 30A Neu Leopoldau - Freiheitsplatz
     ["at:vor:3430:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 31A Kagraner Platz - Jochbergengasse
@@ -827,6 +1159,8 @@ local colors_by_id = {
     ["at:vor:3438:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 39A Heiligenstadt - Sievering
     ["at:vor:3439:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 343 Gloggnitz - Schottwien - Maria Schutz - Semmering
+    ["at:vor:343:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 40A Schottentor - Döblinger Friedhof
     ["at:vor:3440:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 41A Pötzleinsdorf - Neustifter Friedhof 3.Tor
@@ -847,6 +1181,8 @@ local colors_by_id = {
     ["at:vor:3448:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 49A Wolfersberg, Schöffelplatz - Hütteldorf
     ["at:vor:3449:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 344 Gloggnitz - Stuppach - Prigglitz
+    ["at:vor:344:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 50A Hütteldorf - Auhof
     ["at:vor:3450:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 51A Hietzing - Ottakringer Bad
@@ -865,6 +1201,8 @@ local colors_by_id = {
     ["at:vor:3458:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 59A Oper/Karlsplatz - Bhf. Meidling
     ["at:vor:3459:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 345 Payerbach - Gloggnitz
+    ["at:vor:345:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 60A Alterlaa - Liesing
     ["at:vor:3460:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 61A Liesing - Vösendorf-Siebenhirten
@@ -933,10 +1271,16 @@ local colors_by_id = {
     ["at:vor:3498:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 99A Aspern Nord - Eßling Schule
     ["at:vor:3499:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 349 Neunkirchen - Wimpassing - Gloggnitz
+    ["at:vor:349:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N6 Westbahnhof - Enkplatz, Grillgasse
     ["at:vor:3506:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N8 Handelskai - Alterlaa
     ["at:vor:3508:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 350 Neunkirchen - Puchberg - Losenheim
+    ["at:vor:350:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 351 Neunkirchen - Pottschach - St. Valentin
+    ["at:vor:351:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N20 Kagraner Platz - Strebersdorf,Edmund-Hawranek-Platz
     ["at:vor:3521:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N23 Kagraner Platz - Hausfeldstraße
@@ -945,12 +1289,16 @@ local colors_by_id = {
     ["at:vor:3525:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N29 Wittelsbachstraße - Floridsdorf
     ["at:vor:3529:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 352 Neunkirchen - Unterhöflein - Grünbach/Schneeberg
+    ["at:vor:352:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N31 Schwedenplatz - Stammersdorf
     ["at:vor:3531:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N35 Spittelau - Salmannsdorf
     ["at:vor:3535:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N38 Schottentor - Grinzing
     ["at:vor:3538:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 353 Wr. Neustadt / Winzendorf - Würflach - Willendorf / Neunkirchen
+    ["at:vor:353:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N41 Schottentor - Pötzleinsdorf
     ["at:vor:3541:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N43 Schottentor - Neuwaldegg
@@ -959,6 +1307,10 @@ local colors_by_id = {
     ["at:vor:3546:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N49 Oper/Karlsplatz - Hütteldorf, Bujattigasse
     ["at:vor:3549:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 354 Ternitz - Raglitz - Unterhöflein - Maiersdorf
+    ["at:vor:354:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 355 Neunkirchen - Wartmannstetten - Schönstadl
+    ["at:vor:355:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N60 Oper/Karlsplatz - Rodaun
     ["at:vor:3560:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N62 Oper/Karlsplatz - Speising, Hermesstraße
@@ -969,10 +1321,52 @@ local colors_by_id = {
     ["at:vor:3566:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N67 Quellenplatz - Inzersdorf, Großmarkt
     ["at:vor:3567:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 356 Neunkirchen - Peisching - Breitenau - Pitten
+    ["at:vor:356:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N71 Oper/Karlsplatz - Kaiserebersdorf, Zinnergasse
     ["at:vor:3571:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N75 Oper/Karlsplatz - Gasometer
     ["at:vor:3575:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 357 Reichenau/Rax - Katzelsdorf
+    ["at:vor:357:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 366 Neunkirchen - Ternitz - Gloggnitz - Kirchberg/Wechsel
+    ["at:vor:366:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 367 Gloggnitz - Otterthal - Kirchberg/Wechsel
+    ["at:vor:367:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 368 Kirchberg/Wechsel - Otterthal - Trattenbach
+    ["at:vor:368:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 369 Aspang-Markt - St. Corona - Kirchberg/Wechsel
+    ["at:vor:369:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 370 Kirchberg/Wechsel - Feistritz/Wechsel - Edlitz-Grimmenstein
+    ["at:vor:370:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 371 Aspang-Markt - Mönichkirchen
+    ["at:vor:371:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 372 Aspang-Markt - Inneraigen - Mariensee
+    ["at:vor:372:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 373 Aspang-Markt - Zöbern
+    ["at:vor:373:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 380 Wr. Neustadt - Hochwolkersdorf - Wiesmath - Hollenthon
+    ["at:vor:380:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 381 Hochwolkersdorf - Schwarzenbach - Oberpetersdorf - Kobersdorf
+    ["at:vor:381:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 382 Wr. Neustadt - Oberschlatten - Lichtenegg
+    ["at:vor:382:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 383 Wr. Neustadt - Föhrenau - Loipersbach
+    ["at:vor:383:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 384 Neunkirchen - Seebenstein - Edlitz - Grimmenstein - Aspang-Markt
+    ["at:vor:384:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 385 Scheiblingkirchen - Bromberg - Oberschlatten - Hollenthon
+    ["at:vor:385:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 386 Scheiblingkirchen - Warth - Kirchau - Haßbach
+    ["at:vor:386:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 387 Katzelsdorf - Pitten - Scheiblingkirchen - Edlitz-Grimmenstein
+    ["at:vor:387:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 388 Edlitz - Edlitz-Grimmenstein - Hochegg
+    ["at:vor:388:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 389 Edlitz-Grimmenstein - Lichtenegg
+    ["at:vor:389:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 390 Edlitz-Grimmenstein - Krumbach - Bad Schönau - Kirchschlag
+    ["at:vor:390:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N17 Himberger Straße - Unterlaa
     ["at:vor:3917:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N24 Kagraner Platz - Am Heidjöchl
@@ -991,6 +1385,8 @@ local colors_by_id = {
     ["at:vor:3941:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 44B Dornbach - Predigtstuhl
     ["at:vor:3944:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 394 Krumbach - Gschaidt
+    ["at:vor:394:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r N54 Westbahnhof - Ober St. Veit
     ["at:vor:3954:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N61 Liesing - Kalksburg, Lodererweg
@@ -1011,16 +1407,398 @@ local colors_by_id = {
     ["at:vor:3990:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r N91 Siegesplatz - Donaustadtbrücke
     ["at:vor:3991:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- r 400 Wien Heiligenstadt - Klosterneuburg-Kierling Bhf. - Maria Gugging
+    ["at:vor:400:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 401 Klosterneuburg - Weidling Reitstall / Rotgraben (- Scheiblingstein)
+    ["at:vor:401:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 402 Klosterneuburg-Kierling Bhf. - Weißer Hof (-Hadersfeld) Winterfahrplan gültig bis 31.03. und ab 01.11.
+    ["at:vor:402:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 403 Klosterneuburg-Kierling Bhf. - Höflein/Donau (- St. Andrä-Wördern)
+    ["at:vor:403:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 404 Klosterneuburg - St. Andrä-Wördern - Tulbing
+    ["at:vor:404:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 405 St. Andrä-Wördern / Ma. Gugging - Hintersdorf - Steinriegl
+    ["at:vor:405:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 406 Klosterneuburg-Kierling Bhf. - St. Andrä-Wördern - Tulln
+    ["at:vor:406:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 407 Sieghartskirchen - Kogl - Kronstein
+    ["at:vor:407:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 408 Pressbaum - Irenental - Sieghartskirchen
+    ["at:vor:408:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 409 Bus 409: Linz voestalpine/Kraftwerk => Ennsdorf
     ["at:vor:409:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- r 410 Tulln Schubertpark - Staasdorf - Baumgarten - Tullnerfeld Bhf.
+    ["at:vor:410:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 411 St. Andrä-Wördern Bahnhof - Tullnerfeld Bahnhof
+    ["at:vor:411:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 413 Heiligenstadt - Klosterneuburg - St. Andrä-Wördern -Tulln
+    ["at:vor:413:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 414 Tullnerfeld Bhf. -  Zwentendorf - Dürnrohr Baustellen-Fahrplan
+    ["at:vor:414:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 415 Wien Oberdöbling - Unterkirchbach - St. Andrä-Wördern Bhf.
+    ["at:vor:415:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 440 Tulln Frauentorgasse/VS II - BSZ - Schubertpark - Frauentorgasse/VS II Fahrten im Uhrzeigersinn
+    ["at:vor:440:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 441 Tulln Schubertpark - Tulbing - St. Andrä-Wördern Bhf.
+    ["at:vor:441:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 442 Tulln Bhf. - Tullnerfeld Bhf. - Neulengbach Stadt Bahnhof
+    ["at:vor:442:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 443 Tulln Bhf. - Tullnerfeld Bhf. - Würmla
+    ["at:vor:443:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 444 Königstetten - Tulln Bhf. - Zwentendorf - Reidling Baustellenfahrplan
+    ["at:vor:444:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 445 Wien Hernals - Königstetten - Tulln Schubertpark Winter-Fahrplan
+    ["at:vor:445:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 446 Krems - Traismauer - Sieghartskirchen
+    ["at:vor:446:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 447 Purkersdorf / Gablitz - Ollern - Tulln
+    ["at:vor:447:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 448 Gablitz Hochbuch - Gablitz Hauersteig
+    ["at:vor:448:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 449 Mauerbach Busbahnhof - Tulbing - Tulln Schubertpark
+    ["at:vor:449:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 450 Bus 450: Hallein => Gaißau
     ["at:vor:450:"] = { color = 0x990066, text_color = 0xFFFFFF },
+    -- r 451 Wien Hütteldorf - Purkersdorf - Gablitz - Sieghartskirchen
+    ["at:vor:451:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 452 Bus 452: Adnet => Wiestal => Gaißau
     ["at:vor:452:"] = { color = 0x990066, text_color = 0xFFFFFF },
+    -- r 453 Wien Hütteldorf - Purkersdorf - Wolfsgraben
+    ["at:vor:453:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 454 Tullnerbach - Pressbaum - Pfalzau
+    ["at:vor:454:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 455 Eichgraben - Altlengbach - Hainfeld
+    ["at:vor:455:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 456 Neulengbach - Altlengbach - Laaben
+    ["at:vor:456:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 457 Tullnerbach - Eichgraben - Altlengbach - Neulengbach
+    ["at:vor:457:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 458 Mauerbach - Wolfsgraben - Pressbaum
+    ["at:vor:458:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 460 St. Christophen - Neulengbach - Eichgraben - Pressbaum
+    ["at:vor:460:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 461 Wimmersdorf - Asperhofen (- Neulengbach)
+    ["at:vor:461:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 462 Haghöfen - Asperhofen - Neulengbach
+    ["at:vor:462:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 463 Unterwolfsbach - Umsee - Raipoltenbach - Neulengbach
+    ["at:vor:463:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 464 Ollersbach - St. Christophen - Neulengbach
+    ["at:vor:464:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 470 St. Pölten Hbf. - Kapelln - Tullnerfeld Bhf.
+    ["at:vor:470:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 471 Böheimkirchen - Michelbach
+    ["at:vor:471:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 472 Böheimkirchen - Stössing
+    ["at:vor:472:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 473 Böheimkirchen - Kapelln - Herzogenburg
+    ["at:vor:473:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 474 Grub - Böheimkirchen - Totzenbach
+    ["at:vor:474:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 475 St. Pölten - Kapelln - Asperhofen
+    ["at:vor:475:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 476 Herzogenburg - Traismauer
+    ["at:vor:476:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 477 Herzogenburg - Adletzberg
+    ["at:vor:477:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 479 Traismauer - Furth/Göttweig
+    ["at:vor:479:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 480 St. Pölten - Herzogenburg - Traismauer
+    ["at:vor:480:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 481 St. Pölten - Statzendorf - Unterwölbling
+    ["at:vor:481:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 482 St. Pölten - Unterwölbling
+    ["at:vor:482:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 483 St. Pölten - Karlstetten - Gansbach - Aggsbach
+    ["at:vor:483:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 484 St. Pölten - Wimpassing - Prinzersdorf
+    ["at:vor:484:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 485 St. Pölten - Prinzersdorf - Großsierning
+    ["at:vor:485:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 486 Krems - Höbenbach - Paudorf
+    ["at:vor:486:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 487 Krems - Furth - Paudorf - Herzogenburg
+    ["at:vor:487:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 488 Krems - Paudorf - Statzendorf
+    ["at:vor:488:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 489 Krems - Gansbach - Loosdorf
+    ["at:vor:489:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 490 St. Pölten - Harland - Perschenegg
+    ["at:vor:490:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 491 Pottenbrunn - St. Pölten
+    ["at:vor:491:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 500 Wien Floridsdorf - Schrick - Mistelbach
+    ["at:vor:500:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 501 Wien Floridsdorf - Hagenbrunn - Wolkersdorf
+    ["at:vor:501:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 502 Wien Floridsdorf - Seyring - Wolkersdorf
+    ["at:vor:502:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p G3 G3 Gratis Shuttle: Floridsdorf => G3
     ["at:vor:503:"] = { color = 0x4B270D, text_color = 0xFFFFFF },
+    -- r 505 Wien Floridsdorf - Wolkersdorf - Zistersdorf
+    ["at:vor:505:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 510 Wien Stammersdorf - Gerasdorf - Wien Leopoldau
+    ["at:vor:510:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 511 Wien Süßenbrunn - Gerasdorf
+    ["at:vor:511:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 512 Kapellerfeld - Gerasdorf bei Wien
+    ["at:vor:512:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 513 Gerasdorf bei Wien - Föhrenhain
+    ["at:vor:513:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 514 Wolkersdorf - Neubau bei Ladendorf
+    ["at:vor:514:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 515 Wolkersdorf - Wolfpassing - Mistelbach
+    ["at:vor:515:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 516 Wolkersdorf Bahnhof - Wolkersdorf IZ
+    ["at:vor:516:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 520 Wien Aderklaaer Straße - Deutsch Wagram - Kollnbrunn
+    ["at:vor:520:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 521 Deutsch Wagram - Strasshof - Gänserndorf
+    ["at:vor:521:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 522 Deutsch Wagram - Aderklaa
+    ["at:vor:522:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 523 Strasshof - Silberwald Baustellenfahrplan
+    ["at:vor:523:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 524 Strasshof - Gänserndorf Süd - Gänserndorf
+    ["at:vor:524:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 525 Stadtverkehr Gänserndorf
+    ["at:vor:525:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 526 Gänserndorf - Angern an der March
+    ["at:vor:526:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 527 Angern an der March - Ollersdorf - Stillfried
+    ["at:vor:527:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 528 Gänserndorf - Weikendorf - Markthof
+    ["at:vor:528:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 530 Bus 530: Igls Patscherkofel => Innsbruck DEZ/EKZ
     ["at:vor:530:"] = { color = 0xFCD600, text_color = 0xFFFFFF },
+    -- r 531 Wolkersdorf - Gänserndorf
+    ["at:vor:531:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 532 Strasshof - Schönkirchen - Matzen Baustellenfahrplan
+    ["at:vor:532:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 534 Gänserndorf - Zistersdorf
+    ["at:vor:534:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 535 Gänserndorf - Schönkirchen - Kollnbrunn - Mistelbach
+    ["at:vor:5351:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 535 Gänserndorf - Schönkirchen - Kollnbrunn - Mistelbach
+    ["at:vor:535:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 536 Gänserndorf - Spannberg - Dürnkrut
+    ["at:vor:536:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 537 Gänserndorf - Ebenthal - Dürnkrut
+    ["at:vor:537:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 540 Wien Hausfeldstraße - Schloßhof
+    ["at:vor:540:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 541 Siebenbrunn - Leopoldsdorf - Haringsee - Lassee
+    ["at:vor:541:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 542 Marchegg - Marchegg Bahnhof - Breitensee
+    ["at:vor:542:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 545 Gänserndorf - Orth/Donau
+    ["at:vor:545:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 546 Gänserndorf - Lassee - Stopfenreuth
+    ["at:vor:546:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 550 Wien Aspernstraße - Orth/Donau - Hainburg/Donau
+    ["at:vor:550:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 551 Groß-Enzersdorf - Raasdorf - Gänserndorf
+    ["at:vor:551:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 552 Groß-Enzersdorf - Orth/Donau - Stopfenreuth
+    ["at:vor:552:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 553 Groß-Enzersdorf - Oberhausen - Schönau - Orth/Donau
+    ["at:vor:553:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 554 Deutsch-Wagram - Orth/Donau
+    ["at:vor:554:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 560 Mistelbach - Poysdorf - Bernhardsthal
+    ["at:vor:560:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 561 Mistelbach - Großkrut - Hohenau/March - Rabensburg
+    ["at:vor:561:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 562 Mistelbach - Neusiedl an der Zaya - Hohenau/March
+    ["at:vor:562:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 563 Mistelbach - Zistersdorf - Drösing
+    ["at:vor:563:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 564 Mistelbach - Zistersdorf - Dürnkrut - Drösing
+    ["at:vor:564:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 565 Mistelbach - Niedersulz - Dürnkrut
+    ["at:vor:565:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 566 Mistelbach - Großkrut - Bernhardsthal
+    ["at:vor:566:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 567 Mistelbach - Neusiedl an der Zaya - Zistersdorf
+    ["at:vor:567:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 568 Poysdorf - Zistersdorf
+    ["at:vor:568:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 569 Hohenau an der March - Großkrut - Poysdorf
+    ["at:vor:569:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 570 Eibesthal - Mistelbach
+    ["at:vor:570:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 571 Bad Pirawarth / Martinsdorf - Gaweinstal - Mistelbach
+    ["at:vor:571:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 572 Mistelbach - Ladendorf - Ernstbrunn
+    ["at:vor:572:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 573 Altlichtenwarth - Mistelbach - Hollabrunn
+    ["at:vor:573:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 580 Poysdorf - Drasenhofen - Laa an der Thaya
+    ["at:vor:580:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 581 Poysdorf - Altruppersdorf - Laa an der Thaya
+    ["at:vor:581:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 582 Poysdorf - Falkenstein - Laa an der Thaya
+    ["at:vor:582:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 583 Poysdorf - Staatz - Laa an der Thaya
+    ["at:vor:583:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 584 Waltersdorf bei Staatz - Laa an der Thaya
+    ["at:vor:584:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 585 Hausbrunn - Poysdorf - Laa an der Thaya
+    ["at:vor:585:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 586 Gaubitsch - Hagendorf - Frättingsdorf
+    ["at:vor:586:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 587 Ungerndorf - Loosdorf/Staatz - Frättingsdorf
+    ["at:vor:587:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 588 Mistelbach  - Frättingsdorf - Laa an der Thaya
+    ["at:vor:588:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 589 Mistelbach - Asparn an der Zaya - Stronsdorf
+    ["at:vor:589:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 590 Mistelbach  - Pyhra bei Gnadendorf - Laa an der Thaya
+    ["at:vor:590:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 591 Laa an der Thaya - Unterstinkenbrunn - Stronsdorf
+    ["at:vor:591:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 592 Stronsdorf - Zwingendorf
+    ["at:vor:592:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 593 Laa an der Thaya - Hanfthal
+    ["at:vor:593:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 594 Kammersdorf - Laa/Thaya - Staatz - Poysdorf
+    ["at:vor:594:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 600 Amstetten - Viehdorf - Neustadtl/Donau
+    ["at:vor:600:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 601 Neustadtl/Donau Volksschule - Matzenwinkel
+    ["at:vor:601:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 609 St. Peter/Au - Aschbach - Amstetten
+    ["at:vor:609:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 611 Aschbach - Oed bei Amstetten
+    ["at:vor:611:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 612 Amstetten - Zeillern - Mauer - Amstetten
+    ["at:vor:612:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 613 Amstetten - Wallsee - Strengberg - St. Valentin
+    ["at:vor:613:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 615 Amstetten - Ardagger Schulen - Stephanshart
+    ["at:vor:615:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 616 St. Valentin - St.Pantaleon - Ennsdorf - Enns
+    ["at:vor:616:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 617 Langenhart - St. Valentin - Klein-Erla
+    ["at:vor:617:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 618 Herzograd - St.Valentin - Erla
+    ["at:vor:618:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 619 St. Valentin - Ernsthofen - Neu-Rubring - Aichet - Pyburg
+    ["at:vor:619:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 620 Steyr - Haidershofen
+    ["at:vor:620:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 621 Rufbus Stadt Haag Bahnhof - Tierpark
+    ["at:vor:621:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 622 Behamberg - Steyr
+    ["at:vor:622:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 623 Steyr - Vestenthal - Haag
+    ["at:vor:623:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 624 Stadt Haag - Seitenstetten
+    ["at:vor:624:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 625 Steyr - Behamberg - Weistrach - Seitenstetten -  St. Peter/Au
+    ["at:vor:625:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 626 Steyr - Ertl
+    ["at:vor:626:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 630 Pichl - Weyer - Gaflenz - Waidhofen/Ybbs
+    ["at:vor:630:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 631 Maria Neustift - Redtenbachtal - Waidhofen/Ybbs
+    ["at:vor:631:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 632 Waidhofen/Ybbs - Nellingbachtal - St.Peter/Au
+    ["at:vor:632:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 633 Waidhofen/Ybbs - Trefflingtal - Seitenstetten - Biberbach
+    ["at:vor:633:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 640 Waidhofen/Ybbs - Lunz am See
+    ["at:vor:640:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 641 Göstling - St. Georgen/Reith - Opponitz
+    ["at:vor:641:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 642 Hollenstein/Ybbs - Weyer/Enns
+    ["at:vor:642:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 643 Göstling/Ybbs - Hochkar - Palfau
+    ["at:vor:643:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 644 Amstetten - Ferschnitz
+    ["at:vor:644:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 645 Waidhofen/Ybbs - Amstetten
+    ["at:vor:645:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 646 Euratsfeld - Mauer/Amstetten
+    ["at:vor:646:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 647 Kematen/Ybbs - Wallmersdorf - Allhartsberg / Hilm bei Kematen
+    ["at:vor:647:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 648 Amstetten - Neuhofen/Ybbs
+    ["at:vor:648:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 6508 Fürstenfeld - Stegersbach - Markt Allhau
+    ["at:vor:6508:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 650 Waidhofen/Ybbs - Gresten - Scheibbs
+    ["at:vor:650:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 651 Waidhofen/Ybbs - Randegg
+    ["at:vor:651:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 652 Kirchberg/Pielach - Hollenstein/Ybbs
+    ["at:vor:652:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 653 Lackenhof - Lunz am See - Mitterau/Gaming
+    ["at:vor:653:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 654 Scheibbs - Laubenbachmühle
+    ["at:vor:654:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 655 Scheibbs - Göstling/Ybbs
+    ["at:vor:655:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 660 Gaming - Gresten - Euratsfeld - Amstetten
+    ["at:vor:660:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 661 Schülerverkehr Krankenhausstraße - Elsa-Brandström-Straße
+    ["at:vor:661:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 662 Schülerverkehr Parksiedlung - Pestalozzistraße
+    ["at:vor:662:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 663 Schülerverkehr Greimpersdorf - BH
+    ["at:vor:663:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 664 Schülerverkehr Waldheim - VS Allersdorf
+    ["at:vor:664:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 665 Scheibbs - Amstetten
+    ["at:vor:665:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 667 Wieselburg - Gresten
+    ["at:vor:667:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 668 Amstetten - Ybbs/Donau
+    ["at:vor:668:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 669 Eisenstadt - Wulkaprodersdorf - Mattersburg
+    ["at:vor:669:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 670 Pöchlarn - Erlauf - Wieselburg
+    ["at:vor:670:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 671 Erlauf - Pöchlarn - Melk
+    ["at:vor:671:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 672 Pöchlarn - Krummnußbaum - Erlauf
+    ["at:vor:672:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 674 Gumprechtsfelden - Wieselburg
+    ["at:vor:674:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 675 St. Georgen/Leys - Wieselburg
+    ["at:vor:675:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 678 Ruprechtshofen - Naspern
+    ["at:vor:678:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 679 Scheibbs - Texing - St. Pölten
+    ["at:vor:679:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 680 Scheibbs - Ruprechtshofen - St. Pölten
+    ["at:vor:680:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 682 Baulanden - Loosdorf/Melk
+    ["at:vor:682:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 683 Kilb - Melk - Ruprechtshofen
+    ["at:vor:683:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 685 Kilb - Ruprechtshofen - Wieselburg
+    ["at:vor:685:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 686 Melk - Mank - Purgstall/Erlauf
+    ["at:vor:686:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 687 St. Pölten - Loipersdorf bei St. Pölten
+    ["at:vor:687:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 688 St. Pölten - Mannersdorf/Ober-Grafendorf
+    ["at:vor:688:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 689 Ober-Grafendorf - Kammerhof - Rennersdorf
+    ["at:vor:689:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 690 St. Pölten - Türnitz
+    ["at:vor:690:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 691 Lilienfeld - Kernhof Baustellenfahrplan
+    ["at:vor:691:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 692 Lilienfeld - Ramsau/Hainfeld
+    ["at:vor:692:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 693 Kleinzell - Hainfeld
+    ["at:vor:693:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 694 Traisen / Rotheau - Eschenau
+    ["at:vor:694:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 695 Traisen - Türnitz - St. Aegyd am Neuwalde
+    ["at:vor:695:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Eisenstadt 1 Georg: Eisenstadt Bahnhof => St. Georgen am Leithagebirge => Eisenstadt Bahnhof
     ["at:vor:7001:"] = { color = 0xF9A21C, text_color = 0xFFFFFF },
     -- p 2 Stadtbus Eisenstadt 2 Vitus: Eisenstadt Bahnhof => Kleinhöflein => Eisenstadt Bahnhof
@@ -1029,6 +1807,24 @@ local colors_by_id = {
     ["at:vor:7003:"] = { color = 0x00AAB9, text_color = 0xFFFFFF },
     -- p 4 Stadtbus Eisenstadt 4 Fanny: Eisenstadt Bahnhof => St. Georgen am Leithagebirge => Kleinhöflein => Eisenstadt Bahnhof
     ["at:vor:7004:"] = { color = 0x652D91, text_color = 0xFFFFFF },
+    -- r 700 Krems/Donau - Senftenberg - Rastenfeld - Zwettl
+    ["at:vor:700:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Stadtbus Ybbs/Donau Ybbs/Donau - Sarling - Säusenstein
+    ["at:vor:7011:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 2 Stadtbus Ybbs/Donau Ybbs/Donau - Neumarkt/Ybbs
+    ["at:vor:7012:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 3 Stadtbus Ybbs/Donau Ybbs/Donau Busbahnhof - Bahnhof
+    ["at:vor:7013:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 4 Stadtbus Ybbs/Donau Ybbs/Donau - Persenbeug - Gottsdorf
+    ["at:vor:7014:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 5 Stadtbus Ybbs/Donau Ybbs/Donau - Wieselburg
+    ["at:vor:7015:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 6 Stadtbus Ybbs/Donau Ybbs/Donau - St. Martin/Ybbsfelde
+    ["at:vor:7016:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7 Stadtbus Ybbs/Donau Ybbs/Donau Bahnhof - Säusenstein
+    ["at:vor:7017:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 701 Krems/Donau - Weinzierl am Walde - Albrechtsberg - Kottes
+    ["at:vor:701:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 1A Stadtbus Wiener Neustadt 1A: Zillingdorf => Hans-Barwitzius-Volksschule
     ["at:vor:7021:"] = { color = 0xED1C24, text_color = 0xFFFFFF },
     -- j 2A Stadtbus Wiener Neustadt 2A: Wöllersdorf => Feuerwerksanstalt
@@ -1047,6 +1843,8 @@ local colors_by_id = {
     ["at:vor:7028:"] = { color = 0xDB579B, text_color = 0xFFFFFF },
     -- j 9 Stadtbus Wiener Neustadt 9: Winzendorf Schulen => Hauptbahnhof
     ["at:vor:7029:"] = { color = 0x605D53, text_color = 0xFFFFFF },
+    -- r 702 Gföhl - Lichtenau - Kottes
+    ["at:vor:702:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 10 Stadtbus Wiener Neustadt 10: Leithakoloniestraße => Lanzenkirchen Schulgasse
     ["at:vor:7030:"] = { color = 0xA3860F, text_color = 0xFFFFFF },
     -- j 1B Stadtbus Wiener Neustadt 1B: Zillingdorf => Hauptbahnhof
@@ -1055,16 +1853,470 @@ local colors_by_id = {
     ["at:vor:7032:"] = { color = 0xF3C716, text_color = 0xFFFFFF },
     -- j 5B Stadtbus Wiener Neustadt 5B: Zehnergasse/Gymnasium => Fischapark => Francesco-Solimena-Weg => Kleegasse
     ["at:vor:7035:"] = { color = 0x8B5D3B, text_color = 0xFFFFFF },
+    -- r 703 Krems/Donau - Grafenwörth - Straß/Straßertale - Mühlbach
+    ["at:vor:703:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 11 Stadtbus Wiener Neustadt 11: Waldschule => Militärakademie
     ["at:vor:7040:"] = { color = 0xF98506, text_color = 0xFFFFFF },
+    -- r 704 Krems/Donau - Senftenberg - Gföhl / Ottenschlag
+    ["at:vor:704:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 705 Rastenfeld - Langenlois
+    ["at:vor:705:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p ZF Bus ZF: Rundkurs Zentralfriedhof
     ["at:vor:7071:"] = { color = 0x265A98, text_color = 0xFFFFFF },
+    -- r AIT-Shuttle AIT-Shuttle
+    ["at:vor:7072:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r Schibus Semmering Bahnhof - Skilift Semmering Shuttle Bus
+    ["at:vor:7073:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 707 Krems/Donau - Gföhl - Krumau/Kamp - Idolsberg
+    ["at:vor:707:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 708 Krems/Donau Bahnhof - HAK / BRG - Koloman-Wallisch-Straße
+    ["at:vor:708:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 1 Mattersburger Autobus 1: Mattersburg Brunnenplatz => Tillbrunngasse => Berufsschule => Mattersburg Brunnenplatz
     ["at:vor:7091:"] = { color = 0xEB6617, text_color = 0xFFFFFF },
     -- j 2 Mattersburger Autobus 2: Mattersburg Brunnenplatz => Berufsschule => Walbersdorf => Mattersburg Brunnenplatz
     ["at:vor:7092:"] = { color = 0x5B4B8C, text_color = 0xFFFFFF },
+    -- r B1 Güssing - Eltendorf - Rudersdorf - Graz
+    ["at:vor:7101:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B2 Pinkafeld - Oberschützen - Oberwart - Graz
+    ["at:vor:7102:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B3 Stegersbach - Rudersdorf
+    ["at:vor:7103:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B4 Pinkafeld - Loipersdorf/Bgld. - Markt Allhau
+    ["at:vor:7104:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B7 Güssing - Steingraben - Kukmirn - Eltendorf
+    ["at:vor:7107:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B9 Oberwart - Pinkafeld - Wiener Neustadt
+    ["at:vor:7109:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 710 Krems/Donau - Lengenfeld - Langenlois
+    ["at:vor:710:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B10 Parndorf Meierhofgasse - Bahnhof - Outletcenter - Bahnhof - Meierhofgasse
+    ["at:vor:7110:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B11 Weppersdorf - Oberpullendorf - Bernstein - Oberwart
+    ["at:vor:7111:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B12 Deutschkreutz - Pinkafeld
+    ["at:vor:7112:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 711 Langenlois - Schiltern über Kronsegg
+    ["at:vor:711:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B02 Heiligenbrunn - Kohfidisch
+    ["at:vor:7122:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B06 Pinkafeld - Oberschützen - Bad Tatzmannsdorf
+    ["at:vor:7126:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 712 Langenlois - Schiltern - Schiltingeramt - Kronsegg über Reith
+    ["at:vor:712:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 713 Langenlois - Schönberg/Kamp - See bei Schönberg
+    ["at:vor:713:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 714 Langenlois - Kammern
+    ["at:vor:714:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 715 Krems - Weißenkirchen - Spitz - Melk
+    ["at:vor:715:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 717 Krems Bahnhof - Krems Donau-Universität
+    ["at:vor:717:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 718 Spitz/Donau - Mühldorf - Raxendorf - Pöggstall
+    ["at:vor:718:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 719 St. Pölten - Melk - Spitz/Donau - Ottenschlag
+    ["at:vor:719:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7200 Frauenkirchen - Pinkafeld - Oberwart - Stegersbach
+    ["at:vor:7200:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 720 Krems - Rossatz - Schönbühel - Melk
+    ["at:vor:720:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 725 Zwettl - Gmünd
+    ["at:vor:725:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 726 Zwettl - Schrems
+    ["at:vor:726:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 727 Großkainraths - Vitis - Zwettl
+    ["at:vor:727:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 728 Zwettl - Schwarzenau - Waidhofen/Thaya
+    ["at:vor:728:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 729 Zwettl - Allentsteig - Göpfritz/Wild
+    ["at:vor:729:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 730 Zwettl - Brand/Waldhausen - Waldhausen
+    ["at:vor:730:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 731 Zwettl - Obernondorf - Waldhausen
+    ["at:vor:731:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 732 Zwettl - Ottenschlag
+    ["at:vor:732:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 733 Ottenschlag - Gutenbrunn - Bärnkopf
+    ["at:vor:733:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 734 Ottenschlag - Schönbach
+    ["at:vor:734:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 735 Zwettl - Rappottenstein - Arbesbach - Schönbach
+    ["at:vor:735:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 736 Zwettl - Rappottenstein - Groß Gerungs - Karlstift
+    ["at:vor:736:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 737 Zwettl - Lilienfeld
+    ["at:vor:737:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 738 Zwettl - Großschönau - Groß Gerungs
+    ["at:vor:738:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 739 Zwettl - Weitra über Schweiggers und Großschönau
+    ["at:vor:739:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 740 Gmünd - Litschau
+    ["at:vor:740:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 741 Gmünd - Schrems - Heidenreichstein - Litschau
+    ["at:vor:741:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 742 Schrems - Alt-Nagelberg
+    ["at:vor:742:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 743 Heidenreichstein - Thaures - Wielings - Eisgarn
+    ["at:vor:743:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 744 Litschau - Nová Bystrice
+    ["at:vor:744:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 745 Litschau - Haugschlag - Reingers
+    ["at:vor:745:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 746 Litschau - Reitzenschlag - Reingers
+    ["at:vor:746:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 747 Karlstein/Thaya - Göpfritz/Wild - St. Pölten
+    ["at:vor:747:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 749 Weitra - Gmünd - Hollabrunn
+    ["at:vor:749:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 750 Gmünd - Schwarzenau - Allentsteig
+    ["at:vor:750:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 751 Schrems - Kirchberg/Walde
+    ["at:vor:751:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 752 Gmünd - Kirchberg/Walde - Süßenbach
+    ["at:vor:752:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 753 Gmünd - Zehenthöf
+    ["at:vor:753:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 754 Groß Gerungs - Zwettl - Gars am Kamp - Hollabrunn
+    ["at:vor:754:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 755 Gmünd - Dietmanns - Höhenberg
+    ["at:vor:755:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 756 Weitra - Groß Gerungs über Großschönau
+    ["at:vor:756:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 757 Gmünd - Weitra - Groß Gerungs über St. Martin
+    ["at:vor:757:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 758 Gmünd - Weitra - Bad Großpertholz - Freistadt
+    ["at:vor:758:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 759 Gmünd - Weitra - Moorbad Harbach
+    ["at:vor:759:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 760 Göpfritz/Wild - Waidhofen/Thaya - Heidenreichstein - Litschau
+    ["at:vor:760:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 761 Waidhofen/Thaya - Thaya - Gastern - Kautzen
+    ["at:vor:761:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 762 Waidhofen/Thaya - Thaya - Waldkirchen/Thaya - Kautzen
+    ["at:vor:762:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 763 Dobersberg - Reinolz - Waldkirchen/Thaya
+    ["at:vor:763:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 765 Karlstein/Thaya - Dobersberg
+    ["at:vor:765:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 766 Waidhofen/Thaya - Karlstein - Raabs/Thaya - Weikertschlag
+    ["at:vor:766:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 767 Waidhofen/Thaya - Karlstein - Raabs/Thaya - Drosendorf
+    ["at:vor:767:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 768 Heidenreichstein - Horn - Hollabrunn
+    ["at:vor:768:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 769 Waidhofen/Thaya - Großsiegharts - Irnfritz
+    ["at:vor:769:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 770 Waidhofen/Thaya - Allentsteig
+    ["at:vor:770:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Ybbs/Donau - Sarling - Säusenstein
+    ["at:vor:7711:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 2 Ybbs/Donau - Neumarkt/Ybbs
+    ["at:vor:7712:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 3 Ybbs/Donau Busbahnhof - Ybbs/Donau Bahnhof
+    ["at:vor:7713:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 4 Ybbs/Donau - Persenbeug - Gottsdorf
+    ["at:vor:7714:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 5 Ybbs/Donau - Petzenkirchen - Wieselburg
+    ["at:vor:7715:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 6 Ybbs/Donau - St. Martin/Ybbsfeld
+    ["at:vor:7716:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7 Ybbs/Donau - Säusenstein
+    ["at:vor:7717:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 771 Waidhofen/Thaya - Kleinreichenbach
+    ["at:vor:771:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 772 Schwarzenau - Allentsteig
+    ["at:vor:772:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 774 Edelhof - Vitis - Waidhofen/Thaya
+    ["at:vor:774:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 775 Waidhofen/Thaya - Vitis - Schrems
+    ["at:vor:775:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 776 Vitis - Eulenbach
+    ["at:vor:776:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 777 Haslau - Heidenreichstein
+    ["at:vor:777:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 778 Waidhofen/Thaya - Pfaffenschlag/Waidhofen über Brunn/Waidhofen
+    ["at:vor:778:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 779 Waidhofen/Thaya - Pfaffenschlag/Waidhofen über Kleingöpfritz
+    ["at:vor:779:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 780 Ybbs/Donau - Ysper - Pöggstall - Ottenschlag - Zwettl über Eben
+    ["at:vor:780:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 781 Amstetten - Ybbs/Donau - Ysper - Pöggstall über Ysperdorf
+    ["at:vor:781:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 782 Großes Yspertal - Nöchling
+    ["at:vor:782:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 783 Ysper - St. Oswald/Ysper - Fünflingeramt
+    ["at:vor:783:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 784 Ysper - Yspertal - Altenmarkt
+    ["at:vor:784:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 785 Ybbs/Donau - Persenbeug - Klein Pöchlarn - Pöchlarn
+    ["at:vor:785:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 788 Pöchlarn - Maria Taferl - Artstetten
+    ["at:vor:788:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 789 Pöchlarn - Artstetten - Unterbierbaum
+    ["at:vor:789:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7900 Pinkafeld - Oberwart - Güssing - Jennersdorf
+    ["at:vor:7901:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7903 Oberwart - Stegersbach - Güssing
+    ["at:vor:7903:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7904 Lockenhaus - Bernstein - Oberwart - Pinkafeld
+    ["at:vor:7904:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7905 Oberwart - Pinkafeld - Markt Allhau - Wolfau
+    ["at:vor:7905:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7906 Stadtverkehr Pinkafeld
+    ["at:vor:7906:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7907 Güssing - Oberwart
+    ["at:vor:7907:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7908 Oberwart - Kohfidisch - Deutsch Schützen - Strem
+    ["at:vor:7908:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7909 Bad Tatzmannsdorf - Pinkafeld - Oberschützen
+    ["at:vor:7909:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 790 Melk - Pöggstall
+    ["at:vor:790:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7910 Oberschützen - Oberwart - Podler / Rechnitz
+    ["at:vor:7910:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7912 Oberschützen - Oberwart - Stegersbach / Neuberg
+    ["at:vor:7912:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 913 Schattendorf - Mattersburg - Katzelsdorf / Frohsdorf
+    ["at:vor:7913:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7914 Oberwart - Jabing - Großpetersdorf / Kohfidisch - Badersdorf
+    ["at:vor:7914:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7942 Hochart - Pinkafeld - Oberschützen#10
+    ["at:vor:7915:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7916 Oberschützen - Oberwart - Glashütten
+    ["at:vor:7916:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7917 Glashütten - Lockenhaus
+    ["at:vor:7917:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7919 Oberschützen - Pinkafeld - Oberwart
+    ["at:vor:7919:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 791 Melk - Pöchlarn - Münichreith am Ostrong - Pöggstall
+    ["at:vor:791:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7920 Dreihütten - Grodnau / Schmiedrait - Oberwart
+    ["at:vor:7920:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7921 St. Kathrein/Burgenland - Güssing
+    ["at:vor:7921:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7922 Oberwart - Stadtschlaining - Rechnitz
+    ["at:vor:7922:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7923 Ortsverkehr Rechnitz
+    ["at:vor:7923:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7924 Stegersbach - Hackerberg - Stegersbach
+    ["at:vor:7924:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7926 Ortsverkehr Stegersbach
+    ["at:vor:7926:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7929 Güssing - St. Michael im Burgenland
+    ["at:vor:7929:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 792 Pöggstall - Seiterndorf
+    ["at:vor:792:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7931 Burgau - Stegersbach - Güssing - Güttenbach
+    ["at:vor:7931:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7932 Neuhaus - Mischendorf - Kohfidisch
+    ["at:vor:7932:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7933 Podler - Miedlingsdorf - Großpetersdorf
+    ["at:vor:7933:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7934 Oberwart - Pinkafeld - Pinggau - Friedberg
+    ["at:vor:7934:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7935 Ortsverkehr Großpetersdorf
+    ["at:vor:7935:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7936 Rudersdorf - Limbach
+    ["at:vor:7936:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7937 Mühlgraben - St. Martin/Raab - Jennersdorf
+    ["at:vor:7937:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7938 Wolfau - Kemeten - Markt Allhau - Wolfau
+    ["at:vor:7938:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 793 Pöggstall - Gutenbrunn - Schönbach
+    ["at:vor:793:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7940 Wien Hauptbahnhof - Weppersdorf - Nikitsch
+    ["at:vor:7940:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7941 Wiener Neustadt - Mattersburg - Forchtenstein - Langental
+    ["at:vor:7941:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 794 Kottes - Ottenschlag
+    ["at:vor:794:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 795 Kottes - Weinzierl am Walde Baustellenfahrplan
+    ["at:vor:795:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 797 Melk - Maria Laach - Benking
+    ["at:vor:797:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7990 Oberpullendorf - Oberwart
+    ["at:vor:7990:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7993 Eisenstadt - Mattersburg - Forchtenstein - Rosalia
+    ["at:vor:7993:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7995 Eisenstadt - Oberpullendorf - Langental
+    ["at:vor:7995:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 7998 Bus 7998: Oberpullendorf Gymnasium => Stoob-Süd B50
     ["at:vor:7998:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- r 799 Melk Bahnhof - Melk Birago-Kaserne
+    ["at:vor:799:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 800 Tulln - Hausleiten - Göllersdorf - Hollabrunn
+    ["at:vor:800:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 801 Großweikersdorf - Absdorf
+    ["at:vor:801:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 802 Unterparschenbrunn - Niederrußbach - Großweikersdorf
+    ["at:vor:802:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 803 Hollabrunn - Großweikersdorf - Kirchberg/Wagram
+    ["at:vor:803:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 804 Hollabrunn - Ziersdorf - Hohenwarth - Ravelsbach - Maissau
+    ["at:vor:804:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 805 Hollabrunn - Ziersdorf - Großweikersdorf - Hollabrunn
+    ["at:vor:805:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 806 Hollabrunn - Ziersdorf - Straß - Krems/Donau
+    ["at:vor:806:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 807 Großriedenthal - Eggendorf/Walde - Ravelsbach
+    ["at:vor:807:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 810 Großmugl - Hollabrunn
+    ["at:vor:810:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 811 Hollabrunn - Stronsdorf - Mistelbach
+    ["at:vor:811:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 812 Hollabrunn - Wullersdorf - Mailberg - Großharras
+    ["at:vor:812:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 813 Laa/Thaya - Großkadolz - Jetzelsdorf - Hollabrunn
+    ["at:vor:813:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 814 Hollabrunn - Roseldorf - Zellerndorf - Retz
+    ["at:vor:814:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 815 Retz - Jetzelsdorf - Haugsdorf
+    ["at:vor:815:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 816 Hollabrunn - Röschitz - Eggenburg
+    ["at:vor:816:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 817 Straning - Limberg-Maissau - Maissau
+    ["at:vor:817:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 818 Göllersdorf - Porrau
+    ["at:vor:818:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 825 Stockerau - Oberzögersdorf
+    ["at:vor:825:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 826 Stockerau - Bruderndorf - Maisbirbaum
+    ["at:vor:826:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 827 Stockerau - Großmugl - Merkersdorf - Ernstbrunn
+    ["at:vor:827:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 828 Stockerau - Niederrußbach - Hollabrunn
+    ["at:vor:828:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 829 Stockerau - Sierndorf - Hollabrunn
+    ["at:vor:829:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 830 Stockerau - Spillern - Korneuburg
+    ["at:vor:830:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 831 Stockerau - Leobendorf - Korneuburg
+    ["at:vor:831:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 832 Korneuburg - Leobendorf - Tresdorf - Unterrohrbach
+    ["at:vor:832:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 840 Stockerau - Unterparschenbrunn
+    ["at:vor:840:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 841 Stockerau - Absdorf-Hippersdorf
+    ["at:vor:841:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 842 Hausleiten - Stetteldorf - Hausleiten
+    ["at:vor:842:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 850 Floridsdorf - Langenzersdorf - Korneuburg
+    ["at:vor:850:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 853 Korneuburg - Hagenbrunn - Enzersfeld
+    ["at:vor:853:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 856 Bisamberg Bhf. - Langenzersdorf Bhf. - Dirnelstraße
+    ["at:vor:856:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 857 Korneuburg - Großrußbach - Ernstbrunn - Pyhra
+    ["at:vor:857:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 858 Korneuburg - Ernstbrunn - Naglern
+    ["at:vor:858:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 860 Utzenlaa - Hippersdorf - Kirchberg/Wagram
+    ["at:vor:860:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 861 Tulln - Kirchberg/Wagram - Großriedenthal
+    ["at:vor:861:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 862 Fels/Wagram - Grafenwörth - Jettsdorf
+    ["at:vor:862:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 863 Grafenwörth - Sachsendorf - Kirchberg/Wagram
+    ["at:vor:863:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 864 Kirchberg/Wagram - Fels/Wagram - Ronthal
+    ["at:vor:864:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 870 Hollabrunn - Zellerndorf - Rohrendorf
+    ["at:vor:870:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 871 Horn - Sigmundsherberg - Pulkau - Weitersfeld
+    ["at:vor:871:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 872 Horn - Sigmundsherberg - Eggenburg
+    ["at:vor:872:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 873 Horn - Sigmundsherberg - Jetzelsdorf - Haugsdorf
+    ["at:vor:873:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 875 Retz - Drosendorf
+    ["at:vor:875:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 876 Retz - Merkersdorf - Hardegg - Horn
+    ["at:vor:876:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 877 Retz - Pulkau - Zellerndorf - Retz
+    ["at:vor:877:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 878 Eggenburg - Röschitz - Pulkau - Retz
+    ["at:vor:878:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 880 Horn - Göpfritz/Wild - Allentsteig
+    ["at:vor:880:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 881 Raabs/Thaya - Göpfritz/Wild
+    ["at:vor:881:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 882 Horn - Irnfritz - Raabs/Thaya
+    ["at:vor:882:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 883 Brunn/Wild - Irnfritz - Schweinburg
+    ["at:vor:883:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 884 Horn - Irnfritz - Sabatenreith
+    ["at:vor:884:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 885 Horn - Irnfritz
+    ["at:vor:885:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 886 Horn - Drosendorf
+    ["at:vor:886:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 887 Geras - Hötzelsdorf
+    ["at:vor:887:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 888 Horn - Retz
+    ["at:vor:888:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 889 Horn - Eggenburg über Kühnring / Kleinmeiseldorf
+    ["at:vor:889:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 890 Horn - Eggenburg über Burgschleinitz
+    ["at:vor:890:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 891 Horn - Eggenburg über Harmannsdorf
+    ["at:vor:891:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 892 Eggenburg - Hollabrunn
+    ["at:vor:892:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 893 Horn - Stockerau
+    ["at:vor:893:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 894 Horn - Ravelsbach
+    ["at:vor:894:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 895 Horn - Gars/Kamp - St. Leonhard am Hornerwald Baustellenfahrplan
+    ["at:vor:895:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 896 Horn - Franzen
+    ["at:vor:896:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 898 Horn - Altenburg/Horn - Neupölla - Rastenfeld
+    ["at:vor:898:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 901 Bratislava - Wolfsthal - Hainburg/Donau
+    ["at:vor:9011:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 901 Eisenstadt - Schattendorf - Mattersburg
+    ["at:vor:901:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 902 Eisenstadt - Ebenfurth - Wr. Neustadt
+    ["at:vor:902:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 904 Eisenstadt - Pöttsching - Mattersburg
+    ["at:vor:904:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 905 Siegendorf - Baumgarten - Mattersburg
+    ["at:vor:905:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 906 Eisenstadt / Zagersdorf - Siegendorf
+    ["at:vor:906:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 907 Zillingtal - Neufeld/Leitha
+    ["at:vor:907:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r SEV R56 SEV R56
+    ["at:vor:9115:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B20 Eisenstadt - Neudörfl - Wiener Neustadt Hbf.
+    ["at:vor:912:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B18 Deutschkreutz - Weppersdorf
+    ["at:vor:920:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7925 Stadtverkehr Oberwart Schlaininger Straße - Hauptschule
+    ["at:vor:9251:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7925 Stadtverkehr Oberwart Mineralöl Mayer - Hauptschule#10
+    ["at:vor:9252:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7925 Stadtverkehr Oberwart Hauptplatz - Hauptschule
+    ["at:vor:9253:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7925 Stadtverkehr Oberwart Hauptplatz - Krankenhaus
+    ["at:vor:9254:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7925 Stadtverkehr Oberwart Am Anger - Volksschule#10
+    ["at:vor:9255:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7927 Stadtverkehr Güssing Güssing LFS - Volksschule
+    ["at:vor:9271:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7927 Stadtverkehr Güssing Rosenberg - Schulzentrum
+    ["at:vor:9272:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7927 Stadtverkehr Güssing Bewag - Schulzentrum
+    ["at:vor:9273:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7927 Stadtverkehr Güssing St. Nikolaus - Volksbank
+    ["at:vor:9274:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 93 Linie 93 Bratislava
+    ["at:vor:93:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B16 Rechnitz - Großpetersdorf - Oberwart
+    ["at:vor:960:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r Weihnachtsspielshuttle Reinsberg Shuttlebus Weihnachtsspiel Reinsberg
+    ["at:vor:9650:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r B27 Jennersdorf - Neustift/Güssing - Güssing
+    ["at:vor:990:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Landeck Zentrum => Zams Lochputz
     ["at:vvt:199001:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
