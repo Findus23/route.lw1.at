@@ -138,6 +138,11 @@ def fetch_datasets(access_token: str):
             download_url,
             download_file
         )
+        name_base = download_file.name.split("_gtfs")[-1]
+        for file in gtfs_dir.glob(f"*{name_base}"):
+            if file != download_file:
+                print("deleting", file)
+                file.unlink()
         time.sleep(1)
 
 

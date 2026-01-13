@@ -5,18 +5,26 @@
 local colors_by_id = {
     -- j S1 Schnellbahn S1
     ["1-S1-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S1 Schnellbahn S1
+    ["1-S1-O-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- m S1 S1 Wien
     ["1-S1-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S2 Schnellbahn S2
     ["1-S2-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S2 Schnellbahn S2
+    ["1-S2-O-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- m S2 S2 Wien
     ["1-S2-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S3 Schnellbahn S3
     ["1-S3-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S3 Schnellbahn S3
+    ["1-S3-O-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- m S3 S3 Wien
     ["1-S3-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S4 Schnellbahn S4
     ["1-S4-K-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S4 Schnellbahn S4
+    ["1-S4-O-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- m S4 S4 Wien
     ["1-S4-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- m S40 S40 Wien
@@ -51,11 +59,11 @@ local colors_by_id = {
     ["9-WB2-S-j26-1"] = { color = 0xC4D636, text_color = 0xFFFFFF },
     -- m WBD-E Westbahn WBD-E
     ["9-WBD-E-j26-1"] = { color = 0xC4D636, text_color = 0xFFFFFF },
-    -- j 101 Bus 101: Urnenhain Urfahr => Aichinger
+    -- p 101 Bus 101: Urnenhain Urfahr => Aichinger
     ["at:esg:101:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
     -- j 102 Bus 102: Rudolfstraße => Worathweg
     ["at:esg:102:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
-    -- j 103 Bus 103: Turmstraße => Lißfeld => Turmstraße
+    -- p 103 Bus 103: Turmstraße => Lißfeld => Turmstraße
     ["at:esg:103:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
     -- j 104 Bus 104: Waldesruh <=> Sennweg
     ["at:esg:104:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
@@ -65,7 +73,7 @@ local colors_by_id = {
     ["at:esg:106:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
     -- j 107 Bus 107: Ziegeleistraße => Hatschekstraße
     ["at:esg:107:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
-    -- j 108 Bus 108: Simonystraße => Industriepark Lunzer Straße
+    -- p 108 Bus 108: Simonystraße => Industriepark Lunzer Straße
     ["at:esg:108:"] = { color = 0xDBAF3B, text_color = 0xFFFFFF },
     -- j 11 Bus 11: Sporthalle Leonding <=> Pichlinger See
     ["at:esg:11:"] = { color = 0xFF7D24, text_color = 0xFFFFFF },
@@ -77,41 +85,41 @@ local colors_by_id = {
     ["at:esg:17:"] = { color = 0xFF7D24, text_color = 0xFFFFFF },
     -- j 18 Bus 18: Turmstraße => Stahlwerk
     ["at:esg:18:"] = { color = 0x0072BC, text_color = 0xFFFFFF },
-    -- j 191 Bus 191: Gaumberg => St. Martin
+    -- p 191 Bus 191: Untergaumberg <=> St. Martin
     ["at:esg:191:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
     -- j 192 Bus 192: Stadtplatz Leonding <=> Theatergasse
     ["at:esg:192:"] = { color = 0xE4AE44, text_color = 0xFFFFFF },
     -- p 194 Bus 194: Stadion => Neue Heimat
     ["at:esg:194:"] = { color = 0x51BC4A, text_color = 0xFFFFFF },
-    -- j 19 Bus 19: Fernheizkraftwerk => Pichlinger See
+    -- p 19 Bus 19: Fernheizkraftwerk <=> Pichlinger See
     ["at:esg:19:"] = { color = 0xFC87BF, text_color = 0xFFFFFF },
-    -- j 1 Linie 1: Universität – Auwiesen
+    -- p 1 Linie 1: Universität – Auwiesen
     ["at:esg:1:"] = { color = 0xED3F80, text_color = 0xFFFFFF },
-    -- j 25 Bus 25: Karlhof <=> Oed
-    ["at:esg:25:"] = { color = 0xCF9B2A, text_color = 0xFFFFFF },
+    -- p 25 Bus 25: Karlhof => Oed
+    ["at:esg:25:"] = { color = 0xC59130, text_color = 0xFFFFFF },
     -- j 26 Bus 26: St. Margarethen => Stadion
     ["at:esg:26:"] = { color = 0x0072BC, text_color = 0x0000FF },
-    -- j 27 Bus 27: Fernheizkraftwerk => Chemiepark
+    -- p 27 Bus 27: Fernheizkraftwerk => Chemiepark
     ["at:esg:27:"] = { color = 0x9FCA66, text_color = 0xFFFFFF },
-    -- j 2 Linie 2: Universität – solarCity
+    -- p 2 Linie 2: Universität – solarCity
     ["at:esg:2:"] = { color = 0xC57EB5, text_color = 0xFFFFFF },
     -- j 33 Bus 33: Riesenhof => Pleschinger See
     ["at:esg:33:"] = { color = 0xCD98A5, text_color = 0xFFFFFF },
-    -- j 38 Bus 38: Rudolfstraße => Jäger im Tal
+    -- p 38 Bus 38: Rudolfstraße => Jäger im Tal
     ["at:esg:38:"] = { color = 0xDE7A36, text_color = 0xFFFFFF },
-    -- j 3 Linie 3: Landgutstraße – Trauner Kreuzung
+    -- p 3 Linie 3: Landgutstraße – Trauner Kreuzung
     ["at:esg:3:"] = { color = 0xA1248F, text_color = 0xFFFFFF },
     -- j 41 Bus 41: Hessenplatz <=> Baintwiese
     ["at:esg:41:"] = { color = 0xE52C1A, text_color = 0xFFFFFF },
     -- j 43 Bus 43: Hessenplatz <=> Stadtfriedhof
     ["at:esg:43:"] = { color = 0x52D3F7, text_color = 0xFFFFFF },
-    -- j 45 Bus 45: Stieglbauernstraße ­<=> Hauptbahnhof/Froschberg
+    -- j 45 Bus 45: Stieglbauernstraße ­<=> Froschberg
     ["at:esg:45:"] = { color = 0xE52C1A, text_color = 0xFFFFFF },
     -- j 46 Bus 46: Hafen <=>­ Froschberg
     ["at:esg:46:"] = { color = 0x52D3F7, text_color = 0xFFFFFF },
-    -- j 4 Linie 4: Landgutstraße – Schloss Traun
+    -- p 4 Linie 4: Landgutstraße – Schloss Traun
     ["at:esg:4:"] = { color = 0xC31553, text_color = 0xFFFFFF },
-    -- j 50 Linie 50: Pöstlingberg – Hauptplatz
+    -- p 50 Linie 50: Pöstlingberg – Hauptplatz
     ["at:esg:50:"] = { color = 0x008F4D, text_color = 0xFFFFFF },
     -- j 70 Bus 70: Schiffswerft <=> Stadtfriedhof
     ["at:esg:70:"] = { color = 0x964C29, text_color = 0xFFFFFF },
@@ -123,7 +131,7 @@ local colors_by_id = {
     ["at:esg:73:"] = { color = 0x964C29, text_color = 0xFFFFFF },
     -- j 77 Bus 77: Hauptbahnhof => Universität
     ["at:esg:77:"] = { color = 0x964C29, text_color = 0xFFFFFF },
-    -- j N82 Linie N82: Universität – solarCity
+    -- p N82 Linie N82: Universität – solarCity
     ["at:esg:82:"] = { color = 0xC57EB5, text_color = 0xFFFFFF },
     -- j N83 Bus N83: Hafenportal => Neue Heimat
     ["at:esg:83:"] = { color = 0x0595DA, text_color = 0xFFFFFF },
@@ -233,7 +241,7 @@ local colors_by_id = {
     ["at:oov:12003:"] = { color = 0x52982F, text_color = 0xFFFFFF },
     -- j 4 Stadtbus Wels 4: Noitzmühlstraße => Kaiser-Josef-Platz => Nico-Dostal-Straße
     ["at:oov:12004:"] = { color = 0xF2B708, text_color = 0xFFFFFF },
-    -- j 6 Stadtbus Wels 6: Vogelweide Schule => Niederthan => Oberthan => Vogelweide Schule
+    -- p 6 Stadtbus Wels 6: Vogelweide Schule => Niederthan => Oberthan => Vogelweide Schule
     ["at:oov:12006:"] = { color = 0x5DB5C2, text_color = 0xFFFFFF },
     -- j 8 Stadtbus Wels 8: Pernau Schule - Maxlhaid - Pernau Schule
     ["at:oov:12008:"] = { color = 0xEAB500, text_color = 0xFFFFFF },
@@ -251,6 +259,26 @@ local colors_by_id = {
     ["at:oov:12016:"] = { color = 0x25B9D7, text_color = 0xFFFFFF },
     -- j 21 Stadtbus Wels 21: Kaiser-Josef-Platz - Friedhofwirt
     ["at:oov:12021:"] = { color = 0x56AEB0, text_color = 0xFFFFFF },
+    -- j 351 Bus 351: Ried in der Riedmark Schulen => Katsdorf Gemeindeamt
+    ["at:oov:183511:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 354 Bus 354: Tragwein Pregartener Straße => Schwertberg Bahnhof
+    ["at:oov:183541:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 364 Bus 364: Ried in der Riedmark Schulen => St.Georgen an der Gusen Schulzentrum
+    ["at:oov:183641:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 374 Bus 374: Rechberg in Oberösterreich Ortsmitte => Perg Schulzentrum Bahnhaltestelle
+    ["at:oov:183741:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 375 Bus 375: Baumgartenberg Europagymnasium => Perg Hauptplatz
+    ["at:oov:183751:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 376 Bus 376: Perg Raiffeisenplatz/NMS 1 => Perg Raiffeisenplatz/NMS 1
+    ["at:oov:183761:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 380 Bus 380
+    ["at:oov:183801:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 381 Bus 381: Grein-Bad Kreuzen Bahnhof => St.Georgen am Walde Pflegkreuz
+    ["at:oov:183811:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 383 Bus 383: Baumgartenberg Neue Mittelschule => Münzbach OÖ Hauptstraße
+    ["at:oov:183831:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- j 386 Bus 386: Waldhausen <=> Dorfstetten
+    ["at:oov:183861:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 409 Bus 409: Linz voestalpine/Kraftwerk => Ennsdorf
     ["at:oov:184091:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- j 310 Bus 310: Imst Terminal Post C => Mittelberg Wendestelle
@@ -587,7 +615,7 @@ local colors_by_id = {
     ["at:vor:120:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 140 Stockerau Bahnhof - Tulln - Tullnerfeld Bahnhof
     ["at:vor:140:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 142 ISTA SHUTTLEBUS Wien Heiligenstadt - Maria Gugging ISTA
+    -- p 142 Bus 142: IST Austria Shuttle: Bahnhof Heiligenstadt => Klosterneuburg => Maria Gugging Am Campus
     ["at:vor:142:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 145 Wien Hütteldorf - Altlengbach - Hainfeld
     ["at:vor:145:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
