@@ -12,10 +12,10 @@
 -
 
 =Eisenbahn
-S1;train;Linz <=> Garsten;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S1-O-j25-1;
-S2;train;Linz <=> Wels;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S2-O-j25-1;
-S3;train;Linz <=> Pregarten;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S3-O-j25-1;
-S4;train;Linz <=> Kirchdorf;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S4-O-j25-1;
+S1;train;Linz <=> Garsten;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S1-O-j26-1;
+S2;train;Linz <=> Wels;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S2-O-j26-1;
+S3;train;Linz <=> Pregarten;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S3-O-j26-1;
+S4;train;Linz <=> Kirchdorf;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S4-O-j26-1;
 S5;train;Linz <=> Eferding;;;Stern & Hafferl VerkehrsgesmbH;AT-OOeVV;at:oov:49555:;
 -
 131;train;St. Valentin <=> Kleinreifling;;;;;;
@@ -134,7 +134,6 @@ A2;bus;"K.-J.-Platz - Gartenstraße - Kreßstraße - Vogelweide - K.-J.-Platz St
 218;bus;"Linz voestalpine - Neufelden - Lembach i. Mkr. - Hofkirchen i. Mkr. Linz voestalpine - Hofkirchen i. Mkr.";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29218:;
 219;bus;"Linz voestalpine - Neufelden - Lembach i. Mkr. - Hofkirchen i. Mkr. Linz voestalpine - Neufelden - Lembach i. M. - Hofkirchen i. M.";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:29219:;
 220;bus;"Lembach i. Mkr. - Putzleinsdorf - Sarleinsbach - Rohrbach-Berg Lembach i. Mkr. - Putzleinsdorf - Sarleinsbach - Rohrbach-Berg";;;Leitner Adelheid GmbH;AT-OOeVV;at:oov:29220:;
-223;bus;"Obermühl/Donau - Lembach i. Mkr. Obermühl/Donau - Lembach i. Mkr.";;;Leitner Adelheid GmbH;AT-OOeVV;29-223-j23-1;
 228;bus;"Linz voestalpine - Haselbach - Sarleinsbach - Nebelberg Linz voestalpine - Sarleinsbach - Nebelberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29228:;
 229;bus;"Linz voestalpine - Sarleinsbach - Kollerschlag - Nebelberg Stift am Grenzbach Linz voestalpine - Nebelberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:29229:;
 230;bus;"Linz - Ottensheim - Rottenegg - Kleinzell - Neufelden - Rohrbach Linz - Neufelden - KEIN DRUCK KO215, 230, 231 KO230, 231";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;at:oov:292301:;
@@ -207,35 +206,35 @@ A2;bus;"K.-J.-Platz - Gartenstraße - Kreßstraße - Vogelweide - K.-J.-Platz St
 347;bus;"Linz voestalpine - Pregarten - Gutau - St. Leonhard b. Fr. (Schnellverkehr TS) Linz voestalpine - Pregarten - Gutau - St. Leonhard b. Fr.";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22347:;
 348;bus;"Linz voestalpine - Pregarten - Bad Zell - Unterweißenbach/Königswiesen - Arbesbach Linz voestalpine - Bad Zell - Unterweißenbach/Arbesbach";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22348:;
 349;bus;"Linz voestalpine - Bad Zell - Schönau - Unterweißenbach Linz voestalpine - Bad Zell - Schönau - Unterweißenbach";;;Österreichische Postbus AG;AT-OOeVV;at:oov:22349:;
-350;bus;"Pregarten - Gaisbach/Frensdorf - Ried/Riedmark - Mauthausen Bhf. Pregarten - Gaisbach/Frensdorf Ried/Riedmark - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;18-350-j23-1;
-351;bus;"Katsdorf - Ruhstetten - Ried/Riedmark Katsdorf - Ruhstetten - Ried/Riedmark";;;Österreichische Postbus AG;AT-OOeVV;18-351-j23-1;
+350;bus;"Pregarten - Gaisbach/Frensdorf - Ried/Riedmark - Mauthausen Bhf. Pregarten - Gaisbach/Frensdorf Ried/Riedmark - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183501:;
+351;bus;"Katsdorf - Ruhstetten - Ried/Riedmark Katsdorf - Ruhstetten - Ried/Riedmark";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183511:;
 352;bus;"Perg - Schwertberg - Niederzirking - Ried/Riedmark - Lungitz Perg - Schwertberg - Ried/Riedmark - Lungitz";;;Österreichische Postbus AG;AT-OOeVV;18-352-j23-1;
-353;bus;"Gallneukirchen - Schweinbach - Katsdorf - Lungitz Gallneukirchen - Schweinbach - Katsdorf - Lungitz";;;Österreichische Postbus AG;AT-OOeVV;18-353-j23-1;
-354;bus;"Tragwein - Kriechbaum - Schwertberg (- Perg) Tragwein - Kriechbaum - Schwertberg (- Perg)";;;Österreichische Postbus AG;AT-OOeVV;18-354-j23-1;
-356;bus;"Pregarten - Schwertberg - Perg Pregarten - Schwertberg - Perg";;;Österreichische Postbus AG;AT-OOeVV;18-356-j23-1;
-357;bus;"Bad Zell - Allerheiligen i. Mkr. - Perg Bad Zell - Allerheiligen i. Mkr. - Perg";;;Österreichische Postbus AG;AT-OOeVV;18-357-j23-1;
-360;bus;"Linz - Steyregg - St. Georgen/Gusen - Mauthausen Linz - Steyregg - St. Georgen/G. - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;18-360-j23-1;
-361;bus;"Hbf (Busterminal) - Abzw Bahnhof";;;Österreichische Postbus AG;AT-OOeVV;18-361-j23-1;
-362;bus;"Mauthausen - Schwertberg - Perg Mauthausen - Schwertberg - Perg";;;Österreichische Postbus AG;AT-OOeVV;18-362-j23-1;
-363;bus;"Statzing - Luftenberg - Abwinden - Statzing Statzing - Luftenberg - Abwinden - Statzing";;;Österreichische Postbus AG;AT-OOeVV;18-363-j23-1;
-364;bus;"Ried/Riedmark - Blindendorf - St. Georgen/Gusen Ried/Riedmark - Blindendorf - St. Georgen/Gusen";;;Österreichische Postbus AG;AT-OOeVV;18-364-j23-1;
-365;bus;"Linz voestalpine - Mauthausen - Schwertberg - Arbing Linz voestalpine - Arbing";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-365-j23-1;
-366;bus;"Linz voestalpine - Steyregg - Mauthausen (Tagschicht) Linz voestalpine - Steyregg - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;18-366-j23-1;
-370;bus;"St.Georgen am Walde - Pabneukirchen - Perg/Linz voestalpine St. Georgen - Pabneukirchen - Perg/Linz voestalpine";;;Siegfried Baumgartner;AT-OOeVV;18-370-j23-1;
-373;bus;"Mauthausen - Naarn im Machlande - Perg - Münzbach - Bad Kreuzen Mauthausen - Naarn - Perg - Münzbach - Bad Kreuzen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-373-j23-1;
-374;bus;"Perg - Windhaag bei Perg - Rechberg Perg - Windhaag bei Perg - Rechberg";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-374-j23-1;
-375;bus;"Baumgartenberg - Mitterkirchen - Naarn im Machlande - Perg/Mauthausen Baumgartenberg - Mitterkirchen - Naarn - Perg/Mauthausen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-375-j23-1;
-376;bus;"Pasching bei Perg - Pergkirchen - Perg Pasching - Pergkirchen - Perg";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-376-j23-1;
-378;bus;"Linz voestalpine - Perg - Pabneukirchen - St. Georgen am Walde - Arbesbach Linz voestalpine - Perg - St.Georgen a.W. - Arbesbach";;;Österreichische Postbus AG;AT-OOeVV;18-378-j23-1;
-379;bus;"Pflegkreuz - voestalpine/Maschinenbau";;;Siegfried Baumgartner;AT-OOeVV;18-379-j23-1;
-380;bus;"Amstetten - Grein - St. Nikola an der Donau - Waldhausen im Strudengau Amstetten - Grein - St. Nikola - Waldhausen";;;Österreichische Postbus AG;AT-OOeVV;18-380-j23-1;
-381;bus;"Grein - Dimbach - St. Georgen am Walde Grein - Dimbach - St. Georgen am Walde";;;Siegfried Baumgartner;AT-OOeVV;18-381-j23-1;
-382;bus;"Grein - Bad Kreuzen Grein - Bad Kreuzen";;;Österreichische Postbus AG;AT-OOeVV;18-382-j23-1;
-383;bus;"Baumgartenberg - Arbing - Münzbach Baumgartenberg - Arbing - Münzbach";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-383-j23-1;
-384;bus;"Baumgartenberg - Saxen - Klam - Bad Kreuzen - Pabneukirchen - St. Thomas/Bla. Baumgartenberg - Bad Kreuzen - Pabneukirchen - St.Thomas/Bla.";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;18-384-j23-1;
-386;bus;"Waldhausen im Strudengau - Dorfstetten Waldhausen - Dorfstetten";;;Österreichische Postbus AG;AT-OOeVV;18-386-j23-1;
-388;bus;"Linz voestalpine - Mitterkirchen - Grein Linz voestalpine - Mitterkirchen - Grein";;;Österreichische Postbus AG;AT-OOeVV;18-388-j23-1;
-389;bus;"Linz voestalpine - Naarn im Machlande - Mitterkirchen - Grein - Waldhausen im Strudengau Linz voestalpine - Naarn - Mitterkirchen - Waldhausen";;;Österreichische Postbus AG;AT-OOeVV;18-389-j23-1;
+353;bus;"Gallneukirchen - Schweinbach - Katsdorf - Lungitz Gallneukirchen - Schweinbach - Katsdorf - Lungitz";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183531:;
+354;bus;"Tragwein - Kriechbaum - Schwertberg (- Perg) Tragwein - Kriechbaum - Schwertberg (- Perg)";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183541:;
+356;bus;"Pregarten - Schwertberg - Perg Pregarten - Schwertberg - Perg";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183561:;
+357;bus;"Bad Zell - Allerheiligen i. Mkr. - Perg Bad Zell - Allerheiligen i. Mkr. - Perg";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183571:;
+360;bus;"Linz - Steyregg - St. Georgen/Gusen - Mauthausen Linz - Steyregg - St. Georgen/G. - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183601:;
+361;bus;"Hbf (Busterminal) - Abzw Bahnhof";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183611:;
+362;bus;"Mauthausen - Schwertberg - Perg Mauthausen - Schwertberg - Perg";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183621:;
+363;bus;"Statzing - Luftenberg - Abwinden - Statzing Statzing - Luftenberg - Abwinden - Statzing";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183631:;
+364;bus;"Ried/Riedmark - Blindendorf - St. Georgen/Gusen Ried/Riedmark - Blindendorf - St. Georgen/Gusen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183641:;
+365;bus;"Linz voestalpine - Mauthausen - Schwertberg - Arbing Linz voestalpine - Arbing";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:183651:;
+366;bus;"Linz voestalpine - Steyregg - Mauthausen (Tagschicht) Linz voestalpine - Steyregg - Mauthausen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183661:;
+373;bus;"Mauthausen - Naarn im Machlande - Perg - Münzbach - Bad Kreuzen Mauthausen - Naarn - Perg - Münzbach - Bad Kreuzen";;;Wilhelm Welser Verkehrsbetriebe GmbH;at:oov:183731:;
+374;bus;"Perg - Windhaag bei Perg - Rechberg Perg - Windhaag bei Perg - Rechberg";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:183741:;
+375;bus;"Baumgartenberg - Mitterkirchen - Naarn im Machlande - Perg/Mauthausen Baumgartenberg - Mitterkirchen - Naarn - Perg/Mauthausen";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:183751:;
+376;bus;"Pasching bei Perg - Pergkirchen - Perg Pasching - Pergkirchen - Perg";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:183761:;
+377;bus;"Linz Hafen - Perg - Rechberg Linz Hafen - Mauthausen - Perg - Rechberg";;;sabtours Busbetrieb GmbH;AT-OOeVV;at:oov:18377:;
+378;bus;"Linz voestalpine - Perg - Pabneukirchen - St. Georgen am Walde - Arbesbach Linz voestalpine - Perg - St.Georgen a.W. - Arbesbach";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183781:;
+379;bus;"Pflegkreuz - voestalpine/Maschinenbau";;;Siegfried Baumgartner;AT-OOeVV;at:oov:183791:;
+380;bus;"Amstetten - Grein - St. Nikola an der Donau - Waldhausen im Strudengau Amstetten - Grein - St. Nikola - Waldhausen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183801:;
+381;bus;"Grein - Dimbach - St. Georgen am Walde Grein - Dimbach - St. Georgen am Walde";;;Siegfried Baumgartner;AT-OOeVV;at:oov:183811:;
+382;bus;"Grein - Bad Kreuzen Grein - Bad Kreuzen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183821:;
+383;bus;"Baumgartenberg - Arbing - Münzbach Baumgartenberg - Arbing - Münzbach";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:183831:;
+384;bus;"Baumgartenberg - Saxen - Klam - Bad Kreuzen - Pabneukirchen - St. Thomas/Bla. Baumgartenberg - Bad Kreuzen - Pabneukirchen - St.Thomas/Bla.";;;Wilhelm Welser Verkehrsbetriebe GmbH;AT-OOeVV;at:oov:183804:;
+386;bus;"Waldhausen im Strudengau - Dorfstetten Waldhausen - Dorfstetten";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183861:;
+388;bus;"Linz voestalpine - Mitterkirchen - Grein Linz voestalpine - Mitterkirchen - Grein";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183881:;
+389;bus;"Linz voestalpine - Naarn im Machlande - Mitterkirchen - Grein - Waldhausen im Strudengau Linz voestalpine - Naarn - Mitterkirchen - Waldhausen";;;Österreichische Postbus AG;AT-OOeVV;at:oov:183891:;
 
 ==Bereich 4xx
 400;bus;"Linz - Asten - Enns - Kronstorf - Steyr Linz - Asten - Enns - Kronstorf - Steyr";;;Österreichische Postbus AG;AT-OOeVV;45-400-j23-1;

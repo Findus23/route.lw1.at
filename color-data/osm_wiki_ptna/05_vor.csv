@@ -286,6 +286,7 @@ KPE;bus
 A;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2031:
 B;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2032:
 C;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2033:
+D;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2034:
 -
 #
 === Eisenstadt
@@ -390,13 +391,13 @@ C;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2033:
 #
 
 === Ybbs an der Donau
-1;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7011:
-2;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7012:
-3;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7013:
-4;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7014:
-5;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7015:
-6;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7016:
-7;bus;;;;Verkehrsbetrieb Stadtgemeinde Ybbs;AT-VOR;at:vor:7017:
+1;bus;;Ybbs an der Donau;;N-Bus GmbH;AT-VOR;at:vor:7011:
+2;bus;;Ybbs an der Donau;;N-Bus GmbH;AT-VOR;at:vor:7012:
+3;bus;;Ybbs an der Donau;;N-Bus GmbH;AT-VOR;at:vor:7013:
+4;bus;;Ybbs an der Donau;;N-Bus GmbH;AT-VOR;at:vor:7014:
+5;bus;;Ybbs an der Donau;;N-Bus GmbH;AT-VOR;at:vor:7015:
+6;bus;;Ybbs an der Donau;;N-Bus GmbH;AT-VOR;at:vor:7016:
+7;bus;;Ybbs an der Donau;;N-Bus GmbH;AT-VOR;at:vor:7017:
 -
 #
 
