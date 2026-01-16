@@ -9,7 +9,7 @@ server:
 
 osm: datasets/austria-latest.osm.pbf
 tiles:
-  profile: tiles-profiles/full.lua
+  profile: custom-tile-profile.lua
   db_size: 274877906944
   flush_threshold: 100000
 timetable:
