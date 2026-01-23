@@ -41,6 +41,8 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
     feed.header.feed_version = mapping_feed_version
 
     for disr_id, disr in traffic_infos.items():
+        if "relatedLines" not in disr:
+            continue
         d = feed.entity.add()
         d.id = disr_id
 
