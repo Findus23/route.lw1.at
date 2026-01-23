@@ -191,6 +191,8 @@ local colors_by_id = {
     ["at:obb:1|S1:M"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- j S3 Schnellbahn S3
     ["at:obb:1|S3:M"] = { color = 0x159DD9, text_color = 0xFFFFFF },
+    -- j S5 S-Bahn S5: Rosenbach <=> Villach Hbf
+    ["at:obb:1|S5:M"] = { color = 0xF3C737, text_color = 0xFFFFFF },
     -- j S8 S8
     ["at:obb:1|S8:M"] = { color = 0x5CC1D1, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Steyr 1: Münichholz
@@ -871,6 +873,8 @@ local colors_by_id = {
     ["at:vor:265:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 266 Schwechat - Wien Oberlaa - Wien Siebenhirten
     ["at:vor:266:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 268 Hennersdorf - Wien Siebenhirten - Mödling
+    ["at:vor:268:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 269 Wien Siebenhirten - Campus 21 - Mödling (- Maria Enzersdorf Südstadt)
     ["at:vor:269:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 270 Wien Siebenhirten - Maria Enzersdorf Südstadt - Mödling
