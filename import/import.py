@@ -41,7 +41,7 @@ def get_access_token():
 
 def curl_download(access_token: str, url: str, output_file: Path):
     subprocess.run([
-        "curl", "-v",
+        "curl",
         url,
         "-H", "Accept: application/zip",
         "-H", f"Authorization: Bearer {access_token}",
@@ -78,7 +78,7 @@ def fetch_datasets(access_token: str):
         mobility_dataset.api_data = ds
 
         metafile = gtfs_dir / f"{mobility_dataset.own_filename}.zip"
-        workaround = True
+        workaround = False
         if workaround:
             ds_id = ds["id"]
             # normal API is missing some files of current year, while this API has all of them
