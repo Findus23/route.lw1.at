@@ -17,15 +17,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services commissioned and maintained by the public transport authority in Upper Austria, except the ones of ÖBB and WESTbahn. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "14765",
+    "id": "14880",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "22894",
-      "created": "2026-01-15T04:30:57.488Z",
+      "id": "23009",
+      "created": "2026-01-21T04:30:52.363Z",
       "file": {
-        "originalName": "20260115-0147_gtfs_flex_ooevv_2026.zip",
-        "size": "50700131"
+        "originalName": "20260120-2359_gtfs_flex_ooevv_2026.zip",
+        "size": "53581414"
       },
       "deleted": false
     }
