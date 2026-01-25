@@ -113,7 +113,8 @@ def fetch_datasets(access_token: str):
                 }
 
             license_dict = {
-                **ds["license"],
+                "id": ds["license"]["id"],
+                "name": langdict(ds["license"], "name"),
                 "termsOfUseUrl": langdict(ds, "termsOfUseUrl"),
             }
             json.dump({

@@ -1,8 +1,10 @@
 {
   "license": {
     "id": "1",
-    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
-    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "name": {
+      "de": "Datenlizenz Mobilitätsverbünde Österreich",
+      "en": "Data License Mobilitätsverbünde Österreich"
+    },
     "termsOfUseUrl": {
       "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
       "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"

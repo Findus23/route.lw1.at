@@ -1,4 +1,3 @@
-
 """
 Use own subset and naming for GTFS (Flex) datasets from
 https://data.mobilitaetsverbuende.at
@@ -8,8 +7,10 @@ SPDX-FileContributor: Lukas Winkler
 
 SPDX-License-Identifier: AGPL-3.0-or-later
 """
-
+import json
 from dataclasses import dataclass
+from functools import cached_property
+from pathlib import Path
 
 
 @dataclass
@@ -22,6 +23,19 @@ class MobilityDataset:
     flex: bool
     api_data: dict = None
     osm_wiki_page: str = None
+
+    @cached_property
+    def json_data(self):
+        gtfs_dir = Path(__file__).parent.parent / "datasets" / "gtfs"
+        json_file = gtfs_dir / f"{self.own_filename}.json"
+        with json_file.open() as f:
+            return json.load(f)
+
+    @property
+    def current_filename(self):
+        gtfs_dir = Path(__file__).parent.parent / "datasets" / "gtfs"
+        zip_link = gtfs_dir / f"{self.own_filename}.zip"
+        return zip_link.readlink().name
 
 
 mobility_datasets = [

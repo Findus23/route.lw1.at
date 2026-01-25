@@ -1,8 +1,10 @@
 {
   "license": {
     "id": "1",
-    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
-    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "name": {
+      "de": "Datenlizenz Mobilitätsverbünde Österreich",
+      "en": "Data License Mobilitätsverbünde Österreich"
+    },
     "termsOfUseUrl": {
       "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
       "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
@@ -17,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Salzburg, except the ones of ÖBB and WESTbahn. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles:\n\nDuring weekdays the taking along of bicycles is permitted from 9AM until the end of operations(3AM the following day), during weekends and public holidays it is permitted all day."
   },
   "activeVersion": {
-    "id": "14914",
+    "id": "14957",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "23043",
-      "created": "2026-01-22T04:30:43.277Z",
+      "id": "23086",
+      "created": "2026-01-24T04:30:45.369Z",
       "file": {
-        "originalName": "20260122-0122_gtfs_flex_salzburgverkehr_2026.zip",
-        "size": "32412153"
+        "originalName": "20260123-2319_gtfs_flex_salzburgverkehr_2026.zip",
+        "size": "32412152"
       },
       "deleted": false
     }

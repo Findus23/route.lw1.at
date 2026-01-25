@@ -1,8 +1,10 @@
 {
   "license": {
     "id": "1",
-    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
-    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "name": {
+      "de": "Datenlizenz Mobilitätsverbünde Österreich",
+      "en": "Data License Mobilitätsverbünde Österreich"
+    },
     "termsOfUseUrl": {
       "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
       "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
@@ -17,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Carinthia, except the ones of ÖBB. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "14936",
+    "id": "14953",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "23065",
-      "created": "2026-01-23T04:30:41.016Z",
+      "id": "23082",
+      "created": "2026-01-24T04:30:38.585Z",
       "file": {
-        "originalName": "20260123-0038_gtfs_flex_kaerntnerlinien_2026.zip",
-        "size": "40504583"
+        "originalName": "20260123-2256_gtfs_flex_kaerntnerlinien_2026.zip",
+        "size": "40661220"
       },
       "deleted": false
     }

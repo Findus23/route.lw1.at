@@ -1,8 +1,10 @@
 {
   "license": {
     "id": "1",
-    "nameDe": "Datenlizenz Mobilitätsverbünde Österreich",
-    "nameEn": "Data License Mobilitätsverbünde Österreich",
+    "name": {
+      "de": "Datenlizenz Mobilitätsverbünde Österreich",
+      "en": "Data License Mobilitätsverbünde Österreich"
+    },
     "termsOfUseUrl": {
       "de": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen",
       "en": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/185237505/Terms+of+Use"
@@ -17,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Styria, except the ones from ÖBB. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "14932",
+    "id": "14966",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "23061",
-      "created": "2026-01-23T04:30:35.463Z",
+      "id": "23095",
+      "created": "2026-01-25T04:30:17.363Z",
       "file": {
-        "originalName": "20260123-0116_gtfs_flex_verbundlinie_2026.zip",
-        "size": "82724849"
+        "originalName": "20260124-2255_gtfs_flex_verbundlinie_2026.zip",
+        "size": "82743527"
       },
       "deleted": false
     }
