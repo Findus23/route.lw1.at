@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-01-25 18:10+0100\n"
+"POT-Creation-Date: 2026-01-25 18:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,14 +30,18 @@ msgid "About route.lw1.at"
 msgstr ""
 
 #: templates/main.html:22
-msgid "This website is a work in progress. More information will follow."
+msgid "Imprint"
 msgstr ""
 
 #: templates/main.html:24
+msgid "This website is a work in progress. More information will follow."
+msgstr ""
+
+#: templates/main.html:26
 msgid "Datasets and Licenses"
 msgstr ""
 
-#: templates/main.html:28
+#: templates/main.html:30
 msgid ""
 "This webseite would not be possible without Open Source software like\n"
 "        <a href=\"https://github.com/motis-project/motis\">MOTIS</a>\n"
@@ -45,62 +49,62 @@ msgid ""
 "        See below for a list of all used datasets."
 msgstr ""
 
-#: templates/main.html:39
+#: templates/main.html:41
 msgid "You can also browse all files here:"
 msgstr ""
 
-#: templates/main.html:44
+#: templates/main.html:46
 msgid "GTFS Datasets"
 msgstr ""
 
-#: templates/main.html:51 templates/main.html:104
+#: templates/main.html:53 templates/main.html:106
 msgid "Dataset"
 msgstr ""
 
-#: templates/main.html:55 templates/main.html:114
+#: templates/main.html:57 templates/main.html:116
 msgid "License"
 msgstr ""
 
-#: templates/main.html:64 templates/main.html:123
+#: templates/main.html:66 templates/main.html:125
 msgid "Local filename"
 msgstr ""
 
-#: templates/main.html:72
+#: templates/main.html:74
 msgid "Current File Version"
 msgstr ""
 
-#: templates/main.html:80
+#: templates/main.html:82
 msgid "Current Dataset Version"
 msgstr ""
 
-#: templates/main.html:86
+#: templates/main.html:88
 msgid "Current Dataset Creation Date"
 msgstr ""
 
-#: templates/main.html:92
+#: templates/main.html:94
 msgid "Year"
 msgstr ""
 
-#: templates/main.html:109
+#: templates/main.html:111
 msgid "Dataset Source"
 msgstr ""
 
-#: templates/main.html:132
+#: templates/main.html:134
 msgid "Map Data"
 msgstr ""
 
-#: templates/main.html:134
+#: templates/main.html:136
 msgid ""
 "All map data is from <a "
 "href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> and\n"
 "    licensed under the Open Data Commons Open Database License (ODbL)."
 msgstr ""
 
-#: templates/main.html:139
+#: templates/main.html:141
 msgid "Line Color Data"
 msgstr ""
 
-#: templates/main.html:142
+#: templates/main.html:144
 msgid ""
 "The colors of public transit lines are aggregated from OpenStreetMap "
 "using\n"
@@ -109,15 +113,15 @@ msgid ""
 "        See here for more infomation:"
 msgstr ""
 
-#: templates/main.html:150
+#: templates/main.html:152
 msgid "You can find the current version of the used dataset here:"
 msgstr ""
 
-#: templates/main.html:156
+#: templates/main.html:158
 msgid "Footnotes"
 msgstr ""
 
-#: templates/main.html:158
+#: templates/main.html:160
 msgid ""
 "This filename is set by me and just to easily differentiate\n"
 "    the different\n"
