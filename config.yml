@@ -5,6 +5,7 @@
 server:
   host: localhost
   port: 8943
+  data_attribution_link: "https://about.route.lw1.at"
 
 
 osm: datasets/austria-latest.osm.pbf

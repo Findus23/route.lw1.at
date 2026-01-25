@@ -1,0 +1,126 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-01-25 18:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/main.html:6 templates/main.html:10
+msgid "Data Licenses and Information"
+msgstr ""
+
+#: templates/main.html:18
+msgid "back to route.lw1.at"
+msgstr ""
+
+#: templates/main.html:20
+msgid "About route.lw1.at"
+msgstr ""
+
+#: templates/main.html:22
+msgid "This website is a work in progress. More information will follow."
+msgstr ""
+
+#: templates/main.html:24
+msgid "Datasets and Licenses"
+msgstr ""
+
+#: templates/main.html:28
+msgid ""
+"This webseite would not be possible without Open Source software like\n"
+"        <a href=\"https://github.com/motis-project/motis\">MOTIS</a>\n"
+"        and Open Data datasets.\n"
+"        See below for a list of all used datasets."
+msgstr ""
+
+#: templates/main.html:39
+msgid "You can also browse all files here:"
+msgstr ""
+
+#: templates/main.html:44
+msgid "GTFS Datasets"
+msgstr ""
+
+#: templates/main.html:51 templates/main.html:104
+msgid "Dataset"
+msgstr ""
+
+#: templates/main.html:55 templates/main.html:114
+msgid "License"
+msgstr ""
+
+#: templates/main.html:64 templates/main.html:123
+msgid "Local filename"
+msgstr ""
+
+#: templates/main.html:72
+msgid "Current File Version"
+msgstr ""
+
+#: templates/main.html:80
+msgid "Current Dataset Version"
+msgstr ""
+
+#: templates/main.html:86
+msgid "Current Dataset Creation Date"
+msgstr ""
+
+#: templates/main.html:92
+msgid "Year"
+msgstr ""
+
+#: templates/main.html:109
+msgid "Dataset Source"
+msgstr ""
+
+#: templates/main.html:132
+msgid "Map Data"
+msgstr ""
+
+#: templates/main.html:134
+msgid ""
+"All map data is from <a "
+"href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> and\n"
+"    licensed under the Open Data Commons Open Database License (ODbL)."
+msgstr ""
+
+#: templates/main.html:139
+msgid "Line Color Data"
+msgstr ""
+
+#: templates/main.html:142
+msgid ""
+"The colors of public transit lines are aggregated from OpenStreetMap "
+"using\n"
+"        tables from the <a href=\"https://ptna.openstreetmap.de/\">PTNA "
+"project</a> and a small set of own rules.\n"
+"        See here for more infomation:"
+msgstr ""
+
+#: templates/main.html:150
+msgid "You can find the current version of the used dataset here:"
+msgstr ""
+
+#: templates/main.html:156
+msgid "Footnotes"
+msgstr ""
+
+#: templates/main.html:158
+msgid ""
+"This filename is set by me and just to easily differentiate\n"
+"    the different\n"
+"    datasets."
+msgstr ""
+
