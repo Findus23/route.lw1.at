@@ -23,6 +23,7 @@ class MobilityDataset:
     flex: bool
     api_data: dict = None
     osm_wiki_page: str = None
+    gtfsclean_args: list[str] = None
 
     @cached_property
     def json_data(self):
@@ -46,6 +47,14 @@ mobility_datasets = [
         api_id=66,
         api_name="Fahrplandaten Eisenbahn (GTFS) - aktuell",
         flex=False,
+        gtfsclean_args=[
+            # from transitous
+            # https://github.com/public-transport/transitous/blob/b14ab0c06bd4ac67278fc56400912b314cc5904e/feeds/at.json#L140-L143
+            "--copy-trip-names-matching",
+            "((IC)|(ECB)|(EC)|(RJ)|(RJX)|(D)|(NJ)|(EN)|(CJX)|(ICE)|(IR)|(REX)|(R)|(ER)|(ATB)|(WB)) \\d+",
+            "--keep-route-names-matching",
+            "((RE)|(RB)|S) ?\\d+"
+        ]
     ),
     MobilityDataset(
         own_name="Linz AG",

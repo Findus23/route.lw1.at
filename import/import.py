@@ -125,12 +125,17 @@ def fetch_datasets(access_token: str):
             }, f, indent=2, ensure_ascii=False)
 
         filename = first_active_version["dataSetVersion"]["file"]["originalName"]
+
         download_file = gtfs_dir / f"{filename}"
+        cleaned_file = gtfs_dir / (download_file.stem + "_cleaned.zip")
         print(download_file)
         if metafile.exists(follow_symlinks=False):
             metafile.unlink()
-        metafile.symlink_to(download_file.name)
-        if download_file.exists():
+        if mobility_dataset.gtfsclean_args:
+            metafile.symlink_to(cleaned_file)
+        else:
+            metafile.symlink_to(download_file.name)
+        if download_file.exists() :
             print("already latest version")
             continue
         download_url = f"{base_url}/api/public/v1/data-sets/{api_id}/{mobility_dataset.year}/file"
@@ -139,9 +144,23 @@ def fetch_datasets(access_token: str):
             download_url,
             download_file
         )
+        if mobility_dataset.gtfsclean_args:
+            args = [
+                "gtfsclean", str(download_file.name),
+                "-o", str(cleaned_file.name),
+                "--fix",
+                *mobility_dataset.gtfsclean_args
+            ]
+            log_file=cleaned_file.with_suffix(".log.txt")
+            with log_file.open("wb") as f:
+                f.write(" ".join(args + ['\n']).encode("utf-8"))
+            with log_file.open("ab") as f:
+                subprocess.run(args, check=True, cwd=gtfs_dir, stdout=f)
+
+
         name_base = download_file.name.split("_gtfs")[-1]
         for file in gtfs_dir.glob(f"*{name_base}"):
-            if file != download_file:
+            if file != download_file and file != cleaned_file:
                 print("deleting", file)
                 file.unlink()
         time.sleep(1)
