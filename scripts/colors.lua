@@ -17,9 +17,7 @@ function process_route(route)
 
     else
         if colors_by_id[route_id] then
-            print("found")
             local color = colors_by_id[route_id]
-            print(route_name, color.color, color.text_color)
             route:set_color(color.color)
             route:set_text_color(color.text_color)
         end
@@ -28,8 +26,6 @@ function process_route(route)
     -- also apply data from train_mapping.lua
     -- https://github.com/public-transport/transitous/blob/main/scripts/at.lua
     for _,m in ipairs(route_type_map) do
-        print(route:get_route_type(), m[1])
-        print(route:get_short_name(), m[2])
         if route:get_route_type() == m[1] and route:get_short_name():sub(1, #m[2]) == m[2] then
             route:set_clasz(m[3])
             route:set_route_type(m[4])
