@@ -12,27 +12,39 @@
 
 == Bahnen
 === Regional-Express
-CAT;train;;;;;AT-VOR;at:vor:1917:
+CJX1;train;;Wien Hauptbahnhof;Bratislava-Petržalka stanica;;AT-Eisenbahn;4-CJ6-N-j26-1
 CJX5;train;;;;;AT-Eisenbahn;4-CJ5-X-j26-1
 CJX9;train;;;;;AT-Eisenbahn;4-CX9-W-j26-1
+# RXE;train;Unklar, was RXE ist;;;;AT-Eisenbahn;2-RXE-W-j26-1
 REX1;train;;;;;AT-Eisenbahn;2-RX1-W-j26-1
 REX2;train;;;;;AT-Eisenbahn;2-RX2-W-j26-1
 REX3;train;;;;;AT-Eisenbahn;2-RX3-W-j26-1
 REX4;train;;;;;AT-Eisenbahn;2-RW4-j26-1
 REX41;train;;;;;AT-Eisenbahn;2-R41-W-j26-1
+REX44;train;;;;;AT-Eisenbahn;2-R44-N-j26-1
 REX50;train;;;;;AT-Eisenbahn;2-R50-W-j26-1
+REX57;train;;;;;AT-Eisenbahn;2-R57-N-j26-1
+REX56;train;;;;NÖVOG;AT-VOR;at:vor:1116:
 REX51;train;;;;;AT-Eisenbahn;2-R51-A-j26-1
 REX6;train;;;;;AT-Eisenbahn;2-RX6-W-j26-1
 REX62;train;;;;;AT-Eisenbahn;2-R62-N-j26-1
 REX63;train;;;;;AT-Eisenbahn;2-R63-N-j26-1
 REX64;train;;;;;AT-Eisenbahn;2-R64-N-j26-1
+REX65;train;;;;Raaberbahn AG GYSEV Zrt.;AT-Eisenbahn;2-R65-N-j26-1
 REX7;train;;;;;AT-Eisenbahn;2-RX7-W-j26-1
 REX8;train;;;;;AT-Eisenbahn;2-RX8-W-j26-1
+REX9;train;;;;;AT-Eisenbahn;2-RX9-W-j26-1;
+REX81;train;;;;;AT-Eisenbahn;2-R81-W-j26-1;
 REX92;train;;;;;AT-Eisenbahn;2-R92-N-j26-1
 REX93;train;;;;;AT-Eisenbahn;2-R93-A-j26-1
+REX97;train;;;;;AT-Eisenbahn;2-R97-N-j26-1
 === Regional Bahn
-BB|WLB;light_rail;;;;;AT-VOR;at:vor:1515:
+R1;train;nur 1 Fahrt in 2026;;;;AT-Eisenbahn;3-R1-W-j26-1;
+R3;train;;;;;AT-Eisenbahn;3-R3-W-j26-1;
+R4;train;;;;;AT-Eisenbahn;"3-R4-W-j26-1;3-810-W-j26-1"
+R8;train;evtl. keine ÖBB Verbindung obwohl in GTFS;;;;AT-Eisenbahn;3-R8-W-j26-1;
 R40;train;;;;;AT-Eisenbahn;3-R40-W-j26-1
+R41;train;;;;;AT-Eisenbahn;3-R41-W-j26-1
 R44;train;;;;;AT-Eisenbahn;3-R44-N-j26-1
 R52;train;;;;;AT-Eisenbahn;3-R52-A-j26-1
 R53;train;;;;;AT-Eisenbahn;3-R53-O-j26-1
@@ -41,7 +53,10 @@ R55;train;;;;;AT-Eisenbahn;3-R55-N-j26-1
 R56;train;;;;;AT-VOR;at:vor:1115:
 R57;train;;;;;AT-Eisenbahn;3-R57-O-j26-1
 R58;train;;;;;AT-Eisenbahn;3-R58-j26-1
-R59;light_rail;;;;;AT-VOR;at:vor:1132:
+R59;train;Siehe [#light_rail_R59 Stadtverkehr Waidhofen an der Ybbs]
+R62;train;;;;;AT-Eisenbahn;3-R62-N-j26-1;
+R63;train;;;;Raaberbahn AG GYSEV Zrt.;AT-Eisenbahn;3-R63-N-j26-1
+R65;train;;;;Raaberbahn AG GYSEV Zrt.;AT-Eisenbahn;3-R65-N-j26-1
 R81;train;;;;;AT-Eisenbahn;3-R81-W-j26-1
 R91;train;;;;;AT-Eisenbahn;3-R91-A-j26-1
 R92;train;;;;;AT-Eisenbahn;3-R92-N-j26-1
@@ -50,9 +65,7 @@ R95;train;;;;;AT-Eisenbahn;3-R95-N-j26-1
 R96;train;;;;;AT-Eisenbahn;3-R96-N-j26-1
 R97;train;;;;;AT-Eisenbahn;3-R97-N-j26-1
 R98;train;;;;;AT-Eisenbahn;3-R98-N-j26-1
-SBB;train;;;;;AT-VOR;at:vor:1523:;2025-10-01
-REB|RLE;train;;;;;AT-VOR;at:vor:1941:
-WHB;train;;;;;AT-VOR;at:vor:1811:
+510-N;train;;Wiener Neustadt;Wien Liesing;;AT-Eisenbahn;3-510-N-j26-1
 === S-Bahn
 S;train;;;;;AT-Eisenbahn;
 S1;train;;;;;AT-Eisenbahn;1-S1-W-j26-1
@@ -62,7 +75,7 @@ S4;train;;;;;AT-Eisenbahn;1-S4-W-j26-1
 S40;train;;;;;AT-Eisenbahn;1-S40-W-j26-1
 S45;train;;;;;AT-Eisenbahn;1-S45-W-j26-1
 S50;train;;;;;AT-Eisenbahn;1-S50-W-j26-1
-S60;train;;;;;AT-Eisenbahn;1-S60-W-j26-1
+S60;train;;;;;AT-Eisenbahn;"1-S60-W-j26-1;1-S63-W-j26-1"
 S7;train;;;;;AT-Eisenbahn;1-S7-W-j26-1
 S80;train;;;;;AT-Eisenbahn;1-S80-W-j26-1
 == Stadtverkehre
@@ -103,6 +116,7 @@ U6;subway;;;;Wiener Linien;AT-VOR;at:vor:3306:
 71;tram;;;;Wiener Linien;AT-VOR;at:vor:3171:
 D;tram;;;;Wiener Linien;AT-VOR;at:vor:3136:
 O;tram;;;;Wiener Linien;AT-VOR;at:vor:3170:
+BB|WLB;light_rail;;;;;AT-VOR;at:vor:1515:
 -
 #
 ==== Buslinien
@@ -367,6 +381,7 @@ D;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2034:
 -
 #
 === Waidhofen an der Ybbs
+R59;light_rail;;;;;AT-VOR;at:vor:1132:
 1;bus;;Waidhofen an der Ybbs;;N-Bus GmbH;AT-VOR;at:vor:2161:
 2;bus;;Waidhofen an der Ybbs;;N-Bus GmbH;AT-VOR;at:vor:2162:
 3;bus;;Waidhofen an der Ybbs;;N-Bus GmbH;AT-VOR;at:vor:2163:
@@ -472,6 +487,7 @@ D;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2034:
 268;bus;;;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:268:
 269;bus;;;;Oberger GmbH;AT-VOR;at:vor:269:
 270;bus;;;;Oberger GmbH;AT-VOR;at:vor:270:
+271;bus;"Shuttleverkehr Himberg - Gramatneusiedl";;;Dr. Richard Verkehrsbetrieb GmbH & Co KG;AT-VOR;at:vor:271:;
 272;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:272:
 273;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:273:
 274;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:274:
@@ -732,6 +748,10 @@ D;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2034:
 655;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:655:
 656;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:656:
 660;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:660:
+661;bus;"Schülerverkehr Krankenhausstraße - Elsa-Brandström-Straße";;;Österreichische Postbus AG;AT-VOR;at:vor:661:;
+662;bus;"Schülerverkehr Parksiedlung - Pestalozzistraße";;;Österreichische Postbus AG;AT-VOR;at:vor:662:;
+663;bus;"Schülerverkehr Greimpersdorf - BH";;;Österreichische Postbus AG;AT-VOR;at:vor:663:;
+664;bus;"Schülerverkehr Waldheim - VS Allersdorf";;;Österreichische Postbus AG;AT-VOR;at:vor:664:;
 665;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:665:
 667;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:667:
 668;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:668:
@@ -923,6 +943,7 @@ D;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2034:
 1155;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1155:
 1158;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1158:
 1774;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1774:
+1775;bus;"Oberwart - Bernstein - Lockenhaus - Oberpullendorf";;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1775:
 1776;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1776:
 1823;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1823:
 1824;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1824:
@@ -941,6 +962,7 @@ D;bus;;;;Blaguss Reisen GmbH;AT-VOR;at:vor:2034:
 1878;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1878:
 1880;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:1880:
 6011;bus;;;;;AT-VVSt;at:stv:6011:
+6508;bus;"Fürstenfeld - Stegersbach - Markt Allhau";;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:6508:;
 7200;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7200:
 7900;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7901:
 7903;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:7903:
@@ -1015,8 +1037,6 @@ B99;bus;;;;Verkehrsbetriebe Burgenland GmbH;AT-VOR;at:vor:229:
 BAST;bus
 == Sonstige
 Twin City Liner;ferry
-Liliputbahn;train
-Donauparkbahn;train
 RUFbus;bus
 Bummelzug Türnitz;bus
 

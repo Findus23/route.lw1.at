@@ -1,0 +1,123 @@
+
+#
+# Diese Daten sind Input für das Tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+
+= Überblick über den Bahnverkehr in Österreich
+
+- Diese Liste ist zunächst eine '''!!!Bestandsaufnahme aller in OSM gefundenen Bahn-Relationen!!!''' unabhängig vom 'network' = Verkehrsverbund
+- 
+- Diese [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|Liste]] ist im OSM Wiki hinterlegt.
+- Weitere [https://ptna.openstreetmap.de/de/config.php?network=AT-Eisenbahn Information] zu dieser Auswertung gibt es bei PTNA direkt.
+-
+- Diese [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|Liste]] kann von jedem aktualisiert, umsortiert, erweitert und korrigiert werden.
+-
+- !!!Bitte bei Änderungen an ''' 'ref' ''', ''' 'from' ''', ''' 'to' ''' oder ''' 'operator' ''' auch in dieser Liste entsprechend anpassen!!! Z.B. bei Änderung: 'ref'='R170' --> 'ref'='R 170'
+-
+- Auf Grund der verwendeten [https://ptna.openstreetmap.de/de/config.php?network=AT-Eisenbahn#overpass-api Overpass-API Abfrage] zum Sammeln der Daten sind (mehr oder weniger zufällig) auch einige Verkehrsmittel '''Tram''' und '''Bus''' aufgeführt. Dieses ist unter Umständen auf deren Mitgliedschaft in Relationen vom 'type'='network' zurückzuführen: siehe auch [https://ptna.openstreetmap.de/results/AT/AT-Eisenbahn-Analysis.html#morerelations Weitere Relationen] in dieser Auswertung.
+-
+
+== Fernverkehr
+
+=== InterCity-Express (ICE)
+ICE 90;train;;Budapest;München;ÖBB-Personenverkehr AG	
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+=== Railjet (RJ)
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+=== EuroCity (EC)
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+=== InterCity (IC)
+IC 610;train;;Graz;Salzburg;ÖBB
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+=== InterRegio (IR)
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+=== EuroNight (EN)
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+=== Westbahn
+WB1-W;train;"Wien <-> Passau/Bregenz/Feldkirch?";;;WESTbahn;AT-Eisenbahn;9-WB1-W-j26-1;
+WB2-S;train;"Wien <-> Villach; Ab März 2026";;;WESTbahn;AT-Eisenbahn;9-WB2-S-j26-1;
+WBD-E;train;"Freilassing <-> Augsburg ?";;;WESTbahn;AT-Eisenbahn;9-WBD-E-j26-1;
+
+== Regionalverkehr
+
+=== Cityjet-Express (CJX)
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+=== Regional-Express (REX)
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+=== Regionalzug (R)
+WHB;train;;Groß Gerungs;Gmünd;;AT-VOR;at:vor:1811:
+WVB;train;;Litschau;Gmünd;NÖVOG;AT-VOR;at:vor:1801:;
+WVB;train;;Alt-Nagelberg;Heidenreichstein;NÖVOG;AT-VOR;"at:vor:1802:;at:vor:1803:"
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+== S-Bahnen
+
+=== Innsbruck
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+=== Salzburg
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+=== Wien
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+== Weitere Bahnlinien
+CAT;train;;;;;AT-VOR;at:vor:1917:
+SBB;train;;;;;AT-VOR;at:vor:1523:
+REB|RLE;train;;;;;AT-VOR;at:vor:1941:
+Liliputbahn;train
+Donauparkbahn;train
+FZ;train;Stainzer Flascherlzug
+ATB;train;Autoschleuse Tauernbahn
+BWB;train;Bregenzerwaldbahn
+MAT;train;Museumsbahn Ampflwang – Timelkam
+TB;train;Taurachbahn
+ZB1;train;Zillertalbahn
+U;monorail;U-Bahn Serfaus;Serfaus Parkplatz;Serfaus Seilbahn
+HBB;funicular;Hungerburgbahn
+Schönbrunner Panoramabahn;dotto_train
+Vienna Heurigen Express;road_train
+
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+= Verbindungen von/ins Ausland
+
+- Die hier aufgelisteten Verbindungen haben Start- oder Ziel-Punkte in Österreich.
+-
+- Auf Grund der verwendeten [https://ptna.openstreetmap.de/de/config.php?network=AT-Eisenbahn#overpass-api Overpass-API Abfrage] zum Sammeln der  Daten sind mitunter (eher zufällig) auch Verbindungen innerhalb Deutschland, ... zu finden (mitunter mit fehlenden Daten für Route-Relationen: "Route wurde im geladenen Datensatz nicht gefunden").
+-
+
+== Aus Deutschland
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+== Aus der Schweiz
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+== Aus Tschechien
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+== Aus Ungarn
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+
+
+

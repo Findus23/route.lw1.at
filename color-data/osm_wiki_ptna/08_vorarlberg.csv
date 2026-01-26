@@ -20,15 +20,16 @@
 -
 #
 ==S-Bahn
-S1;train;Lindau - Bregenz - Dornbirn - Hohenems - Götzis - Rankweil - Feldkirch - Bludenz
-REX1;train;Lindau - Bregenz - Dornbirn - Hohenems - Götzis - Rankweil - Feldkirch - Bludenz
+S1;train;Lindau - Bregenz - Dornbirn - Hohenems - Götzis - Rankweil - Feldkirch - Bludenz;;;;1-MS1-V-j26-1
+REX1;train;Lindau - Bregenz - Dornbirn - Hohenems - Götzis - Rankweil - Feldkirch - Bludenz;;;;2-RX1-V-j26-1
 R1;train;Bregenz - Dornbirn - Hohenems - Götzis - Rankweil - Feldkirch - Bludenz
-S2;train;(Zürich) - Buchs - Schaan - Nendeln - Feldkirch und retour
-R2;train;Buchs - Schaan - Nendeln - Feldkirch und retour
-S3;train;(Lindau - Lochau) - Bregenz - Hard - Lustenau - St. Margrethen
-S4;train;Bludenz - St. Anton i. M. - Vandans - Schruns (Montafonerbahn)
-R5/S5;train;Lustenau - Dornbirn - Feldkirch und retour
-REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
+S2;train;(Zürich) - Buchs - Schaan - Nendeln - Feldkirch und retour;;;;1-S2-V-j26-1
+R2;train;Buchs - Schaan - Nendeln - Feldkirch und retour;;;;3-R2-V-j26-1
+S3;train;(Lindau - Lochau) - Bregenz - Hard - Lustenau - St. Margrethen;;;;1-S3-V-j26-1
+S4;train;Bludenz - St. Anton i. M. - Vandans - Schruns (Montafonerbahn);;;;1-MB4-j26-1
+R5/S5;train;Lustenau - Dornbirn - Feldkirch und retour;;;;3-R5-V-j26-1
+S7;train;;;;;1-S7-V-j26-1
+REX7;train;;;;;2-RX7-V-j26-1
 -
 #
 ==Stadtbus Bregenz
@@ -44,13 +45,15 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 119;bus;Bregenz Bahnhof - Landeskrankenhaus - Bahnhof;;;Landbus Unterland;AT-VVV;at:vvv:119:;
 120;bus;Bregenz - Lochau - Hörbranz;;;Landbus Unterland;AT-VVV;at:vvv:120:;
 121;bus;Lochau Bahnhof - Hörbranz - Hohenweiler (-Niederstaufen);;;Landbus Unterland;AT-VVV;at:vvv:121:;
+124;bus;"Lochau-Hörbranz-Lochau";;;Landbus Unterland;AT-VVV;at:vvv:124:;
 125;bus;Bregenz - Lochau - Hörbranz;;;Landbus Unterland;AT-VVV;at:vvv:125:;
 126;bus;Lochau - Hörbranz - Hohenweiler - Niederstaufen;;;Landbus Unterland;AT-VVV;at:vvv:126:;
 127;bus;Lochau - Eichenberg - Möggers - Scheidegg - Lindau;;;Landbus Unterland;AT-VVV;at:vvv:127:;
 128;bus;Lochau - Pfänder;;;Landbus Unterland;AT-VVV;at:vvv:128:;
-129;bus;Lochau - Lindau-Reutin Bahnhof;;;Landbus Unterland;AT-VVV;at:vvv:129:;
+#129;bus;Lochau - Lindau-Reutin Bahnhof;;;Landbus Unterland;AT-VVV;at:vvv:129:;
 130;bus;Bregenz - Hard Alma - Lauterach - Hohe Brücke - Dornbirn;;;Landbus Unterland;AT-VVV;at:vvv:130:;
 131;bus;Bregenz - Kennelbach - Wolfurt - Hohe Brücke - Dornbirn;;;Landbus Unterland;AT-VVV;at:vvv:131:;
+132;bus;"Dornbirn-Wolfurt";;;Landbus Unterland;AT-VVV;at:vvv:132:;
 135;bus;Dornbirn - A14 -Lauterach - Hard - Bregenz;;;Landbus Unterland;AT-VVV;at:vvv:135:;
 140;bus;Bregenz - Hard - Fußach - Höchst - Gaißau;;;Landbus Unterland;AT-VVV;at:vvv:140:;
 141;bus;Bregenz - Hard - Fußach - Lustenau;;;Landbus Unterland;AT-VVV;at:vvv:141:;
@@ -59,14 +62,18 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 149;bus;Hard Schäfferhofstraße - Erlach - Brückenwaage;;;Landbus Unterland;AT-VVV;at:vvv:149:;
 150;bus;Bregenz - Lauterach - Wolfurt - Schwarzach - Dornbirn;;;Landbus Unterland;AT-VVV;at:vvv:150:;
 151;bus;Bregenz - Wolfurt - Schwarzach - Dornbirn;;;Landbus Unterland;AT-VVV;at:vvv:151:;
+152;bus;"Wolfurt-Schwarzach-Dornbirn";;;Landbus Unterland;AT-VVV;at:vvv:152:;
 158;bus;Alberschwende - Buch - Wolfurt;;;Landbus Unterland;AT-VVV;at:vvv:158:;
 159;bus;Schwarzach - Bildstein - Alberschwende;;;Landbus Unterland;AT-VVV;at:vvv:159:;
 160;bus;Gaißau - Höchst - Lustenau - Dornbirn;;;Landbus Unterland;AT-VVV;at:vvv:160:;
 161;bus;Dornbirn - Lustenau;;;Landbus Unterland;AT-VVV;at:vvv:161:;
+162;bus;"Dornbirn-Lustenau";;;Landbus Unterland;AT-VVV;at:vvv:162:;
 163;bus;Höchst - Lustenau Industriegebiet Nord - Dornbirn;;;Landbus Unterland;AT-VVV;at:vvv:163:;
 164;bus;Wolfurt - Lauterach - Lustenau Industriegebiet Nord;;;Landbus Unterland;AT-VVV;at:vvv:164:;
-165;bus;Gaißau - Höchst - Lustenau Bahnhof;;;Landbus Unterland;AT-VVV;at:vvv:165:;
+#165;bus;Gaißau - Höchst - Lustenau Bahnhof;;;Landbus Unterland;AT-VVV;at:vvv:165:;
 166;bus;Lustenau Bahnhof - Sportpark - Wiesenrain;;;Landbus Unterland;AT-VVV;at:vvv:166:;
+167;bus;"Lustenau Sportpark-Wiesenrain";;;Landbus Unterland;AT-VVV;at:vvv:167:;
+168;bus;"Lustenau Bahnhof-Sportpark-Rathaus-Wiesenrain";;;Landbus Unterland;AT-VVV;at:vvv:168:;
 170;bus;Hohenems Bahnhof - Spielerstraße - Otten Areal;;;Landbus Unterland;AT-VVV;at:vvv:170:;
 171;bus;Hohenems Otten Areal - Rossa - Bahnhof;;;Landbus Unterland;AT-VVV;at:vvv:171:;
 174;bus;Badebus Hohenems;;;Landbus Unterland;
@@ -75,9 +82,15 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 177;bus;Dornbirn Bahnhof - Gütle;;;Landbus Unterland;AT-VVV;at:vvv:177:;
 180;bus;Dornbirn - Hohenems - Götzis;;;Landbus Unterland;AT-VVV;at:vvv:180:;
 181;bus;Dornbirn - Hohenems - Altach - Mäder - Koblach;;;Landbus Unterland;AT-VVV;at:vvv:181:;
+182;bus;"Dornbirn-Hohenems-Altach-Götzis";;;Landbus Unterland;AT-VVV;at:vvv:182:;
 184;bus;Hohenems - Lustenau;;;Landbus Unterland;AT-VVV;at:vvv:184:;
 185;bus;Lustenau - Hohenems - Götzis;;;Landbus Unterland;AT-VVV;at:vvv:185:;
 186;bus;Hohenems - Altach - Mäder - Götzis;;;Landbus Unterland;AT-VVV;at:vvv:186:;
+
+201;bus;"Dornbirn Bahnhof-Messequartier";;;Landbus Unterland;AT-VVV;at:vvv:1201:;
+206;bus;"Dornbirn Bahnhof-Am Eisweiher";;;Landbus Unterland;AT-VVV;at:vvv:1206:;
+302;bus;"Altach Bahnhof-Götzis Bahnhof";;;Landbus Unterland;AT-VVV;at:vvv:1302:;
+307;bus;"Götzis Bahnhof-Unteres Tobel-Altach Kirche";;;Landbus Unterland;AT-VVV;at:vvv:1307:;
 -
 #
 ==Stadtbus Dornbirn
@@ -91,7 +104,7 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 208;bus;Bahnhof – Am Stiglbach;;;Stadtbus Dornbirn;AT-VVV;at:vvv:208:;
 209;bus;Bahnhof - Steinebach - Kehlegg;;;Stadtbus Dornbirn;AT-VVV;at:vvv:209:;
 210;bus;Bahnhof - Oberdorf - Sägerbrücke - Schoren - Messequartier;;;Stadtbus Dornbirn;AT-VVV;at:vvv:210:;
-211;bus;"2023-12-11 - 2024-12-14: 211";;;Stadtbus Dornbirn;AT-VVV;at:vvv:211:;
+211;bus;"Dornbirn Messequartier-Bahnhof";;;Stadtbus Dornbirn;AT-VVV;at:vvv:211:;
 212;bus;Bahnhof - Kastenlangen;;;Stadtbus Dornbirn;AT-VVV;at:vvv:212:;
 -
 #
@@ -107,8 +120,11 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 #
 ==Stadtbus Feldkirch
 401;bus;Ringlinie: Bahnhof - LKH - Tosters - Nofels - Gisingen - Altenstadt - Bahnhof;;;Stadtbus Feldkirch;AT-VVV;at:vvv:401:;
+401s;bus;"Schulbus Feldkirch";;;Stadtbus Feldkirch;AT-VVV;at:vvv:999:;
 402;bus;Ringlinie: Katzenturm - Bahnhof - Altenstadt - Gisingen - Nofels - Tosters - LKH - Katzenturm;;;Stadtbus Feldkirch;AT-VVV;at:vvv:402:;
+402s;bus;"Schulbus Feldkirch";;;Stadtbus Feldkirch;AT-VVV;at:vvv:991:;
 403;bus;Feldkirch Montforthaus - Tosters Hub;;;Stadtbus Feldkirch;AT-VVV;at:vvv:403:;
+403s;bus;"Schulbus Feldkirch";;;Stadtbus Feldkirch;AT-VVV;at:vvv:992:;
 404;bus;Feldkirch Bahnhof - Nofels - Bangs;;;Stadtbus Feldkirch;AT-VVV;at:vvv:404:;
 405;bus;Feldkirch Bahnhof - Gisingen;;;Stadtbus Feldkirch;AT-VVV;at:vvv:405:;
 406;bus;Feldkirch Montforthaus - Gisingen;;;Stadtbus Feldkirch;AT-VVV;at:vvv:406:;
@@ -130,6 +146,7 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 450;bus;Gesamtfahrplan Rankweil Bahnhof - Rankweil LKH;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:450:;
 455;bus;Feldkirch - Brederis - Rankweil Wiesengasse und retour;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:450:;
 456;bus;Rankweil - Brederis;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:456:;
+457;bus;"Brederis Krönele-Rankweil Römergrund-Bahnhof";;;Landbus Oberes Rheintal;AT-VVV;at:vvv:457:;
 460;bus;Koblach - Götzis;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:460:;
 461;bus;Klaus Bahnhof - Koblach Neuburg - Götzis;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:461:;
 462;bus;Klaus Bahnhof - Koblach - Götzis;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:462:;
@@ -142,6 +159,7 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 494;bus;Dafins - Röthis - Sulz - Muntlix;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:494:;
 495;bus;Laterns - Batschuns - Muntlix - Sulz - Rankweil;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:495:;
 496;bus;Übersaxen - Rankweil;;;Landbus Oberes Rheintal;AT-VVV;at:vvv:496:;
+497;bus;"Innerlaterns-Furkajoch-Damüls";;;Landbus Oberes Rheintal;AT-VVV;at:vvv:497:;
 -
 #
 ==Stadtbus Bludenz
@@ -154,15 +172,21 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 ==Landbus Walgau, Großes Walsertal und Brandnertal
 520;bus;(Bludenz) - Nenzing - Frastanz ( - Feldkirch);;;Landbus Walgau;AT-VVV;at:vvv:520:;
 521;bus;Bürs - Bludenz - Nenzing - Beschling und retour;;;Landbus Walgau;AT-VVV;at:vvv:521:;
-522;bus;Beschling - Bürs;;;Landbus Walgau;AT-VVV;at:vvv:522:;
+#522;bus;Beschling - Bürs;;;Landbus Walgau;AT-VVV;at:vvv:522:;
+524;bus;"Schulbus Nenzing-Latz-Gurtis";;;Landbus Walgau;AT-VVV;at:vvv:524:;
+525;bus;"Nenzing-Schlins-Frastanz";;;Landbus Walgau;AT-VVV;at:vvv:525:;
 530;bus;Bludenz - Schlins - Satteins - Feldkirch;;;Landbus Walgau;AT-VVV;at:vvv:530:;
 531;bus;Frastanz - Amerlügen (Parzellenbus);;;Landbus Walgau;AT-VVV;at:vvv:531:;
 532;bus;Frastanz - Gurtis;;;Landbus Walgau;AT-VVV;at:vvv:532:;
-#534;bus;Ortsbus Frastanz Bhf. - Sonnenberger Str. - Gemeindeamt - Auf Kasal - Bhf.;;;Landbus Walgau
+534;bus;"Parzellenbus" Frastanz-Amerlügen";;;Landbus Walgau;AT-VVV;at:vvv:534:;
 535;bus;Eilkurs Nenzing - Schlins - Frastanz - Feldkirch;;;Landbus Walgau;AT-VVV;at:vvv:535:;
+540;bus;"Schlins-Satteins-Frastanz-Feldkirch";;;Landbus Walgau;AT-VVV;at:vvv:540:;
+545;bus;"Frastanz-Feldkirch";;;Landbus Walgau;AT-VVV;at:vvv:545:;
 550;bus;Nenzing - Schlins - Düns - Dünserberg - Älpele;;;Landbus Walgau;AT-VVV;at:vvv:550:;
-556;bus;Satteins - Düns - Schnifis - Thüringerberg;;;Landbus Walgau;AT-VVV;at:vvv:556:;
+551;bus;"Satteins-Düns-Schnifis-Thüringerberg";;;Landbus Walgau;AT-VVV;at:vvv:551:;
+#556;bus;Satteins - Düns - Schnifis - Thüringerberg;;;Landbus Walgau;AT-VVV;at:vvv:556:;
 560;bus;Bludenz - Ludesch - Thüringen - Bludesch - Nenzing - Schlins;;;Landbus Walgau;AT-VVV;at:vvv:560:;
+561;bus;"Bludenz-Ludesch-Thüringen-Bludesch-Nenzing";;;Landbus Walgau;AT-VVV;at:vvv:561:;
 565;bus;Bludenz - Thüringen - Nenzing und retour;;;Landbus Walgau;AT-VVV;at:vvv:565:;
 570;bus;Thüringen - Sonntag - Fontanella - Damüls;;;Landbus Großes Walsertal;AT-VVV;at:vvv:570:;
 571;bus;Rufbus Sonntag - Buchboden;;;Landbus Großes Walsertal;AT-VVV;at:vvv:571:;
@@ -176,7 +200,8 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 601;bus;Zamang Bahn - Schruns - Latschau Golmerbahn;;;Ortsbus Schruns/Tschagguns;AT-VVV;at:vvv:601:;
 602;bus;Schruns Bahnhof - Aktivpark - Zelfen - Zamang - Bahnhof;;;Ortsbus Schruns/Tschagguns;AT-VVV;at:vvv:602:;
 603;bus;Schruns Bahnhof - Zamang - Zelfen - Aktivpark - Bahnhof;;;Ortsbus Schruns/Tschagguns;AT-VVV;at:vvv:603:;
-604;bus;Schruns - Außerlitz - Sozialzentrum - Schruns;;;Ortsbus Schruns/Tschagguns;AT-VVV;at:vvv:604:;
+#604;bus;Schruns - Außerlitz - Sozialzentrum - Schruns;;;Ortsbus Schruns/Tschagguns;AT-VVV;at:vvv:604:;
+605;bus;"Schruns-Zamang Bahn-Zelfen-Latschau Golmerbahn";;;Ortsbus Schruns/Tschagguns;AT-VVV;at:vvv:605:;
 605;bus;Schruns - Zamang - Zelfen - Golmerbahn;;;Ortsbus Schruns/Tschagguns;AT-VVV;at:vvv:605:;
 -
 #
@@ -189,21 +214,25 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 641;bus;Schruns - Vandans - St. Anton i. M. - Bartolomäberg und retour;;;mbsBus GmbH;AT-VVV;at:vvv:641:;
 650;bus;Schruns - St. Gallenkirch - Gaschurn - Partenen - Bielerhöhe (- Stausee Kops);;;mbsBus GmbH;AT-VVV;at:vvv:650:;
 651;bus;Schruns - Tschagguns Zelfen - St. Gallenkirch - Gaschurn - Partenen;;;mbsBus GmbH;AT-VVV;at:vvv:651:;
-655;bus;St. Anton i. M. - Vandans - Schruns und retour;;;mbsBus GmbH;AT-VVV;at:vvv:655:;
+#655;bus;St. Anton i. M. - Vandans - Schruns und retour;;;mbsBus GmbH;AT-VVV;at:vvv:655:;
 670;bus;Schruns - St. Gallenkirch - Gargellen;;;mbsBus GmbH;AT-VVV;at:vvv:670:;
 680;bus;Schruns - Silbertal;;;mbsBus GmbH;AT-VVV;at:vvv:680:;
 -
 #
 ==Ortsbus Lech
+701;bus;"James Stubenbach";;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:1701:;
 701;bus;Stubenbach - Rüfiplatz;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:701:;
 702;bus;Lech Postamt - Zug Mautstelle;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:702:;
+703;bus;"James Zürs";;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:1703:;
 703;bus;Lech Postamt - Zürs Trittkopfbahn;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:703:;
+704;bus;"James Oberlech";;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:1704:;
 704;bus;Rüfiplatz - Oberlech Schlössle;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:704:;
+705;bus;"James Oberstubenbach";;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:1705:;
 705;bus;Rüfiplatz - sport.park.lech - Oberstubenbach;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:705:;
 706;bus;Rüfiplatz – Spullersee (Wanderbus);;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:706:;
-707;bus;Rüfiplatz – Formarinsee (Wanderbus);;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:707:;
+#707;bus;Rüfiplatz – Formarinsee (Wanderbus);;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:707:;
 708;bus;Postamt - Omesberg;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:708:;
-709;bus;Rüfiplatz - Saloberlifte;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:709:;
+#709;bus;Rüfiplatz - Saloberlifte;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:709:;
 711;bus;Rüfiplatz - Feuerwehrhaus;;;Ortsbus Lech (Gemeinde Lech);AT-VVV;at:vvv:711:;
 -
 #
@@ -215,11 +244,11 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 #
 ==Ortsbus Damüls
 801;bus;Damüls - Oberdamüls;;;Landbus Großes Walsertal;AT-VVV;at:vvv:801:;
-802;bus;Schischulbus Alpenblume - Übungsgelände - Walisgaden
+#802;bus;Schischulbus Alpenblume - Übungsgelände - Walisgaden
 -
 #
 ==Landbus Bregenzerwald
-820;bus;Bregenz - Langen - Krumbach - Hittisau - Egg;;;Landbus Bregenzerwald;AT-VVV;at:vvv:820:;
+#820;bus;Bregenz - Langen - Krumbach - Hittisau - Egg;;;Landbus Bregenzerwald;AT-VVV;at:vvv:820:;
 821;bus;Bregenz - Scheidegg - Weiler im Allgäu;;;Landbus Bregenzerwald;AT-VVV;at:vvv:821:;
 822;bus;Fahl - Thal;;;Landbus Bregenzerwald;AT-VVV;at:vvv:822:;
 823;bus;Fahl - Sulzberg - Doren;;;Landbus Bregenzerwald;AT-VVV;at:vvv:823:;
@@ -241,20 +270,23 @@ REX7/S7;train;Lindau - Bregenz - St. Margrethen - Romanshorn - (Weinfelden)
 -
 #
 ==Nachtbus
+LNT;bus;"LNT";;;ÖBB-Postbus GmbH;AT-VVV;at:vvv:9001:;
 N1;bus;Feldkirch - Klaus - Rankweil - Feldkirch;;;;AT-VVV;at:vvv:7028:;
-N2;bus;Feldkirch - Rankweil - Klaus - Feldkirch;;;;AT-VVV;at:vvv:7030:;
-N4;bus;Feldkirch - Göfis - Satteins - Frastanz - Feldkirch;;;;AT-VVV;at:vvv:7029:;
+N2;bus;"Dornau - Feldkirch";;;Verkehrsbetrieb LIECHTENSTEINmobil;AT-VVV;at:vvv:7029:;
+N3;bus;"Buchs SG - Guferwald";;;Verkehrsbetrieb LIECHTENSTEINmobil;AT-VVV;at:vvv:7030:;
+N4;bus;"H.Schellenb. - Bahnhof";;;Verkehrsbetrieb LIECHTENSTEINmobil;AT-VVV;at:vvv:7031:;
 N6;bus;(St. Anton i. M.) - Schruns - Gaschurn - Partenen;;;mbsBus GmbH;AT-VVV;at:vvv:930:;
-N7;bus;Sonntag - Fontanella - Faschina - Damüls;;;Landbus Großes Walsertal;AT-VVV;at:vvv:979:;
+#N7;bus;Sonntag - Fontanella - Faschina - Damüls;;;Landbus Großes Walsertal;AT-VVV;at:vvv:979:;
 8N1;bus;Nachtbuslinie Schwarzach - Egg - Bezau -Schoppernau;;;Landbus Bregenzerwald;AT-VVV;at:vvv:921:;
 8N2;bus;Nachtbuslinie - Bregenz - Sulzberg - Lingenau - Egg;;;Landbus Bregenzerwald;AT-VVV;at:vvv:922:;
 8R1;bus;Fahrradbus Egg - Bezau - Warth;;;Landbus Bregenzerwald;AT-VVV;at:vvv:923:;
+8R2;bus;"Bregenz-Hittisau-Egg";;;Landbus Bregenzerwald;AT-VVV;at:vvv:924:;
 -
 #
 ==RTB Rheintal Bus
-303;bus;;Diepoldsau|Hohenems;Heerbrugg;BOS/rtb
-323;bus;Heerbrugg – Widnau – Diepoldsau – Hohenems
-351;bus;Heerbrugg – Widnau – Lustenau – Dornbirn
+#303;bus;;Diepoldsau|Hohenems;Heerbrugg;BOS/rtb
+#323;bus;Heerbrugg – Widnau – Diepoldsau – Hohenems
+#351;bus;Heerbrugg – Widnau – Lustenau – Dornbirn
 -
 #
 ==LIEmobil
@@ -263,4 +295,45 @@ N7;bus;Sonntag - Fontanella - Faschina - Damüls;;;Landbus Großes Walsertal;AT-
 14;bus;(Vaduz) – Schaan – Nendeln – Feldkirch
 36E;bus;Triesen - Vaduz - Schaan - Bendern - Ruggell - Feldkirch
 -
+
+== Schulbusse
+SK;bus;"Schulbus Dornbirn Primelweg-Rathaus";;;Stadtbus Dornbirn;AT-VVV;at:vvv:230:;
+SK;bus;"Schulbus Dornbirn Mühlebach-Treffpunkt an der Ach";;;Stadtbus Dornbirn;AT-VVV;at:vvv:231:;
+SK;bus;"Schulbus Dornbirn Am Stieglbach-Kehlegg";;;Stadtbus Dornbirn;AT-VVV;at:vvv:232:;
+SK;bus;"Schulbus Dornbirn Am Stiglbach-Winsau Rose";;;Stadtbus Dornbirn;AT-VVV;at:vvv:234:;
+SK;bus;"Schulbus Dornbirn Wallenmahd-Birkenwiese";;;Stadtbus Dornbirn;AT-VVV;at:vvv:235:;
+SK;bus;"Schulbus Dornbirn Am Feuergraben-Ausweichschule";;;Stadtbus Dornbirn;AT-VVV;at:vvv:236:;
+SK;bus;"Schulbus Hörbranz-Lochau-Bregenz-Lauterach";;;Landbus Unterland;AT-VVV;at:vvv:9401:;
+SK;bus;"Schulbus Möggers-Hohenweiler-Hörbranz-Lochau--Bregenz";;;Landbus Unterland;AT-VVV;at:vvv:9402:;
+SK;bus;"Schulbus Hörbranz";;;Landbus Unterland;AT-VVV;at:vvv:9403:;
+SK;bus;"Schulbus Bregenz-Hörbranz-Lochau-Bregenz";;;Landbus Unterland;AT-VVV;at:vvv:9404:;
+SK;bus;"Schulbus Gaißau-Höchst-Lustenau-Dornbirn";;;Landbus Unterland;AT-VVV;at:vvv:9405:;
+SK;bus;"Schulbus Lustenau-Hard-Lauterach-Bregenz";;;Landbus Unterland;AT-VVV;at:vvv:9406:;
+SK;bus;"Schulbus Dornbirn-Schwarzach-Wolfurt-Kennelbach-Bregenz";;;Landbus Unterland;AT-VVV;at:vvv:9407:;
+SK;bus;"Schulbus Lustenau Rathaus-Bahnhof";;;Landbus Unterland;AT-VVV;at:vvv:9409:;
+SK;bus;"Schulbus Gaißau-Höchst-Dornbirn";;;Landbus Unterland;AT-VVV;at:vvv:9410:;
+SK;bus;"Schulbus Höchst-Fußach-Hard";;;Landbus Unterland;AT-VVV;at:vvv:9411:;
+SK;bus;"Schulbus Gaißau-Höchst-Fußach-Hard-Bregenz";;;Landbus Unterland;AT-VVV;at:vvv:9412:;
+SK;bus;"Schulbus Höchst";;;Landbus Unterland;AT-VVV;at:vvv:9413:;
+SK;bus;"Schulbus Hard-Lauterach";;;Landbus Unterland;AT-VVV;at:vvv:9414:;
+SK;bus;"Schulbus Fußach-Höchst-Lustenau";;;Landbus Unterland;AT-VVV;at:vvv:9415:;
+SK;bus;"Schulbus Lustenau Holzmühlestraße-Rathaus";;;Landbus Unterland;AT-VVV;at:vvv:9416:;
+SK;bus;"Schulbus Lustenau Grüttstraße-VS Rotkreuz";;;Landbus Unterland;AT-VVV;at:vvv:9417:;
+SK;bus;"Schulbus Lustenau Holzmühlestraße-VS Rotkreuz";;;Landbus Unterland;AT-VVV;at:vvv:9418:;
+SK;bus;"Schulbus Eichenberg";;;Landbus Unterland;AT-VVV;at:vvv:9420:;
+SK;bus;"Schulbus Mäder-Götzis-Altach-Hohenems";;;Landbus Unterland;AT-VVV;at:vvv:9421:;
+SK;bus;"Schulbus Götzis-Mäder-Altach-Hohenems-Lustenau";;;Landbus Unterland;AT-VVV;at:vvv:9422:;
+SK;bus;"Schulbus Mäder-Altach-Hohenems-Dornbirn";;;Landbus Unterland;AT-VVV;at:vvv:9423:;
+SK;bus;"Schulbus Hohenems Unterklien-Spielestraße";;;Landbus Unterland;AT-VVV;at:vvv:9424:;
+SK;bus;"Schulbus Hohenems Spielerstraße-Unterklien";;;Landbus Unterland;AT-VVV;at:vvv:9426:;
+SK;bus;"Schulbus Hohenems Nibelungenstraße-Altach-Hohenems Unterklien";;;Landbus Unterland;AT-VVV;at:vvv:9427:;
+SK;bus;"Schulbus Hohenems Otten Areal-Nibelungenstraße";;;Landbus Unterland;AT-VVV;at:vvv:9428:;
+SK;bus;"Schulbus Götzis";;;Landbus Unterland;AT-VVV;at:vvv:9440:;
+SK;bus;"Schulbus Dornbirn-Lustenau";;;Landbus Unterland;AT-VVV;at:vvv:9461:;
+SK;bus;"Schulbus Schule Schendlingen";;;Stadtbus Bregenz;AT-VVV;at:vvv:980:;
+
+== Skibus
+WS;bus;"Skibus Schröcken-Warth";;;Warth-Schröcken Tourismus;AT-VVV;at:vvv:80:;
+
+
 #
