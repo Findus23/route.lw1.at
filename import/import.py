@@ -132,7 +132,7 @@ def fetch_datasets(access_token: str):
         if metafile.exists(follow_symlinks=False):
             metafile.unlink()
         if mobility_dataset.gtfsclean_args:
-            metafile.symlink_to(cleaned_file)
+            metafile.symlink_to(cleaned_file.name)
         else:
             metafile.symlink_to(download_file.name)
         if download_file.exists() :

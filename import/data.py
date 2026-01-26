@@ -54,7 +54,8 @@ mobility_datasets = [
             "((IC)|(ECB)|(EC)|(RJ)|(RJX)|(D)|(NJ)|(EN)|(CJX)|(ICE)|(IR)|(REX)|(R)|(ER)|(ATB)|(WB)) \\d+",
             "--keep-route-names-matching",
             "((RE)|(RB)|S) ?\\d+"
-        ]
+        ],
+        osm_wiki_page="Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien"
     ),
     MobilityDataset(
         own_name="Linz AG",
