@@ -20,30 +20,80 @@
 == Fernverkehr
 
 === InterCity-Express (ICE)
-ICE 90;train;;Budapest;München;ÖBB-Personenverkehr AG	
+ICE 90|RJ90;train;;Budapest;München;ÖBB-Personenverkehr AG;AT-Eisenbahn;14-A98-j26-1	
+ICE 91;train;;Dortmund Hbf;Wien Hbf;"DB Fernverkehr AG;ÖBB";AT-Eisenbahn;14-A98-j26-1
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
 === Railjet (RJ)
+
+- Existierende Routes von OSM
+
+RJ 133;train;;Wien Hbf;Venezia Santa Lucia
+RJ;train;;Wien;Zürich;ÖBB-Personenverkehr AG
+RJ;train;;Villach;Praha;ÖBB-Personenverkehr AG|České dráhy
+RJ;train;;Wien;Villach;ÖBB-Personenverkehr AG
+RJ;train;;Wien;Salzburg;ÖBB-Personenverkehr AG
+RJX;train;;Wien;Bregenz;ÖBB-Personenverkehr AG
+RJX;train;;Wien;Villach;ÖBB-Personenverkehr AG
+
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
 === EuroCity (EC)
+EC 62;train
+"EC 80|EC 83|EC 83;EC 80";train
+"EC 81|EC 82|EC 88|EC 89|EC 81;EC 82;EC 88;EC 89";train
+"EC 84|EC 85|EC 84;EC 85";train
+"EC 86|EC 87|EC 86;EC 87";train
+"EC 98|EC 99|EC 98;EC 99";train
+"EC102;EC104|EC103;EC105";train
+EC 112|EC 113;train
+EC 114|EC 115;train
+EC 212|EC 213;train
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
 === InterCity (IC)
-IC 610;train;;Graz;Salzburg;ÖBB
+IC;train;;Linz;Graz
+IC 62;train;;Frankfurt;Salzburg
+IC 610|IC 611;train;;Graz;Salzburg
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
 === InterRegio (IR)
+IR;train;;Graz;Klagenfurt;;AT-Eisenbahn;13-A10-j26-1
+- [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
+-
+=== Nightjet (NJ)
+"NJ 294|NJ 295|NJ 294;NJ 295";train
+NJ 421;train
+NJ 457;train
+NJ 491;train
+"NJ 40235|NJ 40295|NJ 40235;NJ 40295";train
+"NJ 40236|NJ 40463|NJ 40236;NJ 40463";train
+NJ 40421;train
+NJ 40491;train
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
 === EuroNight (EN)
+
+- Existierende Routes von OSM
+
+EN;train;;Wien;Praha
+EN;train;;Budapest;Praha
+"EN 346|EN 347|EN 346;EN 347";train;;Wien;Bucuresti
+EN407;train
+EN 462;train;;Budapest;München
+EN 463;train;;München;Budapest
+EN 40467;train;;Zürich;Budapest
+EN 40462;train;;Budapest;Zürich
+"EN 414|EN 498|EN 40465|EN 50463|EN 414;EN 498;EN 40465;EN 50463";train;"EuroNight Lisinski;Zürich;Zagreb;München"
+EN 476|EN 477|EN 407|EN 40406|EN40406;train;"Metropol EuroNight;Praha;Budapest;Wien"
+
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
 
 === Westbahn
-WB1-W;train;"Wien <-> Passau/Bregenz/Feldkirch?";;;WESTbahn;AT-Eisenbahn;9-WB1-W-j26-1;
-WB2-S;train;"Wien <-> Villach; Ab März 2026";;;WESTbahn;AT-Eisenbahn;9-WB2-S-j26-1;
-WBD-E;train;"Freilassing <-> Augsburg ?";;;WESTbahn;AT-Eisenbahn;9-WBD-E-j26-1;
+WESTbahn;train;Weststrecke;;Salzburg;WESTbahn;AT-Eisenbahn;9-WB1-W-j26-1;
+WESTbahn;train;Deutscher Weststreckenteil;München;;WESTbahn;AT-Eisenbahn;9-WBD-E-j26-1;
+WESTbahn;train;Südstrecke;;Villach;WESTbahn;AT-Eisenbahn;9-WB2-S-j26-1;
 
 == Regionalverkehr
 
@@ -78,7 +128,8 @@ WVB;train;;Alt-Nagelberg;Heidenreichstein;NÖVOG;AT-VOR;"at:vor:1802:;at:vor:180
 
 == Weitere Bahnlinien
 CAT;train;;;;;AT-VOR;at:vor:1917:
-SBB;train;;;;;AT-VOR;at:vor:1523:
+SBB;train;Schafbergbahn;;Schafbergspitze;Salzburg AG, Verkehr;
+SBB;train;Schneebergbahn;;Hochschneeberg;NÖSBB;AT-VOR;at:vor:1523:
 REB|RLE;train;;;;;AT-VOR;at:vor:1941:
 Liliputbahn;train
 Donauparkbahn;train
@@ -88,7 +139,7 @@ BWB;train;Bregenzerwaldbahn
 MAT;train;Museumsbahn Ampflwang – Timelkam
 TB;train;Taurachbahn
 ZB1;train;Zillertalbahn
-U;monorail;U-Bahn Serfaus;Serfaus Parkplatz;Serfaus Seilbahn
+U;subway;U-Bahn Serfaus;Serfaus Parkplatz;Serfaus Seilbahn
 HBB;funicular;Hungerburgbahn
 Schönbrunner Panoramabahn;dotto_train
 Vienna Heurigen Express;road_train

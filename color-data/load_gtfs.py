@@ -6,6 +6,7 @@
 import csv
 import sqlite3
 import zipfile
+from pathlib import Path
 
 from data import mobility_datasets
 
@@ -48,7 +49,15 @@ def create_tables():
 
 
 def load_routes(zip_name: str, conn: sqlite3.Connection):
-    archive = zipfile.ZipFile(f'../datasets/gtfs/{zip_name}.zip', 'r')
+    if zip_name == "00_eisenbahn":
+        # tmp workaround (use original file)
+        print(zip_name)
+        linkname = Path(f'../datasets/gtfs/{zip_name}.zip').readlink().name.replace("_cleaned", "")
+        file = f'../datasets/gtfs/{linkname}'
+    else:
+        file = f'../datasets/gtfs/{zip_name}.zip'
+
+    archive = zipfile.ZipFile(file, 'r')
     data = []
     with archive.open('routes.txt') as f:
         print(next(f).decode())
@@ -56,8 +65,8 @@ def load_routes(zip_name: str, conn: sqlite3.Connection):
             line = line.decode().strip()
             reader = csv.reader([line], delimiter=',')
             row = next(reader)
-            print(len(row))
-            print(row)
+            # print(len(row))
+            # print(row)
             data.append([zip_name, *row])
 
     conn.executemany(

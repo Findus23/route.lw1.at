@@ -37,8 +37,6 @@ local colors_by_id = {
     ["1-S50-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S6 S6 Innsbruck ↔ Scharnitz ↔ Garmisch
     ["1-S6-K-j26-1"] = { color = 0xD4B4C4, text_color = 0xFFFFFF },
-    -- j S60 Schnellbahn S60
-    ["1-S60-W-j26-1"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- m S63 S63 Wien
     ["1-S63-W-j26-1"] = { color = 0x079DDD, text_color = 0xFFFFFF },
     -- j S7 Schnellbahn S7
@@ -53,6 +51,10 @@ local colors_by_id = {
     ["2-RX1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
     -- j REX3 REX3: Salzburg <=> Schwarzach-St. Veit
     ["2-RX3-W-j26-1"] = { color = 0x7EBB45, text_color = 0xFFFFFF },
+    -- j R1 R1: Bregenz Hafen <=> Bludenz
+    ["3-R1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
+    -- j R3 R3: Salzburg <=> Saalfelden
+    ["3-R3-W-j26-1"] = { color = 0xA4B92E, text_color = 0xFFFFFF },
     -- m WB1-W Westbahn WB1-W
     ["9-WB1-W-j26-1"] = { color = 0xC4D636, text_color = 0xFFFFFF },
     -- m WB2-S Westbahn WB2-S
@@ -191,8 +193,6 @@ local colors_by_id = {
     ["at:obb:1|S1:M"] = { color = 0x159DD9, text_color = 0xFFFFFF },
     -- j S3 Schnellbahn S3
     ["at:obb:1|S3:M"] = { color = 0x159DD9, text_color = 0xFFFFFF },
-    -- j S5 S-Bahn S5: Rosenbach <=> Villach Hbf
-    ["at:obb:1|S5:M"] = { color = 0xF3C737, text_color = 0xFFFFFF },
     -- j S8 S8
     ["at:obb:1|S8:M"] = { color = 0x5CC1D1, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Steyr 1: Münichholz
@@ -627,8 +627,8 @@ local colors_by_id = {
     ["at:vor:1515:"] = { color = 0x005395, text_color = 0xFFFFFF },
     -- r 151 Wien Floridsdorf - Poysdorf - Wildendürnbach
     ["at:vor:151:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- j SBB Schloßbergbahn
-    ["at:vor:1523:"] = { color = 0x4B4C4D, text_color = 0xFFFFFF },
+    -- j SBB SBB
+    ["at:vor:1523:"] = { color = 0xFAA61A, text_color = 0x00462C },
     -- r 164 Waidhofen/Ybbs - Lunz am See
     ["at:vor:164:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 169 Wien - Mariazell
@@ -643,8 +643,6 @@ local colors_by_id = {
     ["at:vor:176:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1774 Oberpullendorf - Kirchschlag i.d. Buckligen Welt
     ["at:vor:1774:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 1775 Oberwart - Bernstein - Lockenhaus - Oberpullendorf
-    ["at:vor:1775:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1776 Oberpullendorf - Kirchschlag i.d. Buckligen Welt
     ["at:vor:1776:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 180 Horn - Göpfritz/Wild - Waidhofen/Thaya
@@ -1185,7 +1183,7 @@ local colors_by_id = {
     ["at:vor:3435:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 36A Jedlesee, Bellgasse - Carabelligasse
     ["at:vor:3436:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 37A Brigittenauer Brücke - Dänenstraße Baustellenfahrplan gültig vom 6.10. bis voraussichtlich Frühling 2026
+    -- r 37A Brigittenauer Brücke - Dänenstraße
     ["at:vor:3437:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 38A Heiligenstadt - Kahlenberg (-Leopoldsberg)
     ["at:vor:3438:"] = { color = 0x012A60, text_color = 0xFFFFFF },
@@ -2086,6 +2084,8 @@ local colors_by_id = {
     -- r 789 Pöchlarn - Artstetten - Unterbierbaum
     ["at:vor:789:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7900 Pinkafeld - Oberwart - Güssing - Jennersdorf
+    ["at:vor:7900:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7900 Pinkafeld - Oberwart - Güssing - Jennersdorf
     ["at:vor:7901:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7903 Oberwart - Stegersbach - Güssing
     ["at:vor:7903:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -2131,8 +2131,12 @@ local colors_by_id = {
     ["at:vor:7923:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7924 Stegersbach - Hackerberg - Stegersbach
     ["at:vor:7924:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7925 Stadtverkehr Oberwart
+    ["at:vor:7925:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7926 Ortsverkehr Stegersbach
     ["at:vor:7926:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7927 Stadtverkehr Güssing
+    ["at:vor:7927:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7929 Güssing - St. Michael im Burgenland
     ["at:vor:7929:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 792 Pöggstall - Seiterndorf
@@ -2349,6 +2353,8 @@ local colors_by_id = {
     ["at:vor:9650:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B27 Jennersdorf - Neustift/Güssing - Güssing
     ["at:vor:990:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- p A Bus A: Rum Sanatorium <=> Innsbruck Allerheiligenhöfe
+    ["at:vvt:10:"] = { color = 0x00A2D3, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Landeck Zentrum => Zams Lochputz
     ["at:vvt:199001:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
@@ -2545,12 +2551,8 @@ local colors_by_id = {
     ["at:vvv:504:"] = { color = 0x048354, text_color = 0xFFFFFF },
     -- j N1 Bus N1
     ["at:vvv:7028:"] = { color = 0xA3CF44, text_color = 0xFFFFFF },
-    -- j N4 Bus N4: Jakominiplatz => Dörfla
-    ["at:vvv:7029:"] = { color = 0xAC4E26, text_color = 0xFFFFFF },
-    -- j N2 Bus N2
-    ["at:vvv:7030:"] = { color = 0xFFB530, text_color = 0xFFFFFF },
-    -- j 820 Bus 820: Egg => Bregenz
-    ["at:vvv:820:"] = { color = 0xED1C24, text_color = 0xFFFFFF },
+    -- j N2 N2: Sargans → Feldkirch
+    ["at:vvv:7029:"] = { color = 0xDC6C49, text_color = 0xFFFFFF },
     -- j 830 Bus 830: Bezau => Bregenz
     ["at:vvv:830:"] = { color = 0xAD680A, text_color = 0xFFFFFF },
     -- j 840 Bus 840: Schoppernau => Bregenz
