@@ -1,4 +1,2 @@
-1767019488s annex.largefiles largerthan=100kb and not (include=*.js or include=*.json)
-1768004759s annex.largefiles largerthan=100kb and not (include=*.js or include=*.json or include=*.lua)
 1768347417s annex.autocommit false
-1769297955s annex.largefiles largerthan=100kb and not (include=*.json or include=*.lua)
+1770588951s annex.largefiles (largerthan=100kb or include=*.zip) and not (include=*.json or include=*.lua)
