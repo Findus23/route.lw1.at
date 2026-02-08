@@ -1,0 +1,57 @@
+# based on information from https://www.spitz-wachau.at/Rollfaehre_Spitz-Arnsdorf
+
+year: 2026
+route_short_name: Rollfähre Wachau
+route_long_name: Rollfähre Spitz – Arnsdorf
+route_type: "FERRY"
+bikes_allowed: true
+cars_allowed: true
+headway_minutes: 16
+travel_time_minutes: 8
+route_id: rf:sa
+
+agency:
+  agency_name: Rollfähre Spitz - Arnsdorf
+  agency_url: https://www.spitz-wachau.at/Rollfaehre_Spitz-Arnsdorf
+  agency_phone: +43 (0) 650/2502103
+
+endpoints:
+  - stop_id: s
+    stop_name: Rollfähre Spitz
+    location_name: Spitz
+    position:
+      lat: 48.3624690
+      lon: 15.4178968
+      level: 0
+  - stop_id: a
+    stop_name: Rollfähre Arnsdorf
+    location_name: Arnsdorf
+    position:
+      lat: 48.3608546
+      lon: 15.4201787
+      level: 0
+
+services:
+  - service_id: summer_wd
+    days: weekday
+    start_date: 2026-03-01
+    end_date: 2026-10-31
+    windows:
+      - start: "06:15:00"
+        end: "18:45:00" # Letzte Fahrt
+  - service_id: summer_we
+    days: weekend_ph
+    start_date: 2026-03-01
+    end_date: 2026-10-31
+    windows:
+      - start: "08:15:00"
+        end: "19:30:00"
+  - service_id: winter
+    days: weekday
+    start_date: 2026-11-01
+    end_date: 2027-02-28
+    windows:
+      - start: "06:15:00"
+        end: "09:30:00" # Letzte Fahrt
+      - start: "13:30:00"
+        end: "17:45:00" # Letzte Fahrt
