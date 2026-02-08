@@ -1,0 +1,2 @@
+agency_name,agency_url,agency_phone,agency_timezone,agency_lang,agency_id
+Rollfähre Spitz - Arnsdorf,https://www.spitz-wachau.at/Rollfaehre_Spitz-Arnsdorf,+43 (0) 650/2502103,Europe/Vienna,DE,rf:sa

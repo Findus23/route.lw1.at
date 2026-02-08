@@ -1,0 +1,9 @@
+trip_id,start_time,end_time,headway_secs,exact_times
+rf:sa:summer_wd:AB,06:15:00,18:45:00,960,0
+rf:sa:summer_wd:BA,06:23:00,18:53:00,960,0
+rf:sa:summer_wd:AB,08:15:00,19:30:00,960,0
+rf:sa:summer_wd:BA,08:23:00,19:38:00,960,0
+rf:sa:summer_wd:AB,06:15:00,09:30:00,960,0
+rf:sa:summer_wd:BA,06:23:00,09:38:00,960,0
+rf:sa:summer_wd:AB,13:30:00,17:45:00,960,0
+rf:sa:summer_wd:BA,13:38:00,17:53:00,960,0

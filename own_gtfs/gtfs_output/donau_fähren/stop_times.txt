@@ -1,0 +1,13 @@
+trip_id,stop_id,arrival_time,departure_time,stop_sequence
+rf:sa:summer_wd:AB,rf:sa:s,00:00:00,00:00:00,1
+rf:sa:summer_wd:AB,rf:sa:a,00:08:00,00:08:00,2
+rf:sa:summer_wd:BA,rf:sa:a,00:00:00,00:00:00,1
+rf:sa:summer_wd:BA,rf:sa:s,00:08:00,00:08:00,2
+rf:sa:summer_we:AB,rf:sa:s,00:00:00,00:00:00,1
+rf:sa:summer_we:AB,rf:sa:a,00:08:00,00:08:00,2
+rf:sa:summer_we:BA,rf:sa:a,00:00:00,00:00:00,1
+rf:sa:summer_we:BA,rf:sa:s,00:08:00,00:08:00,2
+rf:sa:winter:AB,rf:sa:s,00:00:00,00:00:00,1
+rf:sa:winter:AB,rf:sa:a,00:08:00,00:08:00,2
+rf:sa:winter:BA,rf:sa:a,00:00:00,00:00:00,1
+rf:sa:winter:BA,rf:sa:s,00:08:00,00:08:00,2

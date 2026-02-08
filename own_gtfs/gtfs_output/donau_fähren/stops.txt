@@ -1,0 +1,3 @@
+stop_id,stop_name,stop_desc,stop_lat,stop_lon,level_id,platform_code
+rf:sa:s,Rollfähre Spitz,,48.362469,15.4178968,0,
+rf:sa:a,Rollfähre Arnsdorf,,48.3608546,15.4201787,0,

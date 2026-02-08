@@ -1,0 +1,280 @@
+{
+    "$defs": {
+        "Agency": {
+            "additionalProperties": false,
+            "properties": {
+                "agency_name": {
+                    "title": "Agency Name",
+                    "type": "string"
+                },
+                "agency_url": {
+                    "title": "Agency Url",
+                    "type": "string"
+                },
+                "agency_phone": {
+                    "title": "Agency Phone",
+                    "type": "string"
+                },
+                "agency_timezone": {
+                    "default": "Europe/Vienna",
+                    "title": "Agency Timezone",
+                    "type": "string"
+                },
+                "agency_lang": {
+                    "default": "DE",
+                    "title": "Agency Lang",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "agency_name",
+                "agency_url",
+                "agency_phone"
+            ],
+            "title": "Agency",
+            "type": "object"
+        },
+        "Endpoint": {
+            "additionalProperties": false,
+            "properties": {
+                "stop_id": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "title": "Stop Id"
+                },
+                "stop_name": {
+                    "title": "Stop Name",
+                    "type": "string"
+                },
+                "location_name": {
+                    "title": "Location Name",
+                    "type": "string"
+                },
+                "position": {
+                    "$ref": "#/$defs/Postion"
+                },
+                "platform_code": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Platform Code"
+                },
+                "stop_desc": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Stop Desc"
+                }
+            },
+            "required": [
+                "stop_id",
+                "stop_name",
+                "location_name",
+                "position"
+            ],
+            "title": "Endpoint",
+            "type": "object"
+        },
+        "Postion": {
+            "additionalProperties": false,
+            "properties": {
+                "lat": {
+                    "exclusiveMaximum": 49,
+                    "minimum": 48,
+                    "title": "Lat",
+                    "type": "number"
+                },
+                "lon": {
+                    "exclusiveMaximum": 16,
+                    "minimum": 15,
+                    "title": "Lon",
+                    "type": "number"
+                },
+                "level": {
+                    "default": 0,
+                    "exclusiveMaximum": 8,
+                    "minimum": -8,
+                    "title": "Level",
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "lat",
+                "lon"
+            ],
+            "title": "Postion",
+            "type": "object"
+        },
+        "RouteType": {
+            "enum": [
+                "FERRY"
+            ],
+            "title": "RouteType",
+            "type": "string"
+        },
+        "ServiceRule": {
+            "additionalProperties": false,
+            "properties": {
+                "service_id": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "title": "Service Id"
+                },
+                "days": {
+                    "enum": [
+                        "weekday",
+                        "weekend",
+                        "weekend_ph",
+                        "daily"
+                    ],
+                    "title": "Days",
+                    "type": "string"
+                },
+                "start_date": {
+                    "format": "date",
+                    "title": "Start Date",
+                    "type": "string"
+                },
+                "end_date": {
+                    "format": "date",
+                    "title": "End Date",
+                    "type": "string"
+                },
+                "windows": {
+                    "items": {
+                        "$ref": "#/$defs/TimeWindow"
+                    },
+                    "title": "Windows",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "service_id",
+                "days",
+                "start_date",
+                "end_date",
+                "windows"
+            ],
+            "title": "ServiceRule",
+            "type": "object"
+        },
+        "TimeWindow": {
+            "additionalProperties": false,
+            "properties": {
+                "start": {
+                    "format": "time",
+                    "title": "Start",
+                    "type": "string"
+                },
+                "end": {
+                    "format": "time",
+                    "title": "End",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "start",
+                "end"
+            ],
+            "title": "TimeWindow",
+            "type": "object"
+        }
+    },
+    "additionalProperties": false,
+    "properties": {
+        "year": {
+            "title": "Year",
+            "type": "integer"
+        },
+        "route_id": {
+            "title": "Route Id",
+            "type": "string"
+        },
+        "route_short_name": {
+            "title": "Route Short Name",
+            "type": "string"
+        },
+        "route_long_name": {
+            "title": "Route Long Name",
+            "type": "string"
+        },
+        "bikes_allowed": {
+            "title": "Bikes Allowed",
+            "type": "boolean"
+        },
+        "cars_allowed": {
+            "title": "Cars Allowed",
+            "type": "boolean"
+        },
+        "headway_minutes": {
+            "title": "Headway Minutes",
+            "type": "integer"
+        },
+        "travel_time_minutes": {
+            "title": "Travel Time Minutes",
+            "type": "integer"
+        },
+        "agency": {
+            "$ref": "#/$defs/Agency"
+        },
+        "route_type": {
+            "$ref": "#/$defs/RouteType"
+        },
+        "services": {
+            "items": {
+                "$ref": "#/$defs/ServiceRule"
+            },
+            "title": "Services",
+            "type": "array"
+        },
+        "endpoints": {
+            "items": {
+                "$ref": "#/$defs/Endpoint"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Endpoints",
+            "type": "array"
+        }
+    },
+    "required": [
+        "year",
+        "route_id",
+        "route_short_name",
+        "route_long_name",
+        "bikes_allowed",
+        "cars_allowed",
+        "headway_minutes",
+        "travel_time_minutes",
+        "agency",
+        "route_type",
+        "services",
+        "endpoints"
+    ],
+    "title": "FerryConfig",
+    "type": "object"
+}
