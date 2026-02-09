@@ -38,6 +38,11 @@ timetable:
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
+    ferries:
+      path: own_gtfs/gtfs_output/donau_fähren.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: false
     01-linz:
       path: datasets/gtfs/01_linz.zip
       default_bikes_allowed: false
