@@ -4,7 +4,7 @@ import subprocess
 from datetime import date, time, timedelta, datetime
 from pathlib import Path
 from typing import cast
-from zipfile import ZipFile, ZipInfo, ZIP_BZIP2
+from zipfile import ZipFile, ZipInfo, ZIP_DEFLATED
 
 import yaml
 from pydantic import BaseModel
@@ -172,7 +172,7 @@ def main():
         tmp_file = outdir / "tmp.zip"
         outzip = outdir.with_suffix(".zip")
         outfiles = sorted(outdir.glob("*.txt"))
-        with ZipFile(tmp_file, compression=ZIP_BZIP2, compresslevel=9, mode="w") as zf:
+        with ZipFile(tmp_file, compression=ZIP_DEFLATED, compresslevel=9, mode="w") as zf:
 
             # zf.write()
             for file in outfiles:
