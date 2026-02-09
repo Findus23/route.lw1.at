@@ -1,0 +1,73 @@
+# based on information from https://www.weissenkirchen-wachau.at/ueber-weissenkirchen/mobilitaet/rollfaehre
+
+year: 2026
+route_short_name: Rollfähre Weißenkirchen
+route_long_name: Rollfähre Weißenkirchen - St. Lorenz
+route_type: "FERRY"
+bikes_allowed: true
+cars_allowed: true
+# keine explizite Angabe, aber vermutlich ähnlich zu Spitz/Arnsdorf
+headway_minutes: 16
+travel_time_minutes: 8
+route_id: rf:wsl
+
+agency:
+  agency_name: Rollfähre Weißenkirchen - St. Lorenz
+  agency_url: https://www.weissenkirchen-wachau.at/ueber-weissenkirchen/mobilitaet/rollfaehre
+
+endpoints:
+  # Locations from OSM
+  - stop_id: wk
+    stop_name: Rollfähre Weißenkirchen
+    location_name: Weißenkirchen
+    position:
+      lat: 48.3948740
+      lon: 15.4724120
+      level: 0
+  - stop_id: sl
+    stop_name: Rollfähre St. Lorenz
+    location_name: St. Lorenz
+    position:
+      lat: 48.3933991
+      lon: 15.4747387
+      level: 0
+
+services:
+  # "zur Marillenblüte" is a bit too vague for GTFS
+  # also only operating if water level is > 6.3m and no storm
+  - service_id: spring
+    days: daily
+    start_date: 2026-03-27
+    end_date: 2026-04-30
+    windows:
+      - start: 09:00:00
+        end: 11:45:00
+      - start: 13:30:00
+        end: 18:45:00
+  - service_id: summer_wd
+    days: weekday
+    start_date: 2026-05-01
+    end_date: 2026-10-11
+    windows:
+      - start: 08:00:00
+        end: 11:45:00
+      - start: 13:30:00
+        end: 18:45:00
+  - service_id: summer_we
+    days: weekend_ph
+    start_date: 2026-05-01
+    end_date: 2026-10-11
+    windows:
+      - start: 08:00:00
+        end: 11:45:00
+      - start: 12:30:00
+        end: 18:45:00
+  - service_id: autumn
+    days: daily
+    start_date: 2026-10-12
+    end_date: 2026-11-02
+    windows:
+      - start: 08:00:00
+        end: 11:45:00
+      - start: 13:30:00
+        end: 17:45:00

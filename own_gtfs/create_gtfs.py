@@ -10,7 +10,7 @@ import yaml
 from pydantic import BaseModel
 
 from gtfs_data import FerryConfig, GTFSAgency, GTFSStop, GTFSService, GTFSTrip, IntBool, GTFS, GTFSRoute, GTFSStopTime, \
-    GTFSFrequency
+    GTFSFrequency, GTFSLevels
 from other_data import ROUTE_TYPES_GTFS
 
 
@@ -105,7 +105,7 @@ def convert(ferry: FerryConfig):
 
         for w in serv_data.windows:
             frequency_forward = GTFSFrequency(
-                trip_id=gtfs.trips[0].trip_id,
+                trip_id=gtfs.trips[-2].trip_id,
                 start_time=gtfs_timestring(w.start),
                 end_time=gtfs_timestring(w.end),
                 headway_secs=ferry.headway_minutes * 60,
@@ -113,13 +113,14 @@ def convert(ferry: FerryConfig):
             )
             gtfs.frequencies.append(frequency_forward)
             frequency_backwards = GTFSFrequency(
-                trip_id=gtfs.trips[1].trip_id,
+                trip_id=gtfs.trips[-1].trip_id,
                 start_time=gtfs_timestring(w.start_datetime + travel_time_delta),
                 end_time=gtfs_timestring(w.end_datetime + travel_time_delta),
                 headway_secs=ferry.headway_minutes * 60,
                 exact_times=0
             )
             gtfs.frequencies.append(frequency_backwards)
+
 
     return gtfs
 
@@ -161,6 +162,8 @@ def main():
             gtfs_new = convert(ferry)
             gtfs.extend(gtfs_new)
 
+        gtfs.levels.append(GTFSLevels(level_id=0, level_index=0.0))
+
         model_to_file(gtfs.agency, outdir / "agency.txt")
         model_to_file(gtfs.stops, outdir / "stops.txt")
         model_to_file(gtfs.calendar, outdir / "calendar.txt")
@@ -168,6 +171,7 @@ def main():
         model_to_file(gtfs.trips, outdir / "trips.txt")
         model_to_file(gtfs.stop_times, outdir / "stop_times.txt")
         model_to_file(gtfs.frequencies, outdir / "frequencies.txt")
+        model_to_file(gtfs.levels, outdir / "levels.txt")
 
         tmp_file = outdir / "tmp.zip"
         outzip = outdir.with_suffix(".zip")

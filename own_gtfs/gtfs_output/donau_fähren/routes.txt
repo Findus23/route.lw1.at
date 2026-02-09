@@ -1,2 +1,5 @@
 route_id,agency_id,route_short_name,route_long_name,route_type
+rf:dsr,rf:dsr,Radfähre Dürnstein,Radfähre Dürnstein - Rossatz,4
+rf:kk,rf:kk,Rollfähre Korneuburg - Klosterneuburg,Rollfähre Korneuburg - Klosterneuburg,4
 rf:sa,rf:sa,Rollfähre Wachau,Rollfähre Spitz – Arnsdorf,4
+rf:wsl,rf:wsl,Rollfähre Weißenkirchen,Rollfähre Weißenkirchen - St. Lorenz,4

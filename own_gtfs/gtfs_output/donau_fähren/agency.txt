@@ -1,2 +1,5 @@
-agency_name,agency_url,agency_phone,agency_timezone,agency_lang,agency_id
-Rollfähre Spitz - Arnsdorf,https://www.spitz-wachau.at/Rollfaehre_Spitz-Arnsdorf,+43 (0) 650/2502103,Europe/Vienna,DE,rf:sa
+agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_id
+Radfähre Dürnstein - Rossatz,https://schifffahrt-duernstein.at/,Europe/Vienna,DE,,rf:dsr
+Rollfähre Korneuburg - Klosterneuburg,http://www.donaurollfaehre.at/,Europe/Vienna,DE,0664 215 54 43,rf:kk
+Rollfähre Spitz - Arnsdorf,https://www.spitz-wachau.at/Rollfaehre_Spitz-Arnsdorf,Europe/Vienna,DE,+43 (0) 650/2502103,rf:sa
+Rollfähre Weißenkirchen - St. Lorenz,https://www.weissenkirchen-wachau.at/ueber-weissenkirchen/mobilitaet/rollfaehre,Europe/Vienna,DE,,rf:wsl

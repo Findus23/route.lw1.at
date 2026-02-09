@@ -1,3 +1,9 @@
 stop_id,stop_name,stop_desc,stop_lat,stop_lon,level_id,platform_code
+rf:dsr:ds,Radfähre Dürnstein,,48.3930821,15.5195733,0,
+rf:dsr:r,Radfähre Rossatz,,48.3920422,15.5166954,0,
+rf:kk:ko,Rollfähre Korneuburg,,48.3294855,16.3321168,0,
+rf:kk:kl,Rollfähre Klosterneuburg,,48.3285978,16.3291858,0,
 rf:sa:s,Rollfähre Spitz,,48.362469,15.4178968,0,
 rf:sa:a,Rollfähre Arnsdorf,,48.3608546,15.4201787,0,
+rf:wsl:wk,Rollfähre Weißenkirchen,,48.394874,15.472412,0,
+rf:wsl:sl,Rollfähre St. Lorenz,,48.3933991,15.4747387,0,

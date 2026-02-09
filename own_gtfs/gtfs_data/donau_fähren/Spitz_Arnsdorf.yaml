@@ -16,6 +16,7 @@ agency:
   agency_phone: +43 (0) 650/2502103
 
 endpoints:
+ # Locations from OSM
   - stop_id: s
     stop_name: Rollfähre Spitz
     location_name: Spitz

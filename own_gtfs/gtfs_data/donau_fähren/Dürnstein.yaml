@@ -1,0 +1,77 @@
+# based on information from https://schifffahrt-duernstein.at/
+
+year: 2026
+route_short_name: Radfähre Dürnstein
+route_long_name: Radfähre Dürnstein - Rossatz
+route_type: "FERRY"
+bikes_allowed: true
+cars_allowed: false
+# keine explizite Angabe, aber vermutlich ähnlich zu Spitz/Arnsdorf
+headway_minutes: 16
+travel_time_minutes: 8
+route_id: rf:dsr
+
+agency:
+  agency_name: Radfähre Dürnstein - Rossatz
+  agency_url: https://schifffahrt-duernstein.at/
+
+endpoints:
+  # Locations from OSM
+  - stop_id: ds
+    stop_name: Radfähre Dürnstein
+    location_name: Dürnstein
+    position:
+      lat: 48.3930821
+      lon: 15.5195733
+      level: 0
+  - stop_id: r
+    stop_name: Radfähre Rossatz
+    location_name: Rossatz
+    position:
+      lat: 48.3920422
+      lon: 15.5166954
+      level: 0
+
+services:
+  - service_id: april
+    days: frsasoph
+    start_date: 2026-03-27 # it's not in March, but that's how I interpret the schedule
+    end_date: 2026-04-30
+    windows:
+      - start: 10:00:00
+        end: 17:00:00
+  - service_id: october
+    days: frsasoph
+    start_date: 2026-10-01
+    end_date: 2026-10-04
+    windows:
+      - start: 10:00:00
+        end: 17:00:00
+  - service_id: may
+    days: daily
+    start_date: 2026-05-01
+    end_date: 2026-05-31
+    windows:
+      - start: 09:30:00
+        end: 18:00:00
+  - service_id: september # same as May
+    days: daily
+    start_date: 2026-09-01
+    end_date: 2026-09-30
+    windows:
+      - start: 09:30:00
+        end: 18:00:00
+  - service_id: summer_wd
+    days: weekday
+    start_date: 2026-06-01
+    end_date: 2026-08-31
+    windows:
+      - start: 09:30:00
+        end: 18:00:00
+  - service_id: summer_we
+    days: weekend
+    start_date: 2026-06-01
+    end_date: 2026-08-31
+    windows:
+      - start: 09:00:00
+        end: 18:30:00

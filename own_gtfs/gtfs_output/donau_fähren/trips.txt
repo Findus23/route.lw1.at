@@ -1,7 +1,43 @@
 route_id,service_id,trip_id,trip_headsign,direction_id,bikes_allowed,cars_allowed
+rf:dsr,rf:dsr:april,rf:dsr:april:AB,Richtung Rossatz,0,1,0
+rf:dsr,rf:dsr:april,rf:dsr:april:BA,Richtung Dürnstein,1,1,0
+rf:dsr,rf:dsr:october,rf:dsr:october:AB,Richtung Rossatz,0,1,0
+rf:dsr,rf:dsr:october,rf:dsr:october:BA,Richtung Dürnstein,1,1,0
+rf:dsr,rf:dsr:may,rf:dsr:may:AB,Richtung Rossatz,0,1,0
+rf:dsr,rf:dsr:may,rf:dsr:may:BA,Richtung Dürnstein,1,1,0
+rf:dsr,rf:dsr:september,rf:dsr:september:AB,Richtung Rossatz,0,1,0
+rf:dsr,rf:dsr:september,rf:dsr:september:BA,Richtung Dürnstein,1,1,0
+rf:dsr,rf:dsr:summer_wd,rf:dsr:summer_wd:AB,Richtung Rossatz,0,1,0
+rf:dsr,rf:dsr:summer_wd,rf:dsr:summer_wd:BA,Richtung Dürnstein,1,1,0
+rf:dsr,rf:dsr:summer_we,rf:dsr:summer_we:AB,Richtung Rossatz,0,1,0
+rf:dsr,rf:dsr:summer_we,rf:dsr:summer_we:BA,Richtung Dürnstein,1,1,0
+rf:kk,rf:kk:marchapril_wd,rf:kk:marchapril_wd:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:marchapril_wd,rf:kk:marchapril_wd:BA,Richtung Korneuburg,1,1,0
+rf:kk,rf:kk:marchapril_we,rf:kk:marchapril_we:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:marchapril_we,rf:kk:marchapril_we:BA,Richtung Korneuburg,1,1,0
+rf:kk,rf:kk:mayjune_wd,rf:kk:mayjune_wd:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:mayjune_wd,rf:kk:mayjune_wd:BA,Richtung Korneuburg,1,1,0
+rf:kk,rf:kk:mayjune_we,rf:kk:mayjune_we:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:mayjune_we,rf:kk:mayjune_we:BA,Richtung Korneuburg,1,1,0
+rf:kk,rf:kk:julyaugust_wd,rf:kk:julyaugust_wd:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:julyaugust_wd,rf:kk:julyaugust_wd:BA,Richtung Korneuburg,1,1,0
+rf:kk,rf:kk:julyaugust_we,rf:kk:julyaugust_we:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:julyaugust_we,rf:kk:julyaugust_we:BA,Richtung Korneuburg,1,1,0
+rf:kk,rf:kk:septemberoctobernovember_wd,rf:kk:septemberoctobernovember_wd:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:septemberoctobernovember_wd,rf:kk:septemberoctobernovember_wd:BA,Richtung Korneuburg,1,1,0
+rf:kk,rf:kk:septemberoctobernovember_we,rf:kk:septemberoctobernovember_we:AB,Richtung Klosterneuburg,0,1,0
+rf:kk,rf:kk:septemberoctobernovember_we,rf:kk:septemberoctobernovember_we:BA,Richtung Korneuburg,1,1,0
 rf:sa,rf:sa:summer_wd,rf:sa:summer_wd:AB,Richtung Arnsdorf,0,1,1
 rf:sa,rf:sa:summer_wd,rf:sa:summer_wd:BA,Richtung Spitz,1,1,1
 rf:sa,rf:sa:summer_we,rf:sa:summer_we:AB,Richtung Arnsdorf,0,1,1
 rf:sa,rf:sa:summer_we,rf:sa:summer_we:BA,Richtung Spitz,1,1,1
 rf:sa,rf:sa:winter,rf:sa:winter:AB,Richtung Arnsdorf,0,1,1
 rf:sa,rf:sa:winter,rf:sa:winter:BA,Richtung Spitz,1,1,1
+rf:wsl,rf:wsl:spring,rf:wsl:spring:AB,Richtung St. Lorenz,0,1,1
+rf:wsl,rf:wsl:spring,rf:wsl:spring:BA,Richtung Weißenkirchen,1,1,1
+rf:wsl,rf:wsl:summer_wd,rf:wsl:summer_wd:AB,Richtung St. Lorenz,0,1,1
+rf:wsl,rf:wsl:summer_wd,rf:wsl:summer_wd:BA,Richtung Weißenkirchen,1,1,1
+rf:wsl,rf:wsl:summer_we,rf:wsl:summer_we:AB,Richtung St. Lorenz,0,1,1
+rf:wsl,rf:wsl:summer_we,rf:wsl:summer_we:BA,Richtung Weißenkirchen,1,1,1
+rf:wsl,rf:wsl:autumn,rf:wsl:autumn:AB,Richtung St. Lorenz,0,1,1
+rf:wsl,rf:wsl:autumn,rf:wsl:autumn:BA,Richtung Weißenkirchen,1,1,1

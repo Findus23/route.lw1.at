@@ -11,7 +11,7 @@ class MyBaseModel(BaseModel):
     model_config = ConfigDict(extra='forbid')
 
 
-Days = Literal["weekday", "weekend", "weekend_ph", "daily"]
+Days = Literal["weekday", "weekend", "weekend_ph", "daily","frsasoph"]
 IntBool = Literal[0, 1]
 
 
@@ -20,9 +20,9 @@ IntBool = Literal[0, 1]
 class Agency(MyBaseModel):
     agency_name: str
     agency_url: str
-    agency_phone: str
     agency_timezone: str = "Europe/Vienna"
     agency_lang: str = "DE"
+    agency_phone: str | None = None
 
 
 class TimeWindow(MyBaseModel):
@@ -48,7 +48,7 @@ class ServiceRule(MyBaseModel):
 
 class Postion(MyBaseModel):
     lat: float = Field(ge=48, lt=49)
-    lon: float = Field(ge=15, lt=16)
+    lon: float = Field(ge=15, lt=17)
     level: int = Field(ge=-8, lt=8, default=0)
 
 
@@ -109,7 +109,9 @@ class GTFSService(MyBaseModel):
     @classmethod
     def from_days(cls, days: Days, service_id: str, start_date: str, end_date: str):
         weekdays: IntBool = 1 if days in {"weekday", "daily"} else 0
-        weekend: IntBool = 1 if days in {"weekend", "weekend_ph", "daily"} else 0
+        friday: IntBool = 1 if days in {"weekday", "daily","frsasoph"} else 0
+        weekend: IntBool = 1 if days in {"weekend", "weekend_ph", "daily","frsasoph"} else 0
+
         return cls(
             service_id=service_id,
             start_date=start_date,
@@ -118,7 +120,7 @@ class GTFSService(MyBaseModel):
             tuesday=weekdays,
             wednesday=weekdays,
             thursday=weekdays,
-            friday=weekdays,
+            friday=friday,
             saturday=weekend,
             sunday=weekend,
         )
@@ -158,6 +160,10 @@ class GTFSFrequency(MyBaseModel):
     headway_secs: int
     exact_times: IntBool
 
+class GTFSLevels(MyBaseModel):
+    level_id: int
+    level_index:float
+
 
 class GTFS(MyBaseModel):
     agency: list[GTFSAgency] = Field(default_factory=list)
@@ -167,6 +173,7 @@ class GTFS(MyBaseModel):
     routes: list[GTFSRoute] = Field(default_factory=list)
     stop_times: list[GTFSStopTime] = Field(default_factory=list)
     frequencies: list[GTFSFrequency] = Field(default_factory=list)
+    levels: list[GTFSLevels] = Field(default_factory=list)
 
     def extend(self, other: "GTFS"):
         self.agency.extend(other.agency)
@@ -176,6 +183,7 @@ class GTFS(MyBaseModel):
         self.routes.extend(other.routes)
         self.stop_times.extend(other.stop_times)
         self.frequencies.extend(other.frequencies)
+        self.levels.extend(other.levels)
 
 
 def dump_schema():

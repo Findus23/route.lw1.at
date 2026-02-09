@@ -11,10 +11,6 @@
                     "title": "Agency Url",
                     "type": "string"
                 },
-                "agency_phone": {
-                    "title": "Agency Phone",
-                    "type": "string"
-                },
                 "agency_timezone": {
                     "default": "Europe/Vienna",
                     "title": "Agency Timezone",
@@ -24,12 +20,23 @@
                     "default": "DE",
                     "title": "Agency Lang",
                     "type": "string"
+                },
+                "agency_phone": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Agency Phone"
                 }
             },
             "required": [
                 "agency_name",
-                "agency_url",
-                "agency_phone"
+                "agency_url"
             ],
             "title": "Agency",
             "type": "object"
@@ -149,7 +156,8 @@
                         "weekday",
                         "weekend",
                         "weekend_ph",
-                        "daily"
+                        "daily",
+                        "frsasoph"
                     ],
                     "title": "Days",
                     "type": "string"

@@ -1,0 +1,94 @@
+# based on information from https://schifffahrt-duernstein.at/
+
+year: 2026
+route_short_name: Rollfähre Korneuburg - Klosterneuburg
+route_long_name: Rollfähre Korneuburg - Klosterneuburg
+route_type: "FERRY"
+bikes_allowed: true
+cars_allowed: false
+# keine explizite Angabe, aber vermutlich ähnlich zu Spitz/Arnsdorf
+headway_minutes: 16
+travel_time_minutes: 8
+route_id: rf:kk
+
+agency:
+  agency_name: Rollfähre Korneuburg - Klosterneuburg
+  agency_url: http://www.donaurollfaehre.at/
+  agency_phone: 0664 215 54 43
+
+endpoints:
+  # Locations from OSM
+  - stop_id: ko
+    stop_name: Rollfähre Korneuburg
+    location_name: Korneuburg
+    position:
+      lat: 48.3294855
+      lon: 16.3321168
+      level: 0
+  - stop_id: kl
+    stop_name: Rollfähre Klosterneuburg
+    location_name: Klosterneuburg
+    position:
+      lat: 48.3285978
+      lon: 16.3291858
+      level: 0
+
+services:
+  # all operating hours are until "Einbruch der Dämmerung"
+  # so I am roughly approximating this here
+  - service_id: marchapril_wd
+    days: weekday
+    start_date: 2026-03-27
+    end_date: 2026-04-30
+    windows:
+      - start: 07:00:00
+        end: 19:30:00
+  - service_id: marchapril_we
+    days: weekend
+    start_date: 2026-03-27
+    end_date: 2026-04-30
+    windows:
+      - start: 08:00:00
+        end: 19:30:00
+  - service_id: mayjune_wd
+    days: weekday
+    start_date: 2026-05-01
+    end_date: 2026-06-30
+    windows:
+      - start: 07:00:00
+        end: 20:30:00
+  - service_id: mayjune_we
+    days: weekend
+    start_date: 2026-05-01
+    end_date: 2026-06-30
+    windows:
+      - start: 08:00:00
+        end: 20:30:00
+  - service_id: julyaugust_wd
+    days: weekday
+    start_date: 2026-07-01
+    end_date: 2026-08-31
+    windows:
+      - start: 07:00:00
+        end: 20:00:00
+  - service_id: julyaugust_we
+    days: weekend
+    start_date: 2026-07-01
+    end_date: 2026-08-31
+    windows:
+      - start: 08:00:00
+        end: 20:00:00
+  - service_id: septemberoctobernovember_wd
+    days: weekday
+    start_date: 2026-09-01
+    end_date: 2026-11-02
+    windows:
+      - start: 07:00:00
+        end: 18:00:00
+  - service_id: septemberoctobernovember_we
+    days: weekend
+    start_date: 2026-09-01
+    end_date: 2026-11-02
+    windows:
+      - start: 08:00:00
+        end: 18:00:00
