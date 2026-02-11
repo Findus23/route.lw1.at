@@ -106,4 +106,4 @@ geocoding: true
 reverse_geocoding: true
 
 street_routing:
-  elevation_data_dir: ./hgt
+  elevation_data_dir: ./datasets/hgt
