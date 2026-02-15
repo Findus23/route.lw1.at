@@ -138,7 +138,7 @@ ATB;train;Autoschleuse Tauernbahn
 BWB;train;Bregenzerwaldbahn
 MAT;train;Museumsbahn Ampflwang – Timelkam
 TB;train;Taurachbahn
-ZB1;train;Zillertalbahn
+ZB1;train;Zillertalbahn;;;;AT-VVT;at:vvt:310000:
 U;subway;U-Bahn Serfaus;Serfaus Parkplatz;Serfaus Seilbahn
 HBB;funicular;Hungerburgbahn
 Schönbrunner Panoramabahn;dotto_train
