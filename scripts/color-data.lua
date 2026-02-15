@@ -1829,6 +1829,8 @@ local colors_by_id = {
     ["at:vor:694:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 695 Traisen - Türnitz - St. Aegyd am Neuwalde
     ["at:vor:695:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 696 Radtramper Traisental von 1. Mai 2025 bis 26. Oktober 2025 St. Pölten - Lilienfeld - Kernhof
+    ["at:vor:696:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Eisenstadt 1 Georg: Eisenstadt Bahnhof => St. Georgen am Leithagebirge => Eisenstadt Bahnhof
     ["at:vor:7001:"] = { color = 0xF9A21C, text_color = 0xFFFFFF },
     -- p 2 Stadtbus Eisenstadt 2 Vitus: Eisenstadt Bahnhof => Kleinhöflein => Eisenstadt Bahnhof
@@ -2111,7 +2113,7 @@ local colors_by_id = {
     ["at:vor:7913:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7914 Oberwart - Jabing - Großpetersdorf / Kohfidisch - Badersdorf
     ["at:vor:7914:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 7942 Hochart - Pinkafeld - Oberschützen#10
+    -- r 7942 Hochart - Pinkafeld - Oberschützen
     ["at:vor:7915:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7916 Oberschützen - Oberwart - Glashütten
     ["at:vor:7916:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -2355,12 +2357,24 @@ local colors_by_id = {
     ["at:vor:990:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p A Bus A: Rum Sanatorium <=> Innsbruck Allerheiligenhöfe
     ["at:vvt:10:"] = { color = 0x00A2D3, text_color = 0xFFFFFF },
+    -- p C Bus C: Innsbruck Luigenstraße <=> Innsbruck Sieglanger
+    ["at:vvt:12:"] = { color = 0x88CDE9, text_color = 0xFFFFFF },
+    -- p D Bus D: Innsbruck Mühlenweg => Innsbruck Jugendland
+    ["at:vvt:13:"] = { color = 0xF8A61C, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Landeck Zentrum => Zams Lochputz
     ["at:vvt:199001:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
     ["at:vvt:199002:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
     -- j 3 Bus 3: Landeck Stampfle => Landeck Perjen
     ["at:vvt:199003:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- p F Bus F: Innsbruck Flughafen => Rum Bahnhof
+    ["at:vvt:19:"] = { color = 0x8A12AA, text_color = 0xFFFFFF },
+    -- p J Bus J: Innsbruck Nordkette => Igls Patscherkofel
+    ["at:vvt:21:"] = { color = 0xB457B4, text_color = 0xFFFFFF },
+    -- p K Bus K: Innsbruck Wiesengasse <=> Kranebitten Bahnhof
+    ["at:vvt:24:"] = { color = 0xDAB3E5, text_color = 0xFFFFFF },
+    -- j ZB1 Zug ZB1: Jenbach <=> Mayrhofen
+    ["at:vvt:310000:"] = { color = 0x92B0C1, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
     ["at:vvt:400899:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Landeck Zentrum => Zams Lochputz
