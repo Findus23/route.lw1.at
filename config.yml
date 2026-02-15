@@ -14,8 +14,8 @@ tiles:
   db_size: 274877906944
   flush_threshold: 100000
 timetable:
-  first_day: TODAY
-  num_days: 365
+  first_day: -30
+  num_days: 395
   tb: false
   railviz: true
   with_shapes: true
