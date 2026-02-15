@@ -67,6 +67,7 @@ timetable:
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
+      default_timezone: Europe/Vienna
     05-vor:
       path: datasets/gtfs/05_vor.zip
       default_bikes_allowed: false
