@@ -30,7 +30,7 @@ timetable:
   extend_missing_footpaths: false
   max_footpath_length: 25
   max_matching_distance: 25.000000
-  preprocess_max_matching_distance: 0.000000
+  preprocess_max_matching_distance: 250
   datasets:
     00-eisenbahn:
       path: datasets/gtfs/00_eisenbahn.zip
