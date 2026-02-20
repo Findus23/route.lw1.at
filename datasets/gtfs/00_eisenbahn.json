@@ -19,15 +19,15 @@
     "en": "This dataset contains the constantly updated timetables of the ÖBB-Personenverkehr AG (incl. ÖBB Intercity bus), the Raaberbahn/GYSEV, the Montafonerbahn, the WESTbahn and the railways of the Austrian Society for Railway History (ÖGEG). The dataset includes data for the respective timetable period from the dataset’s updating date up to the following timetable change date (second Saturday of December at 11:59 pm) as well as 60 days into the past. Railways not included in this data package are included in the data package of the responsible public transport authority. In case of timetables for cross-border traffic, due to legal reasons not all stopovers abroad may be included."
   },
   "activeVersion": {
-    "id": "15344",
+    "id": "15473",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "23473",
-      "created": "2026-02-13T04:30:51.510Z",
+      "id": "23602",
+      "created": "2026-02-20T04:30:53.907Z",
       "file": {
-        "originalName": "20260213-0046_gtfs_evu_2026.zip",
-        "size": "231195804"
+        "originalName": "20260220-0007_gtfs_evu_2026.zip",
+        "size": "230743551"
       },
       "deleted": false
     }

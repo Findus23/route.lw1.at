@@ -1,4 +1,0 @@
-gtfsclean 20260131-0028_gtfs_evu_2026.zip -o 20260131-0028_gtfs_evu_2026_cleaned.zip --fix --copy-trip-names-matching ((IC)|(ECB)|(EC)|(RJ)|(RJX)|(D)|(NJ)|(EN)|(CJX)|(ICE)|(IR)|(REX)|(R)|(ER)|(ATB)|(WB)) \d+ --keep-route-names-matching ((RE)|(RB)|S) ?\d+ 
-Parsing GTFS feed in '20260131-0028_gtfs_evu_2026.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 2 pathways [0.02%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors. Use -W to display them.)
-Copying selected trip names and headsigns to route names... done.
-Outputting GTFS feed to '20260131-0028_gtfs_evu_2026_cleaned.zip'... done.

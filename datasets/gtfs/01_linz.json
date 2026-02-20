@@ -19,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public transport services commissioned and maintained by Linz AG. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "15346",
+    "id": "15457",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "23475",
-      "created": "2026-02-13T04:30:52.356Z",
+      "id": "23586",
+      "created": "2026-02-19T04:31:14.043Z",
       "file": {
-        "originalName": "20260213-0024_gtfs_esg_2026.zip",
-        "size": "5966079"
+        "originalName": "20260218-2309_gtfs_esg_2026.zip",
+        "size": "6211753"
       },
       "deleted": false
     }

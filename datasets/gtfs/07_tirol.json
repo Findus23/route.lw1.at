@@ -19,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public transport services maintained by the public transport authority in Tyrol, except the ones of ÖBB and WESTbahn. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles(IVB):\n\nDuring weekdays the taking along of bicycles is only permitted outside of peak hours, meaning between 9AM and 3PM as well as between 6:30PM and 6AM.\nDuring weekends and public holidays the taking along of bicycles is permitted all day, provided there is sufficient space. The usage of the rear bicycle racks is not subject to time restrictions."
   },
   "activeVersion": {
-    "id": "15353",
+    "id": "15415",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "23482",
-      "created": "2026-02-14T04:30:14.463Z",
+      "id": "23544",
+      "created": "2026-02-18T04:30:13.016Z",
       "file": {
-        "originalName": "20260213-2331_gtfs_vvt_2026.zip",
-        "size": "88674740"
+        "originalName": "20260218-0151_gtfs_vvt_2026.zip",
+        "size": "89930756"
       },
       "deleted": false
     }
