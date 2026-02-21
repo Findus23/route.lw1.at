@@ -6,18 +6,36 @@
 import json
 from datetime import datetime
 
-import dateparser
-
 from proto import gtfs_realtime_pb2
 
-with open("line_to_gtfs_id_mapping.json") as f:
-    mapping_data = json.load(f)
-    line_to_gtfs_id_mapping = mapping_data["mapping"]
-    mapping_feed_version = str(mapping_data["meta"]["version"])
+
+def load_line_mapping():
+    with open("line_to_gtfs_id_mapping.json") as f:
+        mapping_data = json.load(f)
+        line_to_gtfs_id_mapping = mapping_data["mapping"]
+        mapping_feed_version = str(mapping_data["meta"]["version"])
+    return line_to_gtfs_id_mapping, mapping_feed_version
+
+
+def load_stop_mapping():
+    with open("stopid_to_gtfs_id_mapping.json") as f:
+        raw_data = json.load(f)
+        stop_to_gtfs_id_mapping = {}
+        for key, value in raw_data["mapping"].items():
+            val = value["gtfs_stop_id"]
+            if val is None:
+                continue
+            stop_to_gtfs_id_mapping[int(key)] = val
+        stop_mapping_feed_version = str(raw_data["meta"]["gtfs_stops"]["version"])
+        return stop_to_gtfs_id_mapping, stop_mapping_feed_version
+
+
+line_to_gtfs_id_mapping, mapping_feed_version = load_line_mapping()
+stop_to_gtfs_id_mapping, stop_mapping_feed_version = load_stop_mapping()
 
 
 def disruptions_from_api(api_response: dict):
-    server_time = dateparser.parse(api_response["message"]["serverTime"])
+    server_time = datetime.fromisoformat(api_response["message"]["serverTime"])
     value = api_response["message"]["value"]
     if value != "OK":
         raise ValueError(value)
@@ -40,36 +58,68 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
     feed.header.timestamp = int(server_time.timestamp())
     feed.header.feed_version = mapping_feed_version
 
+    duplicate_cache = {
+        "lines": set(),
+        "stops": set(),
+    }
+
     for disr_id, disr in traffic_infos.items():
-        if "relatedLines" not in disr:
-            continue
         d = feed.entity.add()
         d.id = disr_id
 
         alert = d.alert
 
-        active_period = alert.active_period.add()
-        active_period.start = int(dateparser.parse(disr["time"]["start"]).timestamp())
-        active_period.end = int(dateparser.parse(disr["time"]["end"]).timestamp())
-
-        for line in disr["relatedLines"]:
-            line_gtfs_id = line_to_gtfs_id_mapping[line]
-            ie = alert.informed_entity.add()
-            ie.route_id = line_gtfs_id
-
-        # TODO: map relatedStops to GTFS stops
-
         title = disr["title"]
         description = disr["description"]
         all_text = title + " " + description
+
+        if "relatedLines" in disr:
+            for line in disr["relatedLines"]:
+                cache_key = line + all_text
+                if cache_key in duplicate_cache["lines"]:
+                    continue
+                line_gtfs_id = line_to_gtfs_id_mapping[line]
+                ie = alert.informed_entity.add()
+                ie.route_id = line_gtfs_id
+                duplicate_cache["lines"].add(cache_key)
+
+        if "relatedStops" in disr:
+            for stop in disr["relatedStops"]:
+                cache_key = str(stop) + all_text
+                if cache_key in duplicate_cache["stops"]:
+                    print("skip duplicate stop")
+                    continue
+
+                try:
+                    stop_gtfs_id = stop_to_gtfs_id_mapping[stop]
+                    ie = alert.informed_entity.add()
+                    ie.stop_id = stop_gtfs_id
+                except KeyError:
+                    print(f"failed to match stop {stop}")
+
+
+        # input date format is "2026-02-20T20:54:00.000+0100"
+        active_period = alert.active_period.add()
+        active_period.start = int(datetime.fromisoformat(disr["time"]["start"]).timestamp())
+        active_period.end = int(datetime.fromisoformat(disr["time"]["end"]).timestamp())
+
+        # TODO: map these disruptions to actual trips and provide tripupdates
+
+        all_text_lower = all_text.lower()
         if "Demonstration" in all_text:
             alert.cause = alert.DEMONSTRATION
-        elif "unfall" in all_text.lower():
+        elif "unfall" in all_text_lower:
             alert.cause = alert.ACCIDENT
         elif "Streik" in all_text:
             alert.cause = alert.STRIKE
-        elif "technisch" in all_text.lower():
+        elif "technisch" in all_text_lower:
             alert.cause = alert.TECHNICAL_PROBLEM
+        elif "schadhaft" in all_text_lower:
+            alert.cause = alert.TECHNICAL_PROBLEM
+        elif "gleisschaden" in all_text_lower:
+            alert.cause = alert.TECHNICAL_PROBLEM
+        elif "witterung" in all_text_lower:
+            alert.cause = alert.WEATHER
         elif "Wartung" in all_text:
             alert.cause = alert.MAINTENANCE
         elif "Rettungseinsatz" in all_text:
@@ -80,20 +130,45 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
             alert.cause = alert.POLICE_ACTIVITY
         elif "Bauarbeiten" in all_text:
             alert.cause = alert.CONSTRUCTION
+        elif "Fahrtbehinderung" in all_text:
+            alert.cause = alert.OTHER_CAUSE
+        elif "Falschparker" in all_text:
+            alert.cause = alert.OTHER_CAUSE
+        elif "Verkehrsüberlastung" in all_text:
+            alert.cause = alert.OTHER_CAUSE
         else:
             print("unknown cause: " + all_text)
             alert.cause = alert.UNKNOWN_CAUSE
 
         if "unterschiedlichen Intervallen" in all_text:
             alert.effect = alert.UNKNOWN_EFFECT
+        elif "Verspätungen" in all_text:
+            alert.effect = alert.SIGNIFICANT_DELAYS
+        elif "Längere Wartezeiten" in all_text:
+            alert.effect = alert.SIGNIFICANT_DELAYS
+        elif "Planen Sie daher bitte mehr Zeit ein" in all_text:
+            alert.effect = alert.SIGNIFICANT_DELAYS
         elif "Weichen Sie" in all_text:
             alert.effect = alert.REDUCED_SERVICE
         elif "Betrieb ab" in all_text:
+            alert.effect = alert.REDUCED_SERVICE
+        elif "Betrieb nur bis" in all_text:
             alert.effect = alert.REDUCED_SERVICE
         elif "Fahrtbehinderung" in all_text:
             alert.effect = alert.REDUCED_SERVICE
         elif "Verzögerung" in all_text:
             alert.effect = alert.SIGNIFICANT_DELAYS
+        elif "Betrieb ist derzeit eingestellt" in all_text:
+            alert.effect = alert.NO_SERVICE
+        elif "Züge halten " in all_text or "Busse halten " in all_text:
+            alert.effect = alert.NO_SERVICE
+        elif "an der Weiterfahrt gehindert" in all_text:
+            alert.effect = alert.NO_SERVICE
+        elif "nicht eingehalten werden" in all_text or "Busse halten " in all_text:
+            alert.effect = alert.STOP_MOVED
+        else:
+            print("unknown effect: " + all_text)
+            alert.effect = alert.UNKNOWN_EFFECT
 
         url = alert.url.translation.add()
         url.text = "https://www.wienerlinien.at/betriebsinfo"
