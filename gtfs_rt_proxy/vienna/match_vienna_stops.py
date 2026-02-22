@@ -1,7 +1,7 @@
 import json
 import sqlite3
 
-conn = sqlite3.connect("../color-data/color.db")
+conn = sqlite3.connect("../../color-data/color.db")
 
 haltestelle = conn.execute("SELECT stopID,lon,lat,StopText FROM haltestellen_wien")
 

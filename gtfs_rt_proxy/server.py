@@ -6,8 +6,8 @@
 from flask import Flask, Response
 from google.protobuf.json_format import MessageToJson
 
-from api import vienna_disruptions_api
-from conversion import disruptions_from_api, disruptions_to_proto
+from vienna.api import vienna_disruptions_api
+from vienna.conversion import disruptions_from_api, disruptions_to_proto
 from proto import gtfs_realtime_pb2
 
 

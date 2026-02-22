@@ -8,7 +8,7 @@ get mapping from Linename (U4,D,71,...) to GTFS ID from VOR GTFS data
 import json
 import sqlite3
 
-conn = sqlite3.connect("../color-data/color.db")
+conn = sqlite3.connect("../../color-data/color.db")
 
 c = conn.cursor()
 c.execute(

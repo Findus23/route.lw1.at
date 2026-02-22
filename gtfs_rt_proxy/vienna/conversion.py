@@ -5,12 +5,14 @@
 
 import json
 from datetime import datetime
+from pathlib import Path
 
 from proto import gtfs_realtime_pb2
 
+current_dir = Path(__file__).parent
 
 def load_line_mapping():
-    with open("line_to_gtfs_id_mapping.json") as f:
+    with open(current_dir / "line_to_gtfs_id_mapping.json") as f:
         mapping_data = json.load(f)
         line_to_gtfs_id_mapping = mapping_data["mapping"]
         mapping_feed_version = str(mapping_data["meta"]["version"])
@@ -18,7 +20,7 @@ def load_line_mapping():
 
 
 def load_stop_mapping():
-    with open("stopid_to_gtfs_id_mapping.json") as f:
+    with open(current_dir / "stopid_to_gtfs_id_mapping.json") as f:
         raw_data = json.load(f)
         stop_to_gtfs_id_mapping = {}
         for key, value in raw_data["mapping"].items():
@@ -186,7 +188,7 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
 
 
 if __name__ == '__main__':
-    from api import vienna_disruptions_api
+    from vienna.api import vienna_disruptions_api
     from google.protobuf.json_format import MessageToJson
 
     api_response = vienna_disruptions_api.current_disruptions()
