@@ -1361,6 +1361,8 @@ local colors_by_id = {
     ["at:vor:357:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 366 Neunkirchen - Ternitz - Gloggnitz - Kirchberg/Wechsel
     ["at:vor:366:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 71E Simmering - Kaiserebersdorf, Zinnergasse Schienenersatzverkehr gültig von 03.03. bis 26.06.2026
+    ["at:vor:3671:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 367 Gloggnitz - Otterthal - Kirchberg/Wechsel
     ["at:vor:367:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 368 Kirchberg/Wechsel - Otterthal - Trattenbach
@@ -1951,6 +1953,8 @@ local colors_by_id = {
     ["at:vor:7200:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 720 Krems - Rossatz - Schönbühel - Melk
     ["at:vor:720:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- j 721 Bus 721: Stallhofen Busbahnhof => Voitsberg Hauptplatz
+    ["at:vor:721:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- r 725 Zwettl - Gmünd
     ["at:vor:725:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 726 Zwettl - Schrems
@@ -2323,7 +2327,7 @@ local colors_by_id = {
     ["at:vor:906:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 907 Zillingtal - Neufeld/Leitha
     ["at:vor:907:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r SEV R56 SEV R56
+    -- r SEV R56 Laubenbachmühle - Mariazell
     ["at:vor:9115:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B20 Eisenstadt - Neudörfl - Wiener Neustadt Hbf.
     ["at:vor:912:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -2369,16 +2373,28 @@ local colors_by_id = {
     ["at:vvt:199003:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
     -- p F Bus F: Innsbruck Flughafen => Rum Bahnhof
     ["at:vvt:19:"] = { color = 0x8A12AA, text_color = 0xFFFFFF },
+    -- p 1 Tram 1: Innsbruck Bergisel <=> Innsbruck Mühlauer Brücke
+    ["at:vvt:1:"] = { color = 0xF6A6AB, text_color = 0xFFFFFF },
     -- p J Bus J: Innsbruck Nordkette => Igls Patscherkofel
     ["at:vvt:21:"] = { color = 0xB457B4, text_color = 0xFFFFFF },
     -- p K Bus K: Innsbruck Wiesengasse <=> Kranebitten Bahnhof
     ["at:vvt:24:"] = { color = 0xDAB3E5, text_color = 0xFFFFFF },
+    -- p M Bus M: Aldrans Fagslung B => Innsbruck Mentlberg
+    ["at:vvt:25:"] = { color = 0x8A12AA, text_color = 0xFFFFFF },
+    -- p R Bus R: Innsbruck DEZ Süd <=> Innsbruck Rehgasse
+    ["at:vvt:30:"] = { color = 0xEE6700, text_color = 0xFFFFFF },
     -- j ZB1 Zug ZB1: Jenbach <=> Mayrhofen
     ["at:vvt:310000:"] = { color = 0x92B0C1, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
     ["at:vvt:400899:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- p HBB Hungerburgbahn
+    ["at:vvt:500071:"] = { color = 0xEF87B6, text_color = 0xFFFFFF },
+    -- p W Bus W: Innsbruck Marktplatz => Innsbruck Alpenzoo
+    ["at:vvt:81:"] = { color = 0x00A658, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Landeck Zentrum => Zams Lochputz
     ["at:vvt:899100:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- p N2 Bus N2: Innsbruck Kajetan-Sweth-Straße => Innsbruck Technik West
+    ["at:vvt:89:"] = { color = 0x004173, text_color = 0xFFFFFF },
     -- p 101 Bus 101: Bregenz Bahnhof => Am Tannenbach => Bregenz Bahnhof
     ["at:vvv:101:"] = { color = 0xED1639, text_color = 0xFFFFFF },
     -- p 102 Bus 102: Bregenz Achsiedlung => Bregenz Bahnhof

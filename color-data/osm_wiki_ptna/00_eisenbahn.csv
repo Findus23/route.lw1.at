@@ -31,7 +31,6 @@ ICE 91;train;;Dortmund Hbf;Wien Hbf;"DB Fernverkehr AG;ÖBB";AT-Eisenbahn;14-A98
 RJ 133;train;;Wien Hbf;Venezia Santa Lucia
 RJ;train;;Wien;Zürich;ÖBB-Personenverkehr AG
 RJ;train;;Villach;Praha;ÖBB-Personenverkehr AG|České dráhy
-RJ;train;;Wien;Villach;ÖBB-Personenverkehr AG
 RJ;train;;Wien;Salzburg;ÖBB-Personenverkehr AG
 RJX;train;;Wien;Bregenz;ÖBB-Personenverkehr AG
 RJX;train;;Wien;Villach;ÖBB-Personenverkehr AG
@@ -46,8 +45,7 @@ EC 62;train
 "EC 86|EC 87|EC 86;EC 87";train
 "EC 98|EC 99|EC 98;EC 99";train
 "EC102;EC104|EC103;EC105";train
-EC 112|EC 113;train
-EC 114|EC 115;train
+"EC 112|EC 113|EC 114|EC 115|EC 112;EC 113;EC 114;EC 115";train
 EC 212|EC 213;train
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
@@ -80,10 +78,7 @@ EN;train;;Wien;Praha
 EN;train;;Budapest;Praha
 "EN 346|EN 347|EN 346;EN 347";train;;Wien;Bucuresti
 EN407;train
-EN 462;train;;Budapest;München
-EN 463;train;;München;Budapest
-EN 40467;train;;Zürich;Budapest
-EN 40462;train;;Budapest;Zürich
+"EN 462|EN 463|EN 40462|EN 40467|EN 462;EN 463;EN 40462;EN 40467";train;EuroNight Kálmán Imre
 "EN 414|EN 498|EN 40465|EN 50463|EN 414;EN 498;EN 40465;EN 50463";train;"EuroNight Lisinski;Zürich;Zagreb;München"
 EN 476|EN 477|EN 407|EN 40406|EN40406;train;"Metropol EuroNight;Praha;Budapest;Wien"
 
@@ -106,6 +101,8 @@ WESTbahn;train;Südstrecke;;Villach;WESTbahn;AT-Eisenbahn;9-WB2-S-j26-1;
 -
 
 === Regionalzug (R)
+160;train
+161;train
 WHB;train;;Groß Gerungs;Gmünd;;AT-VOR;at:vor:1811:
 WVB;train;;Litschau;Gmünd;NÖVOG;AT-VOR;at:vor:1801:;
 WVB;train;;Alt-Nagelberg;Heidenreichstein;NÖVOG;AT-VOR;"at:vor:1802:;at:vor:1803:"
@@ -135,14 +132,12 @@ Liliputbahn;train
 Donauparkbahn;train
 FZ;train;Stainzer Flascherlzug
 ATB;train;Autoschleuse Tauernbahn
+AB1;train;Achenseebahn
 BWB;train;Bregenzerwaldbahn
 MAT;train;Museumsbahn Ampflwang – Timelkam
 TB;train;Taurachbahn
 ZB1;train;Zillertalbahn;;;;AT-VVT;at:vvt:310000:
-U;subway;U-Bahn Serfaus;Serfaus Parkplatz;Serfaus Seilbahn
 HBB;funicular;Hungerburgbahn
-Schönbrunner Panoramabahn;dotto_train
-Vienna Heurigen Express;road_train
 
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -
