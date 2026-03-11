@@ -2353,6 +2353,8 @@ local colors_by_id = {
     ["at:vor:9274:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 93 Linie 93 Bratislava
     ["at:vor:93:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r SEV BB Bahnhof - Bahnhof
+    ["at:vor:9515:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B16 Rechnitz - Großpetersdorf - Oberwart
     ["at:vor:960:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r Weihnachtsspielshuttle Reinsberg Shuttlebus Weihnachtsspiel Reinsberg
@@ -2387,6 +2389,10 @@ local colors_by_id = {
     ["at:vvt:310000:"] = { color = 0x92B0C1, text_color = 0xFFFFFF },
     -- j 2 Bus 2: Landeck Zentrum => Landeck Öd
     ["at:vvt:400899:"] = { color = 0x9922CC, text_color = 0xFFFFFF },
+    -- p 432 Bus 432: Seefeld i. T. Münchner Straße/Kreisverkehr => Leithen Gh Hirschen
+    ["at:vvt:432000:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- p 432S Bus 432S: Seefeld i. T. Birkenlift => Seefeld i. T. Mittelschule
+    ["at:vvt:432001:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p HBB Hungerburgbahn
     ["at:vvt:500071:"] = { color = 0xEF87B6, text_color = 0xFFFFFF },
     -- p W Bus W: Innsbruck Marktplatz => Innsbruck Alpenzoo
@@ -2579,6 +2585,8 @@ local colors_by_id = {
     ["at:vvv:503:"] = { color = 0x048354, text_color = 0xFFFFFF },
     -- j 504 Bus 504: Erlebnisbad VAL BLU → Bludenz Schesa
     ["at:vvv:504:"] = { color = 0x048354, text_color = 0xFFFFFF },
+    -- j 550 Bus 550: Nenzing => Dünserberg
+    ["at:vvv:550:"] = { color = 0x844F98, text_color = 0xFFFFFF },
     -- j N1 Bus N1
     ["at:vvv:7028:"] = { color = 0xA3CF44, text_color = 0xFFFFFF },
     -- j N2 N2: Sargans → Feldkirch
