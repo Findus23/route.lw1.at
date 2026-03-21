@@ -51,8 +51,6 @@ local colors_by_id = {
     ["2-RX1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
     -- j REX3 REX3: Salzburg <=> Schwarzach-St. Veit
     ["2-RX3-W-j26-1"] = { color = 0x7EBB45, text_color = 0xFFFFFF },
-    -- j R1 R1: Bregenz Hafen <=> Bludenz
-    ["3-R1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
     -- j R3 R3: Salzburg <=> Saalfelden
     ["3-R3-W-j26-1"] = { color = 0xA4B92E, text_color = 0xFFFFFF },
     -- m WB1-W Westbahn WB1-W
@@ -1771,6 +1769,8 @@ local colors_by_id = {
     ["at:vor:654:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 655 Scheibbs - Göstling/Ybbs
     ["at:vor:655:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 656 Radtramper Ybbstal von 1. Mai bis 26. Oktober 2026 Waidhofen/Ybbs - Opponitz - Lunz/See
+    ["at:vor:656:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 660 Gaming - Gresten - Euratsfeld - Amstetten
     ["at:vor:660:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 661 Schülerverkehr Krankenhausstraße - Elsa-Brandström-Straße

@@ -79,11 +79,17 @@ def load_routes(zip_name: str, conn: sqlite3.Connection):
     archive = zipfile.ZipFile(file, 'r')
     data = []
     with archive.open('routes.txt') as f:
-        print(next(f).decode())
+        header=next(f).decode()
+        print(header)
+        has_colors="route_color" in header
         for line in f:
             line = line.decode().strip()
             reader = csv.reader([line], delimiter=',')
             row = next(reader)
+            if has_colors:
+                if row[-2]:
+                    print(row)
+                row=row[:-2]
             # print(len(row))
             # print(row)
             data.append([zip_name, *row])
