@@ -1,0 +1,26 @@
+diff --git a/ui/src/lib/defaults.ts b/ui/src/lib/defaults.ts
+index 65f6e076..94593fbe 100644
+--- a/ui/src/lib/defaults.ts
++++ b/ui/src/lib/defaults.ts
+@@ -30,7 +30,7 @@ export const defaultQuery = {
+ 	requireBikeTransport: false,
+ 	requireCarTransport: false,
+ 	elevationCosts: 'NONE',
+-	useRoutedTransfers: false,
++	useRoutedTransfers: true,
+ 	joinInterlinedLegs: true,
+ 	maxMatchingDistance: 25,
+ 	maxTransfers: 14,
+diff --git a/ui/src/routes/+page.svelte b/ui/src/routes/+page.svelte
+index cccdb3e9..17421c53 100644
+--- a/ui/src/routes/+page.svelte
++++ b/ui/src/routes/+page.svelte
+@@ -76,7 +76,7 @@
+ 					: 'connections')
+ 	);
+ 	let dataAttributionLink: string | undefined = $state(undefined);
+-	let colorMode = $state<'rt' | 'route' | 'mode' | 'none'>(isSmallScreen ? 'none' : 'rt');
++	let colorMode = $state<'rt' | 'route' | 'mode' | 'none'>(isSmallScreen ? 'none' : 'route');
+ 	let showMap = $state(!isSmallScreen);
+ 	let showRoutes = $state(false);
+ 	let lastOneToAllQuery: OneToAllData | undefined = undefined;
