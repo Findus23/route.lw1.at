@@ -135,35 +135,34 @@ def fetch_datasets(access_token: str):
             metafile.symlink_to(cleaned_file.name)
         else:
             metafile.symlink_to(download_file.name)
-        if download_file.exists() :
-            print("already latest version")
-            continue
-        download_url = f"{base_url}/api/public/v1/data-sets/{api_id}/{mobility_dataset.year}/file"
-        curl_download(
-            access_token,
-            download_url,
-            download_file
-        )
-        if mobility_dataset.gtfsclean_args:
-            args = [
-                "gtfsclean", str(download_file.name),
-                "-o", str(cleaned_file.name),
-                "--fix",
-                *mobility_dataset.gtfsclean_args
-            ]
-            log_file=cleaned_file.with_suffix(".log.txt")
-            with log_file.open("wb") as f:
-                f.write(" ".join(args + ['\n']).encode("utf-8"))
-            with log_file.open("ab") as f:
-                subprocess.run(args, check=True, cwd=gtfs_dir, stdout=f)
+        log_file=cleaned_file.with_suffix(".log.txt")
+        if not download_file.exists() :
+            download_url: str = f"{base_url}/api/public/v1/data-sets/{api_id}/{mobility_dataset.year}/file"
+            curl_download(
+                access_token,
+                download_url,
+                download_file
+            )
+            if mobility_dataset.gtfsclean_args:
+                args = [
+                    "gtfsclean", str(download_file.name),
+                    "-o", str(cleaned_file.name),
+                    "--fix",
+                    *mobility_dataset.gtfsclean_args
+                ]
+                with log_file.open("wb") as f:
+                    f.write(" ".join(args + ['\n']).encode("utf-8"))
+                with log_file.open("ab") as f:
+                    subprocess.run(args, check=True, cwd=gtfs_dir, stdout=f)
+            time.sleep(1)
 
 
-        name_base = download_file.name.split("_gtfs")[-1]
-        for file in gtfs_dir.glob(f"*{name_base}"):
-            if file != download_file and file != cleaned_file:
+        name_base = download_file.stem.split("_gtfs")[-1]
+        print("base",name_base)
+        for file in gtfs_dir.glob(f"*{name_base}*"):
+            if file != download_file and file != cleaned_file and file != log_file:
                 print("deleting", file)
                 file.unlink()
-        time.sleep(1)
 
 
 if __name__ == '__main__':

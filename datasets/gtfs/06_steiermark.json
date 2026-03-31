@@ -15,19 +15,19 @@
     "en": "Timetable Data PTA Styria Flex (GTFS)"
   },
   "description": {
-    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in der Steiermark, ausgenommen die Fahrten der ÖBB. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.",
-    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Styria, except the ones from ÖBB. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in der Steiermark, ausgenommen die Fahrten der ÖBB. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.",
+    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Styria, except the ones from ÖBB. The dataset includes data for the respective timetable period (each sunday following the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "16034",
+    "id": "16238",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "24163",
-      "created": "2026-03-21T04:30:54.270Z",
+      "id": "24367",
+      "created": "2026-03-31T03:30:51.422Z",
       "file": {
-        "originalName": "20260321-0113_gtfs_flex_verbundlinie_2026.zip",
-        "size": "98157885"
+        "originalName": "20260331-0015_gtfs_flex_verbundlinie_2026.zip",
+        "size": "99577065"
       },
       "deleted": false
     }

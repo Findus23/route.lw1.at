@@ -15,19 +15,19 @@
     "en": "Timetable Data PTA Carinthia Flex (GTFS)"
   },
   "description": {
-    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Kärnten, ausgenommen die Fahrten der ÖBB. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.",
-    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Carinthia, except the ones of ÖBB. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Kärnten, ausgenommen die Fahrten der ÖBB. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.",
+    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Carinthia, except the ones of ÖBB. The dataset includes data for the respective timetable period (each sunday following the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "16038",
+    "id": "16242",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "24167",
-      "created": "2026-03-21T04:31:02.783Z",
+      "id": "24371",
+      "created": "2026-03-31T03:30:59.032Z",
       "file": {
-        "originalName": "20260321-0019_gtfs_flex_kaerntnerlinien_2026.zip",
-        "size": "49772402"
+        "originalName": "20260330-2322_gtfs_flex_kaerntnerlinien_2026.zip",
+        "size": "56541532"
       },
       "deleted": false
     }

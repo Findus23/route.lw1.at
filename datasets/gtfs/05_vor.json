@@ -15,19 +15,19 @@
     "en": "Timetable Data PTA Eastern Region Flex (GTFS)"
   },
   "description": {
-    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Wien, Niederösterreich und Burgenland, ausgenommen die Fahrten der ÖBB, der WESTbahn, der Raaberbahn, der Niederösterreich Bahnen und des CityAirportTrain Vienna. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.\n\nRegelungen bzgl. Fahrrädern:\n\nWochentags von Montag bis Freitag ist die Fahrradmitnahme zwischen 09:00–15:00 Uhr, sowie ab 18:30 bis Betriebsschluss erlaubt.\nAm Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme ganztägig gestattet.",
-    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Vienna, Lower Austria and Burgenland, except the ones of ÖBB, WESTbahn, Raaberbahn, Niederösterreich Bahnen and CityAirportTrain Vienna. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles:\n\nDuring weekdays the taking along of bicycles is allowed between 9AM and 3PM as well as from 6:30PM until end of operation.\nOn weekends and public holidays the taking along of bicycles is permitted all day."
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Wien, Niederösterreich und Burgenland, ausgenommen die Fahrten der ÖBB, der WESTbahn, der Raaberbahn, der Niederösterreich Bahnen und des CityAirportTrain Vienna. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.\n\nRegelungen bzgl. Fahrrädern:\n\nWochentags von Montag bis Freitag ist die Fahrradmitnahme zwischen 09:00–15:00 Uhr, sowie ab 18:30 bis Betriebsschluss erlaubt.\nAm Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme ganztägig gestattet.",
+    "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Vienna, Lower Austria and Burgenland, except the ones of ÖBB, WESTbahn, Raaberbahn, Niederösterreich Bahnen and CityAirportTrain Vienna. The dataset includes data for the respective timetable period (each sunday following the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles:\n\nDuring weekdays the taking along of bicycles is allowed between 9AM and 3PM as well as from 6:30PM until end of operation.\nOn weekends and public holidays the taking along of bicycles is permitted all day."
   },
   "activeVersion": {
-    "id": "16030",
+    "id": "16234",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "24159",
-      "created": "2026-03-21T04:30:35.928Z",
+      "id": "24363",
+      "created": "2026-03-31T03:30:36.009Z",
       "file": {
-        "originalName": "20260321-0140_gtfs_flex_vor_2026.zip",
-        "size": "192749178"
+        "originalName": "20260331-0043_gtfs_flex_vor_2026.zip",
+        "size": "195463655"
       },
       "deleted": false
     }
