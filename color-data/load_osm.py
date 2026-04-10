@@ -23,7 +23,7 @@ class RouteHandler(osmium.SimpleHandler):
             return
 
         if t == "route":
-            if r.tags.get("route") not in {"bus"}:
+            if r.tags.get("route") not in {"bus", "trolleybus"}:
                 return
 
         tags_dict = {t.k: t.v for t in r.tags}

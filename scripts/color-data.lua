@@ -561,6 +561,16 @@ local colors_by_id = {
     ["at:stv:90:"] = { color = 0x4B4C4D, text_color = 0xFFFFFF },
     -- j 17 Bus 17: Ferdinand-Hanusch-Platz => Johannes-Filzer-Straße
     ["at:svv:1700:"] = { color = 0x6B4307, text_color = 0xFFFFFF },
+    -- j 10 O-Bus 10: Sam => Walserfeld
+    ["at:svv:1000:"] = { color = 0xF7BAA1, text_color = 0xFFFFFF },
+    -- j 1 O-Bus 1: Kleßheim Kavalierhaus => Salzburgarena
+    ["at:svv:100:"] = { color = 0xE2001A, text_color = 0xFFFFFF },
+    -- j 12 O-Bus 12: Europark => Josefiau
+    ["at:svv:1200:"] = { color = 0xBADFDB, text_color = 0xFFFFFF },
+    -- j 14 O-Bus 14: Polizeidirektion => Forellenwegsiedlung
+    ["at:svv:1400:"] = { color = 0xD0DF99, text_color = 0xFFFFFF },
+    -- j 2 O-Bus 2: Walserfeld Schule => Obergnigl
+    ["at:svv:200:"] = { color = 0x006AB3, text_color = 0xFFFFFF },
     -- j 21 Bus 21: Fürstenbrunn => Bergheim
     ["at:svv:2100:"] = { color = 0x3F8621, text_color = 0xFFFFFF },
     -- j 22 Bus 22: Josefiau => Schule Schallmoos
@@ -575,6 +585,8 @@ local colors_by_id = {
     ["at:svv:2700:"] = { color = 0x00678B, text_color = 0xFFFFFF },
     -- j 28 Bus 28: Europark => Grödig Hangenden Stein
     ["at:svv:2800:"] = { color = 0x3D6214, text_color = 0xFFFFFF },
+    -- j 3 O-Bus 3: Salzburg Süd => Landstraße
+    ["at:svv:300:"] = { color = 0x966C22, text_color = 0xFFFFFF },
     -- j 170 Bus 170: Salzburg => Hallein
     ["at:svv:317000:"] = { color = 0x990066, text_color = 0xFFFFFF },
     -- j 34 Bus 34: Europark => Christian-Doppler-Klinik
@@ -583,6 +595,18 @@ local colors_by_id = {
     ["at:svv:383500:"] = { color = 0x990066, text_color = 0xFFFFFF },
     -- j 36 Bus 36: Europark => Wals
     ["at:svv:383600:"] = { color = 0xE5314C, text_color = 0xFFFFFF },
+    -- j 4 O-Bus 4: Mayrwies => Forellenwegsiedlung
+    ["at:svv:400:"] = { color = 0xFECC00, text_color = 0xFFFFFF },
+    -- j 5 O-Bus 5: Grödig Untersbergbahn => Itzling Pflanzmann
+    ["at:svv:500:"] = { color = 0x22BBEA, text_color = 0xFFFFFF },
+    -- j 6 O-Bus 6: Parsch => Itzling West
+    ["at:svv:600:"] = { color = 0x88BA14, text_color = 0xFFFFFF },
+    -- j 7 O-Bus 7: Salzburg Süd => Salzachsee
+    ["at:svv:700:"] = { color = 0x009898, text_color = 0xFFFFFF },
+    -- j 8 O-Bus 8: Salzburg Süd => Salzburgarena
+    ["at:svv:800:"] = { color = 0xF29400, text_color = 0xFFFFFF },
+    -- j 9 O-Bus 9: Europark => Justizgebäude
+    ["at:svv:900:"] = { color = 0x763180, text_color = 0xFFFFFF },
     -- r 101 Gmünd - St. Pölten
     ["at:vor:101:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 102 Waidhofen/Thaya - St. Pölten
