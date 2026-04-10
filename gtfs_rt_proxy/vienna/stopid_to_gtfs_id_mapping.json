@@ -2009,12 +2009,6 @@
       "gtfs_stop_name": "Wien Mariahilfer Straße/Kaiserstraße",
       "distance": 5.597134600621392e-09
     },
-    "365": {
-      "gtfs_stop_id": "at:49:615:0:12",
-      "vienna_name": "Josefstädter Straße U",
-      "gtfs_stop_name": "Wien Josefstädter Straße",
-      "distance": 8.382292000561059e-09
-    },
     "366": {
       "gtfs_stop_id": "at:49:645:0:5",
       "vienna_name": "Kaiserstraße, Neustiftgasse",
@@ -5523,7 +5517,7 @@
       "gtfs_stop_id": "at:49:1151:0:3",
       "vienna_name": "St.-Michael-Gasse",
       "gtfs_stop_name": "Wien St.-Michael-Gasse",
-      "distance": 1.299999646690801e-15
+      "distance": 1.2999997887993473e-15
     },
     "1057": {
       "gtfs_stop_id": "at:49:1151:0:3",
@@ -7061,12 +7055,6 @@
       "gtfs_stop_name": "Wien Khevenhüllerstraße",
       "distance": 5.877774499710044e-09
     },
-    "1331": {
-      "gtfs_stop_id": "at:49:1056:0:5",
-      "vienna_name": "Pötzleinsdorf",
-      "gtfs_stop_name": "Wien Pötzleinsdorf",
-      "distance": 8.107105700179722e-09
-    },
     "1334": {
       "gtfs_stop_id": "at:49:1751:0:2",
       "vienna_name": "Marietta-Blau-Gasse",
@@ -7693,7 +7681,7 @@
     },
     "1444": {
       "gtfs_stop_id": "at:49:646:0:1",
-      "vienna_name": "Westbahnstraße, Kaiserstraße",
+      "vienna_name": "Kaiserstraße",
       "gtfs_stop_name": "Wien Kaiserstraße",
       "distance": 3.2436019992849294e-10
     },
@@ -7891,7 +7879,7 @@
     },
     "1478": {
       "gtfs_stop_id": "at:49:646:0:5",
-      "vienna_name": "Westbahnstraße, Kaiserstraße",
+      "vienna_name": "Kaiserstraße",
       "gtfs_stop_name": "Wien Kaiserstraße",
       "distance": 2.4999997031591407e-15
     },
@@ -8543,12 +8531,6 @@
       "gtfs_stop_name": "Wien Verbindungsbahn",
       "distance": 8.081366499462648e-09
     },
-    "1601": {
-      "gtfs_stop_id": "at:49:558:0:2",
-      "vienna_name": "Unter St. Veit, Hummelgasse",
-      "gtfs_stop_name": "Wien Unter St. Veit, Hummelgasse",
-      "distance": 1.6999999971001678e-15
-    },
     "1602": {
       "gtfs_stop_id": "at:49:1422:0:4",
       "vienna_name": "Verbindungsbahn",
@@ -8674,6 +8656,12 @@
       "vienna_name": "Kaiser-Franz-Josef-Straße",
       "gtfs_stop_name": "Wien Kaiser-Franz-Josef-Straße",
       "distance": 5.000000827403744e-16
+    },
+    "1624": {
+      "gtfs_stop_id": "at:49:1105:0:6",
+      "vienna_name": "Rodaun",
+      "gtfs_stop_name": "Wien Rodaun",
+      "distance": 1.0717442600249383e-08
     },
     "1625": {
       "gtfs_stop_id": "at:49:1105:0:2",
@@ -11897,12 +11885,6 @@
       "gtfs_stop_name": "Wien Reumannplatz",
       "distance": 1.8371508999668837e-09
     },
-    "2244": {
-      "gtfs_stop_id": "at:49:986:0:6",
-      "vienna_name": "Otto-Probst-Platz",
-      "gtfs_stop_name": "Wien Otto-Probst-Platz",
-      "distance": 5.000000827403744e-16
-    },
     "2246": {
       "gtfs_stop_id": "at:49:1481:0:4",
       "vienna_name": "Rothneusiedl",
@@ -13473,7 +13455,7 @@
       "gtfs_stop_id": "at:49:1738:0:1",
       "vienna_name": "Vorwärtsplatz",
       "gtfs_stop_name": "Wien Vorwärtsplatz",
-      "distance": 1.6999999971001678e-15
+      "distance": 1.6999998549916594e-15
     },
     "2561": {
       "gtfs_stop_id": "at:49:232:0:3",
@@ -17932,6 +17914,12 @@
       "vienna_name": "Strebersdorf, Meriangasse",
       "gtfs_stop_name": "Wien Strebersdorf Meriangasse",
       "distance": 2.6064456996949677e-09
+    },
+    "3477": {
+      "gtfs_stop_id": "at:49:615:0:12",
+      "vienna_name": "Josefstädter Straße U",
+      "gtfs_stop_name": "Wien Josefstädter Straße",
+      "distance": 8.382292000561059e-09
     },
     "3516": {
       "gtfs_stop_id": "at:49:1062:0:1",
@@ -23897,6 +23885,42 @@
       "gtfs_stop_name": "Wien Spitalgasse",
       "distance": 7.182925000957181e-09
     },
+    "7437": {
+      "gtfs_stop_id": "at:49:935:0:5",
+      "vienna_name": "Neuwaldegg",
+      "gtfs_stop_name": "Wien Neuwaldegg",
+      "distance": 1.4400009995500748e-10
+    },
+    "7438": {
+      "gtfs_stop_id": "at:49:935:0:5",
+      "vienna_name": "Neuwaldegg",
+      "gtfs_stop_name": "Wien Neuwaldegg",
+      "distance": 1.4400009995500748e-10
+    },
+    "7439": {
+      "gtfs_stop_id": "at:49:525:0:2",
+      "vienna_name": "Himmelmutterweg",
+      "gtfs_stop_name": "Wien Himmelmutterweg",
+      "distance": 4.660828999932142e-10
+    },
+    "7440": {
+      "gtfs_stop_id": "at:49:241:0:4",
+      "vienna_name": "Dornbacher Straße",
+      "gtfs_stop_name": "Wien Dornbacher Straße",
+      "distance": 2.59314739983737e-09
+    },
+    "7441": {
+      "gtfs_stop_id": "at:49:241:0:4",
+      "vienna_name": "Dornbacher Straße",
+      "gtfs_stop_name": "Wien Dornbacher Straße",
+      "distance": 2.59314739983737e-09
+    },
+    "7445": {
+      "gtfs_stop_id": "at:49:450:0:5",
+      "vienna_name": "Dornbach",
+      "gtfs_stop_name": "Wien Dornbach",
+      "distance": 2.5555291398267073e-08
+    },
     "7447": {
       "gtfs_stop_id": "at:49:136:0:8",
       "vienna_name": null,
@@ -24291,7 +24315,7 @@
       "gtfs_stop_id": "at:49:958:0:1",
       "vienna_name": "Haberlandtgasse",
       "gtfs_stop_name": "Wien Haberlandtgasse",
-      "distance": 3.9113834001293574e-08
+      "distance": 3.911383400020844e-08
     },
     "8059": {
       "gtfs_stop_id": "at:49:862:0:2",
@@ -26163,7 +26187,7 @@
       "gtfs_stop_id": "at:49:1733:0:2",
       "vienna_name": "Donauturm",
       "gtfs_stop_name": "Wien Donauturm",
-      "distance": 8.671708420039779e-08
+      "distance": 8.671708419903768e-08
     },
     "8763": {
       "gtfs_stop_id": "at:49:1732:0:2",
@@ -26434,12 +26458,6 @@
       "vienna_name": "Vohburggasse",
       "gtfs_stop_name": "Wien Vohburggasse",
       "distance": 8.933381889826194e-08
-    },
-    "8808": {
-      "gtfs_stop_id": "at:49:1567:0:2",
-      "vienna_name": "Strohbogasse",
-      "gtfs_stop_name": "Wien Tonfabrikgasse",
-      "distance": 1.9254737107967575e-06
     },
     "8810": {
       "gtfs_stop_id": "at:49:1567:0:1",
