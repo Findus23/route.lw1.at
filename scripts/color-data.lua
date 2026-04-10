@@ -109,13 +109,13 @@ local colors_by_id = {
     ["at:esg:38:"] = { color = 0xDE7A36, text_color = 0xFFFFFF },
     -- p 3 Linie 3: Landgutstraße – Trauner Kreuzung
     ["at:esg:3:"] = { color = 0xA1248F, text_color = 0xFFFFFF },
-    -- j 41 Bus 41: Hessenplatz <=> Baintwiese
+    -- j 41 Bus 41: Hessenplatz => Baintwiese
     ["at:esg:41:"] = { color = 0xE52C1A, text_color = 0xFFFFFF },
-    -- j 43 Bus 43: Hessenplatz <=> Stadtfriedhof
+    -- j 43 Bus 43: Hessenplatz => Stadtfriedhof
     ["at:esg:43:"] = { color = 0x52D3F7, text_color = 0xFFFFFF },
-    -- j 45 Bus 45: Stieglbauernstraße ­<=> Froschberg
+    -- j 45 Bus 45: Stieglbauernstraße => Froschberg
     ["at:esg:45:"] = { color = 0xE52C1A, text_color = 0xFFFFFF },
-    -- j 46 Bus 46: Hafen <=>­ Froschberg
+    -- j 46 Bus 46: Hafenportal => Froschberg
     ["at:esg:46:"] = { color = 0x52D3F7, text_color = 0xFFFFFF },
     -- p 4 Linie 4: Landgutstraße – Schloss Traun
     ["at:esg:4:"] = { color = 0xC31553, text_color = 0xFFFFFF },
@@ -559,8 +559,6 @@ local colors_by_id = {
     ["at:stv:9020:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- j SBB Schloßbergbahn
     ["at:stv:90:"] = { color = 0x4B4C4D, text_color = 0xFFFFFF },
-    -- j 17 Bus 17: Ferdinand-Hanusch-Platz => Johannes-Filzer-Straße
-    ["at:svv:1700:"] = { color = 0x6B4307, text_color = 0xFFFFFF },
     -- j 10 O-Bus 10: Sam => Walserfeld
     ["at:svv:1000:"] = { color = 0xF7BAA1, text_color = 0xFFFFFF },
     -- j 1 O-Bus 1: Kleßheim Kavalierhaus => Salzburgarena
@@ -2481,8 +2479,6 @@ local colors_by_id = {
     ["at:vvv:161:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- j 163 Bus 163: Dornbirn => Höchst
     ["at:vvv:163:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
-    -- j 164 Bus 164: Wolfurt Cubus => Lustenau Industriegebiet Nord
-    ["at:vvv:164:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- j 166 Bus 166: Lustenau Bahnhof => Volksschule Kirchdorf
     ["at:vvv:166:"] = { color = 0xF033A3, text_color = 0xFFFFFF },
     -- j 170 Bus 170: Hohenems Bahnhof => Otten Areal
@@ -2613,7 +2609,7 @@ local colors_by_id = {
     ["at:vvv:550:"] = { color = 0x844F98, text_color = 0xFFFFFF },
     -- j N1 Bus N1
     ["at:vvv:7028:"] = { color = 0xA3CF44, text_color = 0xFFFFFF },
-    -- j N2 N2: Sargans → Feldkirch
+    -- j N2 Bus N2: Sargans → Feldkirch
     ["at:vvv:7029:"] = { color = 0xDC6C49, text_color = 0xFFFFFF },
     -- j 830 Bus 830: Bezau => Bregenz
     ["at:vvv:830:"] = { color = 0xAD680A, text_color = 0xFFFFFF },

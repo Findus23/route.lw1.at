@@ -284,9 +284,9 @@ N6;bus;(St. Anton i. M.) - Schruns - Gaschurn - Partenen;;;mbsBus GmbH;AT-VVV;at
 -
 #
 ==RTB Rheintal Bus
-#303;bus;;Diepoldsau|Hohenems;Heerbrugg;BOS/rtb
-#323;bus;Heerbrugg – Widnau – Diepoldsau – Hohenems
-#351;bus;Heerbrugg – Widnau – Lustenau – Dornbirn
+321;bus;Bus;;;BOS/rtb;CH-Alle;92-321-j26-1;
+322;bus;Bus;;;BOS/rtb;CH-Alle;92-322-j26-1;
+323;bus;Bus;;;BOS/rtb;CH-Alle;92-323-j26-1;
 -
 #
 ==LIEmobil
