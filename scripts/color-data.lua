@@ -1086,15 +1086,15 @@ local colors_by_id = {
     -- r 329 Guntramsdorf / Brunn/Gebirge - Unterwaltersdorf
     ["at:vor:329:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p U1 U1 Oberlaa <=> Leopoldau
-    ["at:vor:3301:"] = { color = 0xE20613, text_color = 0xFFFFFF },
+    ["at:vor:3301:"] = { color = 0xE3000F, text_color = 0xFFFFFF },
     -- p U2 U2 Seestadt <=> Karlsplatz
-    ["at:vor:3302:"] = { color = 0xA762A4, text_color = 0xFFFFFF },
+    ["at:vor:3302:"] = { color = 0xA862A4, text_color = 0xFFFFFF },
     -- p U3 U3 Ottakring <=> Simmering
     ["at:vor:3303:"] = { color = 0xEF7C00, text_color = 0xFFFFFF },
     -- p U4 U4 Hütteldorf <=> Heiligenstadt
-    ["at:vor:3304:"] = { color = 0x029540, text_color = 0xFFFFFF },
+    ["at:vor:3304:"] = { color = 0x319F49, text_color = 0xFFFFFF },
     -- p U6 U6 Siebenhirten <=> Floridsdorf
-    ["at:vor:3306:"] = { color = 0x9C6830, text_color = 0xFFFFFF },
+    ["at:vor:3306:"] = { color = 0x9D6830, text_color = 0xFFFFFF },
     -- r 330 Pernitz - (Feichtenbach) - Puchberg am Schneeberg
     ["at:vor:330:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 331 Piesting - Waldegg
