@@ -15,19 +15,19 @@
     "en": "Railway Timetable Data (GTFS) - Current Reference Data"
   },
   "description": {
-    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrpläne der ÖBB-Personenverkehr AG (inkl. ÖBB Intercitybus), der Raaberbahn/GYSEV, der Montafonerbahn, der WESTbahn sowie der Bahnen der Österreichischen Gesellschaft für Eisenbahngeschichte (ÖGEG). Die Dateninhalte bilden das jeweilige Fahrplanjahr vom Datum der Aktualisierung bis zum folgenden Fahrplanwechsel (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) und jeweils 60 Tage in die Vergangenheit ab. In diesem Datenpaket nicht beinhaltete Bahnen sind im Datenpaket des jeweils zuständigen Verkehrsverbundes enthalten. Bei grenzüberschreitenden Verkehren sind aus rechtlichen Gründen mitunter nicht alle Zwischenhalte im Ausland enthalten.",
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrpläne der ÖBB-Personenverkehr AG, der Raaberbahn/GYSEV, der Montafonerbahn, der WESTbahn sowie der Bahnen der Österreichischen Gesellschaft für Eisenbahngeschichte (ÖGEG). Die Dateninhalte bilden das jeweilige Fahrplanjahr vom Datum der Aktualisierung bis zum folgenden Fahrplanwechsel (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) und jeweils 60 Tage in die Vergangenheit ab. In diesem Datenpaket nicht beinhaltete Bahnen sind im Datenpaket des jeweils zuständigen Verkehrsverbundes enthalten. Bei grenzüberschreitenden Verkehren sind aus rechtlichen Gründen mitunter nicht alle Zwischenhalte im Ausland enthalten.",
     "en": "This dataset contains the constantly updated timetables of the ÖBB-Personenverkehr AG (incl. ÖBB Intercity bus), the Raaberbahn/GYSEV, the Montafonerbahn, the WESTbahn and the railways of the Austrian Society for Railway History (ÖGEG). The dataset includes data for the respective timetable period from the dataset’s updating date up to the following timetable change date (each sunday following the second Saturday of December at 11:59 pm) as well as 60 days into the past. Railways not included in this data package are included in the data package of the responsible public transport authority. In case of timetables for cross-border traffic, due to legal reasons not all stopovers abroad may be included."
   },
   "activeVersion": {
-    "id": "16245",
+    "id": "16426",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "24374",
-      "created": "2026-03-31T03:31:14.973Z",
+      "id": "24555",
+      "created": "2026-04-10T03:31:36.429Z",
       "file": {
-        "originalName": "20260330-2344_gtfs_evu_2026.zip",
-        "size": "286383510"
+        "originalName": "20260409-2347_gtfs_evu_2026.zip",
+        "size": "297637595"
       },
       "deleted": false
     }
