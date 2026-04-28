@@ -114,11 +114,58 @@ reverse_geocoding: true
 street_routing:
   elevation_data_dir: ./datasets/hgt
 
-
+### Start GBFS
 gbfs:
   feeds:
-    wienmobilrad:
+    bird_wiener_neustadt:
+      url: https://mds.bird.co/gbfs/v2/public/wienerneustadt/gbfs.json
+    dott_baden_bei_wien:
+      url: https://gbfs.api.ridedott.com/public/v2/baden-bei-wien/gbfs.json
+    dott_bregenz:
+      url: https://gbfs.api.ridedott.com/public/v2/bregenz/gbfs.json
+    dott_dornbirn:
+      url: https://gbfs.api.ridedott.com/public/v2/dornbirn/gbfs.json
+    dott_feldkirchen_bei_graz:
+      url: https://gbfs.api.ridedott.com/public/v2/feldkirchen-bei-graz/gbfs.json
+    dott_innsbruck:
+      url: https://gbfs.api.ridedott.com/public/v2/innsbruck/gbfs.json
+    dott_klagenfurt:
+      url: https://gbfs.api.ridedott.com/public/v2/klagenfurt/gbfs.json
+    dott_klopein:
+      url: https://gbfs.api.ridedott.com/public/v2/klopein/gbfs.json
+    dott_korneuburg:
+      url: https://gbfs.api.ridedott.com/public/v2/korneuburg/gbfs.json
+    dott_leoben:
+      url: https://gbfs.api.ridedott.com/public/v2/leoben/gbfs.json
+    dott_linz:
+      url: https://gbfs.api.ridedott.com/public/v2/linz/gbfs.json
+    dott_modling:
+      url: https://gbfs.api.ridedott.com/public/v2/modling/gbfs.json
+    dott_sankt_anton_am_arlberg:
+      url: https://gbfs.api.ridedott.com/public/v2/sankt-anton-am-arlberg/gbfs.json
+    dott_serfaus:
+      url: https://gbfs.api.ridedott.com/public/v2/serfaus/gbfs.json
+    dott_steyr:
+      url: https://gbfs.api.ridedott.com/public/v2/steyr/gbfs.json
+    dott_velden_am_worthersee:
+      url: https://gbfs.api.ridedott.com/public/v2/velden-am-worthersee/gbfs.json
+    dott_villach:
+      url: https://gbfs.api.ridedott.com/public/v2/villach/gbfs.json
+    dott_wels:
+      url: https://gbfs.api.ridedott.com/public/v2/wels/gbfs.json
+    nextbike_al:
+      url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_al/gbfs.json
+    nextbike_ka:
+      url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ka/gbfs.json
+    nextbike_la:
+      url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_la/gbfs.json
+    nextbike_si:
+      url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_si/gbfs.json
+    nextbike_vt:
+      url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vt/gbfs.json
+    nextbike_wr:
       url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_wr/gbfs.json
+### End GBFS
 
 limits:
   stoptimes_max_results: 16384
