@@ -19,6 +19,11 @@ timetable:
   tb: false
   railviz: true
   with_shapes: true
+  route_shapes:
+    clasz:
+      COACH: false
+    mode: all
+    debug_api: true
   adjust_footpaths: true
   merge_dupes_intra_src: false
   merge_dupes_inter_src: false
@@ -115,3 +120,11 @@ gbfs:
     wienmobilrad:
       url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_wr/gbfs.json
 
+limits:
+  stoptimes_max_results: 16384
+  plan_max_results: 256
+  plan_max_search_window_minutes: 5760
+  stops_max_results: 2048
+  onetoall_max_results: 524288
+  onetoall_max_travel_minutes: 2880
+  routing_max_timeout_seconds: 90
