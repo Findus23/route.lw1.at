@@ -139,23 +139,23 @@ local colors_by_id = {
     ["at:esg:84:"] = { color = 0xC31553, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Harbach => Kreuzbergl
     ["at:ktn:1:"] = { color = 0xA8A8A7, text_color = 0xFFFFFF },
-    -- p 2 Bus 2: Villach Hauptbahnhof <=> Völkendorf (Rundkurs)
+    -- p 2 Bus 2: Villach Vassacher See => Siemensstr./Infineon
     ["at:ktn:202:"] = { color = 0xF24023, text_color = 0xFFFFFF },
     -- p 3 Bus 3: Villach 10.-Oktober-Straße <=> Sankt Ulrich (Rundkurs)
     ["at:ktn:203:"] = { color = 0x1BA626, text_color = 0xFFFFFF },
     -- p 4 Bus 4: Villach Hauptbahnhof <=> Auen (Rundkurs)
     ["at:ktn:204:"] = { color = 0x61C4E6, text_color = 0xFFFFFF },
-    -- p 7 Bus 7: KTS => Neue Heimat
+    -- p 7 Bus 7: Siemensstr./Infineon => Vassacher See
     ["at:ktn:207:"] = { color = 0x7F06F9, text_color = 0xFFFFFF },
     -- j 1 Bus 1: Landskron <=> KTS/SKA
     ["at:ktn:21:"] = { color = 0xC70A00, text_color = 0xFFFFFF },
-    -- j 2 Bus 2: Villach Hauptbahnhof <=> Völkendorf (Rundkurs)
+    -- j 2 Bus 2: Villach Vassacher See => Siemensstr./Infineon
     ["at:ktn:22:"] = { color = 0xF24023, text_color = 0xFFFFFF },
     -- j 3 Bus 3: Villach 10.-Oktober-Straße <=> Sankt Ulrich (Rundkurs)
     ["at:ktn:23:"] = { color = 0x1BA626, text_color = 0xFFFFFF },
     -- j 4 Bus 4: Villach Hauptbahnhof <=> Auen (Rundkurs)
     ["at:ktn:24:"] = { color = 0x61C4E6, text_color = 0xFFFFFF },
-    -- j 7 Bus 7: KTS => Neue Heimat
+    -- j 7 Bus 7: Siemensstr./Infineon => Vassacher See
     ["at:ktn:27:"] = { color = 0x7F06F9, text_color = 0xFFFFFF },
     -- j 8 Bus 8: St. Magdalen Technologiepark => Tschinowitsch => Hauptbahnhof
     ["at:ktn:28:"] = { color = 0xCC148C, text_color = 0xFFFFFF },
@@ -623,6 +623,8 @@ local colors_by_id = {
     ["at:vor:108:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 109 Mödling - Hinterbrühl - Alland
     ["at:vor:109:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- p R56 R56: St. Pölten <=> Mariazell
+    ["at:vor:1115:"] = { color = 0xFDB913, text_color = 0x005E96 },
     -- r 1155 Wiener Neustadt - Piringsdorf
     ["at:vor:1155:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1158 Eisenstadt - Nikitsch
@@ -787,6 +789,8 @@ local colors_by_id = {
     ["at:vor:2076:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1 Stadtverkehr Horn Mittelschule - Mödringer Straße - Josef-Strommer-Straße
     ["at:vor:2077:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 1 Stadtverkehr Zwettl Busbahnhof - Rudmanns Abzw. Edelhof - Pater-Werner-Deibl-Str.
+    ["at:vor:2078:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 207 Wien Liesing - Vösendorf SCS - Brunn/Gebirge - Mödling
     ["at:vor:207:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1 Hollabrunn Bahnhof - Raschala
@@ -1099,7 +1103,7 @@ local colors_by_id = {
     ["at:vor:327:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 88B Seestadt - Eßling, Wegmayersiedlung
     ["at:vor:3288:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 92B Kaisermühlen V.I.C. - Ölhafen
+    -- r 92B Kaisermühlen V.I.C. - Ölhafen VCM
     ["at:vor:3292:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 95B Hirschstetten Ort - Hausfeldstraße
     ["at:vor:3295:"] = { color = 0x012A60, text_color = 0xFFFFFF },
@@ -1843,7 +1847,7 @@ local colors_by_id = {
     ["at:vor:689:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 690 St. Pölten - Türnitz
     ["at:vor:690:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 691 Lilienfeld - Kernhof Baustellenfahrplan
+    -- r 691 Lilienfeld - Kernhof
     ["at:vor:691:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 692 Lilienfeld - Ramsau/Hainfeld
     ["at:vor:692:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -1853,7 +1857,7 @@ local colors_by_id = {
     ["at:vor:694:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 695 Traisen - Türnitz - St. Aegyd am Neuwalde
     ["at:vor:695:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 696 Radtramper Traisental von 1. Mai 2025 bis 26. Oktober 2025 St. Pölten - Lilienfeld - Kernhof
+    -- r 696 Radtramper Traisental von 1. Mai 2026 bis 26. Oktober 2026 St. Pölten - Lilienfeld - Kernhof
     ["at:vor:696:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Eisenstadt 1 Georg: Eisenstadt Bahnhof => St. Georgen am Leithagebirge => Eisenstadt Bahnhof
     ["at:vor:7001:"] = { color = 0xF9A21C, text_color = 0xFFFFFF },
@@ -2375,7 +2379,7 @@ local colors_by_id = {
     ["at:vor:9274:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 93 Linie 93 Bratislava
     ["at:vor:93:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r SEV BB Bahnhof - Bahnhof
+    -- r SEV BB Vösendorf Siebenhirten U6 - Wiener Neudorf Schienenersatzverkehr 27.03. - 06.04.2026
     ["at:vor:9515:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B16 Rechnitz - Großpetersdorf - Oberwart
     ["at:vor:960:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -2533,23 +2537,25 @@ local colors_by_id = {
     ["at:vvv:305:"] = { color = 0x7AB3E1, text_color = 0xFFFFFF },
     -- p 307 Bus 307: Altach Bahnhof <=> Götzis Bahnhof
     ["at:vvv:307:"] = { color = 0xF4731C, text_color = 0xFFFFFF },
-    -- j 401 Bus 401: Feldkirch Ringlinie
+    -- p 401 Bus 401: Feldkirch Bahnhof => Altenstadt Heimatweg
     ["at:vvv:401:"] = { color = 0x0492D2, text_color = 0xFFFFFF },
-    -- j 402 Bus 402: Feldkirch Ringlinie
+    -- p 402 Bus 402: Altenstadt Heimatweg => Feldkirch Bahnhof
     ["at:vvv:402:"] = { color = 0xEE293D, text_color = 0xFFFFFF },
-    -- j 403 Bus 403: Tosters Hub => Feldkirch Montforthaus
+    -- p 403 Bus 403: Tosters Hub => Feldkirch Montforthaus
     ["at:vvv:403:"] = { color = 0xFECB00, text_color = 0xFFFFFF },
-    -- j 404 Bus 404: Feldkirch => Bangs
+    -- p 404 Bus 404: Feldkirch Bahnhof => Bangs Zollhäuser
     ["at:vvv:404:"] = { color = 0x0DAEA3, text_color = 0xFFFFFF },
-    -- j 405 Bus 405: Feldkirch => Gisingen
+    -- p 405 Bus 405: Feldkirch Bahnhof => Gisingen Sebastianplatz
     ["at:vvv:405:"] = { color = 0x7E6CBD, text_color = 0xFFFFFF },
-    -- j 406 Bus 406: Gisingen => Feldkirch
+    -- p 406 Bus 406: Gisingen Sebastianplatz => Feldkirch Montforthaus
     ["at:vvv:406:"] = { color = 0xDAB006, text_color = 0xFFFFFF },
-    -- j 407 Bus 407/408: Feldkirch Bahnhof <=> Feldkirch Bahnhof
+    -- p 407 Bus 407
     ["at:vvv:407:"] = { color = 0xF4731C, text_color = 0xFFFFFF },
-    -- j 408 Bus 408: Feldkirch Bahnhof => Feldkirch Bahnhof
+    -- p 408 Bus 408: Feldkirch Bahnhof → Frastanz → Tisis → Feldkirch Bahnhof
     ["at:vvv:408:"] = { color = 0xF4731C, text_color = 0xFFFFFF },
-    -- j 414 Bus 414: Feldkirch => Bangs
+    -- p 409 Bus 409: Feldkirch Bahnhof => Tisis Fangsweg
+    ["at:vvv:409:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
+    -- p 414 Bus 414: Feldkirch Bahnhof => Ruggell Industriering
     ["at:vvv:414:"] = { color = 0x1E59AE, text_color = 0xFFFFFF },
     -- p 425 Bus 425: Feldkirch ↔ Koblach
     ["at:vvv:425:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
