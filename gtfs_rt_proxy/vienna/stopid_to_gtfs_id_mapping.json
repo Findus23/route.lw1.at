@@ -8,7 +8,7 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/deed.de"
     },
     "gtfs_stops": {
-      "version": "20260321",
+      "version": "20260424",
       "source": "https://data.mobilitaetsverbuende.at/",
       "source_dataset": "Fahrplandaten Verkehrsverbund Ost-Region Flex (GTFS)",
       "license": "Datenlizenz Mobilitätsverbünde Österreich",
@@ -62,7 +62,7 @@
     "10": {
       "gtfs_stop_id": "at:49:245:0:1",
       "vienna_name": "Stubentor U",
-      "gtfs_stop_name": "Wien Stubentor",
+      "gtfs_stop_name": "Wien Stubentor U",
       "distance": 5.9286104501493293e-08
     },
     "11": {
@@ -168,10 +168,10 @@
       "distance": 4.627085690037789e-08
     },
     "31": {
-      "gtfs_stop_id": "at:49:975:0:7",
+      "gtfs_stop_id": "at:49:196:0:1",
       "vienna_name": "Bösendorferstraße, Karlsplatz U",
-      "gtfs_stop_name": "Wien Oper",
-      "distance": 6.066183730010863e-07
+      "gtfs_stop_name": "Wien Bösendorferstraße/Karlsplatz",
+      "distance": 6.553220000606768e-10
     },
     "33": {
       "gtfs_stop_id": "at:49:246:0:1",
@@ -419,6 +419,12 @@
       "gtfs_stop_name": "Wien Strebersdorf Meriangasse",
       "distance": 4.651964200093113e-09
     },
+    "84": {
+      "gtfs_stop_id": "at:49:1308:0:4",
+      "vienna_name": "Stammersdorf",
+      "gtfs_stop_name": "Wien Stammersdorf",
+      "distance": 1.3547264399388797e-08
+    },
     "88": {
       "gtfs_stop_id": "at:49:116:0:3",
       "vienna_name": "Beethovengang",
@@ -549,7 +555,7 @@
       "gtfs_stop_id": "at:49:1346:0:8",
       "vienna_name": "Quartier Belvedere S",
       "gtfs_stop_name": "Wien Quartier Belvedere",
-      "distance": 1.5061815700512424e-08
+      "distance": 1.2939064099323384e-08
     },
     "111": {
       "gtfs_stop_id": "at:49:1346:0:4",
@@ -2492,7 +2498,7 @@
     "470": {
       "gtfs_stop_id": "at:49:1015:0:5",
       "vienna_name": "Bahnhof Meidling S U",
-      "gtfs_stop_name": "Wien Bahnhof Meidling",
+      "gtfs_stop_name": "Wien Meidling",
       "distance": 4.100000394253965e-15
     },
     "471": {
@@ -2534,7 +2540,7 @@
     "477": {
       "gtfs_stop_id": "at:49:1015:0:12",
       "vienna_name": "Bahnhof Meidling S U",
-      "gtfs_stop_name": "Wien Bahnhof Meidling",
+      "gtfs_stop_name": "Wien Meidling",
       "distance": 2.4999996321048612e-15
     },
     "481": {
@@ -2862,10 +2868,10 @@
       "distance": 2.594164500240799e-09
     },
     "554": {
-      "gtfs_stop_id": "at:49:1526:0:4",
+      "gtfs_stop_id": "at:49:1526:0:2",
       "vienna_name": "Simonygasse",
       "gtfs_stop_name": "Wien Simonygasse",
-      "distance": 1.1664400001877427e-10
+      "distance": 8.118019998958064e-11
     },
     "555": {
       "gtfs_stop_id": "at:49:977:0:2",
@@ -3081,7 +3087,7 @@
       "gtfs_stop_id": "at:49:1705:0:6",
       "vienna_name": "Handelskai S U",
       "gtfs_stop_name": "Wien Handelskai",
-      "distance": 3.8973302089516907e-07
+      "distance": 6.682759399516849e-09
     },
     "592": {
       "gtfs_stop_id": "at:49:23:0:1",
@@ -3116,7 +3122,7 @@
     "597": {
       "gtfs_stop_id": "at:49:1433:0:8",
       "vienna_name": "Vorgartenstraße U",
-      "gtfs_stop_name": "Wien Vorgartenstraße U",
+      "gtfs_stop_name": "Wien Vorgartenstraße",
       "distance": 9.745922000147295e-10
     },
     "598": {
@@ -3228,10 +3234,10 @@
       "distance": 1.0000001654807488e-16
     },
     "624": {
-      "gtfs_stop_id": "at:49:1705:0:6",
+      "gtfs_stop_id": "at:49:1705:0:3",
       "vienna_name": "Handelskai S U",
       "gtfs_stop_name": "Wien Handelskai",
-      "distance": 9.754579690036699e-08
+      "distance": 1.1326909490283781e-07
     },
     "625": {
       "gtfs_stop_id": "at:49:363:0:9",
@@ -3332,7 +3338,7 @@
     "645": {
       "gtfs_stop_id": "at:49:1433:0:9",
       "vienna_name": "Lassallestraße U",
-      "gtfs_stop_name": "Wien Vorgartenstraße U",
+      "gtfs_stop_name": "Wien Vorgartenstraße",
       "distance": 4.872172037003793e-07
     },
     "646": {
@@ -3350,13 +3356,13 @@
     "648": {
       "gtfs_stop_id": "at:49:1433:0:9",
       "vienna_name": "Lassallestraße",
-      "gtfs_stop_name": "Wien Vorgartenstraße U",
+      "gtfs_stop_name": "Wien Vorgartenstraße",
       "distance": 3.479411699742329e-09
     },
     "649": {
       "gtfs_stop_id": "at:49:1433:0:8",
       "vienna_name": "Vorgartenstraße U",
-      "gtfs_stop_name": "Wien Vorgartenstraße U",
+      "gtfs_stop_name": "Wien Vorgartenstraße",
       "distance": 2.9045640199831648e-08
     },
     "650": {
@@ -3927,7 +3933,7 @@
       "gtfs_stop_id": "at:49:1086:0:3",
       "vienna_name": "Reinprechtsdorfer Straße / Arbeitergasse",
       "gtfs_stop_name": "Wien Reinprechtsdorfer Straße/Arbeitergasse",
-      "distance": 1.0624786660166099e-07
+      "distance": 1.3720364810026666e-07
     },
     "755": {
       "gtfs_stop_id": "at:49:306:0:1",
@@ -4017,7 +4023,7 @@
       "gtfs_stop_id": "at:49:1086:0:1",
       "vienna_name": "Reinprechtsdorfer Straße / Arbeitergasse",
       "gtfs_stop_name": "Wien Reinprechtsdorfer Straße/Arbeitergasse",
-      "distance": 8.740901799673924e-08
+      "distance": 9.706323649729648e-08
     },
     "771": {
       "gtfs_stop_id": "at:49:1085:0:2",
@@ -7128,10 +7134,10 @@
       "distance": 5.198709759947562e-08
     },
     "1347": {
-      "gtfs_stop_id": "at:49:27:0:3",
+      "gtfs_stop_id": "at:49:2912:0:1",
       "vienna_name": "Zimmermannplatz",
-      "gtfs_stop_name": "Wien Alser Straße",
-      "distance": 5.045291105037221e-07
+      "gtfs_stop_name": "Wien Zimmermannplatz",
+      "distance": 8.999997226070477e-16
     },
     "1348": {
       "gtfs_stop_id": "at:49:505:0:4",
@@ -8147,6 +8153,12 @@
       "gtfs_stop_name": "Wien Staglgasse",
       "distance": 8.303773599691055e-09
     },
+    "1533": {
+      "gtfs_stop_id": "at:49:712:0:2",
+      "vienna_name": "Geibelgasse",
+      "gtfs_stop_name": "Wien Geibelgasse",
+      "distance": 2.3396500000261032e-09
+    },
     "1534": {
       "gtfs_stop_id": "at:49:1132:0:2",
       "vienna_name": "Rustengasse",
@@ -8157,7 +8169,7 @@
       "gtfs_stop_id": "at:49:67:0:2",
       "vienna_name": "Rudolfsheim, Anschützgasse",
       "gtfs_stop_name": "Wien Rudolfsheim, Anschützgasse",
-      "distance": 2.907366499908614e-09
+      "distance": 2.9073665002917385e-09
     },
     "1536": {
       "gtfs_stop_id": "at:49:1493:0:1",
@@ -8210,7 +8222,7 @@
     "1544": {
       "gtfs_stop_id": "at:49:113:0:2",
       "vienna_name": "Linzer Straße, Hochsatzengasse",
-      "gtfs_stop_name": "Wien Linzer Straße, Hochsatzengasse",
+      "gtfs_stop_name": "Wien Linzer Str., Hochsatzengasse",
       "distance": 1.699999641828821e-15
     },
     "1545": {
@@ -8240,7 +8252,7 @@
     "1551": {
       "gtfs_stop_id": "at:49:113:0:5",
       "vienna_name": "Linzer Straße, Hochsatzengasse",
-      "gtfs_stop_name": "Wien Linzer Straße, Hochsatzengasse",
+      "gtfs_stop_name": "Wien Linzer Str., Hochsatzengasse",
       "distance": 4.037412998333068e-10
     },
     "1552": {
@@ -8377,8 +8389,8 @@
     },
     "1575": {
       "gtfs_stop_id": "at:49:175:0:1",
-      "vienna_name": "Brückengasse",
-      "gtfs_stop_name": "Wien Brückengasse",
+      "vienna_name": "Kurt-Pint-Platz",
+      "gtfs_stop_name": "Wien Kurt-Pint-Platz",
       "distance": 3.601201000253016e-10
     },
     "1576": {
@@ -8391,7 +8403,7 @@
       "gtfs_stop_id": "at:49:436:0:5",
       "vienna_name": "Gumpendorfer Straße U",
       "gtfs_stop_name": "Wien Gumpendorfer Straße",
-      "distance": 4.0554049998196796e-10
+      "distance": 4.055404999180902e-10
     },
     "1578": {
       "gtfs_stop_id": "at:49:1324:0:3",
@@ -8455,8 +8467,8 @@
     },
     "1588": {
       "gtfs_stop_id": "at:49:175:0:2",
-      "vienna_name": "Brückengasse",
-      "gtfs_stop_name": "Wien Brückengasse",
+      "vienna_name": "Kurt-Pint-Platz",
+      "gtfs_stop_name": "Wien Kurt-Pint-Platz",
       "distance": 1.2181273001110984e-09
     },
     "1589": {
@@ -8530,6 +8542,12 @@
       "vienna_name": "Verbindungsbahn",
       "gtfs_stop_name": "Wien Verbindungsbahn",
       "distance": 8.081366499462648e-09
+    },
+    "1601": {
+      "gtfs_stop_id": "at:49:558:0:2",
+      "vienna_name": "Unter St. Veit, Hummelgasse",
+      "gtfs_stop_name": "Wien Unter St. Veit, Hummelgasse",
+      "distance": 1.6999999971001678e-15
     },
     "1602": {
       "gtfs_stop_id": "at:49:1422:0:4",
@@ -8709,7 +8727,7 @@
       "gtfs_stop_id": "at:49:1100:0:1",
       "vienna_name": "Riedelgasse",
       "gtfs_stop_name": "Wien Riedelgasse",
-      "distance": 9.565605530404945e-08
+      "distance": 9.56560553025173e-08
     },
     "1633": {
       "gtfs_stop_id": "at:49:504:0:4",
@@ -9033,7 +9051,7 @@
       "gtfs_stop_id": "at:49:1086:0:1",
       "vienna_name": "Reinprechtsdorfer Straße / Arbeitergasse",
       "gtfs_stop_name": "Wien Reinprechtsdorfer Straße/Arbeitergasse",
-      "distance": 2.0140424000584228e-08
+      "distance": 8.822750500378942e-09
     },
     "1688": {
       "gtfs_stop_id": "at:49:269:0:1",
@@ -9075,7 +9093,7 @@
       "gtfs_stop_id": "at:49:470:0:4",
       "vienna_name": "Hans-Mandl-Berufsschule",
       "gtfs_stop_name": "Wien Hans-Mandl-Berufsschule",
-      "distance": 7.999998481675317e-16
+      "distance": 8.000001323845991e-16
     },
     "1695": {
       "gtfs_stop_id": "at:49:1469:0:2",
@@ -9099,7 +9117,7 @@
       "gtfs_stop_id": "at:49:1086:0:3",
       "vienna_name": "Reinprechtsdorfer Straße / Arbeitergasse",
       "gtfs_stop_name": "Wien Reinprechtsdorfer Straße/Arbeitergasse",
-      "distance": 3.612259999837753e-11
+      "distance": 3.797424099996704e-09
     },
     "1699": {
       "gtfs_stop_id": "at:49:104:0:1",
@@ -11885,6 +11903,12 @@
       "gtfs_stop_name": "Wien Reumannplatz",
       "distance": 1.8371508999668837e-09
     },
+    "2244": {
+      "gtfs_stop_id": "at:49:986:0:6",
+      "vienna_name": "Otto-Probst-Platz",
+      "gtfs_stop_name": "Wien Otto-Probst-Platz",
+      "distance": 5.000000827403744e-16
+    },
     "2246": {
       "gtfs_stop_id": "at:49:1481:0:4",
       "vienna_name": "Rothneusiedl",
@@ -12086,7 +12110,7 @@
     "2295": {
       "gtfs_stop_id": "at:49:113:0:4",
       "vienna_name": "Linzer Straße, Hochsatzengasse",
-      "gtfs_stop_name": "Wien Linzer Straße, Hochsatzengasse",
+      "gtfs_stop_name": "Wien Linzer Str., Hochsatzengasse",
       "distance": 3.2256320003528076e-10
     },
     "2296": {
@@ -12394,12 +12418,6 @@
       "vienna_name": "Zehngrafweg",
       "gtfs_stop_name": "Wien Zehngrafweg",
       "distance": 8.079495699735428e-09
-    },
-    "2358": {
-      "gtfs_stop_id": "at:49:1334:0:1",
-      "vienna_name": "Kaiserebersdorf, Sängergasse",
-      "gtfs_stop_name": "Wien Sängergasse",
-      "distance": 2.0000000467443925e-15
     },
     "2359": {
       "gtfs_stop_id": "at:49:334:0:22",
@@ -14006,7 +14024,7 @@
     "2668": {
       "gtfs_stop_id": "at:49:1860:0:1",
       "vienna_name": "Rennbahnweg U",
-      "gtfs_stop_name": "Wien Rennbahnweg U",
+      "gtfs_stop_name": "Wien Rennbahnweg",
       "distance": 3.0528045001528674e-09
     },
     "2669": {
@@ -15002,7 +15020,7 @@
     "2913": {
       "gtfs_stop_id": "at:49:949:0:8",
       "vienna_name": "Oberlaa U, Laaer-Berg-Straße",
-      "gtfs_stop_name": "Wien Oberlaa",
+      "gtfs_stop_name": "Wien Oberlaa U",
       "distance": 2.6424199300466736e-08
     },
     "2914": {
@@ -15050,7 +15068,7 @@
     "2921": {
       "gtfs_stop_id": "at:49:949:0:8",
       "vienna_name": "Oberlaa U, Laaer-Berg-Straße",
-      "gtfs_stop_name": "Wien Oberlaa",
+      "gtfs_stop_name": "Wien Oberlaa U",
       "distance": 6.386779299821228e-09
     },
     "2922": {
@@ -16089,7 +16107,7 @@
       "gtfs_stop_id": "at:49:306:0:3",
       "vienna_name": "Fendigasse",
       "gtfs_stop_name": "Wien Fendigasse",
-      "distance": 4.075879139966344e-08
+      "distance": 6.34202050008027e-08
     },
     "3140": {
       "gtfs_stop_id": "at:49:277:0:1",
@@ -17058,10 +17076,10 @@
       "distance": 7.252258000345546e-10
     },
     "3314": {
-      "gtfs_stop_id": "at:49:1038:0:2",
+      "gtfs_stop_id": "at:49:1038:0:1",
       "vienna_name": "Fritz-Feigl-Weg",
       "gtfs_stop_name": "Wien Fritz-Feigl-Weg",
-      "distance": 5.721717290189134e-08
+      "distance": 2.3685289999358145e-09
     },
     "3315": {
       "gtfs_stop_id": "at:49:1270:0:1",
@@ -17076,10 +17094,10 @@
       "distance": 3.9586446499498715e-08
     },
     "3317": {
-      "gtfs_stop_id": "at:49:1038:0:2",
+      "gtfs_stop_id": "at:49:1038:0:1",
       "vienna_name": "Fritz-Feigl-Weg",
       "gtfs_stop_name": "Wien Fritz-Feigl-Weg",
-      "distance": 4.513238690054466e-08
+      "distance": 1.1517588999983106e-08
     },
     "3318": {
       "gtfs_stop_id": "at:49:633:0:13",
@@ -17513,12 +17531,6 @@
       "gtfs_stop_name": "Kledering Bahnhof",
       "distance": 5.000000827403744e-16
     },
-    "3394": {
-      "gtfs_stop_id": "at:49:1837:0:1",
-      "vienna_name": null,
-      "gtfs_stop_name": "Wien Zentralfriedhof Gruppe 84",
-      "distance": 4.896021816520279e-06
-    },
     "3395": {
       "gtfs_stop_id": "at:49:1685:0:2",
       "vienna_name": "Zentralfriedhof, 9.Tor",
@@ -17626,12 +17638,6 @@
       "vienna_name": "Bertl-Hayde-Gasse",
       "gtfs_stop_name": "Wien Bertl-Hayde-Gasse",
       "distance": 1.0000001654807488e-16
-    },
-    "3419": {
-      "gtfs_stop_id": "at:49:1837:0:1",
-      "vienna_name": null,
-      "gtfs_stop_name": "Wien Zentralfriedhof Gruppe 84",
-      "distance": 5.278100412516775e-06
     },
     "3420": {
       "gtfs_stop_id": "at:49:1592:0:2",
@@ -17909,6 +17915,12 @@
       "gtfs_stop_name": "Wien Frödenplatz",
       "distance": 3.249804999996551e-08
     },
+    "3472": {
+      "gtfs_stop_id": "at:49:334:0:6",
+      "vienna_name": "Franz-Jonas-Platz",
+      "gtfs_stop_name": "Wien Floridsdorf",
+      "distance": 9.750931690159861e-08
+    },
     "3473": {
       "gtfs_stop_id": "at:49:260:0:3",
       "vienna_name": "Strebersdorf, Meriangasse",
@@ -18026,7 +18038,7 @@
     "3570": {
       "gtfs_stop_id": "at:49:1433:0:8",
       "vienna_name": "Vorgartenstraße",
-      "gtfs_stop_name": "Wien Vorgartenstraße U",
+      "gtfs_stop_name": "Wien Vorgartenstraße",
       "distance": 2.9045640199831648e-08
     },
     "3571": {
@@ -18050,7 +18062,7 @@
     "3574": {
       "gtfs_stop_id": "at:49:1433:0:8",
       "vienna_name": "Vorgartenstraße",
-      "gtfs_stop_name": "Wien Vorgartenstraße U",
+      "gtfs_stop_name": "Wien Vorgartenstraße",
       "distance": 2.9045640199831648e-08
     },
     "3575": {
@@ -18834,10 +18846,10 @@
       "distance": 6.365360499894679e-08
     },
     "3850": {
-      "gtfs_stop_id": "at:49:67:0:2",
+      "gtfs_stop_id": "at:49:67:0:8",
       "vienna_name": "Rudolfsheim, Anschützgasse",
       "gtfs_stop_name": "Wien Rudolfsheim, Anschützgasse",
-      "distance": 1.5446533049692774e-07
+      "distance": 5.62311700061381e-09
     },
     "3851": {
       "gtfs_stop_id": "at:49:1184:0:10",
@@ -20520,10 +20532,10 @@
       "distance": 6.836941060227042e-08
     },
     "4711": {
-      "gtfs_stop_id": "at:49:602:0:10",
+      "gtfs_stop_id": "at:49:602:0:13",
       "vienna_name": "Lorenz-Bayer-Platz",
       "gtfs_stop_name": "Wien Johann-Nepomuk-Berger-Platz",
-      "distance": 6.247795561976323e-07
+      "distance": 1.6999999971001678e-15
     },
     "4717": {
       "gtfs_stop_id": "at:49:1186:0:6",
@@ -21311,12 +21323,6 @@
       "gtfs_stop_name": "Wien Inzersdorf Friedhof",
       "distance": 2.6741339298577493e-08
     },
-    "5199": {
-      "gtfs_stop_id": "at:49:14:0:14",
-      "vienna_name": "Per-Albin-Hansson-Siedlung",
-      "gtfs_stop_name": "Wien Alaudagasse",
-      "distance": 1.325170900040934e-09
-    },
     "5200": {
       "gtfs_stop_id": "at:49:209:0:2",
       "vienna_name": "Cobenzl-Parkplatz",
@@ -21394,12 +21400,6 @@
       "vienna_name": "Erzherzog-Karl-Straße S",
       "gtfs_stop_name": "Wien Erzherzog-Karl-Straße",
       "distance": 3.586932169966861e-08
-    },
-    "5230": {
-      "gtfs_stop_id": "at:49:14:0:10",
-      "vienna_name": "Per-Albin-Hansson-Siedlung",
-      "gtfs_stop_name": "Wien Alaudagasse",
-      "distance": 1.9699622500767566e-08
     },
     "5231": {
       "gtfs_stop_id": "at:49:953:0:2",
@@ -21707,12 +21707,6 @@
       "gtfs_stop_name": "Wien Simmering",
       "distance": 3.2221768400538086e-08
     },
-    "5549": {
-      "gtfs_stop_id": "at:49:1308:0:4",
-      "vienna_name": "Stammersdorf B7",
-      "gtfs_stop_name": "Wien Stammersdorf",
-      "distance": 1.3547264399388797e-08
-    },
     "5557": {
       "gtfs_stop_id": "at:49:111:0:2",
       "vienna_name": "Morelligasse",
@@ -21782,7 +21776,7 @@
     "5575": {
       "gtfs_stop_id": "at:49:1659:0:1",
       "vienna_name": "Brückengasse",
-      "gtfs_stop_name": "Wien Linke Wienzeile/Brückengasse",
+      "gtfs_stop_name": "Wien Brückengasse",
       "distance": 1.6999999971001678e-15
     },
     "5576": {
@@ -21916,12 +21910,6 @@
       "vienna_name": "Oper, Karlsplatz >",
       "gtfs_stop_name": "Wien Oper/Karlsplatz",
       "distance": 1.871755450011046e-08
-    },
-    "5607": {
-      "gtfs_stop_id": "at:49:975:0:20",
-      "vienna_name": "Oper, Karlsplatz >",
-      "gtfs_stop_name": "Wien Oper/Karlsplatz",
-      "distance": 5.736033999624613e-10
     },
     "5608": {
       "gtfs_stop_id": "at:49:1530:0:4",
@@ -22436,7 +22424,7 @@
     "5714": {
       "gtfs_stop_id": "at:49:1860:0:1",
       "vienna_name": "Rennbahnweg U",
-      "gtfs_stop_name": "Wien Rennbahnweg U",
+      "gtfs_stop_name": "Wien Rennbahnweg",
       "distance": 2.5165580500015924e-08
     },
     "5715": {
@@ -23429,6 +23417,12 @@
       "gtfs_stop_name": "Wien Laxenburger Straße/Gudrunstraße",
       "distance": 4.5825257299877607e-07
     },
+    "6024": {
+      "gtfs_stop_id": "at:49:67:0:4",
+      "vienna_name": "Bahnhof Rudolfsheim (Bedarf)",
+      "gtfs_stop_name": "Wien Rudolfsheim, Anschützgasse",
+      "distance": 1.6182004999842126e-09
+    },
     "6051": {
       "gtfs_stop_id": "at:49:763:0:2",
       "vienna_name": "Abstellplatz der Linie 74A",
@@ -23476,12 +23470,6 @@
       "vienna_name": "Bahnhof Floridsdorf",
       "gtfs_stop_name": "Wien Floridsdorfer Markt",
       "distance": 7.000350632941128e-07
-    },
-    "7008": {
-      "gtfs_stop_id": "at:49:67:0:4",
-      "vienna_name": "Bhf.Rdh. / Halle III - A",
-      "gtfs_stop_name": "Wien Rudolfsheim, Anschützgasse",
-      "distance": 1.6182004999842126e-09
     },
     "7041": {
       "gtfs_stop_id": "at:49:491:3",
@@ -23583,7 +23571,7 @@
       "gtfs_stop_id": "at:49:306:0:3",
       "vienna_name": "Fendigasse",
       "gtfs_stop_name": "Wien Fendigasse",
-      "distance": 4.0266339999954834e-10
+      "distance": 6.9222249998716e-09
     },
     "7345": {
       "gtfs_stop_id": "at:49:393:2",
@@ -23681,6 +23669,30 @@
       "gtfs_stop_name": "Wien Donaumarina",
       "distance": 6.235245540111678e-08
     },
+    "7373": {
+      "gtfs_stop_id": "at:49:732:0:1",
+      "vienna_name": "Kutschkergasse",
+      "gtfs_stop_name": "Wien Kutschkergasse",
+      "distance": 1.32349449990222e-09
+    },
+    "7375": {
+      "gtfs_stop_id": "at:49:843:0:1",
+      "vienna_name": "Martinstraße",
+      "gtfs_stop_name": "Wien Martinstraße",
+      "distance": 6.578713699877549e-09
+    },
+    "7379": {
+      "gtfs_stop_id": "at:49:101:0:1",
+      "vienna_name": "Aumannplatz",
+      "gtfs_stop_name": "Wien Aumannplatz",
+      "distance": 4.777935570038598e-08
+    },
+    "7380": {
+      "gtfs_stop_id": "at:49:1461:0:3",
+      "vienna_name": "Weinhauser Gasse",
+      "gtfs_stop_name": "Wien Weinhauser Gasse",
+      "distance": 9.047194000095591e-09
+    },
     "7381": {
       "gtfs_stop_id": "at:49:1595:0:2",
       "vienna_name": "Süßenbrunner Straße, Oberfeldgasse",
@@ -23716,6 +23728,12 @@
       "vienna_name": "Zanggasse",
       "gtfs_stop_name": "Wien Zanggasse",
       "distance": 2.868226425989526e-07
+    },
+    "7390": {
+      "gtfs_stop_id": "at:49:101:0:1",
+      "vienna_name": "Aumannplatz",
+      "gtfs_stop_name": "Wien Aumannplatz",
+      "distance": 4.777935570038598e-08
     },
     "7391": {
       "gtfs_stop_id": "at:49:48:0:2",
@@ -23849,10 +23867,10 @@
       "gtfs_stop_name": "Wien Grasbergergasse",
       "distance": 9.999999523179231e-16
     },
-    "7427": {
+    "7428": {
       "gtfs_stop_id": "at:49:1433:0:9",
-      "vienna_name": "Vorgartenstraße U",
-      "gtfs_stop_name": "Wien Vorgartenstraße U",
+      "vienna_name": "Lassallestraße",
+      "gtfs_stop_name": "Wien Vorgartenstraße",
       "distance": 4.872172037003793e-07
     },
     "7429": {
@@ -24046,6 +24064,12 @@
       "vienna_name": "Thaliastraße U",
       "gtfs_stop_name": "Wien Thaliastraße",
       "distance": 1.3463291650158297e-07
+    },
+    "7488": {
+      "gtfs_stop_id": "at:49:1501:0:2",
+      "vienna_name": "Wolfersberggasse",
+      "gtfs_stop_name": "Wien Wolfersberggasse",
+      "distance": 1.4352040008566278e-10
     },
     "7524": {
       "gtfs_stop_id": "at:49:2503:0:3",
@@ -24821,12 +24845,6 @@
       "gtfs_stop_name": "Wien Steigenteschgasse",
       "distance": 2.690435170043231e-08
     },
-    "8163": {
-      "gtfs_stop_id": "at:49:712:0:2",
-      "vienna_name": "Mariahilfer Straße, Geibelgasse",
-      "gtfs_stop_name": "Wien Geibelgasse",
-      "distance": 2.3396500000261032e-09
-    },
     "8170": {
       "gtfs_stop_id": "at:49:1970:0:2",
       "vienna_name": "Lammaschgasse",
@@ -24870,16 +24888,16 @@
       "distance": 3.399999781037535e-15
     },
     "8182": {
-      "gtfs_stop_id": "at:49:1966:0:1",
+      "gtfs_stop_id": "at:49:910:0:15",
       "vienna_name": "Friederike-Mayröcker-Straße",
-      "gtfs_stop_name": "Wien Karoline-Perin-Gasse",
-      "distance": 5.074476329001514e-06
+      "gtfs_stop_name": "Wien Aspern Nord",
+      "distance": 4.728720770001139e-06
     },
     "8183": {
-      "gtfs_stop_id": "at:49:1966:0:1",
+      "gtfs_stop_id": "at:49:910:0:15",
       "vienna_name": "Friederike-Mayröcker-Straße",
-      "gtfs_stop_name": "Wien Karoline-Perin-Gasse",
-      "distance": 5.798055245013186e-06
+      "gtfs_stop_name": "Wien Aspern Nord",
+      "distance": 5.3570208420176764e-06
     },
     "8185": {
       "gtfs_stop_id": "at:49:1967:0:2",
@@ -26128,12 +26146,6 @@
       "vienna_name": "Bhf. Meidling S U, Schedifkaplatz",
       "gtfs_stop_name": "Wien Meidling, Schedifkaplatz",
       "distance": 4.192583200399556e-09
-    },
-    "8752": {
-      "gtfs_stop_id": "at:49:554:0:7",
-      "vienna_name": "Am Hubertusdamm",
-      "gtfs_stop_name": "Wien Hubertusdamm",
-      "distance": 1.2314130328940738e-06
     },
     "8754": {
       "gtfs_stop_id": "at:49:1668:0:4",

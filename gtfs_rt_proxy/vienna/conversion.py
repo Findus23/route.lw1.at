@@ -11,11 +11,13 @@ from proto import gtfs_realtime_pb2
 
 current_dir = Path(__file__).parent
 
+
 def load_line_mapping():
     with open(current_dir / "line_to_gtfs_id_mapping.json") as f:
         mapping_data = json.load(f)
         line_to_gtfs_id_mapping = mapping_data["mapping"]
         mapping_feed_version = str(mapping_data["meta"]["version"])
+    line_to_gtfs_id_mapping["WLB"] = "at:vor:1515:"
     return line_to_gtfs_id_mapping, mapping_feed_version
 
 
@@ -42,11 +44,15 @@ def disruptions_from_api(api_response: dict):
     if value != "OK":
         raise ValueError(value)
 
-    traffic_info_categories = {t["id"]: t for t in api_response["data"]["trafficInfoCategories"]}
+    traffic_info_categories = {
+        t["id"]: t for t in api_response["data"]["trafficInfoCategories"]
+    }
 
     traffic_infos = {}
     for info in api_response["data"]["trafficInfos"]:
-        info["category"] = traffic_info_categories[info["refTrafficInfoCategoryId"]]["name"]
+        info["category"] = traffic_info_categories[info["refTrafficInfoCategoryId"]][
+            "name"
+        ]
         if info["category"] == "aufzugsinfo":
             # TODO: support elevator disruptions properly
             continue
@@ -54,7 +60,9 @@ def disruptions_from_api(api_response: dict):
     return server_time, traffic_infos
 
 
-def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_realtime_pb2.FeedMessage:
+def disruptions_to_proto(
+    server_time: datetime, traffic_infos: dict
+) -> gtfs_realtime_pb2.FeedMessage:
     feed = gtfs_realtime_pb2.FeedMessage()
     feed.header.gtfs_realtime_version = "2.0"
     feed.header.timestamp = int(server_time.timestamp())
@@ -99,10 +107,11 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
                 except KeyError:
                     print(f"failed to match stop {stop}")
 
-
         # input date format is "2026-02-20T20:54:00.000+0100"
         active_period = alert.active_period.add()
-        active_period.start = int(datetime.fromisoformat(disr["time"]["start"]).timestamp())
+        active_period.start = int(
+            datetime.fromisoformat(disr["time"]["start"]).timestamp()
+        )
         active_period.end = int(datetime.fromisoformat(disr["time"]["end"]).timestamp())
 
         # TODO: map these disruptions to actual trips and provide tripupdates
@@ -131,6 +140,10 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
         elif "Polizeieinsatz" in all_text:
             alert.cause = alert.POLICE_ACTIVITY
         elif "Bauarbeiten" in all_text:
+            alert.cause = alert.CONSTRUCTION
+        elif "Gleisbauarbeiten" in all_text:
+            alert.cause = alert.CONSTRUCTION
+        elif "Kranarbeiten" in all_text:
             alert.cause = alert.CONSTRUCTION
         elif "Fahrtbehinderung" in all_text:
             alert.cause = alert.OTHER_CAUSE
@@ -162,6 +175,8 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
             alert.effect = alert.SIGNIFICANT_DELAYS
         elif "Betrieb ist derzeit eingestellt" in all_text:
             alert.effect = alert.NO_SERVICE
+        elif "Kein Betrieb" in all_text:
+            alert.effect = alert.NO_SERVICE
         elif "Züge halten " in all_text or "Busse halten " in all_text:
             alert.effect = alert.NO_SERVICE
         elif "an der Weiterfahrt gehindert" in all_text:
@@ -187,7 +202,7 @@ def disruptions_to_proto(server_time: datetime, traffic_infos: dict) -> gtfs_rea
     return feed
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     from vienna.api import vienna_disruptions_api
     from google.protobuf.json_format import MessageToJson
 
@@ -195,8 +210,6 @@ if __name__ == '__main__':
     server_time, traffic_infos = disruptions_from_api(api_response)
     feed = disruptions_to_proto(server_time, traffic_infos)
     body = MessageToJson(
-        feed,
-        preserving_proto_field_name=True,
-        use_integers_for_enums=True
+        feed, preserving_proto_field_name=True, use_integers_for_enums=True
     )
     print(body)
