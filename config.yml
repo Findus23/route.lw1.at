@@ -19,6 +19,11 @@ timetable:
   tb: false
   railviz: true
   with_shapes: true
+  route_shapes:
+    clasz:
+      COACH: false
+    mode: all
+    debug_api: true
   adjust_footpaths: true
   merge_dupes_intra_src: false
   merge_dupes_inter_src: false
