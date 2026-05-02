@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=/media/ssd/motis/own_gtfs/schema.json
 # based on information from https://www.spitz-wachau.at/Rollfaehre_Spitz-Arnsdorf
 
 year: 2026

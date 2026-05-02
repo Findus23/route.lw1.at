@@ -13,6 +13,7 @@ rf:kk:julyaugust_wd,1,1,1,1,1,0,0,20260701,20260831
 rf:kk:julyaugust_we,0,0,0,0,0,1,1,20260701,20260831
 rf:kk:septemberoctobernovember_wd,1,1,1,1,1,0,0,20260901,20261102
 rf:kk:septemberoctobernovember_we,0,0,0,0,0,1,1,20260901,20261102
+f:orth:main,1,1,1,1,1,1,1,20260401,20260930
 rf:sa:summer_wd,1,1,1,1,1,0,0,20260301,20261031
 rf:sa:summer_we,0,0,0,0,0,1,1,20260301,20261031
 rf:sa:winter,1,1,1,1,1,0,0,20261101,20270228

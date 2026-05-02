@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=/media/ssd/motis/own_gtfs/schema.json
 # based on information from https://www.weissenkirchen-wachau.at/ueber-weissenkirchen/mobilitaet/rollfaehre
 
 year: 2026

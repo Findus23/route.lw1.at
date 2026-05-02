@@ -55,6 +55,10 @@ rf:kk:septemberoctobernovember_we:AB,rf:kk:ko,00:00:00,00:00:00,1
 rf:kk:septemberoctobernovember_we:AB,rf:kk:kl,00:08:00,00:08:00,2
 rf:kk:septemberoctobernovember_we:BA,rf:kk:kl,00:00:00,00:00:00,1
 rf:kk:septemberoctobernovember_we:BA,rf:kk:ko,00:08:00,00:08:00,2
+f:orth:main:AB,f:orth:wk,00:00:00,00:00:00,1
+f:orth:main:AB,f:orth:sl,00:08:00,00:08:00,2
+f:orth:main:BA,f:orth:sl,00:00:00,00:00:00,1
+f:orth:main:BA,f:orth:wk,00:08:00,00:08:00,2
 rf:sa:summer_wd:AB,rf:sa:s,00:00:00,00:00:00,1
 rf:sa:summer_wd:AB,rf:sa:a,00:08:00,00:08:00,2
 rf:sa:summer_wd:BA,rf:sa:a,00:00:00,00:00:00,1

@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=/media/ssd/motis/own_gtfs/schema.json
+# based on information from http://www.faehre-orth.at/
+
+year: 2026
+route_short_name: Fähre Orth an der Donau
+route_long_name: Fähre Orth an der Donau - Haslau
+route_type: "FERRY"
+bikes_allowed: true
+cars_allowed: false
+# keine explizite Angabe, aber vermutlich ähnlich zu Spitz/Arnsdorf
+headway_minutes: 16
+travel_time_minutes: 8
+route_id: f:orth
+
+agency:
+  agency_name: Fähre Orth an der Donau - Hannes Wiesbauer
+  agency_url: http://www.faehre-orth.at/
+
+endpoints:
+  # Locations from OSM
+  - stop_id: wk
+    stop_name: Rollfähre Orth an der Donau
+    location_name: Orth an der Donau
+    position:
+      lat: 48.1243153
+      lon: 16.7144869
+      level: 0
+  - stop_id: sl
+    stop_name: Rollfähre Haslau
+    location_name: Haslau
+    position:
+      lat: 48.1208983
+      lon: 16.7134603
+      level: 0
+
+services:
+  - service_id: main
+    days: daily # it doesn't say, so I'm assuming
+    start_date: 2026-04-01
+    end_date: 2026-09-30
+    windows:
+      - start: 09:00:00
+        end: 18:00:00

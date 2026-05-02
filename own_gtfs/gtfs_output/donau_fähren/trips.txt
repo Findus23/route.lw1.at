@@ -27,6 +27,8 @@ rf:kk,rf:kk:septemberoctobernovember_wd,rf:kk:septemberoctobernovember_wd:AB,Ric
 rf:kk,rf:kk:septemberoctobernovember_wd,rf:kk:septemberoctobernovember_wd:BA,Richtung Korneuburg,1,1,0
 rf:kk,rf:kk:septemberoctobernovember_we,rf:kk:septemberoctobernovember_we:AB,Richtung Klosterneuburg,0,1,0
 rf:kk,rf:kk:septemberoctobernovember_we,rf:kk:septemberoctobernovember_we:BA,Richtung Korneuburg,1,1,0
+f:orth,f:orth:main,f:orth:main:AB,Richtung Haslau,0,1,0
+f:orth,f:orth:main,f:orth:main:BA,Richtung Orth an der Donau,1,1,0
 rf:sa,rf:sa:summer_wd,rf:sa:summer_wd:AB,Richtung Arnsdorf,0,1,1
 rf:sa,rf:sa:summer_wd,rf:sa:summer_wd:BA,Richtung Spitz,1,1,1
 rf:sa,rf:sa:summer_we,rf:sa:summer_we:AB,Richtung Arnsdorf,0,1,1
