@@ -1,43 +1,368 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>route.lw1.at: Datenlizenzen und Informationen</title>
+    <title>Über route.lw1.at</title>
+    <link rel="alternate" hreflang="de" href="https://about.route.lw1.at/de/">
+    <link rel="alternate" hreflang="en" href="https://about.route.lw1.at/en/">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>Datenlizenzen und Informationen</h1>
+    <h1>Über route.lw1.at</h1>
 
 
     <a href="/en/">switch to English</a>
 
+    <a href="https://route.lw1.at">zurück zu route.lw1.at</a>
 
-<a href="https://route.lw1.at">zurück zu route.lw1.at</a>
 
-<h2>Über route.lw1.at</h2>
+    <h3><a href="https://lw1.at/i/" target="_blank">Impressum</a></h3>
 
-<h3><a href="https://lw1.at/i/">Impressum</a></h3>
+<h2> Inhaltsverzeichnis</h2>
 
-<p>Diese Webseite ist im Aufbau. Mehr Informationen folgen später.</p>
+<div id="toc">
+    <ul>
+        <li>
+            <a href="#faq">
+FAQ            </a>
+            <ul>
+                <li>
+                    <a href="#about">
+Über route.lw1.at                    </a>
+                </li>
+                <li>
+                    <a href="#data">
+Daten                    </a>
+                </li>
+                <li>
+                    <a href="#linecolor">
+Farben von Öffi-Linien                    </a>
+                </li>
+                <li>
+                    <a href="#ui">
+UI                    </a>
+                </li>
+                <li>
+                    <a href="#indoor">
+Umstieg/Indoor Routing                    </a>
+                </li>
+                <li>
+                    <a href="#realtime">
+Echtzeitdaten                    </a>
+                </li>
+                <li>
+                    <a href="#technical-details">
+Technische Details                    </a>
+                </li>
+                <li>
+                    <a href="#this-website">
+Über diese Webseite                    </a>
+                </li>
+            </ul>
+            <a href="#licenses">
+Datensets und Lizenzen            </a>
+            <ul>
+                <li>
+                    <a href="#datasets">
+GTFS Datensets                    </a>
+                </li>
+                <li>
+                    <a href="#line-color-data">
+Linienfarben-Datenset                    </a>
+                </li>
+            </ul>
+        <li>
+            <a href="#footnotes">
+Fußnoten            </a>
+        </li>
+        </li>
+    </ul>
 
-<h2>Datensets und Lizenzen</h2>
+</div>
 
+<h2 id="faq">FAQ</h2>
+
+<h3 id="about">Über route.lw1.at</h3>
+
+<h4>Was ist route.lw1.at?</h4>
+
+Das ist eine Webseite bzw. ein Tool, womit man die besten Verbindungen für Reisen in Österreich(mit Fokus auf öffentliche Verkehrsmittel) finden kann. Es ist eine Art Mischung aus ÖBB Scotty, Wien Mobil, Google Maps und OsmAnd.
+
+<h4>Was kann route.lw1.at, was die ÖBB/Scotty/Wien Mobil Apps nicht können? Warum sollte man route.lw1.at nicht verwenden?</h4>
+
+Während die meisten Ergebnisse sehr ähnlich zu denen der ÖBB-Apps sein sollten (immerhin verwenden diese die selben Fahrplandaten), gibt es ein paar zusätzliche Features, die auf den meisten anderen Plattformen nicht leicht möglich sind:
+<ul>
+    <li>
+Kombination mehrerer Datensets: Ich versuche alle verfügbaren Fahrplandaten aus Österreich zu importieren, sodass das Routing viele verschiedene Arten von öffentlichen Verkehrsmitteln kombinieren kann.    </li>
+    <li>
+Fahrplandaten auf einer Karte: Die Karte zeigt die aktuellen Positionen aller öffentlichen Verkehrsmittel laut Fahrplan (siehe <a href="#realtime">Echtzeitdaten</a>). Dadurch bekommt man einen intuitiven Eindruck vom öffentlichen Verkehr in verschiedenen Regionen und zu unterschiedlichen Zeiten.    </li>
+    <li>
+Open Source und Open Data: Der komplette Sourcecode der Webseite und alle Datensets, die ich verwende oder die ich selbst erstellt habe, sind unter freien Lizenzen verfügbar. Daher können andere leicht auf diesem Projekt aufbauen.     </li>
+    <li>
+Schnell: Selbst komplexe Anfragen sollten deutlich schneller Ergebnisse liefern als in den meisten anderen Apps.    </li>
+    <li>
+Isochronen: Man kann leicht herausfinden, wie weit man sich in einer bestimmten Zeit von einem Ort entfernen kann. Welche Orte sind schwer mit Öffis zu erreichen?     </li>
+    <li>
+Navigation in Gebäuden: Da alle Verbindungen mithilfe von OpenStreetMap-Daten berechnet werden, kann man den korrekten Weg innerhalb von Gebäuden sehen, solange diese richtig bzw. detailliert genug in den den Kartendaten sind.     </li>
+    <li>
+Realistischere Umstiegszeiten: Die Zeit, die man benötigt, um von einem Bahnsteig zur nächsten Verbindung zu kommen, basiert auf dem tatsächlichen Fußweg.    </li>
+    <li>
+Minimalistisch: Während einige Öffi-Apps bei schlechter Internetverbindung sehr langsam laden, habe ich auch <a href="https://lite.route.lw1.at/">eine Lite-Version</a>, die immer sehr schnell laden sollte.    </li>
+    <li>
+aktuelle Betriebsinfo der Wiener Linien: Während ich sonst keine Echtzeitdaten unterstütze, habe ich eine Integration für die aktuellen Einschränkungen der Wiener Linien. Mehr Informationen zum <a href="#wl-rt">GTFS RT Proxy</a> findet man weiter unten.    </li>
+    <li>
+Österreichfokus: Da ich mich nur auf öffentliche Verkehrsmittel in Österreich konzentriere, kann ich leichter Experimente ausprobieren und schnellere Ergebnisse liefern, als wenn ich weltweite Datensets berücksichtigen müsste.    </li>
+</ul>
+Natürlich bringt das auch einige Kompromisse und Nachteile mit sich:
+<ul>
+    <li>
+Keine Echtzeitdaten: Vorerst basieren alle Ergebnisse auf der Korrektheit der vorab veröffentlichten Fahrplandaten.  <a href="#realtime">Siehe weiter unten</a> für mehr zum Thema Echtzeitdaten.    </li>
+    <li>
+Keine Garantien: Letzten Endes ist das ein Hobbyprojekt. Daher kann ich also keine Versprechen zur Genauigkeit und Zuverlässigkeit der Daten und Ergebnisse geben. Jedoch verspreche ich, dass aller Programmcode und Daten, die ich selbst ergänze, weiterhin unter einer freien Lizenz veröffentlicht werden. Somit können sie von anderen weiterverwendet, integriert und verbessert werden.    </li>
+    <li>
+Keine detaillierte Dokumentation: Da ich das Projekt verwende, um einige Ideen von mir auszuprobieren, habe ich nicht immer genug Zeit, alles ausreichend zu dokumentieren. Ich versuche jedoch, diese Website mit den wichtigsten Informationen aktuell zu halten.    </li>
+    <li>
+Minimale Ressourcen: Das ist ein Hobby-Projekt und ich arbeite daran nur, wenn es mir gerade Spaß macht. Somit gibt es einige Ideen, die ich nicht realistisch selbst umsetzen kann. Daher baut dieses Projekt zu großen Teilen auf der beeindruckenden Arbeit anderer auf und ich versuche, diese in einer Webseite zusammenzuführen, um sie sowohl als nützliches Tool als auch eine Feier von Open Data und Open Source zu präsentieren.    </li>
+    <li>
+Österreichfokus: Da ich alle Daten von außerhalb Österreichs ignoriere, ist route.lw1.at natürlich nutzlos für Reisen in andere Länder. Daher empfehle ich <a href="#transitous">Transitous</a> außerhalb von Österreich.    </li>
+</ul>
+
+<h4>Was ist MOTIS?</h4>
+<p>
+<a href="https://github.com/motis-project/motis">MOTIS</a> ist die zentrale Software hinter route.lw1.at.</p>
+<p>
+Im Grunde ist route.lw1.at eine selbst gehostete Instanz der MOTIS Software mit österreichischen Öffi-Daten und ein paar Ergänzungen von mir.</p>
+
+<h4>Gibt es Modifikationen an MOTIS auf route.lw1.at?</h4>
+Ich versuche, alle Fixes, die ich am MOTIS-Sourcecode mache, zum originalen Projekt beizutragen.
+Abgesehen davon mache ich noch einige kleinere Änderungen an der Weboberfläche. Ich versuche, diese Liste der Änderungen aktuell zu halten:
+<ul>
+    <li>
+Die Live-Positionen auf der Karte sind standardmäßig in den echten Farben der Linien anstatt den Echtzeitstatus anzuzeigen (da keine Echtzeitdaten verfügbar sind).    </li>
+    <li>
+'Geroutete Umstiege verwenden' ist standardmäßig aktiviert (da ich die dafür notwendigen Daten beim Import immer berechne).     </li>
+    <li>
+Die Reliefdaten (Hillshading) werden von maps.lw1.at geladen, welches die Originalbilder weiterleitet. Daher werden Daten von Webseitenbesuchen nicht an andere Server gesendet.     </li>
+    <li>
+Der MOTIS-Code wird mit unterschiedlichen Optimierungen kompilliert, da er nur auf meinem Server laufen muss.    </li>
+</ul>
+
+Alle Änderungen an MOTIS sind hier zu finden:<a target="_blank" href="https://git.lw1.at/lukas/motis-fork/compare/master..route.lw1.at-fork">
+    git.lw1.at/lukas/motis-fork/compare/master..route.lw1.at-fork
+</a>
+
+
+<h4 id="transitous">Was ist Transitous?</h4>
+
+<blockquote>
+    <a href="https://transitous.org/">Transitous</a>
+ist ein community-basierter, anbieterneutraler internationaler Routing-Service für den öffentlichen Verkehr.</blockquote>
+
+(übersetzt von <a href="https://transitous.org/">transitous.org</a>)
 
 <p>
-    Diese Webseite wäre nicht möglich ohne Open Source Software wie <a href="https://github.com/motis-project/motis">MOTIS</a>
-    und Open Data datasets.
-    Hier sind alle verwendeten Datensets aufgelistet.
-</p>
+route.lw1.at ist stark von Transitous inspiriert und versucht, eine kleinere, österreich-fokussierte Version davon zu sein. Da ich die restlichen globalen Datensets dabei ignorieren kann, kann ich hier leichter mit neueren Funktionen experimentieren.</p>
+
+<h4>Ist diese Webseite fertig?´</h4>
+
+rotue.lw1.at ist mehr oder weniger ein permanenter Work-in-Progress, da es ein Hobbyprojekt ist. Dennoch ist es schon recht nützlich und ich verwende es selbst die meiste Zeit, wenn ich zu einem neuen Ort fahre.
+<h4>Wer betreibt diese Webseite?</h4>
+<p>
+Ich bin Lukas Winkler und arbeite momentan vorwiegend am meinem PhD-Studium in Astrophysik. Aber ich versuche nebenbei manchmal Zeit für andere Projekte in meiner Freizeit zu finden, wenn es mir gerade Spaß macht. Da ich in Wien wohne und ziemlich oft Öffis verwende, hat das nach einem interessanten Thema gewirkt. Außerdem ist mir vor kurzem aufgefallen, dass ich noch ungenutzte Ressourcen auf meinem Server habe und dachte mir, dass ich daher route.lw1.at auch mit anderen teilen kann.</p>
+<ul>
+    <li><a href="https://lw1.at">Meine Webseite</a></li>
+    <li><a href="https://lw1.at/i/">Impressum</a></li>
+</ul>
+
+<h4>Welche anderen Features sind vielleicht auf route.lw1.at geplant?</h4>
 
 <p>
-    Alle Dateien sind auch hier zu finden:
-    <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets">https://git.lw1.at/lukas/motis-git-annex/</a>
+Ich bin mir nicht sicher. Da die Webseite größtenteils das Ergebnis verschiedener "Wäre es möglich...?" Experimente ist, ist es unklar, was als Nächstes kommt.Ein paar Ideen, an denen ich interessiert wäre:</p>
 
+<ul>
+    <li>
+Mehr <a href="#custom-gtfs">eigene GTFS-Feeds</a>: Es gibt immer noch viele Fähren und noch mehr untypische Arten von öffentlichen Verkehrsmitteln, die trotzdem einem öffentlichen Fahrplan folgen und somit durch einen GTFS-Feed beschrieben werden können.    </li>
+    <li>
+Feedback von außerhalb von Wien: Da ich in Wien wohne, fallen mir dort am häufigsten Fehler in den Daten auf, die leicht behoben werden können.    </li>
+    <li>
+Die offiziellen Farben von Stadtbus-Linien in kleineren Städten zu prüfen.    </li>
+</ul>
+
+<h3 id="data">Daten</h3>
+
+<h4>Woher kommen die Daten?</h4>
+
+<a href="#datasets">
+Siehe weiter unten für eine Liste aller Datenquellen</a>
+
+<h4 id="custom-gtfs">Gibt es noch weitere Fahrplandatensätze?</h4>
+
+Die offiziellen <a href="https://data.mobilitaetsverbuende.at">data.mobilitaetsverbuende.at GTFS-Feeds</a> decken die meisten Öffis in Österreich ab.
+Jedoch gibt es trotzdem noch mehr Verkehrsmittel, Strecken und Services, die irgendwie als öffentliche Verkehrsmittel gesehen werden können und nach Fahrplänen fahren. Sowohl Touristen-Linien, Museumszüge als auch regelmäßgige Fähren veröffentlichen ihre Fahrpläne oft nur als Text auf ihren Webseiten.
+Somit ist es möglich GTFS Feeds zu erstellen, die diesen Fahrplänen grob entsprechen, wodurch MOTIS und route.lw1.at diese nutzen und als Routen-Optionen vorschlagen kann. Mehr Informationen dazu gibt es hier:
+<ul>
+    <li>
+        <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/gtfs_data">
+Die Dateien, in denen ich diese Fahrpläne strukturiert erfasse        </a>
+    </li>
+    <li>
+        <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs">
+Die Python scripts, welche diese Daten in gültige GTFS-Feeds konvertieren        </a>
+    </li>
+    <li>
+        <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/gtfs_output">
+Die daraus entstehenden GTFS-Feeds        </a>
+    </li>
+</ul>
+
+Bis jetzt deckt das nur ein paar Donaufähren ab, aber es gibt noch <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/ideas.md">viel mehr Möglichkeiten</a>.
+
+
+<h4>Wie sind die Nutzungsbedingungen? Wie kann ich diese Webseite verwenden?</h4>
+
+Ich hatte noch keine Zeit um detaillierte Nutzungsbedingungen zusammezuschreiben. Daher gelten bis jetzt die <a href="https://transitous.org/api/"> Nutzungsbedingungen von Transitous</a> als Basis.
+Kurz gesagt:<ul>
+    <li>
+Wenn Anfragen nur manuell gemacht werden, kann route.lw1.at beliebig verwendet werden.    </li>
+    <li>
+Aber ich kann keine Garantien zur Genauigkeit und Zuverlässigkeit geben.    </li>
+    <li>
+Bei der Verwendung der API bitte mich zuerst kontaktieren. Falls die geplanten API-Anfragen nicht sehr aufwendig sind, sollte das kein Problem sein.    </li>
+    <li>
+Die Webseite ist nicht für kommerzielle Zwecke gedacht. Alles hier ist nur dank der Arbeit von Freiwilligen und den Open Data Datensets von staatlichen Stellen und Anbietern öffentlicher Verkehrsmittel möglich.    </li>
+    <li>
+Alle Dateien, aus denen route.lw1.at besteht, können auch unter <a href="https://git.lw1.at/lukas/route.lw1.at">git.lw1.at/lukas/route.lw1.at</a>, gefunden werden. Falls für ein Projekt also eine große Menge an Routing-Anfragen benötigt wird, besteht also immer die Möglichkeit eine eigene MOTIS Instanz lokal zu installieren.    </li>
+</ul>
+
+
+<h4>I found an error in the data. How can it be fixed?</h4>
+<p>
+Für falsche oder fehlende Farben von Öffi-Verbindungen <a href="#linecolor">siehe weiter unten</a>.</p>
+
+<p>
+Falls Fehler in der Karte (unabhängig von den Öffi-Daten) zu finden sind, kann man versuchen einen Fix oder eine Notiz direkt <a href="https://wiki.openstreetmap.org/wiki/Getting_Involved">an OpenStreetMap beizutragen</a>. Falls der Fehler in den Öffi-Daten liegt und man sich im Open Data in Österreich auskennt, kann man prüfen, ob dieser auch im <a href="https://data.mobilitaetsverbuende.at/">originalen Datenset</a> vorhanden ist.</p>
+<p>
+In jeden Fall kann man mich aber auch jederzeit <a href="#contactme">direkt kontaktieren</a>, falls etwas in den Daten falsch wirkt (auch wenn ich nicht versprechen kann, dass ich bei der Behebung helfen kann).</p>
+
+
+
+
+<h4>Wie kann man mich kontaktieren?</h4>
+
+Der einfachste Weg ist per E-Mail an
+<a href="mailto:route@lw1.at">route@lw1.at</a>.
+
+Man kann mich auch auf Mastodon finden unter
+<a href="https://mastodon.lw1.at/@lukas">@lukas@mastodon.lw1.at</a>.
+
+<h3 id="linecolor">Farben von Öffi-Linien</h3>
+<h4>Eine Öffi-Linie wird in der falschen Farbe angezeigt. Woher kommen die Linienfarben?</h4>
+<p>
+Ich wollte vermeiden, eine weitere Datenbank zu erstellen, die Informationen über die Farben alle Öffi-Linien in Österreich sammelt. Das würde nur die Arbeit für andere erschweren, wenn sie diese in ihre Projekte integrieren möchten. Stattdessen habe ich stattdessen versucht die Zuordnung von GTFS-ID (welche eine bestimmte Route beschreibt) zu den Farben automatisch aus existierenden Datenquellen zu generieren. Dazu nutze ich eine Mischung aus OpenStreetMap, dem <a href="https://ptna.openstreetmap.de/results/AT/index.php">PTNA</a> Projekt und ein paar einfachen hard-coded Regeln (zum Beispiel haben dadurch alle Straßenbahnen in Wien dieselbe Farbe).</p>
+<p>
+Das ist noch nicht ganz vollständig, funktioniert aber schon recht gut. Es bedeutet auch, dass neue Farben jederzeit von jedem in OSM hinzugefügt oder korrigiert werden können. Wenn ich den Import mit den neuesten Daten neu starte, wird die Tabelle entsprechend aktualisiert.</p>
+<p>
+Die komplette Tabelle findet man hier:    <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/scripts/color-data.lua">
+        scripts/color-data.lua
+    </a>
+(Die Tabelle ist momentan ein Lua-Skript, da dies die einfachste Methode ist, die Farben in MOTIS anzupassen. Aber falls Interesse besteht, kann ich sie auch als CSV oder in einem anderen Format bereitstellen.)
 </p>
+<p>
+Weitere Informationen zu den Datenquellen ist hier gesammelt:    <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/color-data">
+        color-data/
+    </a>
+</p>
+Kurz gesagt: Wenn die Farbe einer Linie korrekt in PTNA angezeigt wird, aber nicht in route.lw1.at, dann ist das ein Fehler meinerseits (bitte kontaktiert mich dazu). Wenn nicht, dann fehlen die Daten in OSM und können dort ergänzt werden.
+<h3 id="ui">UI</h3>
 
-<h3>GTFS Datensets</h3>
+<h4>Gibt es ein dunkles Theme?</h4>
 
+Ja, es stellt möglicherweise nicht alles optimal lesbar dar, aber man kann es unter <a href="https://route.lw1.at/?dark">route.lw1.at/?dark</a> finden.
+<h4>Gibt es eine einfachere Methode Routen zu finden?</h4>
+
+Wenn man einfach nur eine Öffi-Verbindung finden will und das Internet zu langsam für die vollständige UI ist, kann man die sehr nette minimale Lite-UI von <a href="codeberg.org/jbb/motis-frontend-basic">jbb</a> unter <a href="https://lite.route.lw1.at/">lite.route.lw1.at</a> nutzen.
+<h3 id="indoor">Umstieg/Indoor Routing</h3>
+
+<h4>Wie funktioniert die Routenfindung in Gebäuden?</h4>
+
+
+Wenn die Wege, Stiegen und Aufzüge innerhalb von Stationen korrekt in OSM eingezeichnet sind, kann MOTIS den exakten Fußweg zu Ausgängen oder Bahnsteigen/Haltestellen berechnen.
+Wenn man weiter in die Karte hineinzoomt, kann man auch eine Etage in der oberen rechten Ecke auswählen um nur die Wege in diesem Stockwerk zu sehen.
+Man kann am Karlsplatz in Wien sehen, wie das in einem komplexeren Fall aussehen kann.
+<h4>Wie kann ich barrierefreie Umstiege finden und Stiegen/Rolltreppen vermeiden?</h4>
+
+Wenn man "Barrierefreie Umstiege" in den Einstellungen auswählt, vermeidet MOTIS Stiegen und Rolltreppen und verwendet stattdessen Aufzüge um den schnellsten Weg ans Ziel zu finden. Da diese Daten in OSM oft etwas ungenau sind, ist es möglich, dass MOTIS recht umständliche Routen vorschlägt, wenn die "offensichtliche" Route in den OSM-Daten nicht möglich ist.
+<h3 id="realtime">Echtzeitdaten</h3>
+
+<h4>Ich kann die Positionen von Zügen/Bussen/etc. auf der Karte sehen. Sind das deren echte Positionen?</h4>
+
+Da ich momentan noch keine Echtzeitdaten verwende (<a href="#realtime-info">siehe unten</a>), sind alle Positionen anhand der veröffentlichten Fahrpläne geschätzt. Unter der Annahme, dass es keine unerwarteten Verspätungen oder ähnliches gibt, sollte das aber dennoch einen guten Eindruck über die aktuellen Positionen der Öffis in Österreich geben.
+
+<h4 id="realtime-info">Welche Echtzeitdaten sind verfügbar?</h4>
+
+Echtzeitinformationen zu Öffi-Verbindungen (also z.B. Verspätungen, Ausfälle, etc.) sind möglich, indem zusätzlich zu den statischen Fahrplänen ein GTFS-RT-Feed diese Informationen in einem strukturierten Format veröffentlicht (und diese mit den Routen im statischen Fahrplan verknüpft werden können).<br>
+Leider gibt es meines Wissens nach (Stand April 2026) für keine Öffis in Österreich einen offiziellen GTFS-RT-Feed. Es scheint Initiativen und Pläne zu geben, um Anbieter wie z.B. die ÖBB dazu zu bewegen, ihre Echtzeitdaten in einem strukturierten Format zu veröffentlichen, doch das liegt noch in der Zukunft. (Siehe diese Anfrage nach dem Informationsfreiheitsgesetz für mehr Details: <a href="https://fragdenstaat.at/anfrage/zugang-zu-dynamischen-echtzeitdaten-api-schnittstelle/">fragdenstaat.at/anfrage/zugang-zu-dynamischen-echtzeitdaten-api-schnittstelle</a>)
+<p>
+Ich hatte eine Idee, wie ich zumindest grobe Echtzeitdaten für die wichtigsten Railjet-Verbindungen anbieten kann, indem ich mit einem Programm unregelmäßige Anfragen an fahrplan.oebb.at sende. Damit würde ich im Enderfolg eine vereinfachte Version von <a href="https://github.com/derhuerst/hafas-gtfs-rt-feed">derhuerst/hafas-gtfs-rt-feed</a>" selbst schreiben und könnte potenziell mit nur einer kleinen Anzahl an Anfragen Daten für alle Railjet-Verbindungen bekommen. Aber nachdem ich den Großteil davon implementiert hatte, ist mir aufgefallen, dass die Verknüpfung dieser Informationen mit den entsprechenden Einträgen in den Fahrplänen noch komplexer ist, als ich erwartet hatte (selbst wenn ich MOTIS selbst verwende, um abzuschätzen, auf welcher Linie sich ein bestimmter Zug gerade befindet). Daher werde ich das erst einmal zur Seite stellen und darauf warten, dass offizielle Quellen für Echtzeitdaten verfügbar werden, die sich leichter mit den statischen Fahrplänen verbinden lassen.</p>
+
+<p id="wl-rt">
+Das Nächste zu einem offiziellen Open-Data-Endpoint für Echtzeitdaten, das ich kenne, sind die <a href="https://www.data.gv.at/datasets/cfba4373-a654-3e0b-80f8-348738169f95?locale=de">Wiener Linien Echtzeitinformationen</a>.Diese enthalten jedoch keine Echtzeitinformationen über bestimmte Fahrzeuge oder Strecken, sondern "nur" die textbasierten Warnungen über aktuelle Störungen und Betriebsunterbrechnungen. Außerdem stimmen die Linien- und Stations-IDs nicht mit denen aus dem Fahrplan überein, aber da es dafür ein öffentliches Datenset gibt, ist es möglich, diese fast perfekt zu verknüpfen.Falls Interesse an diesem Mapping besteht, findet man hier:</p>
+<ul>
+    <li>
+        <a
+            href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/gtfs_rt_proxy/vienna/line_to_gtfs_id_mapping.json">
+Das Mapping "Linienname" -> GTFS route ID        </a>
+    </li>
+    <li>
+        <a
+            href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/gtfs_rt_proxy/vienna/stopid_to_gtfs_id_mapping.json">
+Das Mapping "Haltepunktnummer" -> GTFS station ID        </a>
+    </li>
+    <li>
+        <a href="https://unofficial-gtfsrt-proxy.route.lw1.at/vienna-gtfs-rt.pb">
+Der inoffizielle GTFS RT Feed        </a>
+    </li>
+    <li>
+        <a href="https://unofficial-gtfsrt-proxy.route.lw1.at/vienna-gtfs-rt.json">
+Der inoffizielle GTFS RT Feed (JSON Version zur einfacheren Darstellung)        </a>
+    </li>
+</ul>
+
+<h3 id="technical-details">Technische Details</h3>
+
+Dieser Abschnitt wird ergänzt, sobald ich hilfreiche Digne habe, die ich hier beschreiben kann.<br>
+Bis dahin kann man Informationen über die meisten Subprojekte in den jeweiligen Unterordnern im <a href="https://git.lw1.at/lukas/route.lw1.at">Repository</a> finden.
+<h3 id="this-website">Über diese Webseite</h3>
+
+<h4>Warum ist diese Seite ein FAQ?</h4>
+
+Ehrlich gesagt weiß ich es nicht. Es hat wie der einfachste Weg gewirkt meine Gedanken zu ordnen. Da das Projekt eine Sammlung kleinerer Komponenten ist, macht es dieses Format für mich am einfachsten die meisten davon zu beschreiben.
+
+<h4>Warum sieht diese Webseite so hässlich aus?</h4>
+
+<p>
+Aufwendige Webseiten zu designen kann von Zeit zu Zeit Spaß machen, aber ich mag es auch zur Abwechslung einmal in die entgegengesetzte Richtung zu gehen. Eine Webseite zu haben, die so einfach wie nur möglich ist und sehr schnell lädt, wirkt inzwischen wie etwas, dass immer seltener wird und passt meiner Meinung nach gut zur experimentellen Idee meiner Arbeit an route.lw1.at.</p>
+    <h2 id="licenses">Datensets und Lizenzen</h2>
+
+
+    <p>
+Diese Webseite wäre ohne Open Source Software wie <a href="https://github.com/motis-project/motis">MOTIS</a> und Open Data datasets nicht möglich. Hier sind alle verwendeten Datensets aufgelistet.    </p>
+
+    <p>
+Alle Dateien sind auch hier zu finden:        <a
+            href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets">https://git.lw1.at/lukas/motis-git-annex/</a>
+
+    </p>
+
+    <h3 id="datasets">GTFS Datensets</h3>
 
     <h4>Eisenbahn</h4>
 
@@ -58,7 +383,8 @@
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/00_eisenbahn.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/00_eisenbahn.zip">
                     00_eisenbahn
                 </a>
             </td>
@@ -66,7 +392,8 @@
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0103_gtfs_evu_2026_cleaned.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0103_gtfs_evu_2026_cleaned.zip">
                     20260428-0103_gtfs_evu_2026_cleaned.zip
                 </a>
             </td>
@@ -90,7 +417,6 @@
     </table>
 
     <blockquote>Dieser Datensatz enthält die laufend aktualisierten Fahrpläne der ÖBB-Personenverkehr AG, der Raaberbahn/GYSEV, der Montafonerbahn, der WESTbahn sowie der Bahnen der Österreichischen Gesellschaft für Eisenbahngeschichte (ÖGEG). Die Dateninhalte bilden das jeweilige Fahrplanjahr vom Datum der Aktualisierung bis zum folgenden Fahrplanwechsel (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) und jeweils 60 Tage in die Vergangenheit ab. In diesem Datenpaket nicht beinhaltete Bahnen sind im Datenpaket des jeweils zuständigen Verkehrsverbundes enthalten. Bei grenzüberschreitenden Verkehren sind aus rechtlichen Gründen mitunter nicht alle Zwischenhalte im Ausland enthalten.</blockquote>
-
     <h4>Linz AG</h4>
 
     <table>
@@ -110,7 +436,8 @@
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/01_linz.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/01_linz.zip">
                     01_linz
                 </a>
             </td>
@@ -118,7 +445,8 @@
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0030_gtfs_esg_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0030_gtfs_esg_2026.zip">
                     20260428-0030_gtfs_esg_2026.zip
                 </a>
             </td>
@@ -142,7 +470,6 @@
     </table>
 
     <blockquote>Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des von Linz AG beauftragten und gepflegten ÖPNV Angebotes. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.</blockquote>
-
     <h4>Oberösterreichischer Verkehrsverbund</h4>
 
     <table>
@@ -162,7 +489,8 @@
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/02_ooe.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/02_ooe.zip">
                     02_ooe
                 </a>
             </td>
@@ -170,7 +498,8 @@
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260423-0012_gtfs_flex_ooevv_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260423-0012_gtfs_flex_ooevv_2026.zip">
                     20260423-0012_gtfs_flex_ooevv_2026.zip
                 </a>
             </td>
@@ -194,7 +523,6 @@
     </table>
 
     <blockquote>Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Oberösterreich, ausgenommen die Fahrten der ÖBB und der WESTbahn. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.</blockquote>
-
     <h4>Salzburger Verkehrsverbund</h4>
 
     <table>
@@ -214,7 +542,8 @@
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/03_salzburg.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/03_salzburg.zip">
                     03_salzburg
                 </a>
             </td>
@@ -222,7 +551,8 @@
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0143_gtfs_flex_salzburgverkehr_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0143_gtfs_flex_salzburgverkehr_2026.zip">
                     20260428-0143_gtfs_flex_salzburgverkehr_2026.zip
                 </a>
             </td>
@@ -250,7 +580,6 @@
 Regelungen bzgl. Fahrrädern:
 
 Montag bis Freitag wenn Werktag von 9.00 Uhr bis Betriebsschluss bzw. 03.00 Uhr des Folgetages. Samstag, Sonn- und Feiertag ganztägig.</blockquote>
-
     <h4>Kärntner Linien</h4>
 
     <table>
@@ -270,7 +599,8 @@ Montag bis Freitag wenn Werktag von 9.00 Uhr bis Betriebsschluss bzw. 03.00 Uhr 
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/04_kaernten.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/04_kaernten.zip">
                     04_kaernten
                 </a>
             </td>
@@ -278,7 +608,8 @@ Montag bis Freitag wenn Werktag von 9.00 Uhr bis Betriebsschluss bzw. 03.00 Uhr 
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0039_gtfs_flex_kaerntnerlinien_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0039_gtfs_flex_kaerntnerlinien_2026.zip">
                     20260428-0039_gtfs_flex_kaerntnerlinien_2026.zip
                 </a>
             </td>
@@ -302,7 +633,6 @@ Montag bis Freitag wenn Werktag von 9.00 Uhr bis Betriebsschluss bzw. 03.00 Uhr 
     </table>
 
     <blockquote>Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Kärnten, ausgenommen die Fahrten der ÖBB. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.</blockquote>
-
     <h4>Verkehrsverbund Ost-Region</h4>
 
     <table>
@@ -322,7 +652,8 @@ Montag bis Freitag wenn Werktag von 9.00 Uhr bis Betriebsschluss bzw. 03.00 Uhr 
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/05_vor.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/05_vor.zip">
                     05_vor
                 </a>
             </td>
@@ -330,7 +661,8 @@ Montag bis Freitag wenn Werktag von 9.00 Uhr bis Betriebsschluss bzw. 03.00 Uhr 
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260424-0157_gtfs_flex_vor_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260424-0157_gtfs_flex_vor_2026.zip">
                     20260424-0157_gtfs_flex_vor_2026.zip
                 </a>
             </td>
@@ -359,7 +691,6 @@ Regelungen bzgl. Fahrrädern:
 
 Wochentags von Montag bis Freitag ist die Fahrradmitnahme zwischen 09:00–15:00 Uhr, sowie ab 18:30 bis Betriebsschluss erlaubt.
 Am Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme ganztägig gestattet.</blockquote>
-
     <h4>Verkehrsverbund Steiermark</h4>
 
     <table>
@@ -379,7 +710,8 @@ Am Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme 
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/06_steiermark.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/06_steiermark.zip">
                     06_steiermark
                 </a>
             </td>
@@ -387,7 +719,8 @@ Am Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme 
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0137_gtfs_flex_verbundlinie_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0137_gtfs_flex_verbundlinie_2026.zip">
                     20260428-0137_gtfs_flex_verbundlinie_2026.zip
                 </a>
             </td>
@@ -411,7 +744,6 @@ Am Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme 
     </table>
 
     <blockquote>Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in der Steiermark, ausgenommen die Fahrten der ÖBB. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.</blockquote>
-
     <h4>Verkehrsverbund Tirol</h4>
 
     <table>
@@ -431,7 +763,8 @@ Am Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme 
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/07_tirol.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/07_tirol.zip">
                     07_tirol
                 </a>
             </td>
@@ -439,7 +772,8 @@ Am Wochenende (Samstag und Sonntag) und an Feiertagen ist die Fahrrad­mitnahme 
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0214_gtfs_vvt_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260428-0214_gtfs_vvt_2026.zip">
                     20260428-0214_gtfs_vvt_2026.zip
                 </a>
             </td>
@@ -468,7 +802,6 @@ Regelungen bzgl. Fahrrädern(IVB):
 
 Wochentags ist die Fahrradmitnahme nur zwischen 09:00–15:00 Uhr sowie 18:30–06:00 Uhr erlaubt.
 Am Wochenende und an Feiertagen ist die Fahrrad­mitnahme, wenn Platz vorhanden, ganztägig gestattet. Der Radheckträger kann zeitlich unbegrenzt genutzt werden.</blockquote>
-
     <h4>Verkehrsverbund Vorarlberg</h4>
 
     <table>
@@ -488,7 +821,8 @@ Am Wochenende und an Feiertagen ist die Fahrrad­mitnahme, wenn Platz vorhanden,
         <tr>
             <td>Lokaler Dateiname<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/08_vorarlberg.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/08_vorarlberg.zip">
                     08_vorarlberg
                 </a>
             </td>
@@ -496,7 +830,8 @@ Am Wochenende und an Feiertagen ist die Fahrrad­mitnahme, wenn Platz vorhanden,
         <tr>
             <td>Aktuelle Dateiversion</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260424-2239_gtfs_flex_vmobil_2026.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/20260424-2239_gtfs_flex_vmobil_2026.zip">
                     20260424-2239_gtfs_flex_vmobil_2026.zip
                 </a>
             </td>
@@ -521,60 +856,60 @@ Am Wochenende und an Feiertagen ist die Fahrrad­mitnahme, wenn Platz vorhanden,
 
     <blockquote>Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des vom Verkehrsverbund gepflegten ÖPNV und Bedarfsverkehr Angebotes in Vorarlberg, ausgenommen die Fahrten der ÖBB und der Montafonerbahn. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.</blockquote>
 
+    <h4>Flixbus</h4>
 
-<h4>Flixbus</h4>
+    <table>
+        <tr>
+            <td>Datenset</td>
+            <td><a
+                    href="https://www.data.gouv.fr/datasets/flixbus-horaires-theoriques-du-reseau-europeen-1/informations">FlixTrain-eu,
+                    FlixBus-eu</a></td>
+        </tr>
+        <tr>
+            <td>Datenset-Quelle</td>
+            <td><a
+                    href="https://gtfs.gis.flix.tech/gtfs_generic_eu.zip">https://gtfs.gis.flix.tech/gtfs_generic_eu.zip</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Lizenz</td>
+            <td>
+                <a href="https://opendatacommons.org/licenses/odbl/summary/">
+                    Open Data Commons Open Database License (ODbL)
+                </a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lokaler Dateiname</td>
+            <td>
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/flixbus_gtfs_generic_eu.zip">
+                    flixbus_gtfs_generic_eu.zip
+                </a>
+            </td>
+        </tr>
+    </table>
 
-<table>
-    <tr>
-        <td>Datenset</td>
-        <td><a href="https://www.data.gouv.fr/datasets/flixbus-horaires-theoriques-du-reseau-europeen-1/informations">FlixTrain-eu,
-            FlixBus-eu</a></td>
-    </tr>
-    <tr>
-        <td>Datensetursprung</td>
-        <td><a href="https://gtfs.gis.flix.tech/gtfs_generic_eu.zip">https://gtfs.gis.flix.tech/gtfs_generic_eu.zip</a>
-        </td>
-    </tr>
-    <tr>
-        <td>Lizenz</td>
-        <td>
-            <a href="https://opendatacommons.org/licenses/odbl/summary/">
-                Open Data Commons Open Database License (ODbL)
-            </a>
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Lokaler Dateiname</td>
-        <td>
-            <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/flixbus_gtfs_generic_eu.zip">
-                flixbus_gtfs_generic_eu.zip
-            </a>
-        </td>
-    </tr>
-</table>
+    <h3 id="map-data">Kartendaten</h3>
 
-<h3>Kartendaten</h3>
+Alle Kartendaten stammen von <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> und stehen unter der Open Data Commons Open Database-Lizenz (ODbL).
+    <h3 id="line-color-data">Linienfarben-Datenset</h3>
 
-Alle Kartendaten sind von <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> und
-    lizenziert unter der Open Data Commons Open Database-Lizenz (ODbL).
+    <p>
+Die Farben der Öffi-Linien werden von OpenStreetMap mithilfe von Tabellen des <a href="https://ptna.openstreetmap.de/">PTNA-Projekts</a> und einiger eigener Regeln gesammelt. Hier gibt es mehr Informationen dazu:        <a
+            href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data">https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data</a>
+    </p>
+    <p>
+Die aktuelle Version des Datensets ist hier zu finden:        <a
+            href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/scripts/color-data.lua">color-data.lua</a>
+    </p>
 
-<h3>Linienfarben Datenset</h3>
+    <h2 id="footnotes">Fußnoten</h2>
 
-<p>
-    Die Farben der Öffi-Linien sind von OpenStreetMap gesammelt mithilfe von Tabellen des <a href="https://ptna.openstreetmap.de/">PTNA Projekts</a> und einiger eigener Regeln.
-Hier gibt es mehr Informationen dazu:
-    <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data">https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data</a>
-</p>
-<p>
-    Die aktuelle Version des Datensets ist hier zu finden:
-    <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/scripts/color-data.lua">color-data.lua</a>
-</p>
-
-<h2>Fußnoten</h2>
-
-<p><sup><a id="fn-1">1</a></sup> Dieser Dateiname ist von mir gewählt und nur zum einfacheren Unterscheiden der Datensets</p>
+    <p><sup><a id="fn-1">1</a></sup> Dieser Dateiname wurde von mir gewählt, um die verschiedenen Datensets einfacher unterscheiden zu können.</p>
 
 
 </body>
+
 </html>

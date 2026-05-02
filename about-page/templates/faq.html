@@ -1,0 +1,637 @@
+<h2 id="faq">{% trans %}FAQ{% endtrans %}</h2>
+
+<h3 id="about">{% trans %}About route.lw1.at{% endtrans %}</h3>
+
+<h4>{% trans %}What is route.lw1.at?{% endtrans %}</h4>
+
+{% trans -%}
+This is a website/tool that allows you to find the best way to travel in Austria, with a special focus on public
+transport.
+
+You can think of it as a mix between ÖBB Scotty, Wien Mobil, Google Maps and OsmAnd.
+{%- endtrans %}
+
+
+<h4>{% trans %}What can I do here that ÖBB/Scotty/Wien Mobil apps can't do? Why should I not use
+    route.lw1.at?{% endtrans %}</h4>
+
+{% trans -%}
+While most results should be pretty similar to what you get from ÖBB apps (after all, it uses the same schedule),
+there are a few additional features that are not easily possible on other platforms:
+{%- endtrans %}
+
+<ul>
+    <li>
+        {% trans -%}
+        Combining multiple datasets: I strive to import every available schedule in Austria so that routing can
+        combine
+        many different types of public transport.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Schedule on a map: The map shows the current scheduled position (see <a href="#realtime">realtime</a>)
+        of all public transport. This gives an intuitive insight into the state of public transport in different
+        regions
+        and at different times.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Open Source and Open Data: The full source code of the website and all data I am using and
+        that I have added is available under free licenses.
+        Therefore, others can build on top of this.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Fast: Even complex searches should finish quite a bit faster than in other apps.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Isochrones: You can find out how far one can travel from a certain position within a specified time.
+        Which places are hard to reach by public transport?
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Indoor routing: As all connections are routed using OpenStreetMap data, if public transport stations are
+        mapped correctly, you can see the exact path you need to take inside.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        More realistic transfer times: The time it takes to walk from one platform to another is based on the actual
+        path walked.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Minimal: While some public transport apps can be slow with unreliable internet connections,
+        I also have <a href="https://lite.route.lw1.at/">a lite version</a> that should load even with the slowest
+        possible connection.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Wiener Linien Realtime Warnings: While there is no real support for realtime data, I do integrate the
+        realtime notices from Wiener Linien into the output.
+        See below for <a href="#wl-rt">more information on the GTFS RT proxy</a>.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Austria-focused: As I only focus on public transport inside Austria, I can run experiments and provide fast
+        results that would be much harder to achieve if I had to consider global datasets.
+        {%- endtrans %}
+    </li>
+</ul>
+{% trans -%}
+Of course, this comes with a few tradeoffs and disadvantages:
+{%- endtrans %}
+
+<ul>
+    <li>
+        {% trans -%}
+        No realtime data: For now every result assumes the pre-published schedules are correct.
+        <a href="#realtime">See below</a> for more about realtime data.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        No guarantees: At the end of the day, this is a hobby project, so I cannot give any guarantees
+        or promises about the accuracy and reliability of the website and data.
+        However, I promise that all code and datasets I create will continue to be published under free licenses, so
+        that
+        they can be integrated and improved by others.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        No extensive documentation: I use this project to experiment with some ideas I have, which means that I
+        don't
+        always find time to properly document everything. I will try to keep this page updated with the most
+        important
+        information.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Minimal resources: This is just a hobby project and I only work on it when it's fun,
+        so some ideas are just not feasible for me to solve myself.
+        Therefore, this project primarily builds on top of the amazing work by others, merging it into one website
+        both to present it as a useful tool and as a celebration of Open Data and Open Source.
+        {%- endtrans %}
+    </li>
+    <li>
+        {% trans -%}
+        Austria-focused: As I ignore all data from outside of Austria, route.lw1.at is obviously useless if you want
+        to travel somewhere else. So use <a href="#transitous">Transitous</a> if you are not in Austria.
+        {%- endtrans %}
+    </li>
+</ul>
+
+<h4>{% trans %}What is MOTIS?{% endtrans %}</h4>
+<p>
+    {% trans -%}
+    <a href="https://github.com/motis-project/motis">MOTIS</a> is the main software powering route.lw1.at.
+    {%- endtrans %}
+</p>
+<p>
+    {% trans -%}
+    Essentially, route.lw1.at is a hosted instance of the MOTIS software with Austrian public transport data
+    and a few extensions added by me.
+    {%- endtrans %}
+</p>
+
+<h4>{% trans %}Are there any modifications to MOTIS on route.lw1.at?{% endtrans %}</h4>
+{% trans %}
+I try to contribute all fixes I make to the MOTIS source code back to the original project.
+{% endtrans %}
+
+{% trans %}
+On top of this, I also make some minor changes to the web UI. I try to keep this list of changes up-to-date:
+{% endtrans %}
+
+<ul>
+    <li>
+        {% trans %}
+        The live positions on the map default to showing the color instead of the realtime status (due to the lack
+        of realtime data).
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        'Use routed transfers' is enabled by default (as I am able to always calculate the data necessary on
+        import).
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        The hillshading tiles are loaded from maps.lw1.at which forwards the original images. Therefore visitor data
+        is not sent to any third-party servers.
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        The server code is compiled with some different optimizations as it only needs to run on my server.
+        {% endtrans %}
+    </li>
+</ul>
+
+{% trans %}
+You can find the list of all changes on top of MOTIS here:
+{% endtrans %}
+<a target="_blank" href="https://git.lw1.at/lukas/motis-fork/compare/master..route.lw1.at-fork">
+    git.lw1.at/lukas/motis-fork/compare/master..route.lw1.at-fork
+</a>
+
+
+<h4 id="transitous">{% trans %}What is Transitous?{% endtrans %}</h4>
+
+<blockquote>
+    <a href="https://transitous.org/">Transitous</a>
+    {% trans %}
+    is a community-run provider-neutral international public transport routing service.
+    {% endtrans %}
+</blockquote>
+
+({% trans %}from{% endtrans %} <a href="https://transitous.org/">transitous.org</a>)
+
+<p>
+    {% trans %}
+    route.lw1.at is heavily inspired by Transitous and aims to be a smaller, Austria-focused version of it
+    that can experiment and update more easily and frequently, due to not having to handle the size of
+    global datasets.
+    {% endtrans %}
+</p>
+
+<h4>{% trans %}Is this website finished?{% endtrans %}</h4>
+
+{% trans %}
+route.lw1.at is more or less a permanent work-in-progress, as it is a hobby project.
+That said, it is already very useful, and I use it most of the time when trying to get to a place I have not
+been before.
+{% endtrans %}
+
+<h4>{% trans %}Who is behind this website?{% endtrans %}</h4>
+<p>
+    {% trans %}
+    I am Lukas Winkler and I currently work primarily on my PhD in Astrophysics.
+    But I try to find time to work on fun side-projects in my free time.
+    Since I live in Vienna and use public transport a lot, this seemed like an interesting topic to explore.
+    Also, I recently realized that I have some unused space on my server, so I thought I could this platform for
+    others to use too.
+    {% endtrans %}
+</p>
+<ul>
+    <li><a href="https://lw1.at">{% trans %}My Website{% endtrans %}</a></li>
+    <li><a href="https://lw1.at/i/">{% trans %}Imprint{% endtrans %}</a></li>
+</ul>
+
+<h4>{% trans %}What other features do you wish to add to route.lw1.at?{% endtrans %}</h4>
+
+<p>
+    {% trans %}
+    I don't know yet for sure. As the site is mostly the result of different "Would it be possible to...?"
+    experiments, it remains to be seen what I will add next.
+    {% endtrans %}
+    {% trans %}
+    Some things I would be interested in are:
+    {% endtrans %}
+</p>
+
+<ul>
+    <li>
+        {% trans %}
+        Create more <a href="#custom-gtfs">custom GTFS feeds</a>: There are still many ferries and more
+        non-conventional types of public transport that
+        still follow a schedule that could be described by a GTFS feed.
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        Receive feedback from outside of Vienna: As I am from Vienna, that's where I notice most issues with the
+        data that can be fixed.
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        Check line colors of city-bus lines in smaller cities.
+        {% endtrans %}
+    </li>
+</ul>
+
+<h3 id="data">{% trans %}Data{% endtrans %}</h3>
+
+<h4>{% trans %}Where does the data come from?{% endtrans %}</h4>
+
+<a href="#datasets">
+    {% trans %}
+    See further down for a list of all data sources
+    {% endtrans %}
+</a>
+
+<h4 id="custom-gtfs">{% trans %}Are there any additional public transport feeds?{% endtrans %}</h4>
+
+{% trans %}
+The official <a href="https://data.mobilitaetsverbuende.at">data.mobilitaetsverbuende.at GTFS feeds</a> cover most
+public transport lines in
+Austria.
+{% endtrans %}
+
+{% trans %}
+Nevertheless, there are still quite a few more routes and services that could reasonably be considered public
+transport and follow known schedules.
+From tourist and historical trains to regular ferries, these often provide their schedules as textual information on
+their websites.
+{% endtrans %}
+
+{% trans %}
+So it is possible to create GTFS feeds that roughly match these schedules so that Motis and route.lw1.at can know
+about them and suggest these options to users.
+
+You can find more information about this here:
+{% endtrans %}
+
+<ul>
+    <li>
+        <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/gtfs_data">
+            {% trans %}The files where I record these schedules in a structured way{% endtrans %}
+        </a>
+    </li>
+    <li>
+        <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs">
+            {% trans %}The Python scripts converting this input to valid GTFS feeds{% endtrans %}
+        </a>
+    </li>
+    <li>
+        <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/gtfs_output">
+            {% trans %}The output GTFS feeds{% endtrans %}
+        </a>
+    </li>
+</ul>
+
+{% trans %}
+So far, this covers only a few ferries on the Danube, but there are <a
+    href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/ideas.md">many more
+    possibilities</a>.
+{% endtrans %}
+
+
+
+<h4>{% trans %}What is the usage policy? How can I use this website?{% endtrans %}</h4>
+
+{% trans %}
+I did not have time to set up a detailed usage policy. So for now, please take a look at
+<a href="https://transitous.org/api/">the usage policy of Transitous</a> as a basis.
+{% endtrans %}
+
+{% trans %}
+Essentially:
+{% endtrans %}
+<ul>
+    <li>
+        {% trans %}
+        If you only make manual requests, then feel free to use route.lw1.at whenever you want.
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        But I can't guarantee any availability or correctness.
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        If you want to use the API, please contact me.
+        If you don't plan on making many expensive requests, it should be fine.
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        This site is not intended for commercial or for-profit usage.
+        Everything it is based on is only possible due to the work of volunteers and the Open Data provided by
+        governmental agencies and public transport providers.
+        {% endtrans %}
+    </li>
+    <li>
+        {% trans %}
+        All files that make up route.lw1.at can also be found at
+        <a href="https://git.lw1.at/lukas/route.lw1.at">git.lw1.at/lukas/route.lw1.at</a>,
+        so if you want to make a large amount of routing requests, there is always the option of running
+        your own MOTIS instance locally.
+        {% endtrans %}
+    </li>
+</ul>
+
+
+<h4>{% trans %}I found an error in the data. How can it be fixed?{% endtrans %}</h4>
+<p>
+    {% trans %}
+    For incorrect or missing line colors, please <a href="#linecolor">read below</a>.
+    {% endtrans %}
+</p>
+
+<p>
+    {% trans %}
+    If you find anything wrong in the map (unrelated to the public transport data), you can try <a
+        href="https://wiki.openstreetmap.org/wiki/Getting_Involved">contributing</a> a fix or note to OpenStreetMap
+    directly.
+    If you find a mistake in the public transport data and are familiar with Open Data in Austria, you can
+    check if it exists in the <a href="https://data.mobilitaetsverbuende.at/">original dataset</a>.
+    {% endtrans %}
+</p>
+<p>
+    {% trans %}
+    Either way, and if you are unsure, you can always <a href="#contactme">contact me</a> about things that seem
+    wrong in the data (even if I can't promise I can help fix them).
+    {% endtrans %}
+</p>
+
+
+{# <h4>{% trans %}A suggested connection doesn't exist. How can it be removed?{% endtrans %}</h4> #}
+
+{# <h4>{% trans %}The most optimal connection is not suggested. Why could this be?{% endtrans %}</h4> #}
+
+<h4>{% trans %}How can I contact you?{% endtrans %}</h4>
+
+{% trans %}
+The easiest way is via email to
+{% endtrans %}
+
+<a href="mailto:route@lw1.at">route@lw1.at</a>.
+
+{% trans %}
+You can also find me on Mastodon at
+{% endtrans %}
+
+<a href="https://mastodon.lw1.at/@lukas">@lukas@mastodon.lw1.at</a>.
+
+<h3 id="linecolor">{% trans %}Line Colors{% endtrans %}</h3>
+<h4>{% trans %}
+    A public transport route is displayed in the wrong color. Where do the line colors come from?
+    {% endtrans %}</h4>
+<p>
+    {% trans %}
+    I wanted to avoid creating yet another database collecting the information about which colors every public
+    transport
+    line in Austria uses, as this would just make everyone else's job harder in the future if they want to integrate
+    it into
+    their project. So instead, I tried to generate the mapping from GTFS-ID (which describes a specific route)
+    using a mix of OpenStreetMap, the <a href="https://ptna.openstreetmap.de/results/AT/index.php">PTNA</a> project
+    and some simple hard-coded rules (e.g. all trams in Vienna have the same color).
+    {% endtrans %}
+</p>
+<p>
+    {% trans %}
+    This is not yet complete, but it is already working pretty well.
+    And it also means that any new colors can just be added to or corrected in OSM by anyone and when I re-run the
+    import on the
+    latest data the table will be corrected.
+    {% endtrans %}
+</p>
+<p>
+    {% trans %}
+    The full table can be found here:
+    {% endtrans %}
+    <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/scripts/color-data.lua">
+        scripts/color-data.lua
+    </a>
+    {% trans %}
+    (The table is a lua script for now as this is what makes applying the data in MOTIS most easily.
+    But if anyone is interested I can also add it as a CSV or in any other format)
+    {% endtrans %}
+
+</p>
+<p>
+    {% trans %}
+    And more information about how exactly the data is sourced can be found here:
+    {% endtrans %}
+    <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/color-data">
+        color-data/
+    </a>
+</p>
+{% trans %}
+In short:
+If the color of a route is shown correctly in PTNA, but not in route.lw1.at, then this is a mistake on my end (and
+please contact me about it).
+If not, then the data is missing in OSM and you can add it there.
+{% endtrans %}
+
+<h3 id="ui">{% trans %}UI{% endtrans %}</h3>
+
+<h4>{% trans %}Is there a dark theme?{% endtrans %}</h4>
+
+{% trans %}
+Yes, it might not be optimally displaying everything, but you can access it at <a
+    href="https://route.lw1.at/?dark">route.lw1.at/?dark</a>.
+{% endtrans %}
+
+<h4>{% trans %}Is there a simpler UI to find routes?{% endtrans %}</h4>
+
+{% trans %}
+If you just want to find a connection and don't want to load the full UI on a slow internet connection, you can use
+the great lite UI at <a href="https://lite.route.lw1.at/">lite.route.lw1.at</a> by <a href="codeberg.org/jbb/motis-frontend-basic">jbb</a>.
+{% endtrans %}
+
+<h3 id="indoor">{% trans %}Transfer/Indoor Routing{% endtrans %}</h3>
+
+<h4>{% trans %}How does indoor routing work?{% endtrans %}</h4>
+
+
+{% trans %}
+If the paths, stairs and elevators inside of public transport stations are mapped correctly in OSM, MOTIS is able to
+route the exact path one needs to walk to exits or platforms.
+{% endtrans %}
+
+{% trans %}
+When zooming in closely, you can also select a floor level in the top right to only show paths on this level.
+{% endtrans %}
+
+{% trans %}
+You can look at Karlsplatz in Vienna for an example of more complex indoor routing.
+{% endtrans %}
+
+<h4>{% trans %}How can I use accessible routing and avoid stairs/escalators?{% endtrans %}</h4>
+
+{% trans %}
+If you select "accessible transfers" in the options, MOTIS will avoid stairs and escalators and instead use
+elevators to find the fastest way to a goal.
+As this data is often slightly imprecise in OSM, it is possible that MOTIS will show very suboptimal routes if
+the "obvious" route does not seem possible in the OSM data.
+{% endtrans %}
+
+<h3 id="realtime">{% trans %}Realtime Data{% endtrans %}</h3>
+
+<h4>{% trans %}I can see the location of trains/buses/etc. on the map. Is that their real location?{% endtrans %}
+</h4>
+
+{% trans %}
+As I am not yet using any realtime data (<a href="#realtime-info">see below</a>) all positions are estimated from
+the
+published schedules.
+Nevertheless, assuming there are no unexpected delays, etc., the positions should still give a good impression of
+the
+current locations of public transport in Austria.
+{% endtrans %}
+
+
+<h4 id="realtime-info">{% trans %}What realtime information is available?{% endtrans %}</h4>
+
+{% trans %}
+Realtime public transport information (such as delays, cancelations, etc.) on top of the existing schedules
+is possible by following a GTFS-RT feed that shares this information in a structured format (and linked to the
+routes of the static schedule).
+{% endtrans %}
+<br>
+{% trans %}
+Unfortunately, to my knowledge (as of April 2026), there is no official GTFS-RT feed for any public transport in
+Austria.
+There seem to be plans and initiatives to get e.g. ÖBB to publish their realtime information in a structured way,
+but this still seems to be in the future.
+(See this freedom of information request for more details: <a
+    href="https://fragdenstaat.at/anfrage/zugang-zu-dynamischen-echtzeitdaten-api-schnittstelle/">fragdenstaat.at/anfrage/zugang-zu-dynamischen-echtzeitdaten-api-schnittstelle</a>)
+{% endtrans %}
+
+<p>
+    {% trans %}
+    I had an idea to provide at least some rough realtime data for some major ÖBB train connections by writing my
+    own program that makes irregular requests to fahrplan.oebb.at.
+    This would essentially be reinventing a more basic version of
+    <a href="https://github.com/derhuerst/hafas-gtfs-rt-feed">derhuerst/hafas-gtfs-rt-feed</a>
+    and would potentially only
+    require a very small number of requests to have data for all major express train connections.
+    However, after implementing most of it, I realized that connecting this information to the corresponding entries
+    in the
+    train schedules was far more complex than anticipated
+    (even when using Motis itself to guess the most likely route a specific train is currently following).
+    Therefore, I will set this aside until more official data sources become available where realtime info is more
+    closely
+    linked to the static schedules.
+    {% endtrans %}
+</p>
+
+<p id="wl-rt">
+    {% trans %}
+    The closest thing to an official Open Data endpoint for realtime data I know of, is the <a
+        href="https://www.data.gv.at/datasets/cfba4373-a654-3e0b-80f8-348738169f95?locale=de">Wiener Linien
+        Echtzeitinformationen</a>.
+    {% endtrans %}
+    {% trans %}
+    But this does not contain any realtime information about specific vehicles or routes, but "just" the textual
+    warnings about current disruptions.
+    Additionally, the Line and Station-IDs don't match those in the static schedule, but because there is a public
+    dataset
+    of these Station IDs, it is possible to match them up almost flawlessly.
+    {% endtrans %}
+    {% trans %}
+    If you are interested in the mapping, you can find:
+    {% endtrans %}
+</p>
+<ul>
+    <li>
+        <a
+            href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/gtfs_rt_proxy/vienna/line_to_gtfs_id_mapping.json">
+            {% trans %}
+            The mapping "line name" -> GTFS route ID
+            {% endtrans %}
+        </a>
+    </li>
+    <li>
+        <a
+            href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/gtfs_rt_proxy/vienna/stopid_to_gtfs_id_mapping.json">
+            {% trans %}
+            The mapping "station ID" -> GTFS station ID
+            {% endtrans %}
+        </a>
+    </li>
+    <li>
+        <a href="https://unofficial-gtfsrt-proxy.route.lw1.at/vienna-gtfs-rt.pb">
+            {% trans %}
+            The unofficial GTFS RT feed
+            {% endtrans %}
+        </a>
+    </li>
+    <li>
+        <a href="https://unofficial-gtfsrt-proxy.route.lw1.at/vienna-gtfs-rt.json">
+            {% trans %}
+            The unofficial GTFS RT feed (JSON version for easier display)
+            {% endtrans %}
+        </a>
+    </li>
+</ul>
+
+<h3 id="technical-details">{% trans %}Technical Details{% endtrans %}</h3>
+
+{% trans %}
+This section will be extended once I find more helpful information to describe here.
+{% endtrans %}
+<br>
+{% trans %}
+Until then, you can find information about most subprojects in their subdirectories in the <a
+    href="https://git.lw1.at/lukas/route.lw1.at">repository</a>.
+{% endtrans %}
+
+<h3 id="this-website">{% trans %}About this website{% endtrans %}</h3>
+
+<h4>{% trans %}Why is this an FAQ page?{% endtrans %}</h4>
+
+{% trans %}
+Honestly, I don't know. It felt like the simplest way to structure my thoughts.
+As this project is a collection of many small components, this format makes it easy for me to quickly describe most
+of
+them.
+{% endtrans %}
+
+
+<h4>{% trans %}Why does this page look so ugly?{% endtrans %}</h4>
+
+<p>
+    {% trans %}
+    Writing and designing elaborate websites can be fun from time to time, but I also like going the opposite
+    direction for a change.
+    Having a webpage that is as simple as it can be and loading very quickly feels like something that is becoming
+    increasingly rare and in my opinion fits well with the rather experimental spirit of my work on route.lw1.at.
+    {% endtrans %}
+</p>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-01-25 18:17+0100\n"
+"POT-Creation-Date: 2026-05-02 17:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,114 +17,801 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: templates/main.html:6 templates/main.html:10
-msgid "Data Licenses and Information"
+#: templates/faq.html:1 templates/toc.html:7
+msgid "FAQ"
 msgstr ""
 
-#: templates/main.html:18
-msgid "back to route.lw1.at"
-msgstr ""
-
-#: templates/main.html:20
+#: templates/faq.html:3 templates/main.html:7 templates/main.html:19
+#: templates/toc.html:12
 msgid "About route.lw1.at"
 msgstr ""
 
-#: templates/main.html:22
+#: templates/faq.html:5
+msgid "What is route.lw1.at?"
+msgstr ""
+
+#: templates/faq.html:7
+msgid ""
+"This is a website/tool that allows you to find the best way to travel in "
+"Austria, with a special focus on public transport. You can think of it as"
+" a mix between ÖBB Scotty, Wien Mobil, Google Maps and OsmAnd."
+msgstr ""
+
+#: templates/faq.html:15
+msgid ""
+"What can I do here that ÖBB/Scotty/Wien Mobil apps can't do? Why should I"
+" not use route.lw1.at?"
+msgstr ""
+
+#: templates/faq.html:18
+msgid ""
+"While most results should be pretty similar to what you get from ÖBB apps"
+" (after all, it uses the same schedule), there are a few additional "
+"features that are not easily possible on other platforms:"
+msgstr ""
+
+#: templates/faq.html:25
+msgid ""
+"Combining multiple datasets: I strive to import every available schedule "
+"in Austria so that routing can combine many different types of public "
+"transport."
+msgstr ""
+
+#: templates/faq.html:32
+msgid ""
+"Schedule on a map: The map shows the current scheduled position (see <a "
+"href=\"#realtime\">realtime</a>) of all public transport. This gives an "
+"intuitive insight into the state of public transport in different regions"
+" and at different times."
+msgstr ""
+
+#: templates/faq.html:40
+msgid ""
+"Open Source and Open Data: The full source code of the website and all "
+"data I am using and that I have added is available under free licenses. "
+"Therefore, others can build on top of this."
+msgstr ""
+
+#: templates/faq.html:47
+msgid ""
+"Fast: Even complex searches should finish quite a bit faster than in "
+"other apps."
+msgstr ""
+
+#: templates/faq.html:52
+msgid ""
+"Isochrones: You can find out how far one can travel from a certain "
+"position within a specified time. Which places are hard to reach by "
+"public transport?"
+msgstr ""
+
+#: templates/faq.html:58
+msgid ""
+"Indoor routing: As all connections are routed using OpenStreetMap data, "
+"if public transport stations are mapped correctly, you can see the exact "
+"path you need to take inside."
+msgstr ""
+
+#: templates/faq.html:64
+msgid ""
+"More realistic transfer times: The time it takes to walk from one "
+"platform to another is based on the actual path walked."
+msgstr ""
+
+#: templates/faq.html:70
+msgid ""
+"Minimal: While some public transport apps can be slow with unreliable "
+"internet connections, I also have <a "
+"href=\"https://lite.route.lw1.at/\">a lite version</a> that should load "
+"even with the slowest possible connection."
+msgstr ""
+
+#: templates/faq.html:77
+msgid ""
+"Wiener Linien Realtime Warnings: While there is no real support for "
+"realtime data, I do integrate the realtime notices from Wiener Linien "
+"into the output. See below for <a href=\"#wl-rt\">more information on the"
+" GTFS RT proxy</a>."
+msgstr ""
+
+#: templates/faq.html:84
+msgid ""
+"Austria-focused: As I only focus on public transport inside Austria, I "
+"can run experiments and provide fast results that would be much harder to"
+" achieve if I had to consider global datasets."
+msgstr ""
+
+#: templates/faq.html:90
+msgid "Of course, this comes with a few tradeoffs and disadvantages:"
+msgstr ""
+
+#: templates/faq.html:96
+msgid ""
+"No realtime data: For now every result assumes the pre-published "
+"schedules are correct. <a href=\"#realtime\">See below</a> for more about"
+" realtime data."
+msgstr ""
+
+#: templates/faq.html:102
+msgid ""
+"No guarantees: At the end of the day, this is a hobby project, so I "
+"cannot give any guarantees or promises about the accuracy and reliability"
+" of the website and data. However, I promise that all code and datasets I"
+" create will continue to be published under free licenses, so that they "
+"can be integrated and improved by others."
+msgstr ""
+
+#: templates/faq.html:111
+msgid ""
+"No extensive documentation: I use this project to experiment with some "
+"ideas I have, which means that I don't always find time to properly "
+"document everything. I will try to keep this page updated with the most "
+"important information."
+msgstr ""
+
+#: templates/faq.html:120
+msgid ""
+"Minimal resources: This is just a hobby project and I only work on it "
+"when it's fun, so some ideas are just not feasible for me to solve "
+"myself. Therefore, this project primarily builds on top of the amazing "
+"work by others, merging it into one website both to present it as a "
+"useful tool and as a celebration of Open Data and Open Source."
+msgstr ""
+
+#: templates/faq.html:128
+msgid ""
+"Austria-focused: As I ignore all data from outside of Austria, "
+"route.lw1.at is obviously useless if you want to travel somewhere else. "
+"So use <a href=\"#transitous\">Transitous</a> if you are not in Austria."
+msgstr ""
+
+#: templates/faq.html:135
+msgid "What is MOTIS?"
+msgstr ""
+
+#: templates/faq.html:137
+msgid ""
+"<a href=\"https://github.com/motis-project/motis\">MOTIS</a> is the main "
+"software powering route.lw1.at."
+msgstr ""
+
+#: templates/faq.html:142
+msgid ""
+"Essentially, route.lw1.at is a hosted instance of the MOTIS software with"
+" Austrian public transport data and a few extensions added by me."
+msgstr ""
+
+#: templates/faq.html:148
+msgid "Are there any modifications to MOTIS on route.lw1.at?"
+msgstr ""
+
+#: templates/faq.html:149
+msgid ""
+"I try to contribute all fixes I make to the MOTIS source code back to the"
+" original project."
+msgstr ""
+
+#: templates/faq.html:153
+msgid ""
+"On top of this, I also make some minor changes to the web UI. I try to "
+"keep this list of changes up-to-date:"
+msgstr ""
+
+#: templates/faq.html:159
+msgid ""
+"The live positions on the map default to showing the color instead of the"
+" realtime status (due to the lack of realtime data)."
+msgstr ""
+
+#: templates/faq.html:165
+msgid ""
+"'Use routed transfers' is enabled by default (as I am able to always "
+"calculate the data necessary on import)."
+msgstr ""
+
+#: templates/faq.html:171
+msgid ""
+"The hillshading tiles are loaded from maps.lw1.at which forwards the "
+"original images. Therefore visitor data is not sent to any third-party "
+"servers."
+msgstr ""
+
+#: templates/faq.html:177
+msgid ""
+"The server code is compiled with some different optimizations as it only "
+"needs to run on my server."
+msgstr ""
+
+#: templates/faq.html:183
+msgid "You can find the list of all changes on top of MOTIS here:"
+msgstr ""
+
+#: templates/faq.html:191
+msgid "What is Transitous?"
+msgstr ""
+
+#: templates/faq.html:195
+msgid ""
+"is a community-run provider-neutral international public transport "
+"routing service."
+msgstr ""
+
+#: templates/faq.html:200
+msgid "from"
+msgstr ""
+
+#: templates/faq.html:203
+msgid ""
+"route.lw1.at is heavily inspired by Transitous and aims to be a smaller, "
+"Austria-focused version of it that can experiment and update more easily "
+"and frequently, due to not having to handle the size of global datasets."
+msgstr ""
+
+#: templates/faq.html:210
+msgid "Is this website finished?"
+msgstr ""
+
+#: templates/faq.html:212
+msgid ""
+"route.lw1.at is more or less a permanent work-in-progress, as it is a "
+"hobby project. That said, it is already very useful, and I use it most of"
+" the time when trying to get to a place I have not been before."
+msgstr ""
+
+#: templates/faq.html:218
+msgid "Who is behind this website?"
+msgstr ""
+
+#: templates/faq.html:220
+msgid ""
+"I am Lukas Winkler and I currently work primarily on my PhD in "
+"Astrophysics. But I try to find time to work on fun side-projects in my "
+"free time. Since I live in Vienna and use public transport a lot, this "
+"seemed like an interesting topic to explore. Also, I recently realized "
+"that I have some unused space on my server, so I thought I could this "
+"platform for others to use too."
+msgstr ""
+
+#: templates/faq.html:229
+msgid "My Website"
+msgstr ""
+
+#: templates/faq.html:230 templates/main.html:31
 msgid "Imprint"
 msgstr ""
 
-#: templates/main.html:24
-msgid "This website is a work in progress. More information will follow."
+#: templates/faq.html:233
+msgid "What other features do you wish to add to route.lw1.at?"
 msgstr ""
 
-#: templates/main.html:26
+#: templates/faq.html:236
+msgid ""
+"I don't know yet for sure. As the site is mostly the result of different "
+"\"Would it be possible to...?\" experiments, it remains to be seen what I"
+" will add next."
+msgstr ""
+
+#: templates/faq.html:240
+msgid "Some things I would be interested in are:"
+msgstr ""
+
+#: templates/faq.html:247
+msgid ""
+"Create more <a href=\"#custom-gtfs\">custom GTFS feeds</a>: There are "
+"still many ferries and more non-conventional types of public transport "
+"that still follow a schedule that could be described by a GTFS feed."
+msgstr ""
+
+#: templates/faq.html:254
+msgid ""
+"Receive feedback from outside of Vienna: As I am from Vienna, that's "
+"where I notice most issues with the data that can be fixed."
+msgstr ""
+
+#: templates/faq.html:260
+msgid "Check line colors of city-bus lines in smaller cities."
+msgstr ""
+
+#: templates/faq.html:266 templates/toc.html:17
+msgid "Data"
+msgstr ""
+
+#: templates/faq.html:268
+msgid "Where does the data come from?"
+msgstr ""
+
+#: templates/faq.html:271
+msgid "See further down for a list of all data sources"
+msgstr ""
+
+#: templates/faq.html:276
+msgid "Are there any additional public transport feeds?"
+msgstr ""
+
+#: templates/faq.html:278
+msgid ""
+"The official <a "
+"href=\"https://data.mobilitaetsverbuende.at\">data.mobilitaetsverbuende.at"
+" GTFS feeds</a> cover most public transport lines in Austria."
+msgstr ""
+
+#: templates/faq.html:284
+msgid ""
+"Nevertheless, there are still quite a few more routes and services that "
+"could reasonably be considered public transport and follow known "
+"schedules. From tourist and historical trains to regular ferries, these "
+"often provide their schedules as textual information on their websites."
+msgstr ""
+
+#: templates/faq.html:291
+msgid ""
+"So it is possible to create GTFS feeds that roughly match these schedules"
+" so that Motis and route.lw1.at can know about them and suggest these "
+"options to users. You can find more information about this here:"
+msgstr ""
+
+#: templates/faq.html:301
+msgid "The files where I record these schedules in a structured way"
+msgstr ""
+
+#: templates/faq.html:306
+msgid "The Python scripts converting this input to valid GTFS feeds"
+msgstr ""
+
+#: templates/faq.html:311
+msgid "The output GTFS feeds"
+msgstr ""
+
+#: templates/faq.html:316
+msgid ""
+"So far, this covers only a few ferries on the Danube, but there are <a "
+"href=\"https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/ideas.md\">many"
+" more possibilities</a>."
+msgstr ""
+
+#: templates/faq.html:324
+msgid "What is the usage policy? How can I use this website?"
+msgstr ""
+
+#: templates/faq.html:326
+msgid ""
+"I did not have time to set up a detailed usage policy. So for now, please"
+" take a look at <a href=\"https://transitous.org/api/\">the usage policy "
+"of Transitous</a> as a basis."
+msgstr ""
+
+#: templates/faq.html:331
+msgid "Essentially:"
+msgstr ""
+
+#: templates/faq.html:336
+msgid ""
+"If you only make manual requests, then feel free to use route.lw1.at "
+"whenever you want."
+msgstr ""
+
+#: templates/faq.html:341
+msgid "But I can't guarantee any availability or correctness."
+msgstr ""
+
+#: templates/faq.html:346
+msgid ""
+"If you want to use the API, please contact me. If you don't plan on "
+"making many expensive requests, it should be fine."
+msgstr ""
+
+#: templates/faq.html:352
+msgid ""
+"This site is not intended for commercial or for-profit usage. Everything "
+"it is based on is only possible due to the work of volunteers and the "
+"Open Data provided by governmental agencies and public transport "
+"providers."
+msgstr ""
+
+#: templates/faq.html:359
+msgid ""
+"All files that make up route.lw1.at can also be found at <a "
+"href=\"https://git.lw1.at/lukas/route.lw1.at\">git.lw1.at/lukas/route.lw1.at</a>,"
+" so if you want to make a large amount of routing requests, there is "
+"always the option of running your own MOTIS instance locally."
+msgstr ""
+
+#: templates/faq.html:369
+msgid "I found an error in the data. How can it be fixed?"
+msgstr ""
+
+#: templates/faq.html:371
+msgid ""
+"For incorrect or missing line colors, please <a href=\"#linecolor\">read "
+"below</a>."
+msgstr ""
+
+#: templates/faq.html:377
+msgid ""
+"If you find anything wrong in the map (unrelated to the public transport "
+"data), you can try <a "
+"href=\"https://wiki.openstreetmap.org/wiki/Getting_Involved\">contributing</a>"
+" a fix or note to OpenStreetMap directly. If you find a mistake in the "
+"public transport data and are familiar with Open Data in Austria, you can"
+" check if it exists in the <a "
+"href=\"https://data.mobilitaetsverbuende.at/\">original dataset</a>."
+msgstr ""
+
+#: templates/faq.html:386
+msgid ""
+"Either way, and if you are unsure, you can always <a "
+"href=\"#contactme\">contact me</a> about things that seem wrong in the "
+"data (even if I can't promise I can help fix them)."
+msgstr ""
+
+#: templates/faq.html:397
+msgid "How can I contact you?"
+msgstr ""
+
+#: templates/faq.html:399
+msgid "The easiest way is via email to"
+msgstr ""
+
+#: templates/faq.html:405
+msgid "You can also find me on Mastodon at"
+msgstr ""
+
+#: templates/faq.html:411 templates/toc.html:22
+msgid "Line Colors"
+msgstr ""
+
+#: templates/faq.html:412
+msgid ""
+"A public transport route is displayed in the wrong color. Where do the "
+"line colors come from?"
+msgstr ""
+
+#: templates/faq.html:416
+msgid ""
+"I wanted to avoid creating yet another database collecting the "
+"information about which colors every public transport line in Austria "
+"uses, as this would just make everyone else's job harder in the future if"
+" they want to integrate it into their project. So instead, I tried to "
+"generate the mapping from GTFS-ID (which describes a specific route) "
+"using a mix of OpenStreetMap, the <a "
+"href=\"https://ptna.openstreetmap.de/results/AT/index.php\">PTNA</a> "
+"project and some simple hard-coded rules (e.g. all trams in Vienna have "
+"the same color)."
+msgstr ""
+
+#: templates/faq.html:427
+msgid ""
+"This is not yet complete, but it is already working pretty well. And it "
+"also means that any new colors can just be added to or corrected in OSM "
+"by anyone and when I re-run the import on the latest data the table will "
+"be corrected."
+msgstr ""
+
+#: templates/faq.html:435
+msgid "The full table can be found here:"
+msgstr ""
+
+#: templates/faq.html:441
+msgid ""
+"(The table is a lua script for now as this is what makes applying the "
+"data in MOTIS most easily. But if anyone is interested I can also add it "
+"as a CSV or in any other format)"
+msgstr ""
+
+#: templates/faq.html:448
+msgid ""
+"And more information about how exactly the data is sourced can be found "
+"here:"
+msgstr ""
+
+#: templates/faq.html:455
+msgid ""
+"In short: If the color of a route is shown correctly in PTNA, but not in "
+"route.lw1.at, then this is a mistake on my end (and please contact me "
+"about it). If not, then the data is missing in OSM and you can add it "
+"there."
+msgstr ""
+
+#: templates/faq.html:462 templates/toc.html:27
+msgid "UI"
+msgstr ""
+
+#: templates/faq.html:464
+msgid "Is there a dark theme?"
+msgstr ""
+
+#: templates/faq.html:466
+msgid ""
+"Yes, it might not be optimally displaying everything, but you can access "
+"it at <a href=\"https://route.lw1.at/?dark\">route.lw1.at/?dark</a>."
+msgstr ""
+
+#: templates/faq.html:471
+msgid "Is there a simpler UI to find routes?"
+msgstr ""
+
+#: templates/faq.html:473
+msgid ""
+"If you just want to find a connection and don't want to load the full UI "
+"on a slow internet connection, you can use the great lite UI at <a "
+"href=\"https://lite.route.lw1.at/\">lite.route.lw1.at</a> by <a "
+"href=\"codeberg.org/jbb/motis-frontend-basic\">jbb</a>."
+msgstr ""
+
+#: templates/faq.html:478 templates/toc.html:32
+msgid "Transfer/Indoor Routing"
+msgstr ""
+
+#: templates/faq.html:480
+msgid "How does indoor routing work?"
+msgstr ""
+
+#: templates/faq.html:483
+msgid ""
+"If the paths, stairs and elevators inside of public transport stations "
+"are mapped correctly in OSM, MOTIS is able to route the exact path one "
+"needs to walk to exits or platforms."
+msgstr ""
+
+#: templates/faq.html:488
+msgid ""
+"When zooming in closely, you can also select a floor level in the top "
+"right to only show paths on this level."
+msgstr ""
+
+#: templates/faq.html:492
+msgid ""
+"You can look at Karlsplatz in Vienna for an example of more complex "
+"indoor routing."
+msgstr ""
+
+#: templates/faq.html:496
+msgid "How can I use accessible routing and avoid stairs/escalators?"
+msgstr ""
+
+#: templates/faq.html:498
+msgid ""
+"If you select \"accessible transfers\" in the options, MOTIS will avoid "
+"stairs and escalators and instead use elevators to find the fastest way "
+"to a goal. As this data is often slightly imprecise in OSM, it is "
+"possible that MOTIS will show very suboptimal routes if the \"obvious\" "
+"route does not seem possible in the OSM data."
+msgstr ""
+
+#: templates/faq.html:505 templates/toc.html:37
+msgid "Realtime Data"
+msgstr ""
+
+#: templates/faq.html:507
+msgid ""
+"I can see the location of trains/buses/etc. on the map. Is that their "
+"real location?"
+msgstr ""
+
+#: templates/faq.html:510
+msgid ""
+"As I am not yet using any realtime data (<a href=\"#realtime-info\">see "
+"below</a>) all positions are estimated from the published schedules. "
+"Nevertheless, assuming there are no unexpected delays, etc., the "
+"positions should still give a good impression of the current locations of"
+" public transport in Austria."
+msgstr ""
+
+#: templates/faq.html:520
+msgid "What realtime information is available?"
+msgstr ""
+
+#: templates/faq.html:522
+msgid ""
+"Realtime public transport information (such as delays, cancelations, "
+"etc.) on top of the existing schedules is possible by following a GTFS-RT"
+" feed that shares this information in a structured format (and linked to "
+"the routes of the static schedule)."
+msgstr ""
+
+#: templates/faq.html:528
+msgid ""
+"Unfortunately, to my knowledge (as of April 2026), there is no official "
+"GTFS-RT feed for any public transport in Austria. There seem to be plans "
+"and initiatives to get e.g. ÖBB to publish their realtime information in "
+"a structured way, but this still seems to be in the future. (See this "
+"freedom of information request for more details: <a "
+"href=\"https://fragdenstaat.at/anfrage/zugang-zu-dynamischen-"
+"echtzeitdaten-api-schnittstelle/\">fragdenstaat.at/anfrage/zugang-zu-"
+"dynamischen-echtzeitdaten-api-schnittstelle</a>)"
+msgstr ""
+
+#: templates/faq.html:538
+msgid ""
+"I had an idea to provide at least some rough realtime data for some major"
+" ÖBB train connections by writing my own program that makes irregular "
+"requests to fahrplan.oebb.at. This would essentially be reinventing a "
+"more basic version of <a href=\"https://github.com/derhuerst/hafas-gtfs-"
+"rt-feed\">derhuerst/hafas-gtfs-rt-feed</a> and would potentially only "
+"require a very small number of requests to have data for all major "
+"express train connections. However, after implementing most of it, I "
+"realized that connecting this information to the corresponding entries in"
+" the train schedules was far more complex than anticipated (even when "
+"using Motis itself to guess the most likely route a specific train is "
+"currently following). Therefore, I will set this aside until more "
+"official data sources become available where realtime info is more "
+"closely linked to the static schedules."
+msgstr ""
+
+#: templates/faq.html:556
+msgid ""
+"The closest thing to an official Open Data endpoint for realtime data I "
+"know of, is the <a href=\"https://www.data.gv.at/datasets/cfba4373-a654"
+"-3e0b-80f8-348738169f95?locale=de\">Wiener Linien "
+"Echtzeitinformationen</a>."
+msgstr ""
+
+#: templates/faq.html:561
+msgid ""
+"But this does not contain any realtime information about specific "
+"vehicles or routes, but \"just\" the textual warnings about current "
+"disruptions. Additionally, the Line and Station-IDs don't match those in "
+"the static schedule, but because there is a public dataset of these "
+"Station IDs, it is possible to match them up almost flawlessly."
+msgstr ""
+
+#: templates/faq.html:568
+msgid "If you are interested in the mapping, you can find:"
+msgstr ""
+
+#: templates/faq.html:576
+msgid "The mapping \"line name\" -> GTFS route ID"
+msgstr ""
+
+#: templates/faq.html:584
+msgid "The mapping \"station ID\" -> GTFS station ID"
+msgstr ""
+
+#: templates/faq.html:591
+msgid "The unofficial GTFS RT feed"
+msgstr ""
+
+#: templates/faq.html:598
+msgid "The unofficial GTFS RT feed (JSON version for easier display)"
+msgstr ""
+
+#: templates/faq.html:605 templates/toc.html:42
+msgid "Technical Details"
+msgstr ""
+
+#: templates/faq.html:607
+msgid ""
+"This section will be extended once I find more helpful information to "
+"describe here."
+msgstr ""
+
+#: templates/faq.html:611
+msgid ""
+"Until then, you can find information about most subprojects in their "
+"subdirectories in the <a "
+"href=\"https://git.lw1.at/lukas/route.lw1.at\">repository</a>."
+msgstr ""
+
+#: templates/faq.html:616 templates/toc.html:47
+msgid "About this website"
+msgstr ""
+
+#: templates/faq.html:618
+msgid "Why is this an FAQ page?"
+msgstr ""
+
+#: templates/faq.html:620
+msgid ""
+"Honestly, I don't know. It felt like the simplest way to structure my "
+"thoughts. As this project is a collection of many small components, this "
+"format makes it easy for me to quickly describe most of them."
+msgstr ""
+
+#: templates/faq.html:628
+msgid "Why does this page look so ugly?"
+msgstr ""
+
+#: templates/faq.html:631
+msgid ""
+"Writing and designing elaborate websites can be fun from time to time, "
+"but I also like going the opposite direction for a change. Having a "
+"webpage that is as simple as it can be and loading very quickly feels "
+"like something that is becoming increasingly rare and in my opinion fits "
+"well with the rather experimental spirit of my work on route.lw1.at."
+msgstr ""
+
+#: templates/main.html:28
+msgid "back to route.lw1.at"
+msgstr ""
+
+#: templates/main.html:38 templates/toc.html:52
 msgid "Datasets and Licenses"
 msgstr ""
 
-#: templates/main.html:30
+#: templates/main.html:42
 msgid ""
-"This webseite would not be possible without Open Source software like\n"
-"        <a href=\"https://github.com/motis-project/motis\">MOTIS</a>\n"
-"        and Open Data datasets.\n"
-"        See below for a list of all used datasets."
+"This webseite would not be possible without Open Source software like <a "
+"href=\"https://github.com/motis-project/motis\">MOTIS</a> and Open Data "
+"datasets. See below for a list of all used datasets."
 msgstr ""
 
-#: templates/main.html:41
+#: templates/main.html:53
 msgid "You can also browse all files here:"
 msgstr ""
 
-#: templates/main.html:46
+#: templates/main.html:59 templates/toc.html:57
 msgid "GTFS Datasets"
 msgstr ""
 
-#: templates/main.html:53 templates/main.html:106
+#: templates/main.html:66 templates/main.html:121
 msgid "Dataset"
 msgstr ""
 
-#: templates/main.html:57 templates/main.html:116
+#: templates/main.html:70 templates/main.html:133
 msgid "License"
 msgstr ""
 
-#: templates/main.html:66 templates/main.html:125
+#: templates/main.html:79 templates/main.html:142
 msgid "Local filename"
 msgstr ""
 
-#: templates/main.html:74
+#: templates/main.html:88
 msgid "Current File Version"
 msgstr ""
 
-#: templates/main.html:82
+#: templates/main.html:97
 msgid "Current Dataset Version"
 msgstr ""
 
-#: templates/main.html:88
+#: templates/main.html:103
 msgid "Current Dataset Creation Date"
 msgstr ""
 
-#: templates/main.html:94
+#: templates/main.html:109
 msgid "Year"
 msgstr ""
 
-#: templates/main.html:111
+#: templates/main.html:127
 msgid "Dataset Source"
 msgstr ""
 
-#: templates/main.html:134
+#: templates/main.html:152
 msgid "Map Data"
 msgstr ""
 
-#: templates/main.html:136
+#: templates/main.html:154
 msgid ""
 "All map data is from <a "
-"href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> and\n"
-"    licensed under the Open Data Commons Open Database License (ODbL)."
+"href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> and "
+"licensed under the Open Data Commons Open Database License (ODbL)."
 msgstr ""
 
-#: templates/main.html:141
+#: templates/main.html:159 templates/toc.html:62
 msgid "Line Color Data"
 msgstr ""
 
-#: templates/main.html:144
+#: templates/main.html:162
 msgid ""
 "The colors of public transit lines are aggregated from OpenStreetMap "
-"using\n"
-"        tables from the <a href=\"https://ptna.openstreetmap.de/\">PTNA "
-"project</a> and a small set of own rules.\n"
-"        See here for more infomation:"
+"using tables from the <a href=\"https://ptna.openstreetmap.de/\">PTNA "
+"project</a> and a small set of own rules. See here for more infomation:"
 msgstr ""
 
-#: templates/main.html:152
+#: templates/main.html:171
 msgid "You can find the current version of the used dataset here:"
 msgstr ""
 
-#: templates/main.html:158
+#: templates/main.html:178 templates/toc.html:68
 msgid "Footnotes"
 msgstr ""
 
-#: templates/main.html:160
+#: templates/main.html:180
 msgid ""
-"This filename is set by me and just to easily differentiate\n"
-"    the different\n"
-"    datasets."
+"This filename is set by me and just to easily differentiate the different"
+" datasets."
+msgstr ""
+
+#: templates/toc.html:1
+msgid "Table of Content"
 msgstr ""
 

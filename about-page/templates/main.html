@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>route.lw1.at: {% trans %}Data Licenses and Information{% endtrans %}</title>
+    <title>{% trans %}About route.lw1.at{% endtrans %}</title>
+    <link rel="alternate" hreflang="de" href="https://about.route.lw1.at/de/">
+    <link rel="alternate" hreflang="en" href="https://about.route.lw1.at/en/">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>{% trans %}Data Licenses and Information{% endtrans %}</h1>
+    <h1>{% trans %}About route.lw1.at{% endtrans %}</h1>
 
-{% if lang=="en" %}
+
+    {% if lang=="en" %}
     <a href="/de/">zur deutschen Webseite</a>
-{% else %}
+    {% else %}
     <a href="/en/">switch to English</a>
-{% endif %}
+    {% endif %}
 
-<a href="https://route.lw1.at">{% trans %}back to route.lw1.at{% endtrans %}</a>
-
-<h2>{% trans %}About route.lw1.at{% endtrans %}</h2>
-
-<h3><a href="https://lw1.at/i/">{% trans %}Imprint{% endtrans %}</a></h3>
-
-<p>{% trans %}This website is a work in progress. More information will follow.{% endtrans %}</p>
-
-<h2>{% trans %}Datasets and Licenses{% endtrans %}</h2>
+    <a href="https://route.lw1.at">{% trans %}back to route.lw1.at{% endtrans %}</a>
 
 
-<p>
-    {% trans -%}
+    <h3><a href="https://lw1.at/i/" target="_blank">{% trans %}Imprint{% endtrans %}</a></h3>
+
+    {% include "toc.html" %}
+
+
+    {% include "faq.html" %}
+
+    <h2 id="licenses">{% trans %}Datasets and Licenses{% endtrans %}</h2>
+
+
+    <p>
+        {% trans -%}
         This webseite would not be possible without Open Source software like
         <a href="https://github.com/motis-project/motis">MOTIS</a>
         and Open Data datasets.
         See below for a list of all used datasets.
 
 
-    {%- endtrans %}
-</p>
+        {%- endtrans %}
+    </p>
 
-<p>
-    {% trans %}You can also browse all files here:{% endtrans %}
-    <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets">https://git.lw1.at/lukas/motis-git-annex/</a>
+    <p>
+        {% trans %}You can also browse all files here:{% endtrans %}
+        <a
+            href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets">https://git.lw1.at/lukas/motis-git-annex/</a>
 
-</p>
+    </p>
 
-<h3>{% trans %}GTFS Datasets{% endtrans %}</h3>
+    <h3 id="datasets">{% trans %}GTFS Datasets{% endtrans %}</h3>
 
-{% for mds in mobility_datasets %}
+    {% for mds in mobility_datasets %}
     <h4>{{ mds.own_name }}</h4>
 
     <table>
@@ -65,7 +78,8 @@
         <tr>
             <td>{% trans %}Local filename{% endtrans %}<sup><a href="#fn-1">1</a></sup></td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/{{ mds.own_filename }}.zip">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/{{ mds.own_filename }}.zip">
                     {{ mds.own_filename }}
                 </a>
             </td>
@@ -73,7 +87,8 @@
         <tr>
             <td>{% trans %}Current File Version{% endtrans %}</td>
             <td>
-                <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/{{ mds.current_filename }}">
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/gtfs/{{ mds.current_filename }}">
                     {{ mds.current_filename }}
                 </a>
             </td>
@@ -97,72 +112,78 @@
     </table>
 
     <blockquote>{{ mds.json_data.description|localize }}</blockquote>
-{% endfor %}
+    {% endfor %}
 
-<h4>Flixbus</h4>
+    <h4>Flixbus</h4>
 
-<table>
-    <tr>
-        <td>{% trans %}Dataset{% endtrans %}</td>
-        <td><a href="https://www.data.gouv.fr/datasets/flixbus-horaires-theoriques-du-reseau-europeen-1/informations">FlixTrain-eu,
-            FlixBus-eu</a></td>
-    </tr>
-    <tr>
-        <td>{% trans %}Dataset Source{% endtrans %}</td>
-        <td><a href="https://gtfs.gis.flix.tech/gtfs_generic_eu.zip">https://gtfs.gis.flix.tech/gtfs_generic_eu.zip</a>
-        </td>
-    </tr>
-    <tr>
-        <td>{% trans %}License{% endtrans %}</td>
-        <td>
-            <a href="https://opendatacommons.org/licenses/odbl/summary/">
-                Open Data Commons Open Database License (ODbL)
-            </a>
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>{% trans %}Local filename{% endtrans %}</td>
-        <td>
-            <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/flixbus_gtfs_generic_eu.zip">
-                flixbus_gtfs_generic_eu.zip
-            </a>
-        </td>
-    </tr>
-</table>
+    <table>
+        <tr>
+            <td>{% trans %}Dataset{% endtrans %}</td>
+            <td><a
+                    href="https://www.data.gouv.fr/datasets/flixbus-horaires-theoriques-du-reseau-europeen-1/informations">FlixTrain-eu,
+                    FlixBus-eu</a></td>
+        </tr>
+        <tr>
+            <td>{% trans %}Dataset Source{% endtrans %}</td>
+            <td><a
+                    href="https://gtfs.gis.flix.tech/gtfs_generic_eu.zip">https://gtfs.gis.flix.tech/gtfs_generic_eu.zip</a>
+            </td>
+        </tr>
+        <tr>
+            <td>{% trans %}License{% endtrans %}</td>
+            <td>
+                <a href="https://opendatacommons.org/licenses/odbl/summary/">
+                    Open Data Commons Open Database License (ODbL)
+                </a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>{% trans %}Local filename{% endtrans %}</td>
+            <td>
+                <a
+                    href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/datasets/flixbus_gtfs_generic_eu.zip">
+                    flixbus_gtfs_generic_eu.zip
+                </a>
+            </td>
+        </tr>
+    </table>
 
-<h3>{% trans %}Map Data{% endtrans %}</h3>
+    <h3 id="map-data">{% trans %}Map Data{% endtrans %}</h3>
 
-{% trans -%}
+    {% trans -%}
     All map data is from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> and
     licensed under the Open Data Commons Open Database License (ODbL).
-{%- endtrans %}
+    {%- endtrans %}
 
-<h3>{% trans %}Line Color Data{% endtrans %}</h3>
+    <h3 id="line-color-data">{% trans %}Line Color Data{% endtrans %}</h3>
 
-<p>
-    {% trans -%}
+    <p>
+        {% trans -%}
         The colors of public transit lines are aggregated from OpenStreetMap using
         tables from the <a href="https://ptna.openstreetmap.de/">PTNA project</a> and a small set of own rules.
         See here for more infomation:
-    {%- endtrans %}
-    <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data">https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data</a>
-</p>
-<p>
-    {% trans -%}
+        {%- endtrans %}
+        <a
+            href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data">https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/color-data</a>
+    </p>
+    <p>
+        {% trans -%}
         You can find the current version of the used dataset here:
-    {%- endtrans %}
-    <a href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/scripts/color-data.lua">color-data.lua</a>
-</p>
+        {%- endtrans %}
+        <a
+            href="https://git.lw1.at/lukas/motis-git-annex/src/branch/synced/main/scripts/color-data.lua">color-data.lua</a>
+    </p>
 
-<h2>{% trans %}Footnotes{% endtrans %}</h2>
+    <h2 id="footnotes">{% trans %}Footnotes{% endtrans %}</h2>
 
-<p><sup><a id="fn-1">1</a></sup> {% trans -%}
-    This filename is set by me and just to easily differentiate
-    the different
-    datasets.
-{%- endtrans %}</p>
+    <p><sup><a id="fn-1">1</a></sup> {% trans -%}
+        This filename is set by me and just to easily differentiate
+        the different
+        datasets.
+        {%- endtrans %}</p>
 
 
 </body>
+
 </html>
