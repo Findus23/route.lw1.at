@@ -155,6 +155,8 @@ gbfs:
       url: https://gbfs.api.ridedott.com/public/v2/wels/gbfs.json
     nextbike_al:
       url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_al/gbfs.json
+    nextbike_eq:
+      url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_eq/gbfs.json
     nextbike_ka:
       url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ka/gbfs.json
     nextbike_la:
