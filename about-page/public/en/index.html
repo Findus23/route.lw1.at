@@ -207,7 +207,7 @@ See further down for a list of all data sources</a>
 
 The official <a href="https://data.mobilitaetsverbuende.at">data.mobilitaetsverbuende.at GTFS feeds</a> cover most public transport lines in Austria.
 Nevertheless, there are still quite a few more routes and services that could reasonably be considered public transport and follow known schedules. From tourist and historical trains to regular ferries, these often provide their schedules as textual information on their websites.
-So it is possible to create GTFS feeds that roughly match these schedules so that Motis and route.lw1.at can know about them and suggest these options to users. You can find more information about this here:
+So it is possible to create GTFS feeds that roughly match these schedules so that MOTIS and route.lw1.at can know about them and suggest these options to users. You can find more information about this here:
 <ul>
     <li>
         <a href="https://git.lw1.at/lukas/route.lw1.at/src/branch/synced/main/own_gtfs/gtfs_data">
@@ -263,6 +263,12 @@ The easiest way is via email to
 You can also find me on Mastodon at
 <a href="https://mastodon.lw1.at/@lukas">@lukas@mastodon.lw1.at</a>.
 
+<p>
+Similar to Transitous and MOTIS I also have a public chatroom on Matrix at
+<a href="https://matrix.to/#/#route:lw1.at">#route:lw1.at</a>.
+
+</p>
+
 <h3 id="linecolor">Line Colors</h3>
 <h4>A public transport route is displayed in the wrong color. Where do the line colors come from?</h4>
 <p>
@@ -311,7 +317,7 @@ As I am not yet using any realtime data (<a href="#realtime-info">see below</a>)
 Realtime public transport information (such as delays, cancelations, etc.) on top of the existing schedules is possible by following a GTFS-RT feed that shares this information in a structured format (and linked to the routes of the static schedule).<br>
 Unfortunately, to my knowledge (as of April 2026), there is no official GTFS-RT feed for any public transport in Austria. There seem to be plans and initiatives to get e.g. ÖBB to publish their realtime information in a structured way, but this still seems to be in the future. (See this freedom of information request for more details: <a href="https://fragdenstaat.at/anfrage/zugang-zu-dynamischen-echtzeitdaten-api-schnittstelle/">fragdenstaat.at/anfrage/zugang-zu-dynamischen-echtzeitdaten-api-schnittstelle</a>)
 <p>
-I had an idea to provide at least some rough realtime data for some major ÖBB train connections by writing my own program that makes irregular requests to fahrplan.oebb.at. This would essentially be reinventing a more basic version of <a href="https://github.com/derhuerst/hafas-gtfs-rt-feed">derhuerst/hafas-gtfs-rt-feed</a> and would potentially only require a very small number of requests to have data for all major express train connections. However, after implementing most of it, I realized that connecting this information to the corresponding entries in the train schedules was far more complex than anticipated (even when using Motis itself to guess the most likely route a specific train is currently following). Therefore, I will set this aside until more official data sources become available where realtime info is more closely linked to the static schedules.</p>
+I had an idea to provide at least some rough realtime data for some major ÖBB train connections by writing my own program that makes irregular requests to fahrplan.oebb.at. This would essentially be reinventing a more basic version of <a href="https://github.com/derhuerst/hafas-gtfs-rt-feed">derhuerst/hafas-gtfs-rt-feed</a> and would potentially only require a very small number of requests to have data for all major express train connections. However, after implementing most of it, I realized that connecting this information to the corresponding entries in the train schedules was far more complex than anticipated (even when using MOTIS itself to guess the most likely route a specific train is currently following). Therefore, I will set this aside until more official data sources become available where realtime info is more closely linked to the static schedules.</p>
 
 <p id="wl-rt">
 The closest thing to an official Open Data endpoint for realtime data I know of, is the <a href="https://www.data.gv.at/datasets/cfba4373-a654-3e0b-80f8-348738169f95?locale=de">Wiener Linien Echtzeitinformationen</a>.But this does not contain any realtime information about specific vehicles or routes, but "just" the textual warnings about current disruptions. Additionally, the Line and Station-IDs don't match those in the static schedule, but because there is a public dataset of these Station IDs, it is possible to match them up almost flawlessly.If you are interested in the mapping, you can find:</p>

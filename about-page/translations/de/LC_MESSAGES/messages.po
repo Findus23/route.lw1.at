@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-05-02 17:18+0200\n"
+"POT-Creation-Date: 2026-05-03 19:05+0200\n"
 "PO-Revision-Date: 2026-01-25 16:51+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -469,7 +469,7 @@ msgstr ""
 #: templates/faq.html:291
 msgid ""
 "So it is possible to create GTFS feeds that roughly match these schedules"
-" so that Motis and route.lw1.at can know about them and suggest these "
+" so that MOTIS and route.lw1.at can know about them and suggest these "
 "options to users. You can find more information about this here:"
 msgstr ""
 "Somit ist es möglich GTFS Feeds zu erstellen, die diesen Fahrplänen grob "
@@ -563,7 +563,6 @@ msgstr ""
 "MOTIS Instanz lokal zu installieren."
 
 #: templates/faq.html:369
-#, fuzzy
 msgid "I found an error in the data. How can it be fixed?"
 msgstr "Ich habe Fehler in den Daten gefunden. Wie können diese behoben werden?"
 
@@ -617,11 +616,17 @@ msgstr "Der einfachste Weg ist per E-Mail an"
 msgid "You can also find me on Mastodon at"
 msgstr "Man kann mich auch auf Mastodon finden unter"
 
-#: templates/faq.html:411 templates/toc.html:22
+#: templates/faq.html:412
+msgid "Similar to Transitous and MOTIS I also have a public chatroom on Matrix at"
+msgstr ""
+"Genauso wie Transitous und MOTIS have ich auch einen öffentlichen Matrix-"
+"Chatroom unter"
+
+#: templates/faq.html:420 templates/toc.html:22
 msgid "Line Colors"
 msgstr "Farben von Öffi-Linien"
 
-#: templates/faq.html:412
+#: templates/faq.html:421
 msgid ""
 "A public transport route is displayed in the wrong color. Where do the "
 "line colors come from?"
@@ -629,7 +634,7 @@ msgstr ""
 "Eine Öffi-Linie wird in der falschen Farbe angezeigt. Woher kommen die "
 "Linienfarben?"
 
-#: templates/faq.html:416
+#: templates/faq.html:425
 msgid ""
 "I wanted to avoid creating yet another database collecting the "
 "information about which colors every public transport line in Austria "
@@ -652,7 +657,7 @@ msgstr ""
 "Projekt und ein paar einfachen hard-coded Regeln (zum Beispiel haben "
 "dadurch alle Straßenbahnen in Wien dieselbe Farbe)."
 
-#: templates/faq.html:427
+#: templates/faq.html:436
 msgid ""
 "This is not yet complete, but it is already working pretty well. And it "
 "also means that any new colors can just be added to or corrected in OSM "
@@ -664,11 +669,11 @@ msgstr ""
 " oder korrigiert werden können. Wenn ich den Import mit den neuesten "
 "Daten neu starte, wird die Tabelle entsprechend aktualisiert."
 
-#: templates/faq.html:435
+#: templates/faq.html:444
 msgid "The full table can be found here:"
 msgstr "Die komplette Tabelle findet man hier:"
 
-#: templates/faq.html:441
+#: templates/faq.html:450
 msgid ""
 "(The table is a lua script for now as this is what makes applying the "
 "data in MOTIS most easily. But if anyone is interested I can also add it "
@@ -678,13 +683,13 @@ msgstr ""
 "ist, die Farben in MOTIS anzupassen. Aber falls Interesse besteht, kann "
 "ich sie auch als CSV oder in einem anderen Format bereitstellen.)"
 
-#: templates/faq.html:448
+#: templates/faq.html:457
 msgid ""
 "And more information about how exactly the data is sourced can be found "
 "here:"
 msgstr "Weitere Informationen zu den Datenquellen ist hier gesammelt:"
 
-#: templates/faq.html:455
+#: templates/faq.html:464
 msgid ""
 "In short: If the color of a route is shown correctly in PTNA, but not in "
 "route.lw1.at, then this is a mistake on my end (and please contact me "
@@ -696,15 +701,15 @@ msgstr ""
 "kontaktiert mich dazu). Wenn nicht, dann fehlen die Daten in OSM und "
 "können dort ergänzt werden."
 
-#: templates/faq.html:462 templates/toc.html:27
+#: templates/faq.html:471 templates/toc.html:27
 msgid "UI"
 msgstr "UI"
 
-#: templates/faq.html:464
+#: templates/faq.html:473
 msgid "Is there a dark theme?"
 msgstr "Gibt es ein dunkles Theme?"
 
-#: templates/faq.html:466
+#: templates/faq.html:475
 msgid ""
 "Yes, it might not be optimally displaying everything, but you can access "
 "it at <a href=\"https://route.lw1.at/?dark\">route.lw1.at/?dark</a>."
@@ -713,11 +718,11 @@ msgstr ""
 "kann es unter <a "
 "href=\"https://route.lw1.at/?dark\">route.lw1.at/?dark</a> finden."
 
-#: templates/faq.html:471
+#: templates/faq.html:480
 msgid "Is there a simpler UI to find routes?"
 msgstr "Gibt es eine einfachere Methode Routen zu finden?"
 
-#: templates/faq.html:473
+#: templates/faq.html:482
 msgid ""
 "If you just want to find a connection and don't want to load the full UI "
 "on a slow internet connection, you can use the great lite UI at <a "
@@ -730,15 +735,15 @@ msgstr ""
 "unter <a href=\"https://lite.route.lw1.at/\">lite.route.lw1.at</a> "
 "nutzen."
 
-#: templates/faq.html:478 templates/toc.html:32
+#: templates/faq.html:487 templates/toc.html:32
 msgid "Transfer/Indoor Routing"
 msgstr "Umstieg/Indoor Routing"
 
-#: templates/faq.html:480
+#: templates/faq.html:489
 msgid "How does indoor routing work?"
 msgstr "Wie funktioniert die Routenfindung in Gebäuden?"
 
-#: templates/faq.html:483
+#: templates/faq.html:492
 msgid ""
 "If the paths, stairs and elevators inside of public transport stations "
 "are mapped correctly in OSM, MOTIS is able to route the exact path one "
@@ -748,7 +753,7 @@ msgstr ""
 " eingezeichnet sind, kann MOTIS den exakten Fußweg zu Ausgängen oder "
 "Bahnsteigen/Haltestellen berechnen."
 
-#: templates/faq.html:488
+#: templates/faq.html:497
 msgid ""
 "When zooming in closely, you can also select a floor level in the top "
 "right to only show paths on this level."
@@ -757,7 +762,7 @@ msgstr ""
 " oberen rechten Ecke auswählen um nur die Wege in diesem Stockwerk zu "
 "sehen."
 
-#: templates/faq.html:492
+#: templates/faq.html:501
 msgid ""
 "You can look at Karlsplatz in Vienna for an example of more complex "
 "indoor routing."
@@ -765,13 +770,13 @@ msgstr ""
 "Man kann am Karlsplatz in Wien sehen, wie das in einem komplexeren Fall "
 "aussehen kann."
 
-#: templates/faq.html:496
+#: templates/faq.html:505
 msgid "How can I use accessible routing and avoid stairs/escalators?"
 msgstr ""
 "Wie kann ich barrierefreie Umstiege finden und Stiegen/Rolltreppen "
 "vermeiden?"
 
-#: templates/faq.html:498
+#: templates/faq.html:507
 msgid ""
 "If you select \"accessible transfers\" in the options, MOTIS will avoid "
 "stairs and escalators and instead use elevators to find the fastest way "
@@ -786,11 +791,11 @@ msgstr ""
 "vorschlägt, wenn die \"offensichtliche\" Route in den OSM-Daten nicht "
 "möglich ist."
 
-#: templates/faq.html:505 templates/toc.html:37
+#: templates/faq.html:514 templates/toc.html:37
 msgid "Realtime Data"
 msgstr "Echtzeitdaten"
 
-#: templates/faq.html:507
+#: templates/faq.html:516
 msgid ""
 "I can see the location of trains/buses/etc. on the map. Is that their "
 "real location?"
@@ -798,7 +803,7 @@ msgstr ""
 "Ich kann die Positionen von Zügen/Bussen/etc. auf der Karte sehen. Sind "
 "das deren echte Positionen?"
 
-#: templates/faq.html:510
+#: templates/faq.html:519
 msgid ""
 "As I am not yet using any realtime data (<a href=\"#realtime-info\">see "
 "below</a>) all positions are estimated from the published schedules. "
@@ -812,11 +817,11 @@ msgstr ""
 "Verspätungen oder ähnliches gibt, sollte das aber dennoch einen guten "
 "Eindruck über die aktuellen Positionen der Öffis in Österreich geben."
 
-#: templates/faq.html:520
+#: templates/faq.html:529
 msgid "What realtime information is available?"
 msgstr "Welche Echtzeitdaten sind verfügbar?"
 
-#: templates/faq.html:522
+#: templates/faq.html:531
 msgid ""
 "Realtime public transport information (such as delays, cancelations, "
 "etc.) on top of the existing schedules is possible by following a GTFS-RT"
@@ -829,7 +834,7 @@ msgstr ""
 "Format veröffentlicht (und diese mit den Routen im statischen Fahrplan "
 "verknüpft werden können)."
 
-#: templates/faq.html:528
+#: templates/faq.html:537
 msgid ""
 "Unfortunately, to my knowledge (as of April 2026), there is no official "
 "GTFS-RT feed for any public transport in Austria. There seem to be plans "
@@ -850,7 +855,7 @@ msgstr ""
 "echtzeitdaten-api-schnittstelle/\">fragdenstaat.at/anfrage/zugang-zu-"
 "dynamischen-echtzeitdaten-api-schnittstelle</a>)"
 
-#: templates/faq.html:538
+#: templates/faq.html:547
 msgid ""
 "I had an idea to provide at least some rough realtime data for some major"
 " ÖBB train connections by writing my own program that makes irregular "
@@ -861,7 +866,7 @@ msgid ""
 "express train connections. However, after implementing most of it, I "
 "realized that connecting this information to the corresponding entries in"
 " the train schedules was far more complex than anticipated (even when "
-"using Motis itself to guess the most likely route a specific train is "
+"using MOTIS itself to guess the most likely route a specific train is "
 "currently following). Therefore, I will set this aside until more "
 "official data sources become available where realtime info is more "
 "closely linked to the static schedules."
@@ -882,7 +887,7 @@ msgstr ""
 "Quellen für Echtzeitdaten verfügbar werden, die sich leichter mit den "
 "statischen Fahrplänen verbinden lassen."
 
-#: templates/faq.html:556
+#: templates/faq.html:565
 msgid ""
 "The closest thing to an official Open Data endpoint for realtime data I "
 "know of, is the <a href=\"https://www.data.gv.at/datasets/cfba4373-a654"
@@ -894,7 +899,7 @@ msgstr ""
 "href=\"https://www.data.gv.at/datasets/cfba4373-a654-3e0b-"
 "80f8-348738169f95?locale=de\">Wiener Linien Echtzeitinformationen</a>."
 
-#: templates/faq.html:561
+#: templates/faq.html:570
 msgid ""
 "But this does not contain any realtime information about specific "
 "vehicles or routes, but \"just\" the textual warnings about current "
@@ -909,31 +914,31 @@ msgstr ""
 "da es dafür ein öffentliches Datenset gibt, ist es möglich, diese fast "
 "perfekt zu verknüpfen."
 
-#: templates/faq.html:568
+#: templates/faq.html:577
 msgid "If you are interested in the mapping, you can find:"
 msgstr "Falls Interesse an diesem Mapping besteht, findet man hier:"
 
-#: templates/faq.html:576
+#: templates/faq.html:585
 msgid "The mapping \"line name\" -> GTFS route ID"
 msgstr "Das Mapping \"Linienname\" -> GTFS route ID"
 
-#: templates/faq.html:584
+#: templates/faq.html:593
 msgid "The mapping \"station ID\" -> GTFS station ID"
 msgstr "Das Mapping \"Haltepunktnummer\" -> GTFS station ID"
 
-#: templates/faq.html:591
+#: templates/faq.html:600
 msgid "The unofficial GTFS RT feed"
 msgstr "Der inoffizielle GTFS RT Feed"
 
-#: templates/faq.html:598
+#: templates/faq.html:607
 msgid "The unofficial GTFS RT feed (JSON version for easier display)"
 msgstr "Der inoffizielle GTFS RT Feed (JSON Version zur einfacheren Darstellung)"
 
-#: templates/faq.html:605 templates/toc.html:42
+#: templates/faq.html:614 templates/toc.html:42
 msgid "Technical Details"
 msgstr "Technische Details"
 
-#: templates/faq.html:607
+#: templates/faq.html:616
 msgid ""
 "This section will be extended once I find more helpful information to "
 "describe here."
@@ -941,7 +946,7 @@ msgstr ""
 "Dieser Abschnitt wird ergänzt, sobald ich hilfreiche Digne habe, die ich "
 "hier beschreiben kann."
 
-#: templates/faq.html:611
+#: templates/faq.html:620
 msgid ""
 "Until then, you can find information about most subprojects in their "
 "subdirectories in the <a "
@@ -951,15 +956,15 @@ msgstr ""
 "jeweiligen Unterordnern im <a "
 "href=\"https://git.lw1.at/lukas/route.lw1.at\">Repository</a> finden."
 
-#: templates/faq.html:616 templates/toc.html:47
+#: templates/faq.html:625 templates/toc.html:47
 msgid "About this website"
 msgstr "Über diese Webseite"
 
-#: templates/faq.html:618
+#: templates/faq.html:627
 msgid "Why is this an FAQ page?"
 msgstr "Warum ist diese Seite ein FAQ?"
 
-#: templates/faq.html:620
+#: templates/faq.html:629
 msgid ""
 "Honestly, I don't know. It felt like the simplest way to structure my "
 "thoughts. As this project is a collection of many small components, this "
@@ -970,11 +975,11 @@ msgstr ""
 "Komponenten ist, macht es dieses Format für mich am einfachsten die "
 "meisten davon zu beschreiben."
 
-#: templates/faq.html:628
+#: templates/faq.html:637
 msgid "Why does this page look so ugly?"
 msgstr "Warum sieht diese Webseite so hässlich aus?"
 
-#: templates/faq.html:631
+#: templates/faq.html:640
 msgid ""
 "Writing and designing elaborate websites can be fun from time to time, "
 "but I also like going the opposite direction for a change. Having a "

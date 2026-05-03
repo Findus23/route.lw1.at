@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-05-02 17:18+0200\n"
+"POT-Creation-Date: 2026-05-03 19:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -346,7 +346,7 @@ msgstr ""
 #: templates/faq.html:291
 msgid ""
 "So it is possible to create GTFS feeds that roughly match these schedules"
-" so that Motis and route.lw1.at can know about them and suggest these "
+" so that MOTIS and route.lw1.at can know about them and suggest these "
 "options to users. You can find more information about this here:"
 msgstr ""
 
@@ -456,17 +456,21 @@ msgstr ""
 msgid "You can also find me on Mastodon at"
 msgstr ""
 
-#: templates/faq.html:411 templates/toc.html:22
+#: templates/faq.html:412
+msgid "Similar to Transitous and MOTIS I also have a public chatroom on Matrix at"
+msgstr ""
+
+#: templates/faq.html:420 templates/toc.html:22
 msgid "Line Colors"
 msgstr ""
 
-#: templates/faq.html:412
+#: templates/faq.html:421
 msgid ""
 "A public transport route is displayed in the wrong color. Where do the "
 "line colors come from?"
 msgstr ""
 
-#: templates/faq.html:416
+#: templates/faq.html:425
 msgid ""
 "I wanted to avoid creating yet another database collecting the "
 "information about which colors every public transport line in Austria "
@@ -479,7 +483,7 @@ msgid ""
 "the same color)."
 msgstr ""
 
-#: templates/faq.html:427
+#: templates/faq.html:436
 msgid ""
 "This is not yet complete, but it is already working pretty well. And it "
 "also means that any new colors can just be added to or corrected in OSM "
@@ -487,24 +491,24 @@ msgid ""
 "be corrected."
 msgstr ""
 
-#: templates/faq.html:435
+#: templates/faq.html:444
 msgid "The full table can be found here:"
 msgstr ""
 
-#: templates/faq.html:441
+#: templates/faq.html:450
 msgid ""
 "(The table is a lua script for now as this is what makes applying the "
 "data in MOTIS most easily. But if anyone is interested I can also add it "
 "as a CSV or in any other format)"
 msgstr ""
 
-#: templates/faq.html:448
+#: templates/faq.html:457
 msgid ""
 "And more information about how exactly the data is sourced can be found "
 "here:"
 msgstr ""
 
-#: templates/faq.html:455
+#: templates/faq.html:464
 msgid ""
 "In short: If the color of a route is shown correctly in PTNA, but not in "
 "route.lw1.at, then this is a mistake on my end (and please contact me "
@@ -512,25 +516,25 @@ msgid ""
 "there."
 msgstr ""
 
-#: templates/faq.html:462 templates/toc.html:27
+#: templates/faq.html:471 templates/toc.html:27
 msgid "UI"
 msgstr ""
 
-#: templates/faq.html:464
+#: templates/faq.html:473
 msgid "Is there a dark theme?"
 msgstr ""
 
-#: templates/faq.html:466
+#: templates/faq.html:475
 msgid ""
 "Yes, it might not be optimally displaying everything, but you can access "
 "it at <a href=\"https://route.lw1.at/?dark\">route.lw1.at/?dark</a>."
 msgstr ""
 
-#: templates/faq.html:471
+#: templates/faq.html:480
 msgid "Is there a simpler UI to find routes?"
 msgstr ""
 
-#: templates/faq.html:473
+#: templates/faq.html:482
 msgid ""
 "If you just want to find a connection and don't want to load the full UI "
 "on a slow internet connection, you can use the great lite UI at <a "
@@ -538,38 +542,38 @@ msgid ""
 "href=\"codeberg.org/jbb/motis-frontend-basic\">jbb</a>."
 msgstr ""
 
-#: templates/faq.html:478 templates/toc.html:32
+#: templates/faq.html:487 templates/toc.html:32
 msgid "Transfer/Indoor Routing"
 msgstr ""
 
-#: templates/faq.html:480
+#: templates/faq.html:489
 msgid "How does indoor routing work?"
 msgstr ""
 
-#: templates/faq.html:483
+#: templates/faq.html:492
 msgid ""
 "If the paths, stairs and elevators inside of public transport stations "
 "are mapped correctly in OSM, MOTIS is able to route the exact path one "
 "needs to walk to exits or platforms."
 msgstr ""
 
-#: templates/faq.html:488
+#: templates/faq.html:497
 msgid ""
 "When zooming in closely, you can also select a floor level in the top "
 "right to only show paths on this level."
 msgstr ""
 
-#: templates/faq.html:492
+#: templates/faq.html:501
 msgid ""
 "You can look at Karlsplatz in Vienna for an example of more complex "
 "indoor routing."
 msgstr ""
 
-#: templates/faq.html:496
+#: templates/faq.html:505
 msgid "How can I use accessible routing and avoid stairs/escalators?"
 msgstr ""
 
-#: templates/faq.html:498
+#: templates/faq.html:507
 msgid ""
 "If you select \"accessible transfers\" in the options, MOTIS will avoid "
 "stairs and escalators and instead use elevators to find the fastest way "
@@ -578,17 +582,17 @@ msgid ""
 "route does not seem possible in the OSM data."
 msgstr ""
 
-#: templates/faq.html:505 templates/toc.html:37
+#: templates/faq.html:514 templates/toc.html:37
 msgid "Realtime Data"
 msgstr ""
 
-#: templates/faq.html:507
+#: templates/faq.html:516
 msgid ""
 "I can see the location of trains/buses/etc. on the map. Is that their "
 "real location?"
 msgstr ""
 
-#: templates/faq.html:510
+#: templates/faq.html:519
 msgid ""
 "As I am not yet using any realtime data (<a href=\"#realtime-info\">see "
 "below</a>) all positions are estimated from the published schedules. "
@@ -597,11 +601,11 @@ msgid ""
 " public transport in Austria."
 msgstr ""
 
-#: templates/faq.html:520
+#: templates/faq.html:529
 msgid "What realtime information is available?"
 msgstr ""
 
-#: templates/faq.html:522
+#: templates/faq.html:531
 msgid ""
 "Realtime public transport information (such as delays, cancelations, "
 "etc.) on top of the existing schedules is possible by following a GTFS-RT"
@@ -609,7 +613,7 @@ msgid ""
 "the routes of the static schedule)."
 msgstr ""
 
-#: templates/faq.html:528
+#: templates/faq.html:537
 msgid ""
 "Unfortunately, to my knowledge (as of April 2026), there is no official "
 "GTFS-RT feed for any public transport in Austria. There seem to be plans "
@@ -621,7 +625,7 @@ msgid ""
 "dynamischen-echtzeitdaten-api-schnittstelle</a>)"
 msgstr ""
 
-#: templates/faq.html:538
+#: templates/faq.html:547
 msgid ""
 "I had an idea to provide at least some rough realtime data for some major"
 " ÖBB train connections by writing my own program that makes irregular "
@@ -632,13 +636,13 @@ msgid ""
 "express train connections. However, after implementing most of it, I "
 "realized that connecting this information to the corresponding entries in"
 " the train schedules was far more complex than anticipated (even when "
-"using Motis itself to guess the most likely route a specific train is "
+"using MOTIS itself to guess the most likely route a specific train is "
 "currently following). Therefore, I will set this aside until more "
 "official data sources become available where realtime info is more "
 "closely linked to the static schedules."
 msgstr ""
 
-#: templates/faq.html:556
+#: templates/faq.html:565
 msgid ""
 "The closest thing to an official Open Data endpoint for realtime data I "
 "know of, is the <a href=\"https://www.data.gv.at/datasets/cfba4373-a654"
@@ -646,7 +650,7 @@ msgid ""
 "Echtzeitinformationen</a>."
 msgstr ""
 
-#: templates/faq.html:561
+#: templates/faq.html:570
 msgid ""
 "But this does not contain any realtime information about specific "
 "vehicles or routes, but \"just\" the textual warnings about current "
@@ -655,63 +659,63 @@ msgid ""
 "Station IDs, it is possible to match them up almost flawlessly."
 msgstr ""
 
-#: templates/faq.html:568
+#: templates/faq.html:577
 msgid "If you are interested in the mapping, you can find:"
 msgstr ""
 
-#: templates/faq.html:576
+#: templates/faq.html:585
 msgid "The mapping \"line name\" -> GTFS route ID"
 msgstr ""
 
-#: templates/faq.html:584
+#: templates/faq.html:593
 msgid "The mapping \"station ID\" -> GTFS station ID"
 msgstr ""
 
-#: templates/faq.html:591
+#: templates/faq.html:600
 msgid "The unofficial GTFS RT feed"
 msgstr ""
 
-#: templates/faq.html:598
+#: templates/faq.html:607
 msgid "The unofficial GTFS RT feed (JSON version for easier display)"
 msgstr ""
 
-#: templates/faq.html:605 templates/toc.html:42
+#: templates/faq.html:614 templates/toc.html:42
 msgid "Technical Details"
 msgstr ""
 
-#: templates/faq.html:607
+#: templates/faq.html:616
 msgid ""
 "This section will be extended once I find more helpful information to "
 "describe here."
 msgstr ""
 
-#: templates/faq.html:611
+#: templates/faq.html:620
 msgid ""
 "Until then, you can find information about most subprojects in their "
 "subdirectories in the <a "
 "href=\"https://git.lw1.at/lukas/route.lw1.at\">repository</a>."
 msgstr ""
 
-#: templates/faq.html:616 templates/toc.html:47
+#: templates/faq.html:625 templates/toc.html:47
 msgid "About this website"
 msgstr ""
 
-#: templates/faq.html:618
+#: templates/faq.html:627
 msgid "Why is this an FAQ page?"
 msgstr ""
 
-#: templates/faq.html:620
+#: templates/faq.html:629
 msgid ""
 "Honestly, I don't know. It felt like the simplest way to structure my "
 "thoughts. As this project is a collection of many small components, this "
 "format makes it easy for me to quickly describe most of them."
 msgstr ""
 
-#: templates/faq.html:628
+#: templates/faq.html:637
 msgid "Why does this page look so ugly?"
 msgstr ""
 
-#: templates/faq.html:631
+#: templates/faq.html:640
 msgid ""
 "Writing and designing elaborate websites can be fun from time to time, "
 "but I also like going the opposite direction for a change. Having a "
