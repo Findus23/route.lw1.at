@@ -803,7 +803,7 @@ local colors_by_id = {
     ["at:vor:2085:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1 Stockerau Gymnasium - Nikolaus-Heid-Straße - Bahnhof
     ["at:vor:2087:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 208 Sittendorf - Kaltenleutgeben - Wien Rodaun
+    -- r 249 Sittendorf - Kaltenleutgeben - Wien Rodaun
     ["at:vor:208:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 209 Wien Hauptbahnhof - IZ NÖ-Süd
     ["at:vor:209:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -1383,6 +1383,8 @@ local colors_by_id = {
     ["at:vor:3575:"] = { color = 0x012A60, text_color = 0xFFFF41 },
     -- r 357 Reichenau/Rax - Katzelsdorf
     ["at:vor:357:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 41E Währinger Str.-Volksoper - Gersthof Schienenersatzverkehr gültig von 04.05. bis 26.06.2026
+    ["at:vor:3641:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 366 Neunkirchen - Ternitz - Gloggnitz - Kirchberg/Wechsel
     ["at:vor:366:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 71E Simmering - Kaiserebersdorf, Zinnergasse Schienenersatzverkehr gültig von 03.03. bis 26.06.2026
