@@ -1,0 +1,595 @@
+{
+  "bird_wiener_neustadt": {
+    "url": "https://mds.bird.co/gbfs/v2/public/wienerneustadt/gbfs.json",
+    "system_info": {
+      "system_id": "bird-wienerneustadt",
+      "name": "bird wienerneustadt",
+      "language": "en",
+      "timezone": "Europe/Vienna",
+      "license_url": "https://www.bird.co/wp-content/uploads/2019/03/GBFS-Data-License-Agreement-2018-09-25.pdf",
+      "operator": "Bird Rides, Inc.",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "bird://charger-onboarding",
+          "store_uri": "https://play.google.com/store/apps/details?id=co.bird.android"
+        },
+        "ios": {
+          "discovery_uri": "bird://",
+          "store_uri": "https://apps.apple.com/us/app/bird-be-free-enjoy-the-ride/id1260842311"
+        }
+      }
+    }
+  },
+  "nextbike_al": {
+    "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_al/gbfs.json",
+    "system_info": {
+      "system_id": "nextbike_al",
+      "language": "en",
+      "name": "city bike Linz",
+      "operator": "City Bike Linz Rental Service GmbH, Wischerstraße 2, 4040 Linz, Österreich",
+      "url": "https://citybikelinz.at/",
+      "phone_number": "+43 732 28 59 08",
+      "email": "kundenservice@nextbike.de",
+      "feed_contact_email": "gbfs@nextbike.net",
+      "timezone": "Europe/Berlin",
+      "license_id": "CC0-1.0",
+      "rental_apps": {
+        "android": {
+          "store_uri": "https://play.google.com/store/apps/details?id=de.nextbike",
+          "discovery_uri": "https://app.nextbike.net/"
+        },
+        "ios": {
+          "store_uri": "https://apps.apple.com/app/id504288371",
+          "discovery_uri": "nextbike://"
+        }
+      }
+    }
+  },
+  "dott_baden_bei_wien": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/baden-bei-wien/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott baden-bei-wien",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-baden-bei-wien",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_bregenz": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/bregenz/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott bregenz",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-bregenz",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_dornbirn": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/dornbirn/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott dornbirn",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-dornbirn",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_feldkirchen_bei_graz": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/feldkirchen-bei-graz/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott feldkirchen-bei-graz",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-feldkirchen-bei-graz",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_innsbruck": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/innsbruck/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott innsbruck",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-innsbruck",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_klagenfurt": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/klagenfurt/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott klagenfurt",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-klagenfurt",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_korneuburg": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/korneuburg/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott korneuburg",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-korneuburg",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_leoben": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/leoben/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott leoben",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-leoben",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_linz": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/linz/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott linz",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-linz",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_modling": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/modling/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott modling",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-modling",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_steyr": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/steyr/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott steyr",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-steyr",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_villach": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/villach/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott villach",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-villach",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "dott_wels": {
+    "url": "https://gbfs.api.ridedott.com/public/v2/wels/gbfs.json",
+    "system_info": {
+      "language": "en",
+      "name": "Dott wels",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.ridedott.rider://v.ridedott.com",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.ridedott.rider"
+        },
+        "ios": {
+          "discovery_uri": "com.ridedott.rider://",
+          "store_uri": "https://apps.apple.com/app/id1440301673"
+        }
+      },
+      "system_id": "dott-wels",
+      "timezone": "Europe/Vienna"
+    }
+  },
+  "nextbike_eq": {
+    "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_eq/gbfs.json",
+    "system_info": {
+      "system_id": "nextbike_eq",
+      "language": "en",
+      "name": "EVENTbike - Austria",
+      "operator": "nextbike GmbH, Karl-Heine-Str. 46, 04229 Leipzig",
+      "url": "https://www.nextbike.at/eventbike-austria/de/",
+      "phone_number": "+43 1 3850 189",
+      "email": "info@nextbike.at",
+      "feed_contact_email": "gbfs@nextbike.net",
+      "timezone": "Europe/Berlin",
+      "license_id": "CC0-1.0",
+      "rental_apps": {
+        "android": {
+          "store_uri": "https://play.google.com/store/apps/details?id=de.nextbike",
+          "discovery_uri": "https://app.nextbike.net/"
+        },
+        "ios": {
+          "store_uri": "https://apps.apple.com/app/id504288371",
+          "discovery_uri": "nextbike://"
+        }
+      }
+    }
+  },
+  "getaround_graz": {
+    "url": "https://getaround.com/gbfs/v3/graz/gbfs",
+    "system_info": {
+      "system_id": "getaround_graz",
+      "languages": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "de-AT",
+        "fr-BE",
+        "nl-BE",
+        "nb-NO",
+        "en-US"
+      ],
+      "name": [
+        {
+          "text": "Getaround",
+          "language": "fr"
+        },
+        {
+          "text": "Getaround",
+          "language": "en"
+        },
+        {
+          "text": "Getaround",
+          "language": "de"
+        },
+        {
+          "text": "Getaround",
+          "language": "es"
+        },
+        {
+          "text": "Getaround",
+          "language": "de-AT"
+        },
+        {
+          "text": "Getaround",
+          "language": "fr-BE"
+        },
+        {
+          "text": "Getaround",
+          "language": "nl-BE"
+        },
+        {
+          "text": "Getaround",
+          "language": "nb-NO"
+        },
+        {
+          "text": "Getaround",
+          "language": "en-US"
+        }
+      ],
+      "opening_hours": "24/7",
+      "url": "https://getaround.com/car-rental/graz",
+      "purchase_url": "https://getaround.com/car-rental/graz",
+      "feed_contact_email": "gbfs@getaround.com",
+      "timezone": "Europe/Vienna",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.c4mprod.voiturelib://",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.c4mprod.voiturelib"
+        },
+        "ios": {
+          "discovery_uri": "R854QJD2R7.com.voiturelib.voiturelib://",
+          "store_uri": "https://apps.apple.com/app/apple-store/492238016"
+        }
+      },
+      "brand_assets": {
+        "brand_last_modified": "2024-04-11",
+        "brand_image_url": "https://getaround-assets.gumlet.io/images/gbfs/brand-squared.svg?compress=true",
+        "color": "#BC00CC"
+      }
+    }
+  },
+  "getaround_innsbruck": {
+    "url": "https://getaround.com/gbfs/v3/innsbruck/gbfs",
+    "system_info": {
+      "system_id": "getaround_innsbruck",
+      "languages": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "de-AT",
+        "fr-BE",
+        "nl-BE",
+        "nb-NO",
+        "en-US"
+      ],
+      "name": [
+        {
+          "text": "Getaround",
+          "language": "fr"
+        },
+        {
+          "text": "Getaround",
+          "language": "en"
+        },
+        {
+          "text": "Getaround",
+          "language": "de"
+        },
+        {
+          "text": "Getaround",
+          "language": "es"
+        },
+        {
+          "text": "Getaround",
+          "language": "de-AT"
+        },
+        {
+          "text": "Getaround",
+          "language": "fr-BE"
+        },
+        {
+          "text": "Getaround",
+          "language": "nl-BE"
+        },
+        {
+          "text": "Getaround",
+          "language": "nb-NO"
+        },
+        {
+          "text": "Getaround",
+          "language": "en-US"
+        }
+      ],
+      "opening_hours": "24/7",
+      "url": "https://getaround.com/car-rental/innsbruck",
+      "purchase_url": "https://getaround.com/car-rental/innsbruck",
+      "feed_contact_email": "gbfs@getaround.com",
+      "timezone": "Europe/Vienna",
+      "rental_apps": {
+        "android": {
+          "discovery_uri": "com.c4mprod.voiturelib://",
+          "store_uri": "https://play.google.com/store/apps/details?id=com.c4mprod.voiturelib"
+        },
+        "ios": {
+          "discovery_uri": "R854QJD2R7.com.voiturelib.voiturelib://",
+          "store_uri": "https://apps.apple.com/app/apple-store/492238016"
+        }
+      },
+      "brand_assets": {
+        "brand_last_modified": "2024-04-11",
+        "brand_image_url": "https://getaround-assets.gumlet.io/images/gbfs/brand-squared.svg?compress=true",
+        "color": "#BC00CC"
+      }
+    }
+  },
+  "nextbike_ka": {
+    "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ka/gbfs.json",
+    "system_info": {
+      "system_id": "nextbike_ka",
+      "language": "en",
+      "name": "nextbike Klagenfurt Austria",
+      "operator": "nextbike AT GmbH, Karl-Heine-Str. 46, 04229 Leipzig, Germany",
+      "url": "https://www.nextbike.at/de/klagenfurt/",
+      "phone_number": "00434635373333",
+      "email": "kundenservice@nextbike.de",
+      "feed_contact_email": "gbfs@nextbike.net",
+      "timezone": "Europe/Berlin",
+      "license_id": "CC0-1.0",
+      "rental_apps": {
+        "android": {
+          "store_uri": "https://play.google.com/store/apps/details?id=de.nextbike",
+          "discovery_uri": "https://app.nextbike.net/"
+        },
+        "ios": {
+          "store_uri": "https://apps.apple.com/app/id504288371",
+          "discovery_uri": "nextbike://"
+        }
+      }
+    }
+  },
+  "nextbike_la": {
+    "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_la/gbfs.json",
+    "system_info": {
+      "system_id": "nextbike_la",
+      "language": "en",
+      "name": "nextbike Niederösterreich",
+      "operator": "Radland GmbH, Werkstättenstraße 13, 3100 St. Pölten",
+      "url": "https://www.nextbike.at/niederoesterreich/",
+      "phone_number": "00432742229901",
+      "email": "info@nextbike.at",
+      "feed_contact_email": "gbfs@nextbike.net",
+      "timezone": "Europe/Berlin",
+      "license_id": "CC0-1.0",
+      "rental_apps": {
+        "android": {
+          "store_uri": "https://play.google.com/store/apps/details?id=de.nextbike",
+          "discovery_uri": "https://app.nextbike.net/"
+        },
+        "ios": {
+          "store_uri": "https://apps.apple.com/app/id504288371",
+          "discovery_uri": "nextbike://"
+        }
+      }
+    }
+  },
+  "nextbike_si": {
+    "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_si/gbfs.json",
+    "system_info": {
+      "system_id": "nextbike_si",
+      "language": "en",
+      "name": "Stadtrad Innsbruck Austria",
+      "operator": "nextbike GmbH, Karl-Heine-Str. 46, 04229 Leipzig",
+      "url": "https://stadtrad-innsbruck.at/",
+      "phone_number": "0043512908069",
+      "email": "stadtradinnsbruck@nextbike.com",
+      "feed_contact_email": "gbfs@nextbike.net",
+      "timezone": "Europe/Berlin",
+      "license_id": "CC0-1.0",
+      "rental_apps": {
+        "android": {
+          "store_uri": "https://play.google.com/store/apps/details?id=de.nextbike",
+          "discovery_uri": "https://app.nextbike.net/"
+        },
+        "ios": {
+          "store_uri": "https://apps.apple.com/app/id504288371",
+          "discovery_uri": "nextbike://"
+        }
+      }
+    }
+  },
+  "nextbike_vt": {
+    "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vt/gbfs.json",
+    "system_info": {
+      "system_id": "nextbike_vt",
+      "language": "en",
+      "name": "VVT REGIORAD Tirol",
+      "operator": "nextbike GmbH, Karl-Heine-Str. 46, 04229 Leipzig",
+      "url": "https://regiorad.vvt.at/",
+      "phone_number": "0043512908069",
+      "email": "regiorad@vvt.at",
+      "feed_contact_email": "gbfs@nextbike.net",
+      "timezone": "Europe/Berlin",
+      "license_id": "CC0-1.0",
+      "rental_apps": {
+        "android": {
+          "store_uri": "https://play.google.com/store/apps/details?id=de.nextbike",
+          "discovery_uri": "https://app.nextbike.net/"
+        },
+        "ios": {
+          "store_uri": "https://apps.apple.com/app/id504288371",
+          "discovery_uri": "nextbike://"
+        }
+      }
+    }
+  },
+  "nextbike_wr": {
+    "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_wr/gbfs.json",
+    "system_info": {
+      "system_id": "nextbike_wr",
+      "language": "en",
+      "name": "WienMobil Rad",
+      "operator": "nextbike GmbH, Karl-Heine-Str. 46, 04229 Leipzig",
+      "url": "https://www.nextbike.at/wienmobilrad/",
+      "phone_number": "+43 1 3850 189",
+      "email": "support@wienmobilrad.at",
+      "feed_contact_email": "gbfs@nextbike.net",
+      "timezone": "Europe/Berlin",
+      "license_id": "CC0-1.0",
+      "rental_apps": {
+        "android": {
+          "store_uri": "https://play.google.com/store/apps/details?id=de.nextbike",
+          "discovery_uri": "https://app.nextbike.net/"
+        },
+        "ios": {
+          "store_uri": "https://apps.apple.com/app/id504288371",
+          "discovery_uri": "nextbike://"
+        }
+      }
+    }
+  }
+}

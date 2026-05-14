@@ -1,7 +1,38 @@
+import json
 from pathlib import Path
-from data import mobility_datasets
+
 from babel.support import Translations
-from jinja2 import Environment, select_autoescape, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+from data import mobility_datasets
+
+
+def load_gbfs_info():
+    with open("../gbfs/gbfs.json") as f:
+        data = json.load(f)
+
+    final_data = []
+    for k, v in data.items():
+        si = v["system_info"]
+        name = si["name"]
+        if not isinstance(name, str):
+            # I don't want to write this properly
+            if "Getaround" in json.dumps(name):
+                name = "Getaround"
+            else:
+                raise RuntimeError()
+        final_data.append(
+            {
+                "key": k,
+                "name": name,
+                "url": v["url"],
+                "license_id": si.get("license_id", None),
+                "license_url": si.get("license_url", None),
+                "operator": si.get("operator", None),
+                "raw": json.dumps(si, indent=2, ensure_ascii=False),
+            }
+        )
+    return final_data
 
 
 def main():
@@ -18,6 +49,8 @@ def main():
 
     pages = {"index": "main"}
 
+    gbfs_info = load_gbfs_info()
+
     for lang in ["de", "en"]:
         translations = Translations.load("translations", [lang, "en"])
         env.install_gettext_translations(translations)
@@ -32,6 +65,7 @@ def main():
             html = template.render(
                 {
                     "mobility_datasets": mobility_datasets,
+                    "gbfs_info": gbfs_info,
                     "lang": lang,
                 }
             )
@@ -41,5 +75,5 @@ def main():
             out_file.write_text(html)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

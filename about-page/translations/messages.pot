@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-05-03 19:05+0200\n"
+"POT-Creation-Date: 2026-05-14 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: templates/faq.html:1 templates/toc.html:7
 msgid "FAQ"
@@ -582,7 +582,8 @@ msgid ""
 "route does not seem possible in the OSM data."
 msgstr ""
 
-#: templates/faq.html:514 templates/toc.html:37
+#: templates/faq.html:514 templates/main.html:152 templates/toc.html:37
+#: templates/toc.html:62
 msgid "Realtime Data"
 msgstr ""
 
@@ -751,7 +752,7 @@ msgstr ""
 msgid "Dataset"
 msgstr ""
 
-#: templates/main.html:70 templates/main.html:133
+#: templates/main.html:70 templates/main.html:133 templates/main.html:190
 msgid "License"
 msgstr ""
 
@@ -779,37 +780,57 @@ msgstr ""
 msgid "Dataset Source"
 msgstr ""
 
-#: templates/main.html:152
+#: templates/main.html:161 templates/toc.html:68
+msgid "Shared Rental Vehicles"
+msgstr ""
+
+#: templates/main.html:179
+msgid "Operator"
+msgstr ""
+
+#: templates/main.html:199
+msgid "Own License"
+msgstr ""
+
+#: templates/main.html:204
+msgid "Unknown License"
+msgstr ""
+
+#: templates/main.html:214
+msgid "All data"
+msgstr ""
+
+#: templates/main.html:224
 msgid "Map Data"
 msgstr ""
 
-#: templates/main.html:154
+#: templates/main.html:226
 msgid ""
 "All map data is from <a "
 "href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> and "
 "licensed under the Open Data Commons Open Database License (ODbL)."
 msgstr ""
 
-#: templates/main.html:159 templates/toc.html:62
+#: templates/main.html:231 templates/toc.html:74
 msgid "Line Color Data"
 msgstr ""
 
-#: templates/main.html:162
+#: templates/main.html:234
 msgid ""
 "The colors of public transit lines are aggregated from OpenStreetMap "
 "using tables from the <a href=\"https://ptna.openstreetmap.de/\">PTNA "
 "project</a> and a small set of own rules. See here for more infomation:"
 msgstr ""
 
-#: templates/main.html:171
+#: templates/main.html:243
 msgid "You can find the current version of the used dataset here:"
 msgstr ""
 
-#: templates/main.html:178 templates/toc.html:68
+#: templates/main.html:250 templates/toc.html:80
 msgid "Footnotes"
 msgstr ""
 
-#: templates/main.html:180
+#: templates/main.html:252
 msgid ""
 "This filename is set by me and just to easily differentiate the different"
 " datasets."

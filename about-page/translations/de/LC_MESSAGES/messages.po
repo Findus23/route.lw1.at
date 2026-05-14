@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-05-03 19:05+0200\n"
+"POT-Creation-Date: 2026-05-14 15:20+0200\n"
 "PO-Revision-Date: 2026-01-25 16:51+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: templates/faq.html:1 templates/toc.html:7
 msgid "FAQ"
@@ -791,7 +791,8 @@ msgstr ""
 "vorschlägt, wenn die \"offensichtliche\" Route in den OSM-Daten nicht "
 "möglich ist."
 
-#: templates/faq.html:514 templates/toc.html:37
+#: templates/faq.html:514 templates/main.html:152 templates/toc.html:37
+#: templates/toc.html:62
 msgid "Realtime Data"
 msgstr "Echtzeitdaten"
 
@@ -1024,7 +1025,7 @@ msgstr "GTFS Datensets"
 msgid "Dataset"
 msgstr "Datenset"
 
-#: templates/main.html:70 templates/main.html:133
+#: templates/main.html:70 templates/main.html:133 templates/main.html:190
 msgid "License"
 msgstr "Lizenz"
 
@@ -1052,11 +1053,31 @@ msgstr "Jahr"
 msgid "Dataset Source"
 msgstr "Datenset-Quelle"
 
-#: templates/main.html:152
+#: templates/main.html:161 templates/toc.html:68
+msgid "Shared Rental Vehicles"
+msgstr "Leihfahrzeuge"
+
+#: templates/main.html:179
+msgid "Operator"
+msgstr "Betreiber"
+
+#: templates/main.html:199
+msgid "Own License"
+msgstr "Eigene Lizenz"
+
+#: templates/main.html:204
+msgid "Unknown License"
+msgstr "Unbekannte Lizenz"
+
+#: templates/main.html:214
+msgid "All data"
+msgstr "Alle Informationen"
+
+#: templates/main.html:224
 msgid "Map Data"
 msgstr "Kartendaten"
 
-#: templates/main.html:154
+#: templates/main.html:226
 msgid ""
 "All map data is from <a "
 "href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> and "
@@ -1066,11 +1087,11 @@ msgstr ""
 "href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> und "
 "stehen unter der Open Data Commons Open Database-Lizenz (ODbL)."
 
-#: templates/main.html:159 templates/toc.html:62
+#: templates/main.html:231 templates/toc.html:74
 msgid "Line Color Data"
 msgstr "Linienfarben-Datenset"
 
-#: templates/main.html:162
+#: templates/main.html:234
 msgid ""
 "The colors of public transit lines are aggregated from OpenStreetMap "
 "using tables from the <a href=\"https://ptna.openstreetmap.de/\">PTNA "
@@ -1080,15 +1101,15 @@ msgstr ""
 " des <a href=\"https://ptna.openstreetmap.de/\">PTNA-Projekts</a> und "
 "einiger eigener Regeln gesammelt. Hier gibt es mehr Informationen dazu:"
 
-#: templates/main.html:171
+#: templates/main.html:243
 msgid "You can find the current version of the used dataset here:"
 msgstr "Die aktuelle Version des Datensets ist hier zu finden:"
 
-#: templates/main.html:178 templates/toc.html:68
+#: templates/main.html:250 templates/toc.html:80
 msgid "Footnotes"
 msgstr "Fußnoten"
 
-#: templates/main.html:180
+#: templates/main.html:252
 msgid ""
 "This filename is set by me and just to easily differentiate the different"
 " datasets."
@@ -1099,4 +1120,7 @@ msgstr ""
 #: templates/toc.html:1
 msgid "Table of Content"
 msgstr "Inhaltsverzeichnis"
+
+#~ msgid "GBFS"
+#~ msgstr ""
 

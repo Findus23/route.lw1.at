@@ -131,8 +131,6 @@ gbfs:
       url: https://gbfs.api.ridedott.com/public/v2/innsbruck/gbfs.json
     dott_klagenfurt:
       url: https://gbfs.api.ridedott.com/public/v2/klagenfurt/gbfs.json
-    dott_klopein:
-      url: https://gbfs.api.ridedott.com/public/v2/klopein/gbfs.json
     dott_korneuburg:
       url: https://gbfs.api.ridedott.com/public/v2/korneuburg/gbfs.json
     dott_leoben:
@@ -141,18 +139,16 @@ gbfs:
       url: https://gbfs.api.ridedott.com/public/v2/linz/gbfs.json
     dott_modling:
       url: https://gbfs.api.ridedott.com/public/v2/modling/gbfs.json
-    dott_sankt_anton_am_arlberg:
-      url: https://gbfs.api.ridedott.com/public/v2/sankt-anton-am-arlberg/gbfs.json
-    dott_serfaus:
-      url: https://gbfs.api.ridedott.com/public/v2/serfaus/gbfs.json
     dott_steyr:
       url: https://gbfs.api.ridedott.com/public/v2/steyr/gbfs.json
-    dott_velden_am_worthersee:
-      url: https://gbfs.api.ridedott.com/public/v2/velden-am-worthersee/gbfs.json
     dott_villach:
       url: https://gbfs.api.ridedott.com/public/v2/villach/gbfs.json
     dott_wels:
       url: https://gbfs.api.ridedott.com/public/v2/wels/gbfs.json
+    getaround_graz:
+      url: https://getaround.com/gbfs/v3/graz/gbfs
+    getaround_innsbruck:
+      url: https://getaround.com/gbfs/v3/innsbruck/gbfs
     nextbike_al:
       url: https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_al/gbfs.json
     nextbike_eq:

@@ -149,6 +149,78 @@
         </tr>
     </table>
 
+    <h3 id="realtime-datasets">{% trans %}Realtime Data{% endtrans %}</h3>
+
+    <ul>
+        <li>
+            <a href="https://www.data.gv.at/datasets/cfba4373-a654-3e0b-80f8-348738169f95?locale={{lang}}">Wiener Linien
+                Echtzeitdaten via Datendrehscheibe Wien</a>
+        </li>
+    </ul>
+
+    <h3 id="gbfs">GBFS ({% trans %}Shared Rental Vehicles{% endtrans %})</h3>
+    {% for gbfs in gbfs_info %}
+    <h4>
+        {{ gbfs.name }}
+    </h4>
+    <table>
+        <tr>
+            <td>
+                GBFS Feed
+            </td>
+            <td>
+                <a target="_blank" rel="noopener" href="{{ gbfs.url }}">{{ gbfs.url }}</a>
+            </td>
+        </tr>
+
+        {% if gbfs.operator %}
+        <tr>
+            <td>
+                {% trans %}
+                Operator
+                {% endtrans %}
+            </td>
+            <td>
+                {{ gbfs.operator }}
+            </td>
+        </tr>
+        {% endif %}
+        <tr>
+            <td>
+                {% trans %}
+                License
+                {% endtrans %}
+            </td>
+            <td>
+                {% if gbfs.license_id %}
+                {{gbfs.license_id}}
+                {% elif gbfs.license_url %}
+                <a href="{{gbfs.license_url}}">
+                    {% trans %}
+                    Own License
+                    {% endtrans %}
+                </a>
+                {% else %}
+                {% trans %}
+                Unknown License
+                {% endtrans %}
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+    <details>
+
+        <summary>
+            {% trans %}
+            All data
+            {% endtrans %}
+        </summary>
+
+        <code><pre>{{ gbfs.raw }}</pre></code>
+
+    </details>
+    {% endfor %}
+    </table>
     <h3 id="map-data">{% trans %}Map Data{% endtrans %}</h3>
 
     {% trans -%}
