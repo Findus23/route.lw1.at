@@ -1,0 +1,1 @@
+https://route.lw1.at/?time=2026-05-14T13%3A53%3A00.000Z&fromPlace=47.3499764%2C9.8811896&toPlace=47.3133602%2C10.0150897&withFares=true&fastestDirectFactor=1.5&joinInterlinedLegs=false&maxMatchingDistance=250&fromName=Mellau%2C+Vorarlberg%2C+%C3%96sterreich&toName=Schoppernau%2C+Vorarlberg%2C+%C3%96sterreich
