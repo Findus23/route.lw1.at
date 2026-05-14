@@ -803,7 +803,7 @@ local colors_by_id = {
     ["at:vor:2085:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1 Stockerau Gymnasium - Nikolaus-Heid-Straße - Bahnhof
     ["at:vor:2087:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 249 Sittendorf - Kaltenleutgeben - Wien Rodaun
+    -- r 208 Sittendorf - Kaltenleutgeben - Wien Rodaun
     ["at:vor:208:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 209 Wien Hauptbahnhof - IZ NÖ-Süd
     ["at:vor:209:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
