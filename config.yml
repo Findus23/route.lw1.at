@@ -87,6 +87,12 @@ timetable:
       default_cars_allowed: false
       extend_calendar: false
       script: scripts/colors.lua
+      rt:
+        - url: https://efa.verbundlinie.at:7790/trips
+        - url: https://efa.verbundlinie.at:7792/trips
+        - url: https://efa.verbundlinie.at:7794/trips
+        - url: https://efa.verbundlinie.at:7796/trips
+        - url: https://efa.verbundlinie.at:7798/trips
     07-tirol:
       path: datasets/gtfs/07_tirol.zip
       default_bikes_allowed: false
