@@ -109,10 +109,12 @@ def disruptions_to_proto(
 
         # input date format is "2026-02-20T20:54:00.000+0100"
         active_period = alert.active_period.add()
-        active_period.start = int(
-            datetime.fromisoformat(disr["time"]["start"]).timestamp()
-        )
-        active_period.end = int(datetime.fromisoformat(disr["time"]["end"]).timestamp())
+        if "start" in disr["time"]:
+            active_period.start = int(
+                datetime.fromisoformat(disr["time"]["start"]).timestamp()
+            )
+        if "end" in disr["time"]:
+            active_period.end = int(datetime.fromisoformat(disr["time"]["end"]).timestamp())
 
         # TODO: map these disruptions to actual trips and provide tripupdates
 
@@ -176,6 +178,8 @@ def disruptions_to_proto(
         elif "Betrieb ist derzeit eingestellt" in all_text:
             alert.effect = alert.NO_SERVICE
         elif "Kein Betrieb" in all_text:
+            alert.effect = alert.NO_SERVICE
+        elif "aufgelassen" in all_text:
             alert.effect = alert.NO_SERVICE
         elif "Züge halten " in all_text or "Busse halten " in all_text:
             alert.effect = alert.NO_SERVICE
