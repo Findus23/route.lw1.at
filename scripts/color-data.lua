@@ -299,8 +299,6 @@ local colors_by_id = {
     ["at:oov:49160:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- j 161 Bus 161: Lustenau => Dornbirn
     ["at:oov:49161:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
-    -- j 180 Bus 180: Götzis => Hohenems => Dornbirn
-    ["at:oov:49180:"] = { color = 0x8D198F, text_color = 0xFFFFFF },
     -- p N1 Bus N1
     ["at:stv:1001:"] = { color = 0xA3CF44, text_color = 0xFFFFFF },
     -- p N2 Bus N2

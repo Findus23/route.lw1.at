@@ -19,19 +19,18 @@ S4;train;Linz <=> Kirchdorf;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;1-S4-O-j26-1;
 S5;train;Linz <=> Eferding;;;Stern & Hafferl VerkehrsgesmbH;AT-OOeVV;at:oov:49555:;
 -
 131;train;St. Valentin <=> Kleinreifling;;;;;;
-133;train;St. Valentin <=> Sarmingstein;;;;;;
 160;train;Lambach <=> Vorchdorf;;;;AT-OOeVV;at:oov:49160:;
 161;train;Gmunden => Vorchdorf;;;;AT-OOeVV;at:oov:49161:;
-180;train;Vöcklamarkt <=> Attersee;;;;AT-OOeVV;at:oov:49180:;
+R33;train;St. Valentin <=> St.Nikola-Struden;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;3-R33-O-j26-1;
 R140;train;R140 Selzthal <=> Linz;;;;;;
 R141;train;R141 Linz <=> Summerau;;;;;;
 R142;train;R142 Linz <=> Aigen-Schlägl;;;;;;
 R143;train;Linzer Lokalbahn (LILO);;;;;;
 R151;train;Simbach <=> Neumarkt;;;;;;
 R153;train;Wels <=> Grünau;;;;;;
+R171;train;Attnang-Puchheim <=> Schärding;;;ÖBB-Personenverkehr AG;AT-Eisenbahn;;
 R172;train;Vöcklabruck <=> Kammer-Schörfling;;;;;;
 R180;train;Attersee <=> Vöcklamarkt;;;;;;
-R58;train;Selzthal <=> Amstetten;;;;;;
 
 =Linz
 
@@ -389,6 +388,7 @@ A2;bus;"K.-J.-Platz - Gartenstraße - Kreßstraße - Vogelweide - K.-J.-Platz St
 712;bus;"Vöcklabruck - Thomasroith - Wolfsegg - Altenhof - Gaspoltshofen Vöcklabruck - Wolfsegg - Altenhof - Gaspoltshofen";;;Österreichische Postbus AG;AT-OOeVV;15-712-j23-5;
 713;bus;"Vöcklabruck - Wolfsegg - Altenhof Vöcklabruck - Wolfsegg - Altenhof";;;Österreichische Postbus AG;AT-OOeVV;15-713-j23-3;
 716;bus;"Schwanenstadt - Atzbach - Niederthalheim - Schwanenstadt Schwanenstadt - Atzbach - Niederthalheim - Schwanenstadt";;;sabtours Busbetrieb GmbH;AT-OOeVV;15-716-j23-1;
+717;bus;"Gaspoltshofen - Niederthalheim - Schwanenstadt - Niederthalheim - Gaspoltshofen";;;Österreichische Postbus AG;AT-OOeVV;15-717-j26-1;
 721;bus;"Vöcklabruck Krankenhaus - Attnang-Puchheim Bf. Vöcklabruck Krankenhaus - Bbf - Varena - Regau - Attnang-P. Bf";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-721-j23-1;
 722;bus;"Vöcklabruck Dürnau - Varena Dürnau - Busbahnhof - Bahnhof - Varena";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-722-j23-1;
 723;bus;"Vöcklabruck Varena - Krankenhaus Varena - Schöndorf - Dürnau Mitte - Busbahnhof - Krankenhaus";;;Dr. Richard -Standort Oberösterreich;AT-OOeVV;48-723-j23-1;
