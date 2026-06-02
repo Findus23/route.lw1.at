@@ -1,0 +1,3 @@
+generate_api_client:
+  uvx openapi-python-client generate --path ../openapi.yaml --output-path motis_api_client --meta uv --overwrite
+

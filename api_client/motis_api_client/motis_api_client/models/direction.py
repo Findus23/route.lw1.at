@@ -1,0 +1,21 @@
+from enum import Enum
+
+
+class Direction(str, Enum):
+    CIRCLE_CLOCKWISE = "CIRCLE_CLOCKWISE"
+    CIRCLE_COUNTERCLOCKWISE = "CIRCLE_COUNTERCLOCKWISE"
+    CONTINUE = "CONTINUE"
+    DEPART = "DEPART"
+    ELEVATOR = "ELEVATOR"
+    HARD_LEFT = "HARD_LEFT"
+    HARD_RIGHT = "HARD_RIGHT"
+    LEFT = "LEFT"
+    RIGHT = "RIGHT"
+    SLIGHTLY_LEFT = "SLIGHTLY_LEFT"
+    SLIGHTLY_RIGHT = "SLIGHTLY_RIGHT"
+    STAIRS = "STAIRS"
+    UTURN_LEFT = "UTURN_LEFT"
+    UTURN_RIGHT = "UTURN_RIGHT"
+
+    def __str__(self) -> str:
+        return str(self.value)
