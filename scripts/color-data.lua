@@ -2195,6 +2195,8 @@ local colors_by_id = {
     ["at:vor:7940:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 7941 Wiener Neustadt - Mattersburg - Forchtenstein - Langental
     ["at:vor:7941:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r 7942 Hochart - Pinkafeld - Oberschützen
+    ["at:vor:7942:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 794 Kottes - Ottenschlag
     ["at:vor:794:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 795 Kottes - Weinzierl am Walde Baustellenfahrplan
