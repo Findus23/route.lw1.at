@@ -1069,6 +1069,8 @@ local colors_by_id = {
     ["at:vor:324:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 50B Hütteldorf - Auhof
     ["at:vor:3250:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- r 51B Hietzing - Hanusch-Krankenhaus
+    ["at:vor:3251:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 52B Hütteldorf - Siedlung Kordon ( -Feuerwache Am Steinhof)
     ["at:vor:3252:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 54B Ober St. Veit - St. Veiter Tor
@@ -2389,6 +2391,8 @@ local colors_by_id = {
     ["at:vor:9650:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B27 Jennersdorf - Neustift/Güssing - Güssing
     ["at:vor:990:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- r U2E Donaumarina - Praterstern Schienenersatzverkehr gültig am 12.07.2026
+    ["at:vor:996:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- p A Bus A: Rum Sanatorium <=> Innsbruck Allerheiligenhöfe
     ["at:vvt:10:"] = { color = 0x00A2D3, text_color = 0xFFFFFF },
     -- p C Bus C: Innsbruck Luigenstraße <=> Innsbruck Sieglanger

@@ -138,6 +138,9 @@ MAT;train;Museumsbahn Ampflwang – Timelkam
 TB;train;Taurachbahn
 ZB1;train;Zillertalbahn;;;;AT-VVT;at:vvt:310000:
 HBB;funicular;Hungerburgbahn
+ÖGLB/Bergstrecke Ybbstalbahn;train;"2026-06-06 - 2026-10-31: Lunz am See - Kienberg gültig vom 6.6. bis 31.10.2026";;;ÖGLB;AT-VOR;at:vor:1321:;
+ÖGLB/Höllentalbahn;train;"2026-06-28 - 2026-08-30: Payerbach - Hirschwang";;;ÖGLB;AT-VOR;at:vor:1525:;
+Zayataler Schienentaxi;train;"2026-05-01 - 2026-10-26: Grafensulz - Mistelbach gültig vom 1.5. bis 26.10.2026";;;Zayataler Schienentaxi;AT-VOR;at:vor:923:;
 
 - [[Austria/Eisenbahnverkehr/Analyse/Eisenbahn-Linien|... zu vervollständigen]]
 -

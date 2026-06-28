@@ -19,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Carinthia, except the ones of ÖBB. The dataset includes data for the respective timetable period (each sunday following the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "17658",
+    "id": "17934",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "25787",
-      "created": "2026-06-13T03:31:38.796Z",
+      "id": "26063",
+      "created": "2026-06-27T03:31:49.672Z",
       "file": {
-        "originalName": "20260612-2247_gtfs_flex_kaerntnerlinien_2026.zip",
-        "size": "100902215"
+        "originalName": "20260626-2253_gtfs_flex_kaerntnerlinien_2026.zip",
+        "size": "98236181"
       },
       "deleted": false
     }
