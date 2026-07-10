@@ -18,6 +18,7 @@ def load_line_mapping():
         line_to_gtfs_id_mapping = mapping_data["mapping"]
         mapping_feed_version = str(mapping_data["meta"]["version"])
     line_to_gtfs_id_mapping["WLB"] = "at:vor:1515:"
+    line_to_gtfs_id_mapping["LB"] = "at:vor:1515:"
     return line_to_gtfs_id_mapping, mapping_feed_version
 
 
