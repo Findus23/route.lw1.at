@@ -182,6 +182,7 @@ BB|WLB;light_rail;;;;;AT-VOR;at:vor:1515:
 50A;bus;;;;Wiener Linien;AT-VOR;at:vor:3450:
 50B;bus;;;;Wiener Linien;AT-VOR;at:vor:3250:
 51A;bus;;;;Wiener Linien;AT-VOR;at:vor:3451:
+51B;bus;;;;Wiener Linien;AT-VOR;at:vor:3251:
 52A;bus;;;;Wiener Linien;AT-VOR;at:vor:3452:
 52B;bus;;;;Wiener Linien;AT-VOR;at:vor:3252:
 53A;bus;;;;Wiener Linien;AT-VOR;at:vor:3453:
@@ -283,7 +284,6 @@ VAL3|VAB3;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1183:
 ZF;bus;;;;;AT-VOR;at:vor:7071:
 G3;bus;;;;;AT-VOR;at:vor:503:
 as;bus
-KPE;bus
 -
 #
 === Amstetten

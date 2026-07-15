@@ -19,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Salzburg, except the ones of ÖBB and WESTbahn. The dataset includes data for the respective timetable period (each sunday following the second Saturday of December at 11:59 pm).\n\nRules regarding bicycles:\n\nDuring weekdays the taking along of bicycles is permitted from 9AM until the end of operations(3AM the following day), during weekends and public holidays it is permitted all day."
   },
   "activeVersion": {
-    "id": "18039",
+    "id": "18295",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "26168",
-      "created": "2026-07-02T03:32:26.187Z",
+      "id": "26424",
+      "created": "2026-07-14T03:31:41.648Z",
       "file": {
-        "originalName": "20260702-0004_gtfs_flex_salzburgverkehr_2026.zip",
-        "size": "42848666"
+        "originalName": "20260714-0016_gtfs_flex_salzburgverkehr_2026.zip",
+        "size": "43021034"
       },
       "deleted": false
     }

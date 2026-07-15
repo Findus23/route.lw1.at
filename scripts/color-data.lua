@@ -405,7 +405,7 @@ local colors_by_id = {
     ["at:stv:240:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 241 Bus 241
     ["at:stv:241:"] = { color = 0xFFFFFF, text_color = 0x000000 },
-    -- j 250 Bus 250: Graz Rosarium => Plenzengreith Angerkreuz (via Schöckl)
+    -- j 250 Bus 250: Graz Andreas-Hofer-Platz/Joanneumsviertel => Plenzengreith Angerkreuz (via Schöckl)
     ["at:stv:250:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 260 Bus 260
     ["at:stv:260:"] = { color = 0xFFFFFF, text_color = 0x000000 },
@@ -553,7 +553,7 @@ local colors_by_id = {
     ["at:stv:845:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 846 Bus 846
     ["at:stv:846:"] = { color = 0xFFFFFF, text_color = 0x000000 },
-    -- p X20 Bus X20: Graz Rosarium => Weiz Zentrum
+    -- p X20 Bus X20: Graz Hauptbahnhof => Weiz Zentrum
     ["at:stv:9020:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- j SBB Schloßbergbahn
     ["at:stv:90:"] = { color = 0x4B4C4D, text_color = 0xFFFFFF },
@@ -835,9 +835,9 @@ local colors_by_id = {
     ["at:vor:2176:"] = { color = 0xBD1620, text_color = 0xFFFFFF },
     -- p 7 Stadtbus Krems Linie 7: Krems Gewerbeparkstraße/Kino => Krems Bahnhof
     ["at:vor:2177:"] = { color = 0x82348B, text_color = 0xFFFFFF },
-    -- r 217 Simmering - Schwechat - Maria Lanzendorf - Himberg / Mödling
+    -- r 217 Wien Simmering - Schwechat - Maria Lanzendorf - Himberg / Mödling
     ["at:vor:217:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 218 Simmering - Schwechat - Zwölfaxing - Himberg
+    -- r 218 Wien Simmering - Schwechat - Zwölfaxing - Himberg
     ["at:vor:218:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 219 Mödling - Wiener Neudorf - IZ NÖ-Süd
     ["at:vor:219:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -913,7 +913,7 @@ local colors_by_id = {
     ["at:vor:276:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 277 Eisenstadt - Mannersdorf - Bruck/Leitha
     ["at:vor:277:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 279 Kaiserebersdorf - Schwechat - Mannswörth
+    -- r 279 Wien Kaiserebersdorf - Schwechat - Mannswörth
     ["at:vor:279:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 280 Neusiedl/See - Purbach - Eisenstadt
     ["at:vor:280:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -1735,7 +1735,7 @@ local colors_by_id = {
     ["at:vor:613:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 615 Amstetten - Ardagger Schulen - Stephanshart
     ["at:vor:615:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 616 St. Valentin - St.Pantaleon - Ennsdorf - Enns
+    -- r 616 St. Valentin - St. Pantaleon - Ennsdorf - Enns
     ["at:vor:616:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 617 Langenhart - St. Valentin - Klein-Erla
     ["at:vor:617:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -1761,7 +1761,7 @@ local colors_by_id = {
     ["at:vor:630:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 631 Maria Neustift - Redtenbachtal - Waidhofen/Ybbs
     ["at:vor:631:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 632 Waidhofen/Ybbs - Nellingbachtal - St.Peter/Au
+    -- r 632 Waidhofen/Ybbs - Nellingbachtal - St. Peter/Au
     ["at:vor:632:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 633 Waidhofen/Ybbs - Trefflingtal - Seitenstetten - Biberbach
     ["at:vor:633:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -2271,7 +2271,7 @@ local colors_by_id = {
     ["at:vor:841:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 842 Hausleiten - Stetteldorf - Hausleiten
     ["at:vor:842:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 850 Floridsdorf - Langenzersdorf - Korneuburg
+    -- r 850 Wien Floridsdorf - Langenzersdorf - Korneuburg
     ["at:vor:850:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 853 Korneuburg - Hagenbrunn - Enzersfeld
     ["at:vor:853:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -2357,7 +2357,7 @@ local colors_by_id = {
     ["at:vor:906:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 907 Zillingtal - Neufeld/Leitha
     ["at:vor:907:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r SEV R56 Laubenbachmühle - Mariazell
+    -- r R56 Laubenbachmühle - Mariazell
     ["at:vor:9115:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B20 Eisenstadt - Neudörfl - Wiener Neustadt Hbf.
     ["at:vor:912:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -2387,7 +2387,7 @@ local colors_by_id = {
     ["at:vor:9515:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B16 Rechnitz - Großpetersdorf - Oberwart
     ["at:vor:960:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r Weihnachtsspielshuttle Reinsberg Shuttlebus Weihnachtsspiel Reinsberg
+    -- r WS Shuttlebus Weihnachtsspiel Reinsberg
     ["at:vor:9650:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r B27 Jennersdorf - Neustift/Güssing - Güssing
     ["at:vor:990:"] = { color = 0x8BC640, text_color = 0xFFFFFF },

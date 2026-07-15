@@ -54,6 +54,7 @@ def get_datasets(access_token: str, filter_tag: str = None):
         "Authorization": f"Bearer {access_token}",
         "Accept": "application/json"
     })
+    print(r.text,r.status_code)
     datasets = {}
     for ds in r.json():
         tag_names = {d["valueDe"] for d in ds["tags"]}
