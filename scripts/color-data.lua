@@ -623,6 +623,8 @@ local colors_by_id = {
     ["at:vor:109:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p R56 R56: St. Pölten <=> Mariazell
     ["at:vor:1115:"] = { color = 0xFDB913, text_color = 0x005E96 },
+    -- p R59 Citybahn Waidhofen
+    ["at:vor:1132:"] = { color = 0x0063A4, text_color = 0xFFFFFF },
     -- r 1155 Wiener Neustadt - Piringsdorf
     ["at:vor:1155:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1158 Eisenstadt - Nikitsch
@@ -813,12 +815,12 @@ local colors_by_id = {
     ["at:vor:214:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 215 Mödling - Laxenburg - Maria Lanzendorf
     ["at:vor:215:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 1 Stadtverkehr Waidhofen/Ybbs
-    ["at:vor:2161:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 2 Stadtverkehr Waidhofen/Ybbs
-    ["at:vor:2162:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 3 Stadtverkehr Waidhofen/Ybbs
-    ["at:vor:2163:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
+    -- p 1 Citybus Waidhofen an der Ybbs 1: Unterer Stadtplatz => Raifberg Garagen => Gymnasium/HAK
+    ["at:vor:2161:"] = { color = 0xB34AA5, text_color = 0xFFFFFF },
+    -- p 2 Citybus Waidhofen an der Ybbs 2: Schwellöd => Gymnasium/HAK
+    ["at:vor:2162:"] = { color = 0x2FB7D2, text_color = 0xFFFFFF },
+    -- p 3 Citybus Waidhofen an der Ybbs 3: Unterer Stadtplatz => Bertastraße 26/28 => Unterer Stadtplatz
+    ["at:vor:2163:"] = { color = 0x48C186, text_color = 0xFFFFFF },
     -- r 216 Mödling - Laxenburg - Himberg / Münchendorf / Guntramsdorf
     ["at:vor:216:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p 1 Stadtbus Krems Linie 1: Krems Bahnhof => Stein-Mautern Bahnhof
@@ -961,154 +963,154 @@ local colors_by_id = {
     ["at:vor:308:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 309 Wien Hauptbahnhof - IZ NÖ-Süd
     ["at:vor:309:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 1 Prater, Hauptallee - Stefan-Fadinger-Platz
-    ["at:vor:3101:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 2 Dornbach - Friedrich-Engels-Platz
-    ["at:vor:3102:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 5 Praterstern - Westbahnhof
-    ["at:vor:3105:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 6 Urban-Loritz-Platz - Geiereckstraße
-    ["at:vor:3106:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 9 Gersthof, Wallrißstraße - Westbahnhof
-    ["at:vor:3109:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p 1 Tram 1
+    ["at:vor:3101:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 2 Tram 2
+    ["at:vor:3102:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 5 Tram 5
+    ["at:vor:3105:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 6 Tram 6
+    ["at:vor:3106:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 9 Tram 9
+    ["at:vor:3109:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 310 Baden - Oberwaltersdorf - Leobersdorf - Gainfarn
     ["at:vor:310:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 10 Dornbach - Unter St. Veit, Hummelgasse
-    ["at:vor:3110:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 11 Otto-Probst-Platz - Kaiserebersdorf, Zinnergasse
-    ["at:vor:3111:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 12 Hillerstraße - Josefstädter Straße
-    ["at:vor:3112:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 18 Burggasse-Stadthalle - St. Marx
-    ["at:vor:3118:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p 10 Tram 10
+    ["at:vor:3110:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 11 Tram 11
+    ["at:vor:3111:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 12 Tram 12
+    ["at:vor:3112:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 18 Tram 18
+    ["at:vor:3118:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 311 Bad Vöslau - Teesdorf - Blumau
     ["at:vor:311:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 25 Aspern, Oberdorfstraße - Floridsdorf
-    ["at:vor:3125:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 26 Hausfeldstraße - Strebersdorf
-    ["at:vor:3126:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 27 Aspern Nord - Strebersdorf,Edmund-Hawranek-Platz
-    ["at:vor:3127:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p 25 Tram 25
+    ["at:vor:3125:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 26 Tram 26
+    ["at:vor:3126:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 27 Tram 27
+    ["at:vor:3127:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 312 Gainfarn - Leobersdorf - Hernstein
     ["at:vor:312:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 30 Floridsdorf - Stammersdorf
-    ["at:vor:3130:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 31 Schottenring - Stammersdorf
-    ["at:vor:3131:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r D Absberggasse - Nußdorf, Beethovengang
-    ["at:vor:3136:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 37 Schottentor - Hohe Warte
-    ["at:vor:3137:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 38 Schottentor - Grinzing
-    ["at:vor:3138:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p 30 Tram 30
+    ["at:vor:3130:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 31 Tram 31
+    ["at:vor:3131:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p D Tram D
+    ["at:vor:3136:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 37 Tram 37
+    ["at:vor:3137:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 38 Tram 38
+    ["at:vor:3138:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 313 Bad Vöslau - Leobersdorf - Pottenstein
     ["at:vor:313:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 40 Schottentor - Gersthof, Herbeckstraße
-    ["at:vor:3140:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 41 Schottentor - Pötzleinsdorf
-    ["at:vor:3141:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 42 Schottentor - Antonigasse
-    ["at:vor:3142:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 43 Schottentor - Neuwaldegg
-    ["at:vor:3143:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 44 Schottentor - Maroltingergasse
-    ["at:vor:3144:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 46 Ring/Volkstheater - Joachimsthalerplatz
-    ["at:vor:3146:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 49 Ring/Volkstheater - Hütteldorf, Bujattigasse
-    ["at:vor:3149:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p 40 Tram 40
+    ["at:vor:3140:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 41 Tram 41
+    ["at:vor:3141:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 42 Tram 42
+    ["at:vor:3142:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 43 Tram 43
+    ["at:vor:3143:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 44 Tram 44
+    ["at:vor:3144:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 46 Tram 46
+    ["at:vor:3146:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 49 Tram 49
+    ["at:vor:3149:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 314 Bad Vöslau - Berndorf - Aigen - Markt Piesting
     ["at:vor:314:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 52 Westbahnhof - Baumgarten
-    ["at:vor:3152:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p 52 Tram 52
+    ["at:vor:3152:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 315 Baden - Bad Vöslau - Berndorf - Weissenbach/Triesting
     ["at:vor:315:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 60 Westbahnhof - Rodaun
-    ["at:vor:3160:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 62 Oper/Karlsplatz - Lainz, Wolkersbergenstraße
-    ["at:vor:3162:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p 60 Tram 60
+    ["at:vor:3160:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 62 Tram 62
+    ["at:vor:3162:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 316 Weissenbach/Triesting - Hainfeld
     ["at:vor:316:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r O Raxstraße, Rudolfshügelgasse - Bruno-Marek-Allee
-    ["at:vor:3170:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
-    -- r 71 Schottenring - Kaiserebersdorf
-    ["at:vor:3171:"] = { color = 0xD3312C, text_color = 0xFFFFFF },
+    -- p O Tram O
+    ["at:vor:3170:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
+    -- p 71 Tram 71
+    ["at:vor:3171:"] = { color = 0xBF0808, text_color = 0xFFFFFF },
     -- r 317 Altenmarkt/Triesting - Neuwald
     ["at:vor:317:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 318 Weissenbach/Treisting - Neuhaus - Altenmarkt/Triesting - Kaumberg/Triesting
     ["at:vor:318:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 319 Weissenbach/Triesting - Furth/Triesting
     ["at:vor:319:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 5B Heiligenstadt - Praterstern
-    ["at:vor:3205:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 7B Wienerberg City - Meidling
-    ["at:vor:3207:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 5B Bus 5B: Praterstern => Bahnhof Heiligenstadt
+    ["at:vor:3205:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 7B Bus 7B: Meidling => Wienerberg City
+    ["at:vor:3207:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 320 Baden - Ebreichsdorf - Unterwaltersdorf
     ["at:vor:320:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 321 Unterwaltersdorf - Ebreichsdorf - Landegg
     ["at:vor:321:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 20B Alte Donau - Neue Donau
-    ["at:vor:3220:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 27B Kagran - Satzingerweg
-    ["at:vor:3227:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 29B Floridsdorf - Großfeldsiedlung
-    ["at:vor:3229:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 36B Jedlesee, Bellgasse - Leopoldau
-    ["at:vor:3236:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 38B Nußdorf, Beethovengang - Nußdorf Friedhof - Heiligenstädter Friedhof
-    ["at:vor:3238:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 39B Karthäuserstraße - Sieveringer Friedhof
-    ["at:vor:3239:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 43B Hütteldorf - Neustift, Agnesgasse
-    ["at:vor:3243:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 46B Ottakring - Wilhelminenberg
-    ["at:vor:3246:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 47B Hütteldorf - Hüttelberg
-    ["at:vor:3247:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 20B Bus 20B: Neue Donau => Alte Donau
+    ["at:vor:3220:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 27B Bus 27B: Satzingerweg => Kagran
+    ["at:vor:3227:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 29B Bus 29B: Floridsdorf => Leopoldau => Großfeldsiedlung
+    ["at:vor:3229:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 36B Bus 36B: Leopoldau => Petritschgasse
+    ["at:vor:3236:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 38B Bus 38B: Heiligenstädter Friedhof => Nußdorf Beethovengang
+    ["at:vor:3238:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 39B Bus 39B: Sieveringer Friedhof => Karthäuserstraße
+    ["at:vor:3239:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 43B Bus 43B: Hütteldorf => Neustift, Agnesgasse
+    ["at:vor:3243:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 46B Bus 46B
+    ["at:vor:3246:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 47B Bus 47B: Hüttelberg => Hütteldorf
+    ["at:vor:3247:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 324 Ebenfurth - Hornstein
     ["at:vor:324:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 50B Hütteldorf - Auhof
-    ["at:vor:3250:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 50B Bus 50B
+    ["at:vor:3250:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 51B Hietzing - Hanusch-Krankenhaus
     ["at:vor:3251:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 52B Hütteldorf - Siedlung Kordon ( -Feuerwache Am Steinhof)
-    ["at:vor:3252:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 54B Ober St. Veit - St. Veiter Tor
-    ["at:vor:3254:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 56B Hietzing - Lainzer Tor
-    ["at:vor:3256:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 58B Hietzing - Atzgersdorf
-    ["at:vor:3258:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 52B Bus 52B
+    ["at:vor:3252:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 54B Bus 54B: Ober St. Veit => Sankt Veiter Tor
+    ["at:vor:3254:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 56B Bus 56B: Hietzing => Lainzer Tor
+    ["at:vor:3256:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 58B Bus 58B: Am Rosenhügel => Hietzing
+    ["at:vor:3258:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 325 Wr. Neustadt - Felixdorf - Hölles - Enzesfeld
     ["at:vor:325:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 61B Liesing - Vösendorf-Siebenhirten
-    ["at:vor:3261:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 64B Hetzendorf - Alterlaa
-    ["at:vor:3264:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 67B Alaudagasse - Alterlaa
-    ["at:vor:3267:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 68B Reumannplatz - Oberlaa
-    ["at:vor:3268:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 61B Bus 61B: Liesing => Vösendorf-Siebenhirten
+    ["at:vor:3261:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 64B Bus 64B: Hetzendorf => Alterlaa
+    ["at:vor:3264:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 67B Bus 67B: Alterlaa => Inzersdorf, Kolpingstraße
+    ["at:vor:3267:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 68B Bus 68B: Oberlaa => Reumannplatz
+    ["at:vor:3268:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 326 Wr. Neustadt - Teesdorf - Oberwaltersdorf
     ["at:vor:326:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 71B Zentralfriedhof 3. Tor - Kaiserebersdorf
-    ["at:vor:3271:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 73B Zentralfriedhof 3.Tor - Kaiserebersdorf
-    ["at:vor:3273:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 76B Enkplatz - Alberner Hafen
-    ["at:vor:3276:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 79B Donaumarina, Chrastekgasse - Kaiserebersdorf, Münnichplatz
-    ["at:vor:3279:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 71B Bus 71B: Bahnhof Zentralfriedhof => Ailecgasse => Zentralfriedhof 3. Tor
+    ["at:vor:3271:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 73B Bus 73B: Bahnhof Kaiserebersdorf => Zentralfriedhof 3. Tor
+    ["at:vor:3273:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 76B Bus 76B: Albern => Enkplatz, Grillgasse
+    ["at:vor:3276:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 79B Bus 79B: Donaumarina, Chrastekgasse => Kaiserebersdorf, Münnichplatz
+    ["at:vor:3279:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 327 Felixdorf - Hornstein
     ["at:vor:327:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 88B Seestadt - Eßling, Wegmayersiedlung
-    ["at:vor:3288:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 92B Kaisermühlen V.I.C. - Ölhafen VCM
-    ["at:vor:3292:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 95B Hirschstetten Ort - Hausfeldstraße
-    ["at:vor:3295:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 99B Aspern Nord - Eßling Schule
-    ["at:vor:3299:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 88B Bus 88B: Eßling, Wegmayersiedlung => Seestadt
+    ["at:vor:3288:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 92B Bus 92B: Donaustadtbrücke => Ölhafen
+    ["at:vor:3292:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 95B Bus 95B
+    ["at:vor:3295:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 99B Bus 99B
+    ["at:vor:3299:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 329 Guntramsdorf / Brunn/Gebirge - Unterwaltersdorf
     ["at:vor:329:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p U1 U1 Oberlaa <=> Leopoldau
@@ -1137,250 +1139,250 @@ local colors_by_id = {
     ["at:vor:338:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 339 Rohr/Gebirge - Schwarzau/Gebirge - Pernitz
     ["at:vor:339:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 1A Stephansplatz - Schottentor
-    ["at:vor:3401:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 2A Schwedenplatz - Schwarzenbergplatz
-    ["at:vor:3402:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 3A Schottenring - Stubentor
-    ["at:vor:3403:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 4A Karlsplatz - Wittelsbachstraße
-    ["at:vor:3404:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 5A Nestroyplatz - Griegstraße
-    ["at:vor:3405:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 7A Meidling Hauptstraße - Reumannplatz
-    ["at:vor:3407:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 8A Meidling - Küniglberg/ORF-Zentrum
-    ["at:vor:3408:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 9A Meidling Hauptstraße - Bhf. Meidling
-    ["at:vor:3409:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 1A Bus 1A
+    ["at:vor:3401:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 2A Bus 2A
+    ["at:vor:3402:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 3A Bus 3A
+    ["at:vor:3403:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 4A Bus 4A
+    ["at:vor:3404:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 5A Bus 5A: Griegstraße => Nestroyplatz
+    ["at:vor:3405:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 7A Bus 7A
+    ["at:vor:3407:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 8A Bus 8A
+    ["at:vor:3408:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 9A Bus 9A
+    ["at:vor:3409:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 340 Pernitz - Gutenstein - Rohr/Gebirge
     ["at:vor:340:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 10A Heiligenstadt - Niederhofstraße
-    ["at:vor:3410:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 11A Stadion - Heiligenstadt
-    ["at:vor:3411:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 12A Schmelz, Gablenzgasse - Eichenstraße
-    ["at:vor:3412:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 13A Piaristengasse - Hauptbahnhof
-    ["at:vor:3413:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 14A Neubaugasse - Reumannplatz
-    ["at:vor:3414:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 15A Meidling - Enkplatz/Grillgasse
-    ["at:vor:3415:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 16A Hetzendorf - Alaudagasse
-    ["at:vor:3416:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 17A Inzerdorf, Birostraße - Oberlaa
-    ["at:vor:3417:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 19A Alaudagasse - Alaudagasse
-    ["at:vor:3419:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 10A Bus 10A: Bahnhof Heiligenstadt => Niederhofstraße
+    ["at:vor:3410:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 11A Bus 11A: Bahnhof Heiligenstadt => Stadion
+    ["at:vor:3411:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 12A Bus 12A
+    ["at:vor:3412:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 13A Bus 13A
+    ["at:vor:3413:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 14A Bus 14A: Neubaugasse => Reumannplatz
+    ["at:vor:3414:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 15A Bus 15A
+    ["at:vor:3415:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 16A Bus 16A
+    ["at:vor:3416:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 17A Bus 17A
+    ["at:vor:3417:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 19A Bus 19A: Alaudagasse => Wendstattgasse => Stockholmer Platz => Alaudagasse
+    ["at:vor:3419:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 341 Payerbach - Hirschwang - Schwarzau/Gebirge
     ["at:vor:341:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 20A Kaisermühlen-VIC - Neue Donau
-    ["at:vor:3420:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 22A Kagran - Aspernstraße
-    ["at:vor:3422:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 24A Kagraner Platz - Neueßling
-    ["at:vor:3424:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 25A Rennbahnweg - Süßenbrunner Platz
-    ["at:vor:3425:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 26A Kagran - Groß-Enzersdorf Busbahnhof
-    ["at:vor:3426:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 27A Kagran - Hermann-Gebauer-Straße
-    ["at:vor:3427:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 28A Eipeldauer Straße - Breitenlee Schule
-    ["at:vor:3428:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 29A Floridsdorf - Großfeldsiedlung
-    ["at:vor:3429:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 20A Bus 20A
+    ["at:vor:3420:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 22A Bus 22A
+    ["at:vor:3422:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 24A Bus 24A
+    ["at:vor:3424:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 25A Bus 25A: Süßenbrunn, Sportpark => Süßenbrunner Platz => Rennbahnweg
+    ["at:vor:3425:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 26A Bus 26A
+    ["at:vor:3426:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 27A Bus 27A: Kagran => Hermann-Gebauer-Straße
+    ["at:vor:3427:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 28A Bus 28A: Breitenlee Schule => Leopoldauer Platz
+    ["at:vor:3428:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 29A Bus 29A: Floridsdorf => Großfeldsiedlung
+    ["at:vor:3429:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 342 Payerbach - Prein/Rax - Preiner Gscheid
     ["at:vor:342:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 30A Neu Leopoldau - Freiheitsplatz
-    ["at:vor:3430:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 31A Kagraner Platz - Jochbergengasse
-    ["at:vor:3431:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 32A Leopoldau - Strebersdorf
-    ["at:vor:3432:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 33A Mühlschüttel - Floridsdorf
-    ["at:vor:3433:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 34A Floridsdorf - Schwarzlackenau (-Strebersdorf)
-    ["at:vor:3434:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 35A Spittelau - Salmannsdorf
-    ["at:vor:3435:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 36A Jedlesee, Bellgasse - Carabelligasse
-    ["at:vor:3436:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 37A Brigittenauer Brücke - Dänenstraße
-    ["at:vor:3437:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 38A Heiligenstadt - Kahlenberg (-Leopoldsberg)
-    ["at:vor:3438:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 39A Heiligenstadt - Sievering
-    ["at:vor:3439:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 30A Bus 30A: Neu Leopoldau => Stammersdorf, Freiheitsplatz
+    ["at:vor:3430:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 31A Bus 31A: Kagraner Platz => Großjedlersdorf, Jochbergengasse
+    ["at:vor:3431:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 32A Bus 32A: Strebersdorf => Leopoldau
+    ["at:vor:3432:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 33A Bus 33A: Floridsdorf => Mühlschüttel
+    ["at:vor:3433:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 34A Bus 34A: Floridsdorf => Überfuhrstraße
+    ["at:vor:3434:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 35A Bus 35A: Spittelau => Salmannsdorf
+    ["at:vor:3435:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 36A Bus 36A: Jedlesee, Bellgasse => Carabelligasse
+    ["at:vor:3436:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 37A Bus 37A
+    ["at:vor:3437:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 38A Bus 38A
+    ["at:vor:3438:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 39A Bus 39A: Bahnhof Heiligenstadt => Neustift, Agnesgasse
+    ["at:vor:3439:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 343 Gloggnitz - Schottwien - Maria Schutz - Semmering
     ["at:vor:343:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 40A Schottentor - Döblinger Friedhof
-    ["at:vor:3440:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 41A Pötzleinsdorf - Neustifter Friedhof 3.Tor
-    ["at:vor:3441:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 42A Hernals - Schafberghöhe
-    ["at:vor:3442:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 43A Neuwaldegg - Cobenzl Parkplatz
-    ["at:vor:3443:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 44A Hernals - Mitterberg
-    ["at:vor:3444:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 45A Ottakring - Liebhartstal
-    ["at:vor:3445:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 46A Ottakring - Wilhelminenberg
-    ["at:vor:3446:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 47A Unter St. Veit - Klinik Penzing
-    ["at:vor:3447:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 48A Ring/Volkstheater - Klinik Penzing
-    ["at:vor:3448:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 49A Wolfersberg, Schöffelplatz - Hütteldorf
-    ["at:vor:3449:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 40A Bus 40A: Schottentor => Döblinger Friedhof/Felix-Dahn-Straße
+    ["at:vor:3440:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 41A Bus 41A: Pötzleinsdorf => Neustifter Friedhof 3.Tor
+    ["at:vor:3441:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 42A Bus 42A: Hernals => Schafberghöhe
+    ["at:vor:3442:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 43A Bus 43A: Neuwaldegg => Cobenzl Parkplatz
+    ["at:vor:3443:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 44A Bus 44A: Hernals => Heuberg
+    ["at:vor:3444:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 45A Bus 45A: Liebhartstal => Ottakring
+    ["at:vor:3445:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 46A Bus 46A
+    ["at:vor:3446:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 47A Bus 47A
+    ["at:vor:3447:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 48A Bus 48A: Klinik Penzing => Ring, Volkstheater
+    ["at:vor:3448:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 49A Bus 49A
+    ["at:vor:3449:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 344 Gloggnitz - Stuppach - Prigglitz
     ["at:vor:344:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 50A Hütteldorf - Auhof
-    ["at:vor:3450:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 51A Hietzing - Ottakringer Bad
-    ["at:vor:3451:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 52A Hütteldorf - Jägerwaldsiedlung
-    ["at:vor:3452:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 53A Hütteldorf - Stock im Weg
-    ["at:vor:3453:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 54A Ober St. Veit - Hörndlwald
-    ["at:vor:3454:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 56A Hietzing - Atzgersdorf
-    ["at:vor:3456:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 57A Burgring - Anschützgasse
-    ["at:vor:3457:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 58A Hietzing - Atzgersdorf
-    ["at:vor:3458:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 59A Oper/Karlsplatz - Bhf. Meidling
-    ["at:vor:3459:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 50A Bus 50A
+    ["at:vor:3450:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 51A Bus 51A
+    ["at:vor:3451:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 52A Bus 52A
+    ["at:vor:3452:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 53A Bus 53A: Hütteldorf => Ober St. Veit => Unter St. Veit, Verbindungsbahn => Stock im Weg
+    ["at:vor:3453:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 54A Bus 54A: Ober St. Veit => Hörndlwald
+    ["at:vor:3454:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 56A Bus 56A
+    ["at:vor:3456:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 57A Bus 57A
+    ["at:vor:3457:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 58A Bus 58A
+    ["at:vor:3458:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 59A Bus 59A
+    ["at:vor:3459:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 345 Payerbach - Gloggnitz
     ["at:vor:345:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 60A Alterlaa - Liesing
-    ["at:vor:3460:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 61A Liesing - Vösendorf-Siebenhirten
-    ["at:vor:3461:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 62A Meidling, Eichenstr. - Liesing
-    ["at:vor:3462:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 63A Gesundheitszentrum Süd - Am Rosenhügel
-    ["at:vor:3463:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 64A Atzgersdorf, Ziedlergasse - Liesing
-    ["at:vor:3464:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 65A Reumannplatz - Wienerberg City
-    ["at:vor:3465:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 66A Reumannplatz - Liesing
-    ["at:vor:3466:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 67A Alaudagasse - Inzersdorf,Slamastraße
-    ["at:vor:3467:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 68A Reumannplatz - Kurpark Nordosteingang
-    ["at:vor:3468:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 69A Hauptbahnhof - Simmering
-    ["at:vor:3469:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 70A Oberlaa - Kledering Bahnhof
-    ["at:vor:3470:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 71A Zentralfriedhof 3.Tor - Schwechat Bahnhof
-    ["at:vor:3471:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 72A Gasometer - Hasenleiten
-    ["at:vor:3472:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 73A Simmering - Landwehrstraße
-    ["at:vor:3473:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 74A Stubentor - St. Marx/Leberstraße
-    ["at:vor:3474:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 76A Enkplatz/Grillgasse - Alberner Hafen
-    ["at:vor:3476:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 77A Rennweg - Lusthaus
-    ["at:vor:3477:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 79A Donaumarina, Chrastekgasse - Kaiserebersdorf, Münnichplatz
-    ["at:vor:3479:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 80A Praterstern - Neu Marx
-    ["at:vor:3480:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 82A Praterstern - Krieau
-    ["at:vor:3482:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 84A Aspernstraße - Aspern Nord
-    ["at:vor:3484:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 85A Hausfeldstraße - Breitenlee, Rautenweg
-    ["at:vor:3485:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 86A Stadlau - Breitenleer St./Arnikaweg
-    ["at:vor:3486:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 87A Stadlau - Hermann-Gebauer-Straße
-    ["at:vor:3487:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 88A Seestadt - Eßling, Stadtgrenze
-    ["at:vor:3488:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 89A Aspern Nord - Invalidensiedlung
-    ["at:vor:3489:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 92A Kaisermühlen V.I.C. - Aspern, Zachgasse Winterfahrplan
-    ["at:vor:3492:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 93A Kagran - Aspernstraße
-    ["at:vor:3493:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 94A Kagran - Stadlau
-    ["at:vor:3494:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 95A Großer Biberhaufen - Aspern Nord
-    ["at:vor:3495:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 96A Schillwasserweg - Erzherzog-Karl-Straße
-    ["at:vor:3496:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 97A Aspernstraße - Breitenlee Schule
-    ["at:vor:3497:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 98A Hirschstetten Ort - Eßling, Schippanisiedlung
-    ["at:vor:3498:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 99A Aspern Nord - Eßling Schule
-    ["at:vor:3499:"] = { color = 0x012A60, text_color = 0xFFFFFF },
+    -- p 60A Bus 60A: Alterlaa => Liesing
+    ["at:vor:3460:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 61A Bus 61A: Liesing => Vösendorf-Siebenhirten
+    ["at:vor:3461:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 62A Bus 62A: Liesing => Meidling
+    ["at:vor:3462:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 63A Bus 63A
+    ["at:vor:3463:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 64A Bus 64A
+    ["at:vor:3464:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 65A Bus 65A: Inzersdorf, Zetschegasse => Reumannplatz
+    ["at:vor:3465:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 66A Bus 66A: Liesing => Raxstraße, Betriebsgarage
+    ["at:vor:3466:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 67A Bus 67A: Alaudagasse => Richard-Strauss-Straße => Inzersdorf, Slamastraße
+    ["at:vor:3467:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 68A Bus 68A: Reumannplatz => Laaer Berg Kurpark Nordosteingang
+    ["at:vor:3468:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 69A Bus 69A
+    ["at:vor:3469:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 70A Bus 70A
+    ["at:vor:3470:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 71A Bus 71A: Zentralfriedhof 3. Tor => Schwechat Bahnhof
+    ["at:vor:3471:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 72A Bus 72A: Gasometer => Schemmerlstraße/Hasenleitengasse
+    ["at:vor:3472:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 73A Bus 73A: Landwehrstraße => Simmering
+    ["at:vor:3473:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 74A Bus 74A: St. Marx => Stubentor
+    ["at:vor:3474:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 76A Bus 76A
+    ["at:vor:3476:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 77A Bus 77A
+    ["at:vor:3477:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 79A Bus 79A: Kaiserebersdorf, Münnichplatz => Donaumarina, Chrastekgasse
+    ["at:vor:3479:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 80A Bus 80A: Praterstern => Neu Marx
+    ["at:vor:3480:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 82A Bus 82A: Krieau => Praterstern
+    ["at:vor:3482:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 84A Bus 84A: Aspernstraße => Aspern Nord
+    ["at:vor:3484:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 85A Bus 85A: Hausfeldstraße => Breitenlee, Rautenweg
+    ["at:vor:3485:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 86A Bus 86A
+    ["at:vor:3486:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 87A Bus 87A
+    ["at:vor:3487:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 88A Bus 88A
+    ["at:vor:3488:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 89A Bus 89A
+    ["at:vor:3489:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 92A Bus 92A: Kaisermühlen - VIC => Aspern, Zachgasse
+    ["at:vor:3492:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 93A Bus 93A
+    ["at:vor:3493:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 94A Bus 94A: Kagran => Stadlau
+    ["at:vor:3494:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 95A Bus 95A
+    ["at:vor:3495:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 96A Bus 96A: Schillwasserweg => Erzherzog-Karl-Straße
+    ["at:vor:3496:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 97A Bus 97A
+    ["at:vor:3497:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 98A Bus 98A
+    ["at:vor:3498:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p 99A Bus 99A
+    ["at:vor:3499:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 349 Neunkirchen - Wimpassing - Gloggnitz
     ["at:vor:349:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N6 Westbahnhof - Enkplatz, Grillgasse
-    ["at:vor:3506:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N8 Handelskai - Alterlaa
-    ["at:vor:3508:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N6 Nachtbus N6: Westbahnhof => Enkplatz, Grillgasse
+    ["at:vor:3506:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N8 Nachtbus N8: Alterlaa => Handelskai
+    ["at:vor:3508:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 350 Neunkirchen - Puchberg - Losenheim
     ["at:vor:350:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 351 Neunkirchen - Pottschach - St. Valentin
     ["at:vor:351:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N20 Kagraner Platz - Strebersdorf,Edmund-Hawranek-Platz
-    ["at:vor:3521:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N23 Kagraner Platz - Hausfeldstraße
-    ["at:vor:3523:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N25 Schwedenplatz - Großfeldsiedlung
-    ["at:vor:3525:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N29 Wittelsbachstraße - Floridsdorf
-    ["at:vor:3529:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N20 Nachtbus N20: Eßling, Stadtgrenze => Strebersdorf, Meriangasse
+    ["at:vor:3521:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N23 Nachtbus N23: Hausfeldstraße => Kagraner Platz
+    ["at:vor:3523:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N25 Nachtbus N25: Großfeldsiedlung => Schwedenplatz
+    ["at:vor:3525:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N29 Nachtbus N29: Floridsdorf => Wittelsbachstraße
+    ["at:vor:3529:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 352 Neunkirchen - Unterhöflein - Grünbach/Schneeberg
     ["at:vor:352:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N31 Schwedenplatz - Stammersdorf
-    ["at:vor:3531:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N35 Spittelau - Salmannsdorf
-    ["at:vor:3535:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N38 Schottentor - Grinzing
-    ["at:vor:3538:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N31 Nachtbus N31: Stammersdorf => Schwedenplatz
+    ["at:vor:3531:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N35 Nachtbus N35: Salmannsdorf => Spittelau
+    ["at:vor:3535:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N38 Nachtbus N38
+    ["at:vor:3538:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 353 Wr. Neustadt / Winzendorf - Würflach - Willendorf / Neunkirchen
     ["at:vor:353:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N41 Schottentor - Pötzleinsdorf
-    ["at:vor:3541:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N43 Schottentor - Neuwaldegg
-    ["at:vor:3543:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N46 Oper/Karlsplatz - Otto-Wagner-Areal
-    ["at:vor:3546:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N49 Oper/Karlsplatz - Hütteldorf, Bujattigasse
-    ["at:vor:3549:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N41 Nachtbus N41: Schottentor => Pötzleinsdorf
+    ["at:vor:3541:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N43 Nachtbus N43: Schottentor => Neuwaldegg
+    ["at:vor:3543:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N46 Nachtbus N46: Joachimsthalerplatz => Oper, Karlsplatz
+    ["at:vor:3546:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N49 Nachtbus N49: Oper, Karlsplatz => Hütteldorf
+    ["at:vor:3549:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 354 Ternitz - Raglitz - Unterhöflein - Maiersdorf
     ["at:vor:354:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 355 Neunkirchen - Wartmannstetten - Schönstadl
     ["at:vor:355:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N60 Oper/Karlsplatz - Rodaun
-    ["at:vor:3560:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N62 Oper/Karlsplatz - Speising, Hermesstraße
-    ["at:vor:3562:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N65 Reumannplatz - Liesing
-    ["at:vor:3565:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N66 Oper/Karlsplatz - Liesing
-    ["at:vor:3566:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N67 Quellenplatz - Inzersdorf, Großmarkt
-    ["at:vor:3567:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N60 Nachtbus N60: Oper, Karlsplatz => Maurer Hauptplatz
+    ["at:vor:3560:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N62 Nachtbus N62: Oper, Karlsplatz => Speising, Hermesstraße
+    ["at:vor:3562:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N65 Nachtbus N65: Liesing => Otto-Probst-Platz
+    ["at:vor:3565:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N66 Nachtbus N66: Liesing => Burgring
+    ["at:vor:3566:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N67 Nachtbus N67: Quellenplatz => Inzersdorf Großmarkt
+    ["at:vor:3567:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 356 Neunkirchen - Peisching - Breitenau - Pitten
     ["at:vor:356:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N71 Oper/Karlsplatz - Kaiserebersdorf, Zinnergasse
-    ["at:vor:3571:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N75 Oper/Karlsplatz - Gasometer
-    ["at:vor:3575:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N71 Nachtbus N71: Kaiserebersdorf, Zinnergasse => Alser Straße, Skodagasse
+    ["at:vor:3571:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N75 Nachtbus N75: Oper, Karlsplatz => Gasometer
+    ["at:vor:3575:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 357 Reichenau/Rax - Katzelsdorf
     ["at:vor:357:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 41E Währinger Str.-Volksoper - Gersthof Schienenersatzverkehr gültig von 04.05. bis 26.06.2026
@@ -1425,46 +1427,46 @@ local colors_by_id = {
     ["at:vor:389:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 390 Edlitz-Grimmenstein - Krumbach - Bad Schönau - Kirchschlag
     ["at:vor:390:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N17 Himberger Straße - Unterlaa
-    ["at:vor:3917:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N24 Kagraner Platz - Am Heidjöchl
-    ["at:vor:3923:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N24 Neueßling - Kagraner Platz
-    ["at:vor:3924:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r 25B Süßenbrunner Platz - Gerasdorf Postamt
-    ["at:vor:3925:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N30 Floridsdorf - Neu Leopoldau
-    ["at:vor:3930:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N17 Nachtrufbus N17: Unterlaa => Himberger Straße
+    ["at:vor:3917:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N24 Nachtrufbus N24: Kagraner Platz => Am Heidjöchl
+    ["at:vor:3923:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N24 Nachtrufbus N24: Neueßling => Kagraner Platz
+    ["at:vor:3924:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p 25B Rufbus 25B: Süßenbrunner Platz => Gerasdorf, Postamt
+    ["at:vor:3925:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- p N30 Nachtrufbus N30: Neu Leopoldau => Floridsdorf
+    ["at:vor:3930:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r N35 Nußdorfer Straße - Salmannsdorf
     ["at:vor:3935:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N36 Nußdorfer Straße - Nußdorf
-    ["at:vor:3936:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N36 Nachtrufbus N36: Nußdorfer Straße => Nußdorf
+    ["at:vor:3936:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 41A Pötzleinsdorf - Neustifter Friedhof 3.Tor
     ["at:vor:3941:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r 44B Dornbach - Predigtstuhl
-    ["at:vor:3944:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p 44B Rufbus 44B: Dornbach => Predigtstuhl
+    ["at:vor:3944:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- r 394 Krumbach - Gschaidt
     ["at:vor:394:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r N54 Westbahnhof - Ober St. Veit
-    ["at:vor:3954:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N61 Liesing - Kalksburg, Lodererweg
-    ["at:vor:3961:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N64 Alterlaa - Siebenhirten
-    ["at:vor:3964:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N68 Quellenplatz - Oberlaa
-    ["at:vor:3968:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N81 Praterstern - Praterbrücke
-    ["at:vor:3981:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N84 Siegesplatz - Aspern Nord
-    ["at:vor:3984:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N54 Nachtrufbus N54: Westbahnhof => Ober St. Veit
+    ["at:vor:3954:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N61 Nachtrufbus N61: Liesing => Maurer Hauptplatz
+    ["at:vor:3961:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N64 Nachtrufbus N64: Siebenhirten => Alterlaa
+    ["at:vor:3964:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N68 Nachtrufbus N68: Quellenplatz => Oberlaa
+    ["at:vor:3968:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N81 Nachtrufbus N81: Praterbrücke => Praterstern
+    ["at:vor:3981:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N84 Nachtrufbus N84: Aspern Nord => Siegesplatz
+    ["at:vor:3984:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 86A Stadlau - Breitenlee, Arnikaweg
     ["at:vor:3986:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- r 89A Aspern Nord - Invalidensiedlung
     ["at:vor:3989:"] = { color = 0x012A60, text_color = 0xFFFFFF },
-    -- r N90 Erzherzog-Karl-Straße - Kaisermühlen-VIC
-    ["at:vor:3990:"] = { color = 0x012A60, text_color = 0xFFFF41 },
-    -- r N91 Siegesplatz - Donaustadtbrücke
-    ["at:vor:3991:"] = { color = 0x012A60, text_color = 0xFFFF41 },
+    -- p N90 Nachtrufbus N90: Erzherzog-Karl-Straße => Kaisermühlen - VIC
+    ["at:vor:3990:"] = { color = 0x0A295C, text_color = 0xF8E800 },
+    -- p N91 Nachtrufbus N91: Donaustadtbrücke => Siegesplatz
+    ["at:vor:3991:"] = { color = 0x0A295C, text_color = 0xF8E800 },
     -- r 400 Wien Heiligenstadt - Klosterneuburg-Kierling Bhf. - Maria Gugging
     ["at:vor:400:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 401 Klosterneuburg - Weidling Reitstall / Rotgraben (- Scheiblingstein)

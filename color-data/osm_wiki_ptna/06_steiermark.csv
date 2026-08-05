@@ -144,15 +144,16 @@ X20;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9020:
 206;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:206:
 207;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:207:
 208;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:208:
-209;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:209:
 215;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:215:
 216;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:216:
 230;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:230:
+231;bus;"2026-07-12 - 2026-12-12: Weiz - Anger - Birkfeld (- Strallegg) - Ratten (- Feistritzwald)";;;RegioBus Steiermark;AT-VVSt;at:stv:231:
 234;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:234:
 237;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:237:
 240;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:240:
 241;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:241:
 250;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:250:
+251;bus;"2026-07-12 - 2026-12-12: Graz - Faßlberg - Sankt Radegund - Stenzengreith - Plenzengreith";;;RegioBus Steiermark;AT-VVSt;at:stv:1251:
 260;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:260:
 === Bereich 3xx
 X30;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9030:
@@ -273,7 +274,6 @@ X50;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9050:
 521;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:521:
 541;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:541:
 551;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:551:
-555;bus;;;;Steiermarkbahn und Bus GmbH;AT-VVSt;at:stv:555:
 560;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:560:
 561;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:561:
 565;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:565:
@@ -356,10 +356,10 @@ X50;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9050:
 761;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:761:
 763;bus;Teilstrecke: Frauental - Oberbergla - Frauental;;;Koller Bus GmbH;AT-VVSt;at:stv:1763:
 763;bus;Krottendorf/Laßnitz - Zeierling - Frauental-Bad Gams;;;Koller Bus GmbH;AT-VVSt;at:stv:763:
+764;bus;"2025-12-14 - 2026-12-12: Graz - Lieboch - Sankt Stefan ob Stainz - Stainz - Deutschlandsberg";;;RegioBus Steiermark;AT-VVSt;at:stv:764:
 769;bus;;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:2769:
 770;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:770:
 780;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:780:
-781;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:781:
 783;bus;Wies (- Altenmarkt) - Wernersdorf - Wielfresen;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:2783:
 783;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:783:
 784;bus;Teilstrecke: Wernersdorf - Wolfsgruben - Vordersdorf - Wies;;;Arno Fruhmann GmbH;AT-VVSt;at:stv:1784:
@@ -400,7 +400,6 @@ X81;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9081:
 880;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:880:
 885;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:885:
 886;bus;;;;Naturpark-Bus Lercher GmbH;AT-VVSt;at:stv:886:
-887;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:887:
 888;bus;;;;Naturpark-Bus Lercher GmbH;AT-VVSt;at:stv:888:
 890;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:890:
 891;bus;;;;Capellari GmbH;AT-VVSt;at:stv:1891:
@@ -409,6 +408,8 @@ X81;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9081:
 893;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:893:
 894;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:894:
 895;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:895:
+896;bus;"2025-12-14 - 2026-12-12: Tälerbus: Murau - Ranten / Schöder - Krakau - Prebersee";;;RegioBus Steiermark;AT-VVSt;at:stv:896:
+897;bus;"2025-12-14 - 2026-12-12: Tamsweg - Schöder - Sankt Peter am Kammersberg - Frojach";;;RegioBus Steiermark;AT-VVSt;at:stv:897:
 898;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:898:
 === Bereich 9xx
 900;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:900:
@@ -446,6 +447,10 @@ X81;bus;;;;RegioBus Steiermark;AT-VVSt;at:stv:9081:
 962;bus;;;;Ramsauer Verkehrsbetriebe GmbH;AT-VVSt;at:stv:962:
 964;bus;;;;Ramsauer Verkehrsbetriebe GmbH;AT-VVSt;at:stv:964:
 965;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:965:
+965A;bus;"2025-12-14 - 2026-12-12: Schladming Zentrum - Planet Planai - Untere Klaus - Mauterndorf (- Birnberg)";;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:6001:
+965B;bus;"2025-12-14 - 2026-12-12: Schladming Planet Planai - Rathausplatz - Hofer-Markt - Obere Klaus - Zentrum Obere Klaus - Planai West - Planet Planai";;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:6002:
+965C;bus;"2025-12-14 - 2026-12-12: Schladming Planet Planai - Lendplatz / Bahnhof - Planai West";;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:6003:
+965D;bus;"2025-12-14 - 2026-12-12: Schladming Planet Planai - Lendplatz (- Bahnhof) - Planai West - Edlinger/Feldlhof";;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:6004:
 971;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:971:
 972;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:972:
 973;bus;;;;Planai-Hochwurzen-Bahnen GmbH;AT-VVSt;at:stv:973:

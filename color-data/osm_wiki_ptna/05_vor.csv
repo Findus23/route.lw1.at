@@ -10,11 +10,13 @@
 - Verweis auf mehr [/de/config.php?network=AT-VOR Informationen] zu dieser Auswertung.
 -
 
-== Bahnen
-=== Regional-Express
+== Bahnverkehr
+=== Cityjet Xpress
 CJX1;train;;Wien Hauptbahnhof;Bratislava-Petržalka stanica;;AT-Eisenbahn;4-CJ6-N-j26-1
 CJX5;train;;;;;AT-Eisenbahn;4-CJ5-X-j26-1
 CJX9;train;;;;;AT-Eisenbahn;4-CX9-W-j26-1
+
+=== Regionalexpress
 # RXE;train;Unklar, was RXE ist;;;;AT-Eisenbahn;2-RXE-W-j26-1
 REX1;train;;;;;AT-Eisenbahn;2-RX1-W-j26-1
 REX2;train;;;;;AT-Eisenbahn;2-RX2-W-j26-1
@@ -38,7 +40,8 @@ REX81;train;;;;;AT-Eisenbahn;2-R81-W-j26-1;
 REX92;train;;;;;AT-Eisenbahn;2-R92-N-j26-1
 REX93;train;;;;;AT-Eisenbahn;2-R93-A-j26-1
 REX97;train;;;;;AT-Eisenbahn;2-R97-N-j26-1
-=== Regional Bahn
+
+=== Regionalzug
 R1;train;nur 1 Fahrt in 2026;;;;AT-Eisenbahn;3-R1-W-j26-1;
 R3;train;;;;;AT-Eisenbahn;3-R3-W-j26-1;
 R4;train;;;;;AT-Eisenbahn;"3-R4-W-j26-1;3-810-W-j26-1"
@@ -66,6 +69,7 @@ R96;train;;;;;AT-Eisenbahn;3-R96-N-j26-1
 R97;train;;;;;AT-Eisenbahn;3-R97-N-j26-1
 R98;train;;;;;AT-Eisenbahn;3-R98-N-j26-1
 510-N;train;;Wiener Neustadt;Wien Liesing;;AT-Eisenbahn;3-510-N-j26-1
+
 === S-Bahn
 S;train;;;;;AT-Eisenbahn;
 S1;train;;;;;AT-Eisenbahn;1-S1-W-j26-1
@@ -78,15 +82,16 @@ S50;train;;;;;AT-Eisenbahn;1-S50-W-j26-1
 S60;train;;;;;AT-Eisenbahn;"1-S60-W-j26-1;1-S63-W-j26-1"
 S7;train;;;;;AT-Eisenbahn;1-S7-W-j26-1
 S80;train;;;;;AT-Eisenbahn;1-S80-W-j26-1
-== Stadtverkehre
-=== Wien
-==== U-Bahn
+
+== Stadtverkehr Wien
+=== U-Bahn
 U1;subway;;;;Wiener Linien;AT-VOR;at:vor:3301:
 U2;subway;;;;Wiener Linien;AT-VOR;at:vor:3302:
 U3;subway;;;;Wiener Linien;AT-VOR;at:vor:3303:
 U4;subway;;;;Wiener Linien;AT-VOR;at:vor:3304:
 U6;subway;;;;Wiener Linien;AT-VOR;at:vor:3306:
-==== Straßenbahn
+
+=== Straßenbahn
 1;tram;;;;Wiener Linien;AT-VOR;at:vor:3101:
 2;tram;;;;Wiener Linien;AT-VOR;at:vor:3102:
 5;tram;;;;Wiener Linien;AT-VOR;at:vor:3105:
@@ -116,10 +121,12 @@ U6;subway;;;;Wiener Linien;AT-VOR;at:vor:3306:
 71;tram;;;;Wiener Linien;AT-VOR;at:vor:3171:
 D;tram;;;;Wiener Linien;AT-VOR;at:vor:3136:
 O;tram;;;;Wiener Linien;AT-VOR;at:vor:3170:
+
+=== Lokalbahn
 BB|WLB;light_rail;;;;;AT-VOR;at:vor:1515:
 -
 #
-==== Buslinien
+=== Bus
 1A;bus;;;;Wiener Linien;AT-VOR;at:vor:3401:
 2A;bus;;;;Wiener Linien;AT-VOR;at:vor:3402:
 3A;bus;;;;Wiener Linien;AT-VOR;at:vor:3403:
@@ -242,7 +249,7 @@ BB|WLB;light_rail;;;;;AT-VOR;at:vor:1515:
 99B;bus;;;;Wiener Linien;AT-VOR;at:vor:3299:
 -
 #
-==== Nachtbuslinien
+=== Nachtbus
 N6;bus;;;;Wiener Linien;AT-VOR;at:vor:3506:
 N8;bus;;;;Wiener Linien;AT-VOR;at:vor:3508:
 N17;bus;;;;Wiener Linien;AT-VOR;at:vor:3917:
@@ -277,7 +284,7 @@ N90;bus;;;;Wiener Linien;AT-VOR;at:vor:3990:
 N91;bus;;;;Wiener Linien;AT-VOR;at:vor:3991:
 -
 #
-==== nicht Wiener Linien
+=== nicht Wiener Linien
 VAL1|VAB1;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1187:
 VAL2|VAB2;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1185:
 VAL3|VAB3;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1183:
@@ -286,6 +293,7 @@ G3;bus;;;;;AT-VOR;at:vor:503:
 as;bus
 -
 #
+== Stadtbusse Niederösterreich und Burgenland
 === Amstetten
 1;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2061:
 2;bus;;Amstetten;;N-Bus GmbH;AT-VOR;at:vor:2062:
