@@ -51,6 +51,8 @@ local colors_by_id = {
     ["2-RX1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
     -- j REX3 REX3: Salzburg <=> Schwarzach-St. Veit
     ["2-RX3-W-j26-1"] = { color = 0x7EBB45, text_color = 0xFFFFFF },
+    -- j R1 R1: Bregenz Hafen <=> Bludenz
+    ["3-R1-W-j26-1"] = { color = 0x000000, text_color = 0xFFFFFF },
     -- j R3 R3: Salzburg <=> Saalfelden
     ["3-R3-W-j26-1"] = { color = 0xA4B92E, text_color = 0xFFFFFF },
     -- m WB1-W Westbahn WB1-W
@@ -361,6 +363,8 @@ local colors_by_id = {
     ["at:stv:186:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 187 Bus 187
     ["at:stv:187:"] = { color = 0xFFFFFF, text_color = 0x000000 },
+    -- p 188 Bus 188
+    ["at:stv:188:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 189 Bus 189
     ["at:stv:189:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 197 Bus 197
@@ -2611,6 +2615,8 @@ local colors_by_id = {
     ["at:vvv:495:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- p 496 Bus 496: Übersaxen <=> Rankweil
     ["at:vvv:496:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
+    -- p 497 Bus 497: Innerlaterns <=> Damüls
+    ["at:vvv:497:"] = { color = 0xFFFF00, text_color = 0xFFFFFF },
     -- j 501 Bus 501: Bludenz Bahnhof <=> Seilbahn Muttersberg
     ["at:vvv:501:"] = { color = 0x048354, text_color = 0xFFFFFF },
     -- j 502 Bus 502: Bludenz Bahnhof <=> Brunnenfeld
