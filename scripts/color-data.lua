@@ -359,8 +359,6 @@ local colors_by_id = {
     ["at:stv:184:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 185 Bus 185
     ["at:stv:185:"] = { color = 0xFFFFFF, text_color = 0x000000 },
-    -- p 186 Bus 186
-    ["at:stv:186:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 187 Bus 187
     ["at:stv:187:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 188 Bus 188
@@ -397,8 +395,6 @@ local colors_by_id = {
     ["at:stv:216:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- j 303 Bus 303: Dechantskirchen Volksschule => Dechantskirchen Volksschule (über Hohenau Schraml Kreuzung)
     ["at:stv:2303:"] = { color = 0xFFFFFF, text_color = 0x000000 },
-    -- p 230 Bus 230: Birkfeld Busbahnhof => Feistritzwald Nord
-    ["at:stv:230:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 234 Bus 234
     ["at:stv:234:"] = { color = 0xFFFFFF, text_color = 0x000000 },
     -- p 237 Bus 237
@@ -635,8 +631,12 @@ local colors_by_id = {
     ["at:vor:1158:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p VAB3 Bus VAB3: Flughafen Wien => Donauzentrum
     ["at:vor:1183:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
+    -- r VAB 4 Vienna Airport Bus Wien Karlsplatz - Flughafen Wien
+    ["at:vor:1184:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p VAB2 Bus VAB2: Flughafen Wien => Schwedenplatz/Morzinplatz
     ["at:vor:1185:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
+    -- r VAB 5 Vienna Airport Bus Wien Praterstern - Flughafen Wien
+    ["at:vor:1186:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- p VAB1 Bus VAB1: Flughafen Wien => Westbahnhof
     ["at:vor:1187:"] = { color = 0x57C4BF, text_color = 0xFFFFFF },
     -- r 120 Wien Hauptbahnhof - Eisenstadt - Mörbisch
@@ -793,8 +793,6 @@ local colors_by_id = {
     ["at:vor:2076:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1 Stadtverkehr Horn Mittelschule - Mödringer Straße - Josef-Strommer-Straße
     ["at:vor:2077:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 1 Stadtverkehr Zwettl Busbahnhof - Rudmanns Abzw. Edelhof - Pater-Werner-Deibl-Str.
-    ["at:vor:2078:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 207 Wien Liesing - Vösendorf SCS - Brunn/Gebirge - Mödling
     ["at:vor:207:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 1 Hollabrunn Bahnhof - Raschala
@@ -841,9 +839,9 @@ local colors_by_id = {
     ["at:vor:2176:"] = { color = 0xBD1620, text_color = 0xFFFFFF },
     -- p 7 Stadtbus Krems Linie 7: Krems Gewerbeparkstraße/Kino => Krems Bahnhof
     ["at:vor:2177:"] = { color = 0x82348B, text_color = 0xFFFFFF },
-    -- r 217 Wien Simmering - Schwechat - Maria Lanzendorf - Himberg / Mödling
+    -- r 217 Simmering - Schwechat - Maria Lanzendorf - Himberg / Mödling
     ["at:vor:217:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 218 Wien Simmering - Schwechat - Zwölfaxing - Himberg
+    -- r 218 Simmering - Schwechat - Zwölfaxing - Himberg
     ["at:vor:218:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 219 Mödling - Wiener Neudorf - IZ NÖ-Süd
     ["at:vor:219:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -919,7 +917,7 @@ local colors_by_id = {
     ["at:vor:276:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 277 Eisenstadt - Mannersdorf - Bruck/Leitha
     ["at:vor:277:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
-    -- r 279 Wien Kaiserebersdorf - Schwechat - Mannswörth
+    -- r 279 Kaiserebersdorf - Schwechat - Mannswörth
     ["at:vor:279:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
     -- r 280 Neusiedl/See - Purbach - Eisenstadt
     ["at:vor:280:"] = { color = 0x8BC640, text_color = 0xFFFFFF },
@@ -1237,7 +1235,7 @@ local colors_by_id = {
     ["at:vor:3446:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- p 47A Bus 47A
     ["at:vor:3447:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
-    -- p 48A Bus 48A: Klinik Penzing => Ring, Volkstheater
+    -- p 48A Bus 48A: Klinik Penzing => Parlament, Volkstheater
     ["at:vor:3448:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- p 49A Bus 49A
     ["at:vor:3449:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
@@ -1297,6 +1295,8 @@ local colors_by_id = {
     ["at:vor:3476:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- p 77A Bus 77A
     ["at:vor:3477:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
+    -- r 78A Stadion - Lusthaus
+    ["at:vor:3478:"] = { color = 0x012A60, text_color = 0xFFFFFF },
     -- p 79A Bus 79A: Kaiserebersdorf, Münnichplatz => Donaumarina, Chrastekgasse
     ["at:vor:3479:"] = { color = 0x0A295C, text_color = 0xFFFFFF },
     -- p 80A Bus 80A: Praterstern => Neu Marx
