@@ -61,9 +61,9 @@ mobility_datasets = [
         own_name="Linz AG",
         own_filename="01_linz",
         year=2026,
-        api_id=69,
+        api_id=74,
         api_name="Fahrplandaten Linz AG (GTFS)",
-        flex=False
+        flex=True
     ),
     MobilityDataset(
         own_name="Oberösterreichischer Verkehrsverbund",

@@ -64,7 +64,7 @@ def get_datasets(access_token: str, filter_tag: str = None):
         if not ds["active"]:
             continue
         datasets[int(ds["id"])] = ds
-    assert len(datasets) == 17
+    assert len(datasets) == 18
     return datasets
 
 
