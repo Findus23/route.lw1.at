@@ -225,6 +225,7 @@ BB|WLB;light_rail;;;;;AT-VOR;at:vor:1515:
 76A;bus;;;;Wiener Linien;AT-VOR;at:vor:3476:
 76B;bus;;;;Wiener Linien;AT-VOR;at:vor:3276:
 77A;bus;;;;Wiener Linien;AT-VOR;at:vor:3477:
+78A;bus;;;;Wiener Linien;AT-VOR;at:vor:3478:
 79A;bus;;;;Wiener Linien;AT-VOR;at:vor:3479:
 79B;bus;;;;Wiener Linien;AT-VOR;at:vor:3279:
 80A;bus;;;;Wiener Linien;AT-VOR;at:vor:3480:
@@ -288,6 +289,8 @@ N91;bus;;;;Wiener Linien;AT-VOR;at:vor:3991:
 VAL1|VAB1;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1187:
 VAL2|VAB2;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1185:
 VAL3|VAB3;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1183:
+VAL4|VAB4;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1184:
+VAL5|VAB5;bus;;;;Österreichische Postbus AG;AT-VOR;at:vor:1186:
 ZF;bus;;;;;AT-VOR;at:vor:7071:
 G3;bus;;;;;AT-VOR;at:vor:503:
 as;bus

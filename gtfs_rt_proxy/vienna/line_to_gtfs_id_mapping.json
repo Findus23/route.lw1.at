@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "20260714",
+    "version": "20261001",
     "source": "https://data.mobilitaetsverbuende.at/",
     "source_dataset": "Fahrplandaten Verkehrsverbund Ost-Region Flex (GTFS)",
     "license": "Datenlizenz Mobilitätsverbünde Österreich",
@@ -141,6 +141,7 @@
     "74A": "at:vor:3474:",
     "76A": "at:vor:3476:",
     "77A": "at:vor:3477:",
+    "78A": "at:vor:3478:",
     "79A": "at:vor:3479:",
     "80A": "at:vor:3480:",
     "82A": "at:vor:3482:",
@@ -178,6 +179,7 @@
     "N67": "at:vor:3567:",
     "N71": "at:vor:3571:",
     "N75": "at:vor:3575:",
+    "26E": "at:vor:3626:",
     "41E": "at:vor:3641:",
     "71E": "at:vor:3671:",
     "N17": "at:vor:3917:",

@@ -11,23 +11,23 @@
     }
   },
   "name": {
-    "de": "Fahrplandaten Linz AG (GTFS)",
-    "en": "Timetable Data Linz AG (GTFS)"
+    "de": "Fahrplandaten Linz AG Flex (GTFS)",
+    "en": "Fahrplandaten Linz AG Flex (GTFS)"
   },
   "description": {
-    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des von Linz AG beauftragten und gepflegten ÖPNV Angebotes. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (jeweils am Sonntag nach dem zweiten Samstag im Dezember um 24:00 Uhr) ab.",
-    "en": "This data set contains the constantly updated timetable data of the public transport services commissioned and maintained by Linz AG. The dataset includes data for the respective timetable period (each sunday following the second Saturday of December at 11:59 pm)."
+    "de": "Dieser Datensatz enthält die laufend aktualisierten Fahrplandaten des von Linz AG beauftragten und gepflegten Bedarfsverkehr Angebotes. Die Dateninhalte bilden das gesamte jeweilige Fahrplanjahr (vom/bis zum zweiten Samstag im Dezember um 24:00 Uhr) ab.",
+    "en": "This data set contains the constantly updated timetable data of the demand responsive transport services commissioned and maintained by Linz AG. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "19730",
+    "id": "19996",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "27859",
-      "created": "2026-09-14T03:30:25.727Z",
+      "id": "28125",
+      "created": "2026-09-24T03:31:27.391Z",
       "file": {
-        "originalName": "20260914-0147_gtfs_esg_2026.zip",
-        "size": "5432611"
+        "originalName": "20260923-2211_gtfs_flex_esg_2026.zip",
+        "size": "5847595"
       },
       "deleted": false
     }
