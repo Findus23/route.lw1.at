@@ -19,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the demand responsive transport services commissioned and maintained by Linz AG. The dataset includes data for the respective timetable period (from/to the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "19996",
+    "id": "20581",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "28125",
-      "created": "2026-09-24T03:31:27.391Z",
+      "id": "28710",
+      "created": "2026-10-21T03:31:42.142Z",
       "file": {
-        "originalName": "20260923-2211_gtfs_flex_esg_2026.zip",
-        "size": "5847595"
+        "originalName": "20261020-2330_gtfs_flex_esg_2026.zip",
+        "size": "6055919"
       },
       "deleted": false
     }

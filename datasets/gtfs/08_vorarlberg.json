@@ -19,15 +19,15 @@
     "en": "This data set contains the constantly updated timetable data of the public and demand responsive transport services maintained by the public transport authority in Vorarlberg, except the ones of ÖBB and Montafonerbahn. The dataset includes data for the respective timetable period (each sunday following the second Saturday of December at 11:59 pm)."
   },
   "activeVersion": {
-    "id": "20316",
+    "id": "20626",
     "active": true,
     "year": "2026",
     "dataSetVersion": {
-      "id": "28445",
-      "created": "2026-10-10T03:30:10.365Z",
+      "id": "28755",
+      "created": "2026-10-23T03:30:11.575Z",
       "file": {
-        "originalName": "20261010-0002_gtfs_flex_vmobil_2026.zip",
-        "size": "25776143"
+        "originalName": "20261023-0105_gtfs_flex_vmobil_2026.zip",
+        "size": "26139379"
       },
       "deleted": false
     }

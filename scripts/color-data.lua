@@ -207,7 +207,7 @@ local colors_by_id = {
     ["at:oov:110033:"] = { color = 0xEF87B5, text_color = 0xFFFFFF },
     -- p 4 Stadtbus Steyr 4: Tabor
     ["at:oov:11004:"] = { color = 0x82CFF5, text_color = 0xFFFFFF },
-    -- p 5 Stadtbus Steyr 5: Bahnhof => Stadtgut Steyr => Gleink => Bahnhof
+    -- p 5 Stadtbus Steyr 5: Bahnhof => Staffelmayrsiedlung => Gleink => Bahnhof
     ["at:oov:11005:"] = { color = 0xA7671F, text_color = 0xFFFFFF },
     -- p 6 Stadtbus Steyr 6: Bahnhof <=> Waldrandsiedlung
     ["at:oov:11006:"] = { color = 0x9B90C5, text_color = 0xFFFFFF },
@@ -219,7 +219,7 @@ local colors_by_id = {
     ["at:oov:110082:"] = { color = 0xB89629, text_color = 0xFFFFFF },
     -- p 8 Stadtbus Steyr 8: Christkindlsiedlung - Sarning
     ["at:oov:11008:"] = { color = 0xBD1C1D, text_color = 0xFFFFFF },
-    -- p 9 Stadtbus Steyr 9: Bahnhof => Staffelmayrsiedlung => Bahnhof
+    -- p 9 Stadtbus Steyr 9: Bahnhof => Dietach => Bahnhof
     ["at:oov:11009:"] = { color = 0x4A4948, text_color = 0xFFFFFF },
     -- p 10 Stadtbus Steyr 10: Bahnhof => Stadtplatz => Tabor => Bahnhof
     ["at:oov:11010:"] = { color = 0x0490D6, text_color = 0xFFFFFF },
@@ -2455,7 +2455,7 @@ local colors_by_id = {
     ["at:vvv:105:"] = { color = 0xF573C0, text_color = 0xFFFFFF },
     -- j 118 Bus 118: Bregenz => Fluh
     ["at:vvv:118:"] = { color = 0x0B904B, text_color = 0xFFFFFF },
-    -- j 119 Bus 119: Bregenz Bahnhof => Oberstadt => Bahnhof
+    -- j 119 Bus 119: Bregenz Bahnhof => Oberstadt
     ["at:vvv:119:"] = { color = 0x8D198F, text_color = 0xFFFFFF },
     -- j 120 Bus 120: Bregenz => Hörbranz
     ["at:vvv:120:"] = { color = 0x01AE59, text_color = 0xFFFFFF },
@@ -2501,8 +2501,6 @@ local colors_by_id = {
     ["at:vvv:163:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- j 166 Bus 166: Lustenau Bahnhof => Volksschule Kirchdorf
     ["at:vvv:166:"] = { color = 0xF033A3, text_color = 0xFFFFFF },
-    -- j 168 Bus 186: Koblach => Hohenems
-    ["at:vvv:168:"] = { color = 0x965709, text_color = 0xFFFFFF },
     -- j 170 Bus 170: Hohenems Bahnhof => Otten Areal
     ["at:vvv:170:"] = { color = 0xF1E800, text_color = 0xFFFFFF },
     -- j 171 Bus 171: Hohenems Otten Areal => Bahnhof
